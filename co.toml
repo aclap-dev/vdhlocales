@@ -7,6 +7,7 @@
 #
 # 2. History of Corsican translation:
 #
+# 	- Updated in 2025 by Patriccollu di Santa Maria è Sichè: Mar. 25th (9.3.5)
 # 	- Updated in 2024 by Patriccollu di Santa Maria è Sichè: Feb. 17th (8.2.0.23a1), June 26th (9.0.2.3a1), Aug. 1st (9.0.2.14a1)
 # 	- Updated in 2023 by Patriccollu di Santa Maria è Sichè: Oct. 4th (8.1.0.0a4) and Dec. 29th (8.1.2.0a2)
 # 	- Updated in 2022 by Patriccollu di Santa Maria è Sichè: Aug. 2nd (7.6.3a5)
@@ -729,6 +730,13 @@ v9_user_message_no_incognito_open_settings = "Attivà i i parametri di u navigat
 
 v9_yt_bulk_detected = "Scuperta di $1 filmetti nant’à Youtube"
 v9_yt_bulk_detected_trigger = "Principià u scaricamentu da gruppu"
+
+v9_user_message_one_hundred_downloads = "Avete scaricatu 100 filmetti !"
+v9_user_message_one_hundred_downloads_body = "Speremu chì Video DownloadHelper vi piace :-) Chì ne pensate di lascià un bellu cummentu nant’à u situ web di l’estensione "
+v9_user_message_one_hundred_downloads_leave_review = "Lascià un cummentu"
+v9_user_message_one_hundred_downloads_never_show_again = "Ùn mi dumandà più"
+
+v9_panel_footer_force_reload = "Sfurzà a scuperta"
 
 # History
 
