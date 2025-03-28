@@ -722,6 +722,8 @@ v9_user_message_one_hundred_downloads_body = "Ci auguriamo che Video DownloadHel
 v9_user_message_one_hundred_downloads_leave_review = "Lascia una recensione"
 v9_user_message_one_hundred_downloads_never_show_again = "Non chiedermelo più"
 
+v9_panel_footer_force_reload = "Forza rilevamento"
+
 # History
 
 v9_panel_footer_show_history_tooltip = "Visualizza cronologia scaricamenti"
