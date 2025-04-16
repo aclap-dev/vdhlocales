@@ -7,6 +7,7 @@
 #
 # 2. History of Corsican translation:
 #
+# 	- Updated in 2025 by Patriccollu di Santa Maria è Sichè: Apr. 14th (9.3.6)
 # 	- Updated in 2024 by Patriccollu di Santa Maria è Sichè: Feb. 17th (8.2.0.23a1), June 26th (9.0.2.3a1), Aug. 1st (9.0.2.14a1)
 # 	- Updated in 2023 by Patriccollu di Santa Maria è Sichè: Oct. 4th (8.1.0.0a4) and Dec. 29th (8.1.2.0a2)
 # 	- Updated in 2022 by Patriccollu di Santa Maria è Sichè: Aug. 2nd (7.6.3a5)
@@ -730,6 +731,13 @@ v9_user_message_no_incognito_open_settings = "Attivà i i parametri di u navigat
 v9_yt_bulk_detected = "Scuperta di $1 filmetti nant’à Youtube"
 v9_yt_bulk_detected_trigger = "Principià u scaricamentu da gruppu"
 
+v9_user_message_one_hundred_downloads = "Avete scaricatu 100 filmetti !"
+v9_user_message_one_hundred_downloads_body = "Speremu chì Video DownloadHelper vi piace :-) Chì ne pensate di lascià un bellu cummentu nant’à u situ web di l’estensione "
+v9_user_message_one_hundred_downloads_leave_review = "Lascià un cummentu"
+v9_user_message_one_hundred_downloads_never_show_again = "Ùn mi dumandà più"
+
+v9_panel_footer_force_reload = "Sfurzà a scuperta"
+
 # History
 
 v9_panel_footer_show_history_tooltip = "Affissà a cronolugia di i scaricamenti"
@@ -747,3 +755,15 @@ v9_date_today = "oghje"
 v9_date_yesterday = "eri"
 v9_date_x_days_ago = "$1 ghjorni fà"
 v9_date_long_ago = "tempi fà"
+
+v9_user_message_privacy_policy_title = "Pulitica di cunfidenzialità ; senza bugia, state anonimi"
+v9_user_message_privacy_policy_details = "Detaglii"
+v9_user_message_privacy_policy_decline = "Ricusà"
+v9_user_message_privacy_policy_accept = "Accettà"
+v9_user_message_privacy_policy_details_long = "Leghje a pulitica di cunfidenzialità nant’à addons.mozilla.org"
+v9_user_message_privacy_policy_decline_long = "Continuà senza spartera è solu i scaricamenti basichi"
+v9_user_message_privacy_policy_accept_long = "Continuà cù a spartera CoApp è i scaricamenti cumplessi"
+v9_user_message_privacy_policy_text_1 = "Quandu l’utilizatore richiede un scaricamentu, scarichemu u filmettu direttamente osinnò, per i scaricamenti più cumplessi (M3U8 è MPD), trasmittemu l’indirizzu web è l’intestature HTTP à l’appiecazione nativa di Video DownloadHelper nant’à u vostru urdinatore (l’indirizzu web ùn hè mai mandatu ind’è noi)."
+v9_user_message_privacy_policy_text_2 = "S’è vo ricusate a nostra pulitica di cunfidenzialità, permittemu quantunque di scaricà certi filmetti, ma quelli à u furmatu M3U8 è MPD ùn funziuneranu micca."
+v9_user_message_privacy_policy_text_3 = "S’è l’utilizatore signaleghja un prublema, st’infurmazioni sò mandate à a nostra piattaforma di signalamentu di prublema : numeru di versione, agente utilizatore, versione di u sistema, tracia di chjama, è l’origine di u scaricamentu (arregistremu solu u nome di duminiu). Ùn impieghemu mai, nè arregistremu mai, qualchì detagliu nant’à l’identità di quelli chì signaleghjanu un prublema. Nisunu indirizzu IP, nisuna impronta digitale, nisunu canistrellu, nisuna identificazione. U signalamentu di prublema hè anonimu."
+v9_settings_button_reset_privacy = "Reinizià i parametri di cunfidenzialità"
