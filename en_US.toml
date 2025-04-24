@@ -625,6 +625,8 @@ v9_panel_error_unknown_description = "Sadly the addon encountered an unexpected 
 v9_panel_error_coapp_failure_title = "Download failed"
 v9_panel_error_coapp_failure_description = "Sadly we failed at downloading that specific media. We try to support as many websites as possible, so it would help a lot if you could report that error (it's anonymous!)."
 
+v9_panel_error_coapp_failure_description_no_report = "Sadly we failed at downloading that specific media."
+
 # Panel > Footer
 v9_panel_footer_show_in_sidebar_tooltip = "Show in sidebar"
 v9_panel_footer_show_in_popup_tooltip = "Show in popup"
@@ -751,6 +753,4 @@ v9_user_message_privacy_policy_decline_long = "Continue without sharing and only
 v9_user_message_privacy_policy_accept_long = "Continue with CoApp sharing and advanced downloads"
 v9_user_message_privacy_policy_text_1 = "When the user triggers a download, we either download the video directly, or for more complex downloads (M3U8 & MPD) we transfer the URL and HTTP headers to the Video DownloadHelper native application on your computer (the URL is never sent to us)."
 v9_user_message_privacy_policy_text_2 = "Declining our Privacy Policy will still allow downloading some videos, but M3U8 & MPD videos download won't work."
-v9_user_message_privacy_policy_text_3 = "If the user reports a bug, the following is sent to our bug report platform: version number, user agent, OS, bug stack trace, origin of the download (we only record the domain name). We do not use or store any details about the identity of the bug reporter. No IP, no fingerprinting, no cookies, no ids. The bug report is anonymous."
 v9_settings_button_reset_privacy = "Reset Privacy Settings"
-
