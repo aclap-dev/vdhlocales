@@ -1,0 +1,12 @@
+[pt_BR]
+# v9.5.0.2
+v9_user_message_privacy_policy_title = '''Política de Privacidade - Sem truques, você permanece anônimo'''
+v9_user_message_privacy_policy_details = '''Detalhes'''
+v9_user_message_privacy_policy_decline = '''Recusar'''
+v9_user_message_privacy_policy_accept = '''Aceitar'''
+v9_user_message_privacy_policy_details_long = '''Abrir Política de Privacidade em addons.mozilla.org'''
+v9_user_message_privacy_policy_decline_long = '''Continuar sem compartilhar e apenas downloads básicos'''
+v9_user_message_privacy_policy_accept_long = '''Continuar com CoApp compartilhando e downloads avançados'''
+v9_user_message_privacy_policy_text_1 = '''Quando o usuário aciona um download, baixamos o vídeo diretamente ou, para downloads mais complexos (M3U8 e MPD), transferimos a URL e os cabeçalhos HTTP para o aplicativo nativo Video DownloadHelper no seu computador (a URL nunca é enviada para nós).'''
+v9_user_message_privacy_policy_text_2 = '''Recusar nossa Política de Privacidade ainda permitirá o download de alguns vídeos, mas o download de vídeos M3U8 e MPD não funcionarão.'''
+v9_settings_button_reset_privacy = '''Reiniciar Configurações de Privacidade '''
