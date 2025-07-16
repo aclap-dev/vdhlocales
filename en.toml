@@ -1,0 +1,174 @@
+# English - reference.
+
+[addon]
+
+# Video DownloadHelper description. 132 characters max.
+appDesc = "Download Videos from the Web."
+
+# Global strings
+restore_purchase_button = "Restore purchase"
+get_premium_button = "Get premium"
+back = "Back" # Go back button - in Settings panel for example
+
+# Strings for the main panel
+waiting_for_media = "Waiting for media…"
+nomedia_title = "Can't see the media you're looking for?"
+nomedia_description = "Start the video (and skip ads if any) to help detect the media. Or report missing media."
+nomedia_reload_button = "Force detection"
+nomedia_reload_button_tooltip = "Force page reload (clear cookies)"
+show_nomedia_button = "No video?"
+show_nomedia_button_tooltip = "Click here if you can't find your video"
+setting_button_tooltip = "Settings"
+history_button_tooltip = "Show download history"
+translate_button_tooltip = "Help translate VDH"
+
+# Downloaded media box
+open_source_tab_button_tooltip = "Open source tab"
+retry_download_button_tooltip = "Retry download"
+delete_file_button_tooltip = "Delete file"
+download_directory_button_tooltip = "Show download directory"
+show_in_popup_button_tooltip = "Show in popup"
+show_in_sidebar_button_tooltip = "Show in sidebar"
+video_not_playing_button_tooltip = "Video not playing?"
+play = "Play"
+warn_drm_tooltip = "DRM detected"
+
+# Strings for the settings panel.
+version_title = "Version"
+account_title = "Account"
+leave_review_description = "Hi there 🤚 Video DownloadHelper is free to use. Would you mind leaving a good review? That would help me a lot 😊."
+leave_review_button = "Leave a review"
+account_status= "Status"
+account_status_premium = "Premium ($1)" # $1 is the store (Mozilla, Google, Microsoft, All)
+free_account = "Free plan"
+copy_to_clipboard = "Copy info to clipboard"
+my_account_button = "My account"
+download_title = "Downloads"
+show_notification = "Show notification once download complete"
+max_parallel_downloads = "Max parallel downloads"
+change_download_directory = "Change download directory"
+
+private_browsing_title = "Private browsing"
+private_browsing_warning = "Video DownloadHelper is not enabled in private browsing."
+private_browsing_notifications = "Show notification for private downloads"
+private_browsing_button = "Change private browsing setting"
+prefer_original_audio = "Prefer original audio" # Firefox only
+prefer_hls = "Prefer HLS" # Firefox only
+settings_history_title = "History"
+history_description = "Remember downloads"
+history_limit = "Days before forgetting downloads"
+appearance_title = "Appearance"
+theme_title = "Theme"
+theme_light = "Light theme"
+theme_dark = "Dark theme"
+theme_system = "System theme"
+popup_size_title = "Window size"
+popup_size_small = "Small"
+popup_size_medium = "Medium"
+popup_size_big = "Big"
+panel_position_title = "Panel position"
+use_popup = "Use popup"
+use_sidebar = "Use sidebar"
+behavior_title = "Behavior"
+show_in_context_menu = "Show download menu in page context menu"
+restart_addon = "Restart addon"
+reset_settings = "Reset settings"
+prefer_highest_quality = "Select highest available quality instead of 1080p by default (slower download, higher quality)."
+
+# String for history page
+history_title = "Download History"
+history_warning = "We do not record your download history. Do you want Video DownloadHelper to remember your download history?"
+history_warning_2 = "Don't worry, everything stays on your machine. We value your privacy."
+enable_history = "Enable history"
+clear_history = "Clear history"
+disable_history = "Disable history"
+no_downloads_yet = "No downloads yet."
+
+# Various notifications
+download_failed = "Download Failed"
+download_failed_description = "Something didn't work. Report the error, and we will do our best to figure out why it failed (we send the video URL anonymously - we do not track you!)."
+download_with_drm_failed_description = "Something didn't work. And we think this video has DRM. We do not support videos with DRM."
+no_youtube = "Download from youtube not allowed"
+no_youtube_description = "Unfortunately, the Chrome Web Store does not allow extensions to download YouTube videos. Other browsers like Firefox do not have this limitation."
+premium_required = "Premium Status Required"
+premium_yt_required_description = "Without Premium status, a YouTube download can only be performed 2 hours after the previous one"
+premium_required_description = "Without Premium status, a HLS download can only be performed 2 hours after the previous one"
+v9_key_migration_failed_title = "License upgrade failed"
+v9_key_migration_failed_description = "We are having issues upgrading your license. Please try to restore your purchase." # $1 is the error message.
+
+# Downloading media box
+stop = "Stop" # For HLS downloads
+cancel = "Cancel" # For HTTP downloads
+
+# Media we found in the page
+copy_url = "Copy URL" # In menu and as a button
+always_copy_url = "Always copy URL"
+download_button = "Download"
+download_audio_button = "Audio"
+download_audio_and_video_menu = "Download Audio & video"
+download_audio_only_menu = "Download audio only"
+audio_only_for_this_website = "Always audio only for this website"
+details = "Details"
+more_settings = "More settings…"
+
+# Report buttons
+report = "Report"
+reporting = "Reporting…"
+reported = "Reported"
+
+# Video not playing - page
+not_playing_title = "Video is not playing?"
+not_playing_broken_title = "Broken audio or video?"
+not_playing_broken_description = "Report the failing media. We will do our best to figure out why it failed (we send the video URL anonymously - we do not track you!)"
+not_playing_broken_solution_title = "Try a modern video player"
+not_playing_broken_solution_windows_1 = "We recommend VLC:"
+not_playing_broken_solution_mac_1 = "We recommend IINA:"
+not_playing_broken_solution_2 = "it's modern, safe and Open Source."
+not_playing_default_player = "Make sure your video player is set as your system default video player"
+not_playing_default_player_solution_windows = "In Windows' \"Control Panel\", click on \"Default Programs\", and change the default programs for your player."
+not_playing_default_player_solution_mac = "Open download directory right-click on the video file. Click 'Get Info'. In the 'Open With' section, select IINA. Click the 'Change All' button."
+
+[web]
+
+# On top of all pages.
+header_help = "Help"
+header_community = "Community"
+
+# Context: activation page after receiving the magic link via email.
+activate_title = "Activation" # hope it crashes
+activate_pending = "Pending…"
+activate_success = "Success"
+activate_error = "Error"
+activate_no_addon_found = "No addon found. Is the addon installed?"
+activate_no_method_found = "No method found."
+activate_help_me = "Help me."
+
+# Context: webpage to restore a purchase, which require the user to enter their email.
+issue_title = "Restoring purchase"
+issue_submit = "Submit"
+issue_thank_you = "Thank you"
+issue_enter_email = "To restore your purchase, enter the email address you used to buy your license:"
+issue_email_sent = "We just sent you an email with a link that will activate your product."
+issue_or_digit = "Or, you can also enter the 6 digit code we sent you:"
+
+# Context: this page - https://downloadhelper.net/
+landing_text1 = "Download any video from any websites, it just works!"
+landing_text2 = "1000+ websites supported"
+landing_text3 = "Trusted by 7 millions users"
+landing_text4 = "4.5 stars on extension store"
+landing_install_for_google = "Install for Chrome"
+landing_install_for_mozilla = "Install for Firefox"
+landing_install_for_microsoft = "Install for Edge"
+landing_feature1_title = "HD Download at full speed"
+landing_feature1_description = "Download videos in high-definition, at maximum speed. We proud to claim we have the fasted download engine out there."
+landing_feature2_title = "Archive videos"
+landing_feature2_description = "Archive your favorite videos, ensuring nothing gets left behind."
+landing_feature3_title = "Live Stream Support"
+landing_feature3_description = "Enjoy offline viewing of live streams, freeing you from real-time constraints."
+landing_feature4_title = "Audio Download"
+landing_feature4_description = "Extract audio from videos, converting them into MP3s or podcasts for easy listening."
+
+# Context: this is for a "buy a license" webpage.
+premium_hero1 = "Pay once, use forever"
+premium_hero2 = "Get a Lifetime License for Video DownloadHelper"
+premium_hero3 = "Download any videos as much as you want, no limits."
