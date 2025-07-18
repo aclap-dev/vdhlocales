@@ -1,3 +1,177 @@
-# Italian
+# Italian translation from English reference - en.toml.
+# VDH 10 version 10.0.74.0
+# July 18th, 2025
+# by Night Train
 
 [addon]
+
+# Descrizione di Video DownloadHelper. Massimo 132 caratteri.
+appDesc = "Scarica i video dal Web."
+
+# Global strings
+restore_purchase_button = "Ripristina l'acquisto"
+get_premium_button = "Acquista l'accesso Premium"
+back = "Indietro" # Pulsante Indietro - per esempio nel pannello Impostazioni
+
+# Stringhe per il pannello principale
+waiting_for_media = "In attesa di file multimediali…"
+nomedia_title = "Non riesci a vedere i file multimediali che stai cercando?"
+nomedia_description = "Avvia il video (e salta gli annunci, se presenti) per rilevare i file multimediali o segnala i file multimediali mancanti."
+nomedia_reload_button = "Forza il rilevamento"
+nomedia_reload_button_tooltip = "Forza la ricarica della pagina (pulisce i cookie)"
+show_nomedia_button = "Nessun video?"
+show_nomedia_button_tooltip = "Clicca qui se non trovi il tuo video"
+setting_button_tooltip = "Impostazioni"
+history_button_tooltip = "Mostra la cronologia dei download"
+translate_button_tooltip = "Aiuta a tradurre VDH"
+
+# Pannello dei file multimediali scaricati
+open_source_tab_button_tooltip = "Apri la scheda sorgente"
+retry_download_button_tooltip = "Scarica di nuovo"
+delete_file_button_tooltip = "Elimina il file"
+download_directory_button_tooltip = "Mostra la cartella di download"
+show_in_popup_button_tooltip = "Mostra nel popup"
+show_in_sidebar_button_tooltip = "Mostra nella barra laterale"
+video_not_playing_button_tooltip = "Il video non viene riprodotto?"
+play = "Riproduci"
+warn_drm_tooltip = "Rilevato DRM"
+
+# Stringhe per il pannello impostazioni.
+version_title = "Versione"
+account_title = "Account"
+leave_review_description = "Ciao 🤚 Video DownloadHelper è gratuito da usare. Ti dispiacerebbe lasciare una buona recensione? Mi aiuterebbe molto 😊."
+leave_review_button = "Lascia una recensione"
+account_status= "Status"
+account_status_premium = "Premium ($1)" # $1 è il negozio (Mozilla, Google, Microsoft, All)
+free_account = "Piano gratuito"
+copy_to_clipboard = "Copia le informazioni negli appunti"
+my_account_button = "Il mio account"
+download_title = "Download"
+show_notification = "Mostra una notifica quando il download è completato"
+max_parallel_downloads = "Numero massimo di download contemporanei"
+change_download_directory = "Cambia la cartella di download"
+
+private_browsing_title = "Navigazione anonima"
+private_browsing_warning = "Video DownloadHelper non è abilitato in navigazione anonima."
+private_browsing_notifications = "Mostra una notifica per i download in navigazione anonima"
+private_browsing_button = "Cambia impostazioni in navigazione anonima"
+prefer_original_audio = "Preferisci audio originale" # Solo per Firefox
+prefer_hls = "Preferisci HLS" # Solo per Firefox
+settings_history_title = "Cronologia"
+history_description = "Ricorda i file scaricati"
+history_limit = "Giorni prima di dimenticare i file scaricati"
+appearance_title = "Aspetto"
+theme_title = "Tema"
+theme_light = "Tema chiaro"
+theme_dark = "Tema scuro"
+theme_system = "Tema di sistema"
+popup_size_title = "Dimensione finestra"
+popup_size_small = "Piccola"
+popup_size_medium = "Media"
+popup_size_big = "Grande"
+panel_position_title = "Posizione pannello"
+use_popup = "Usa il popup"
+use_sidebar = "Usa la barra laterale"
+behavior_title = "Comportamento"
+show_in_context_menu = "Mostra il menu di download nel menu contestuale della pagina"
+restart_addon = "Riavvia l'estensione VDH"
+reset_settings = "Ripristina le impostazioni"
+prefer_highest_quality = "Seleziona la massima qualità disponibile invece di 1080p per impostazione predefinita (download più lento, qualità superiore)."
+
+# Stringhe per la pagina cronologia
+history_title = "Cronologia Download"
+history_warning = "Non registriamo la tua cronologia di download. Vuoi che Video DownloadHelper ricordi la tua cronologia di download?"
+history_warning_2 = "Non ti preoccupare, tutto rimane sul tuo computer. Apprezziamo la tua privacy."
+enable_history = "Abilita cronologia"
+clear_history = "Pulisci cronologia"
+disable_history = "Disabilita cronologia"
+no_downloads_yet = "Ancora nessun download."
+
+# Notifiche varie
+download_failed = "Download Fallito"
+download_failed_description = "Qualcosa non ha funzionato. Segnala l'errore e faremo del nostro meglio per capire perché è fallito (inviamo l'indirizzo del video in modo anonimo - non ti tracciamo!)."
+download_with_drm_failed_description = "Qualcosa non ha funzionato. Pensiamo che questo video abbia DRM. Non supportiamo i video con DRM."
+no_youtube = "Download da YouTube non permesso"
+no_youtube_description = "Purtroppo il Chrome Web Store non permette estensioni per scaricare video di YouTube. Altri browser, come Firefox, non hanno questa limitazione."
+premium_required = "Premium Status Richiesto"
+premium_yt_required_description = "Senza Status Premium un download di YouTube può essere eseguito solo 2 ore dopo il precedente"
+premium_required_description = "Senza Status Premium un download HLS può essere eseguito solo 2 ore dopo il precedente"
+v9_key_migration_failed_title = "Aggiornamento della licenza fallito"
+v9_key_migration_failed_description = "Stiamo avendo problemi con l'aggiornamento della licenza. Si prega di provare a ripristinare il vostro acquisto." # $1 è il messaggio di errore.
+
+# Pannello dei file multimediali scaricati
+stop = "Stop" # Per download HLS
+cancel = "Cancella" # Per download HTTP
+
+# File multimediali che troviamo nella pagina
+copy_url = "Copia indirizzo" # Nel menu e come pulsante
+always_copy_url = "Copia sempre indirizzo"
+download_button = "Download"
+download_audio_button = "Audio"
+download_audio_and_video_menu = "Download Audio & Video"
+download_audio_only_menu = "Download solo Audio"
+audio_only_for_this_website = "Download solo Audio, sempre da questo sito web"
+details = "Dettagli"
+more_settings = "Altre impostazioni…"
+
+# Pulsanti di segnalazione
+report = "Segnala"
+reporting = "Segnalando…"
+reported = "Segnalato"
+
+# Video non riproducibile - pagina
+not_playing_title = "Il video non viene riprodotto?"
+not_playing_broken_title = "Audio o video rotti?"
+not_playing_broken_description = "Segnala il file multimediale che non è andato a buon fine. Faremo del nostro meglio per capire perché è fallito (inviamo l'indirizzo del video in modo anonimo - non ti tracciamo!)"
+not_playing_broken_solution_title = "Prova un lettore video moderno"
+not_playing_broken_solution_windows_1 = "Raccomandiamo VLC:"
+not_playing_broken_solution_mac_1 = "Raccomandiamo IINA:"
+not_playing_broken_solution_2 = "è moderno, sicuro e Open Source."
+not_playing_default_player = "Assicurati che il tuo lettore video sia impostato come lettore video predefinito del sistema"
+not_playing_default_player_solution_windows = "In Windows, \"Pannello di Controllo\", clic su \"Programmi Predefiniti\" e cambia il programma predefinito per il lettore."
+not_playing_default_player_solution_mac = "Apri la cartella di download, clic destro sul file video. Clic su 'Ottieni informazioni'. Nella sezione 'Apri con' seleziona IINA. Clic sul pulsante 'Cambia Tutto'."
+
+[web]
+
+# In cima a tutte le pagine.
+header_help = "Aiuto"
+header_community = "Community"
+
+# Contesto: pagina di attivazione dopo aver ricevuto il link magico via e-mail.
+activate_title = "Attivazione" # spero che si blocchi
+activate_pending = "In attesa…"
+activate_success = "Successo"
+activate_error = "Errore"
+activate_no_addon_found = "Non ho trovato l'estensione VDH. Hai installato l'estensione VDH?"
+activate_no_method_found = "Nessun metodo trovato."
+activate_help_me = "Aiutami."
+
+# Contesto: pagina web per ripristinare un acquisto che richiede all'utente di inserire la propria email.
+issue_title = "Ripristino dell'acquisto"
+issue_submit = "Inoltra"
+issue_thank_you = "Grazie"
+issue_enter_email = "Per ripristinare l'acquisto, immetti l'indirizzo email utilizzato per acquistare la licenza:"
+issue_email_sent = "Ti abbiamo appena inviato una email con un link che attiverà il tuo prodotto."
+issue_or_digit = "Oppure puoi anche inserire il codice a 6 cifre che ti abbiamo inviato:"
+
+# Contesto: questa pagina - https://downloadhelper.net/
+landing_text1 = "Scarica qualsiasi video da qualsiasi sito web, funziona!"
+landing_text2 = "1000+ siti web supportati"
+landing_text3 = "Fidati di 7 milioni di utenti"
+landing_text4 = "4,5 stelle sul negozio delle estensioni"
+landing_install_for_google = "Installa per Chrome"
+landing_install_for_mozilla = "Installa per Firefox"
+landing_install_for_microsoft = "Installa per Edge"
+landing_feature1_title = "Download in HD a piena velocità"
+landing_feature1_description = "Scarica video in alta definizione alla massima velocità. Siamo orgogliosi di affermare che abbiamo il motore di download più veloce di tutti."
+landing_feature2_title = "Archivio video"
+landing_feature2_description = "Archivia i tuoi video preferiti e assicurati che nulla venga lasciato indietro."
+landing_feature3_title = "Supporto ai Live Stream"
+landing_feature3_description = "Goditi la visualizzazione offline di flussi in diretta, liberati dai vincoli in tempo reale."
+landing_feature4_title = "Download Audio"
+landing_feature4_description = "Estrai l'audio dai video e convertili in MP3 o podcast per un facile ascolto."
+
+# Contesto: questo è per la pagina web "acquista una licenza".
+premium_hero1 = "Paga una volta, usa per sempre"
+premium_hero2 = "Ottieni una Licenza a Vita per Video DownloadHelper"
+premium_hero3 = "Scarica tutti i video che vuoi, senza limiti."
