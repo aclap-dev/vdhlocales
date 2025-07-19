@@ -172,3 +172,7 @@ landing_feature4_description = "Extract audio from videos, converting them into 
 premium_hero1 = "Pay once, use forever"
 premium_hero2 = "Get a Lifetime License for Video DownloadHelper"
 premium_hero3 = "Download any videos as much as you want, no limits."
+
+# Context: the page that opens after the addon gets installed.
+welcome_text = "Now you're not going to miss any video!"
+welcome_pin_message = "Pin the add-on icon to your toolbar:"
