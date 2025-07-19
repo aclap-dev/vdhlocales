@@ -1,6 +1,6 @@
-# Italian translation from English reference - en.toml.
-# VDH 10 version 10.0.74.0
-# July 18th, 2025
+# Traduzione italiana da English reference - en.toml.
+# VDH 10 versione 10.0.74.0
+# 19 luglio 2025
 # by Night Train
 
 [addon]
@@ -153,6 +153,9 @@ issue_thank_you = "Grazie"
 issue_enter_email = "Per ripristinare l'acquisto, immetti l'indirizzo email utilizzato per acquistare la licenza:"
 issue_email_sent = "Ti abbiamo appena inviato una email con un link che attiverà il tuo prodotto."
 issue_or_digit = "Oppure puoi anche inserire il codice a 6 cifre che ti abbiamo inviato:"
+issue_just_digit = "Inserisci il codice a 6 cifre che ti abbiamo inviato:"
+issue_i_have_a_code = "(Clicca qui se hai già un codice)"
+
 
 # Contesto: questa pagina - https://downloadhelper.net/
 landing_text1 = "Scarica qualsiasi video da qualsiasi sito web, funziona!"
@@ -165,9 +168,9 @@ landing_install_for_microsoft = "Installa per Edge"
 landing_feature1_title = "Download in HD a piena velocità"
 landing_feature1_description = "Scarica video in alta definizione alla massima velocità. Siamo orgogliosi di affermare che abbiamo il motore di download più veloce di tutti."
 landing_feature2_title = "Archivio video"
-landing_feature2_description = "Archivia i tuoi video preferiti e assicurati che nulla venga lasciato indietro."
+landing_feature2_description = "Archivia i tuoi video preferiti, assicurati che nessun video sarà dimenticato."
 landing_feature3_title = "Supporto ai Live Stream"
-landing_feature3_description = "Goditi la visualizzazione offline di flussi in diretta, liberati dai vincoli in tempo reale."
+landing_feature3_description = "Goditi la visualizzazione offline dei flussi in diretta, liberati dai limiti della visione in tempo reale."
 landing_feature4_title = "Download Audio"
 landing_feature4_description = "Estrai l'audio dai video e convertili in MP3 o podcast per un facile ascolto."
 
@@ -175,3 +178,7 @@ landing_feature4_description = "Estrai l'audio dai video e convertili in MP3 o p
 premium_hero1 = "Paga una volta, usa per sempre"
 premium_hero2 = "Ottieni una Licenza a Vita per Video DownloadHelper"
 premium_hero3 = "Scarica tutti i video che vuoi, senza limiti."
+
+# Contesto: la pagina che si apre dopo che hai installato l'estensione'.
+welcome_text = "Ora non ti perderai alcun video!"
+welcome_pin_message = "Fissa l'icona di VDH nella barra strumenti:"
