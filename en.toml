@@ -150,6 +150,8 @@ issue_thank_you = "Thank you"
 issue_enter_email = "To restore your purchase, enter the email address you used to buy your license:"
 issue_email_sent = "We just sent you an email with a link that will activate your product."
 issue_or_digit = "Or, you can also enter the 6 digit code we sent you:"
+issue_just_digit = "Enter the 6 digit code we sent you:"
+issue_i_have_a_code = "(Click here if you already have a code)"
 
 # Context: this page - https://downloadhelper.net/
 landing_text1 = "Download any video from any websites, it just works!"

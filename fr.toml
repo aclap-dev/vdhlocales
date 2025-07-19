@@ -25,7 +25,9 @@ issue_submit = "Envoyer"
 issue_thank_you = "merci"
 issue_enter_email = "Pour réactiver votre achat, saisissez votre l'email que vous avez utilisé pour votre achat:"
 issue_email_sent = "Nous vous avons envoyé un email avec un lien pour ré-activer votre achat."
-issue_or_digit = "Ou vous pouvez aussi saisire le code à 6 chiffres envoyé."
+issue_or_digit = "Ou vous pouvez aussi saisir le code à 6 chiffres envoyé."
+issue_just_digit = "Saisir le code à 6 chiffres:"
+issue_i_have_a_code = "(Cliquez ici si vous avez déjà un code)"
 
 # Context: this page - https://downloadhelper.net/
 landing_text1 = "Téléchargez toutes vidéos sur internet, facile, ça marche!"
