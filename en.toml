@@ -21,7 +21,8 @@ show_nomedia_button_tooltip = "Click here if you can't find your video"
 setting_button_tooltip = "Settings"
 history_button_tooltip = "Show download history"
 show_all_history_button = "show all"
-hide_history_button = "hide"
+complete_title = "Complete"
+hide_complete_button = "hide"
 translate_button_tooltip = "Help translate VDH"
 
 # Downloaded media box
