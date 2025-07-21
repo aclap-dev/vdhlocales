@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.74.0
-# 19 luglio 2025
+# VDH 10 versione 10.0.87.0
+# 21 luglio 2025
 # by Night Train
 
 [addon]
@@ -23,6 +23,9 @@ show_nomedia_button = "Nessun video?"
 show_nomedia_button_tooltip = "Clicca qui se non trovi il tuo video"
 setting_button_tooltip = "Impostazioni"
 history_button_tooltip = "Mostra la cronologia dei download"
+show_all_history_button = "Mostra tutto"
+complete_title = "Completati"
+hide_complete_button = "Nascondi"
 translate_button_tooltip = "Aiuta a tradurre VDH"
 
 # Pannello dei file multimediali scaricati
@@ -58,6 +61,7 @@ private_browsing_button = "Cambia impostazioni in navigazione anonima"
 prefer_original_audio = "Preferisci audio originale" # Solo per Firefox
 prefer_hls = "Preferisci HLS" # Solo per Firefox
 settings_history_title = "Cronologia"
+transient_history_description = "Mostra i download completati nel pannello"
 history_description = "Ricorda i file scaricati"
 history_limit = "Giorni prima di dimenticare i file scaricati"
 appearance_title = "Aspetto"
