@@ -20,6 +20,8 @@ show_nomedia_button = "No video?"
 show_nomedia_button_tooltip = "Click here if you can't find your video"
 setting_button_tooltip = "Settings"
 history_button_tooltip = "Show download history"
+show_all_history_button = "show all"
+hide_history_button = "hide"
 translate_button_tooltip = "Help translate VDH"
 
 # Downloaded media box
@@ -55,6 +57,7 @@ private_browsing_button = "Change private browsing setting"
 prefer_original_audio = "Prefer original audio" # Firefox only
 prefer_hls = "Prefer HLS" # Firefox only
 settings_history_title = "History"
+transient_history_description = "Show complete downloads in panel"
 history_description = "Remember downloads"
 history_limit = "Days before forgetting downloads"
 appearance_title = "Appearance"
