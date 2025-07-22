@@ -90,7 +90,7 @@ no_downloads_yet = "No downloads yet."
 
 # Various notifications
 download_failed = "Download Failed"
-download_failed_description = "Something didn't work. Report the error, and we will do our best to figure out why it failed (we send the video URL anonymously - we do not track you!)."
+download_failed_description = "Something didn't work. Report the error, and we will do our best to figure out why it failed. When you report, the video URL is sent to us, anonymously - we do not track you!)."
 download_with_drm_failed_description = "Something didn't work. And we think this video has DRM. We do not support videos with DRM."
 no_youtube = "Download from youtube not allowed"
 no_youtube_description = "Unfortunately, the Chrome Web Store does not allow extensions to download YouTube videos. Other browsers like Firefox do not have this limitation."
