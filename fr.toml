@@ -1,56 +1,152 @@
-# French
+# fr.toml - v10.0.88.0
 
 [addon]
 
-download_button = "Télécharger"
+appDesc = '''Télécharger toutes vidéos du web'''
+restore_purchase_button = '''Restaurer votre achat'''
+get_premium_button = '''Premium'''
+back = '''Retour'''
+waiting_for_media = '''En attente de médias…'''
+nomedia_title = '''Vous ne voyez pas votre vidéo?'''
+nomedia_description = '''Démarrez la vidéo (et passez les publicités si nécessaire) pour aider à détecter le contenu. Ou signalez nous un contenu manquant.'''
+nomedia_reload_button = '''Forcer la détection'''
+nomedia_reload_button_tooltip = '''Force le rechargement de la page (efface les cookies)'''
+show_nomedia_button = '''Pas de vidéo?'''
+show_nomedia_button_tooltip = '''Cliquez ici si vous ne voyez pas votre vidéo'''
+setting_button_tooltip = '''Paramètres'''
+history_button_tooltip = '''Répertoire de téléchargement'''
+show_all_history_button = '''Tout montrer'''
+complete_title = '''Téléchargements finis'''
+hide_complete_button = '''cacher'''
+open_source_tab_button_tooltip = '''Ouvrir l'onglet d'origine'''
+retry_download_button_tooltip = '''Réessayer le téléchargement'''
+delete_file_button_tooltip = '''Supprimer le fichier'''
+download_directory_button_tooltip = '''Monter le répertoire de téléchargement'''
+show_in_popup_button_tooltip = '''Utiliser une fenêtre flottante'''
+show_in_sidebar_button_tooltip = '''Utiliser le panneau latéral'''
+video_not_playing_button_tooltip = '''La vidéo ne joue pas correctement?'''
+play = '''Lire'''
+warn_drm_tooltip = '''DRM détectés'''
+version_title = '''Version'''
+account_title = '''Compte'''
+leave_review_description = '''Salut 🤚 Video DownloadHelper est gratuit. Pourriez-vous laisser un bon avis ? Ça m’aiderait beaucoup 😊.'''
+leave_review_button = '''Laisser votre avis'''
+account_status = '''Statut'''
+account_status_premium = '''Premium ($1)'''
+free_account = '''Plan gratuit'''
+copy_to_clipboard = '''Copier les informations'''
+my_account_button = '''Mon compte'''
+download_title = '''Téléchargements'''
+show_notification = '''Afficher une notification une fois le téléchargement terminé'''
+max_parallel_downloads = '''Nombre de téléchargements parallèles max'''
+change_download_directory = '''Change le répertoire de téléchargement'''
+saveas_detected_warning = '''Nous avons détecté que votre navigateur affiche une boîte de dialogue « Enregistrer sous » une fois le téléchargement terminé. Nous vous recommandons de désactiver cette option dans les paramètres de votre navigateur.'''
+change_saveas_setting = '''Changer le paramètre'''
+private_browsing_title = '''Navigation privée'''
+private_browsing_warning = '''Video Downloadhelper n'est pas activé dans la navigation privée'''
+private_browsing_notifications = '''Afficher une notification même en navigation privée'''
+private_browsing_button = '''Changer le paramètre de navigation privée'''
+prefer_original_audio = '''Audio original préféré'''
+prefer_hls = '''HLS préféré'''
+settings_history_title = '''Historique'''
+transient_history_description = '''Afficher les téléchargements finis dans la fenêtres'''
+history_description = '''Ce souvenir des téléchargements'''
+history_limit = '''Nombre de jours avant d'oublier les téléchargements'''
+appearance_title = '''Apparence'''
+theme_title = '''Thème'''
+theme_light = '''Thème clair'''
+theme_dark = '''Thème sombre'''
+theme_system = '''Thème système'''
+popup_size_title = '''Taille de la fenêtre'''
+popup_size_small = '''Petite'''
+popup_size_medium = '''Moyenne'''
+popup_size_big = '''Grande'''
+panel_position_title = '''Position de la fenêtre'''
+use_popup = '''Flottante'''
+use_sidebar = '''Panneau latéral'''
+behavior_title = '''Comportement'''
+show_in_context_menu = '''Afficher les téléchargement dans le menu contextuel'''
+restart_addon = '''Redémarrer l'addon'''
+reset_settings = '''Réinitialisé l'addon'''
+prefer_highest_quality = '''Sélectionner la qualité la plus élevée disponible au lieu du 1080p par défaut (téléchargement plus lent mais de meilleure qualité).'''
+history_title = '''Historique des téléchargements'''
+history_warning = '''Nous n’enregistrons pas votre historique de téléchargements. Voulez-vous que Video DownloadHelper se souvienne de votre historique?'''
+history_warning_2 = '''Ne vous inquiétez pas, tout reste sur votre appareil. Nous respectons votre vie privée.'''
+enable_history = '''Activer l'historique'''
+clear_history = '''Effacer l'historique'''
+disable_history = '''Désactiver l'historique'''
+no_downloads_yet = '''Pas de téléchargements'''
+download_failed = '''Téléchargement a échoué'''
+download_failed_description = '''Quelque chose n’a pas fonctionné. Signalez l’erreur et nous ferons de notre mieux pour comprendre pourquoi cela a échoué. Lorsque vous signalez un problème, l’URL de la vidéo nous est envoyée de manière anonyme - nous ne vous traquons pas !'''
+download_with_drm_failed_description = '''Quelque chose n’a pas fonctionné. Et nous pensons que cette vidéo est protégée par un DRM. Nous ne prenons pas en charge les vidéos avec DRM.'''
+no_youtube = '''Téléchargement de Youtube ne sont pas autorisés'''
+no_youtube_description = '''Malheureusement, le Chrome Web Store n’autorise pas les extensions à télécharger des vidéos YouTube. D’autres navigateurs comme Firefox n’ont pas cette limitation.'''
+premium_required = '''Premium nécessaire'''
+premium_yt_required_description = '''Sans statut Premium, un téléchargement YouTube ne peut être effectué que 2 heures après le précédent.'''
+premium_required_description = '''Sans statut Premium, un téléchargement HLS ne peut être effectué que 2 heures après le précédent.'''
+v9_key_migration_failed_title = '''Mise a jour de votre licence a échouée'''
+v9_key_migration_failed_description = '''La mise a jour de votre licence a échouée. Essayer de réactiver votre achat.'''
+stop = '''Stop'''
+cancel = '''Annuler'''
+copy_url = '''Copier l'URL'''
+always_copy_url = '''Toujours copier l'URL'''
+download_button = '''Télécharger'''
+download_audio_button = '''Audio'''
+download_audio_and_video_menu = '''Télécharger audio & video'''
+download_audio_only_menu = '''Télécharger que l'audio'''
+audio_only_for_this_website = '''Toujours télécharger que l'audio pour ce site'''
+details = '''Détails'''
+more_settings = '''Plus de paramètres…'''
+report = '''Signaler'''
+reporting = '''En cours…'''
+reported = '''Signalé'''
+not_playing_title = '''La vidéo ne joue pas correctement?'''
+not_playing_broken_title = '''L'audio ou la vidéo invalide?'''
+not_playing_broken_description = '''Signalez le contenu défaillant. Nous ferons de notre mieux pour comprendre pourquoi cela a échoué (l’URL de la vidéo est envoyée de manière anonyme — nous ne vous traquons pas !).'''
+not_playing_broken_solution_title = '''Essayer un lecteur multimédia moderne'''
+not_playing_broken_solution_windows_1 = '''Nous recommandons VLC:'''
+not_playing_broken_solution_mac_1 = '''Nous recommandons IINA:'''
+not_playing_broken_solution_2 = '''C'est un lecteur moderne et Open Source.'''
+not_playing_default_player = '''Assurez-vous que votre lecteur vidéo est défini comme lecteur vidéo par défaut du système.'''
+not_playing_default_player_solution_windows = '''Dans le « Panneau de configuration » de Windows, cliquez sur « Programmes par défaut », puis modifiez les programmes par défaut pour votre lecteur.'''
+not_playing_default_player_solution_mac = '''Ouvrez le répertoire de téléchargement, faites un clic droit sur le fichier vidéo. Cliquez sur « Lire les informations ». Dans la section « Ouvrir avec », sélectionnez IINA. Cliquez ensuite sur le bouton « Tout modifier ».'''
 
 [web]
 
-# On top of all pages.
-header_help = "Aide"
-header_community = "Communauté"
-
-# Context: activation page after receiving the magic link via email.
-activate_title = "Activation"
-activate_pending = "Patientez…"
-activate_success = "Validé"
-activate_error = "Erreur"
-activate_no_addon_found = "Est-ce que l'addon est installé? Nous ne le trouvons pas."
-activate_no_method_found = "Pas de méthode trouvée."
-activate_help_me = "J'ai besoin d'aide."
-
-# Context: webpage to restore a purchase, which require the user to enter their email.
-issue_title = "Réactiver votre achat"
-issue_submit = "Envoyer"
-issue_thank_you = "merci"
-issue_enter_email = "Pour réactiver votre achat, saisissez votre l'email que vous avez utilisé pour votre achat:"
-issue_email_sent = "Nous vous avons envoyé un email avec un lien pour ré-activer votre achat."
-issue_or_digit = "Ou vous pouvez aussi saisir le code à 6 chiffres envoyé."
-issue_just_digit = "Saisir le code à 6 chiffres:"
-issue_i_have_a_code = "(Cliquez ici si vous avez déjà un code)"
-
-# Context: this page - https://downloadhelper.net/
-landing_text1 = "Téléchargez toutes vidéos sur internet, facile, ça marche!"
-landing_text2 = "Plus de 1000+ sites supportés"
-landing_text3 = "Utilisé par plus de 7 millions d'utilisateurs"
-landing_text4 = "4.5 étoiles sur les stores"
-landing_install_for_google = "Installer pour Chrome"
-landing_install_for_mozilla = "Installer pour Firefox"
-landing_install_for_microsoft = "Installer pour Edge"
-landing_feature1_title = "Téléchargement en HD à pleine vitesse"
-landing_feature1_description = "Les videos sont téléchargées en haute définition, à vitesse maximum. On est fier d'etre l'outil de téléchargement le plus rapide."
-landing_feature2_title = "Archiver vos videos"
-landing_feature2_description = "Archiver vos videos favorites, ne perdez plus vos médias."
-landing_feature3_title = "Support de contenu streamé"
-landing_feature3_description = "Visualiser les Live Stream hors-ligne, plus besoin d'etre présent constament."
-landing_feature4_title = "Téléchargement audio"
-landing_feature4_description = "Convertissez n'import quel flux videos en contenu audio, en MP3s ou podcasts."
-
-# Context: this is for a "buy a license" webpage.
-premium_hero1 = "Payez une fois, utilisez pour toujours"
-premium_hero2 = "License 'lifetime' Video DownloadHelper"
-premium_hero3 = "Téléchargez toutes videos, sans limites."
-
-# Context: the page that opens after the addon gets installed.
-welcome_text = "Votre downloadeur de vidéo est prêt!"
-welcome_pin_message = "Activez l'icone dans votre barre d'outils:"
+header_help = '''Aide'''
+header_community = '''Communauté'''
+activate_title = '''Activation'''
+activate_pending = '''Patientez…'''
+activate_success = '''Validé'''
+activate_error = '''Erreur'''
+activate_no_addon_found = '''Est-ce que l'addon est installé? Nous ne le trouvons pas.'''
+activate_no_method_found = '''Pas de méthode trouvée.'''
+activate_help_me = '''J'ai besoin d'aide.'''
+issue_title = '''Réactiver votre achat'''
+issue_submit = '''Envoyer'''
+issue_thank_you = '''merci'''
+issue_enter_email = '''Pour réactiver votre achat, saisissez votre l'email que vous avez utilisé pour votre achat:'''
+issue_email_sent = '''Nous vous avons envoyé un email avec un lien pour ré-activer votre achat.'''
+issue_or_digit = '''Ou vous pouvez aussi saisir le code à 6 chiffres envoyé.'''
+issue_just_digit = '''Saisir le code à 6 chiffres:'''
+issue_i_have_a_code = '''(Cliquez ici si vous avez déjà un code)'''
+landing_text1 = '''Téléchargez toutes vidéos sur internet, facile, ça marche!'''
+landing_text2 = '''Plus de 1000+ sites supportés'''
+landing_text3 = '''Utilisé par plus de 7 millions d'utilisateurs'''
+landing_text4 = '''4.5 étoiles sur les stores'''
+landing_install_for_google = '''Installer pour Chrome'''
+landing_install_for_mozilla = '''Installer pour Firefox'''
+landing_install_for_microsoft = '''Installer pour Edge'''
+landing_feature1_title = '''Téléchargement en HD à pleine vitesse'''
+landing_feature1_description = '''Les videos sont téléchargées en haute définition, à vitesse maximum. On est fier d'etre l'outil de téléchargement le plus rapide.'''
+landing_feature2_title = '''Archiver vos videos'''
+landing_feature2_description = '''Archiver vos videos favorites, ne perdez plus vos médias.'''
+landing_feature3_title = '''Support de contenu streamé'''
+landing_feature3_description = '''Visualiser les Live Stream hors-ligne, plus besoin d'etre présent constament.'''
+landing_feature4_title = '''Téléchargement audio'''
+landing_feature4_description = '''Convertissez n'import quel flux videos en contenu audio, en MP3s ou podcasts.'''
+premium_hero1 = '''Payez une fois, utilisez pour toujours'''
+premium_hero2 = '''License 'lifetime' Video DownloadHelper'''
+premium_hero3 = '''Téléchargez toutes videos, sans limites.'''
+welcome_text = '''Votre downloadeur de vidéo est prêt!'''
+welcome_pin_message = '''Activez l'icone dans votre barre d'outils:'''
