@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.87.0
-# 21 luglio 2025
+# VDH 10 versione 10.0.97.0
+# 24 luglio 2025
 # by Night Train
 
 [addon]
@@ -53,6 +53,8 @@ download_title = "Download"
 show_notification = "Mostra una notifica quando il download è completato"
 max_parallel_downloads = "Numero massimo di download contemporanei"
 change_download_directory = "Cambia la cartella di download"
+saveas_detected_warning = "Abbiamo rilevato che il tuo browser mostra una finestra di dialogo 'Salva con nome', una volta terminato il download. Ti consigliamo di disabilitare questa opzione nelle impostazioni del tuo browser."
+change_saveas_setting = "Cambia impostazione"
 
 private_browsing_title = "Navigazione anonima"
 private_browsing_warning = "Video DownloadHelper non è abilitato in navigazione anonima."
@@ -159,7 +161,6 @@ issue_email_sent = "Ti abbiamo appena inviato una email con un link che attiver�
 issue_or_digit = "Oppure puoi anche inserire il codice a 6 cifre che ti abbiamo inviato:"
 issue_just_digit = "Inserisci il codice a 6 cifre che ti abbiamo inviato:"
 issue_i_have_a_code = "(Clicca qui se hai già un codice)"
-
 
 # Contesto: questa pagina - https://downloadhelper.net/
 landing_text1 = "Scarica qualsiasi video da qualsiasi sito web, funziona!"
