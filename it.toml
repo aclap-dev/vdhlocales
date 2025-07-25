@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.97.0
-# 24 luglio 2025
+# VDH 10 versione 10.0.103.0
+# 25 luglio 2025
 # by Night Train
 
 [addon]
@@ -103,7 +103,7 @@ premium_required = "Premium Status Richiesto"
 premium_yt_required_description = "Senza Status Premium un download di YouTube può essere eseguito solo 2 ore dopo il precedente"
 premium_required_description = "Senza Status Premium un download HLS può essere eseguito solo 2 ore dopo il precedente"
 v9_key_migration_failed_title = "Aggiornamento della licenza fallito"
-v9_key_migration_failed_description = "Stiamo avendo problemi con l'aggiornamento della licenza. Si prega di provare a ripristinare il vostro acquisto." # $1 è il messaggio di errore.
+v9_key_migration_failed_description = "Stiamo avendo problemi con l'aggiornamento della licenza. Si prega di provare a ripristinare il vostro acquisto."
 
 # Pannello dei file multimediali scaricati
 stop = "Stop" # Per download HLS
@@ -113,6 +113,8 @@ cancel = "Cancella" # Per download HTTP
 copy_url = "Copia indirizzo" # Nel menu e come pulsante
 always_copy_url = "Copia sempre indirizzo"
 download_button = "Download"
+download_as_button_and_menu = "Download come…"
+always_download_as_menu = "Download sempre come…"
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Download Audio & Video"
 download_audio_only_menu = "Download solo Audio"
