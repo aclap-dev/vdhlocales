@@ -80,6 +80,8 @@ show_in_context_menu = "Show download menu in page context menu"
 restart_addon = "Restart addon"
 reset_settings = "Reset settings"
 prefer_highest_quality = "Select highest available quality instead of 1080p by default (slower download, higher quality)."
+prefer_builtin_player = "Use the builtin video player (if possible) when clicking the play button."
+use_system_player = "Use system player"
 
 # String for history page
 history_title = "Download History"
