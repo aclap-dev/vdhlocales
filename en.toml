@@ -14,12 +14,12 @@ back = "Back" # Go back button - in Settings panel for example
 waiting_for_media = "Waiting for media…"
 nomedia_title = "Can't see the media you're looking for?"
 nomedia_description = "Start the video (and skip ads if any) to help detect the media. Or report missing media."
-nomedia_reload_button = "Force detection"
+nomedia_reload_button = "Force detection" # v9_panel_footer_force_reload
 nomedia_reload_button_tooltip = "Force page reload (clear cookies)"
 show_nomedia_button = "No video?"
 show_nomedia_button_tooltip = "Click here if you can't find your video"
-setting_button_tooltip = "Settings"
-history_button_tooltip = "Show download history"
+setting_button_tooltip = "Settings" # v9_settings
+history_button_tooltip = "Show download history" # v9_panel_footer_show_history_tooltip
 show_all_history_button = "show all"
 complete_title = "Complete"
 hide_complete_button = "hide"
@@ -28,101 +28,101 @@ translate_button_tooltip = "Help translate VDH"
 # Downloaded media box
 open_source_tab_button_tooltip = "Open source tab"
 retry_download_button_tooltip = "Retry download"
-delete_file_button_tooltip = "Delete file"
-download_directory_button_tooltip = "Show download directory"
-show_in_popup_button_tooltip = "Show in popup"
-show_in_sidebar_button_tooltip = "Show in sidebar"
+delete_file_button_tooltip = "Delete file" # v9_panel_downloaded_delete_file_tooltip
+download_directory_button_tooltip = "Show download directory" # v9_panel_downloaded_show_dir_tooltip
+show_in_popup_button_tooltip = "Show in popup" # v9_panel_footer_show_in_popup_tooltip
+show_in_sidebar_button_tooltip = "Show in sidebar" # v9_panel_footer_show_in_sidebar_tooltip
 video_not_playing_button_tooltip = "Video not playing?"
-play = "Play"
+play = "Play" # action_avplay_title
 warn_drm_tooltip = "DRM detected"
 
 # Strings for the settings panel.
-version_title = "Version"
+version_title = "Version" # version
 account_title = "Account"
-leave_review_description = "Hi there 🤚 Video DownloadHelper is free to use. Would you mind leaving a good review? That would help me a lot 😊."
-leave_review_button = "Leave a review"
+leave_review_description = "Hi there 🤚 Video DownloadHelper is free to use. Would you mind leaving a good review? That would help me a lot 😊." # v9_user_message_one_hundred_downloads_body
+leave_review_button = "Leave a review" # v9_user_message_one_hundred_downloads_leave_review
 account_status= "Status"
-account_status_premium = "Premium ($1)" # $1 is the store (Mozilla, Google, Microsoft, All)
+account_status_premium = "Premium ($1)" # $1 is the store (Mozilla, Google, Microsoft, All) - v9_user_message_one_hundred_downloads_body
 free_account = "Free plan"
-copy_to_clipboard = "Copy info to clipboard"
+copy_to_clipboard = "Copy info to clipboard" # copy_settings_info_to_clipboard
 my_account_button = "My account"
 download_title = "Downloads"
-show_notification = "Show notification once download complete"
-max_parallel_downloads = "Max parallel downloads"
-change_download_directory = "Change download directory"
+show_notification = "Show notification once download complete" # v9_settings_checkbox_notification
+max_parallel_downloads = "Max parallel downloads" # v9_weh_prefs_label_downloadControlledMax
+change_download_directory = "Change download directory" # v9_settings_download_directory ?
 saveas_detected_warning = "We have detected that your browser shows a 'Save As' dialog, once the download is finished. We recommend disabling that option in your browser settings"
 change_saveas_setting = "Change setting"
 
 private_browsing_title = "Private browsing"
-private_browsing_warning = "Video DownloadHelper is not enabled in private browsing."
-private_browsing_notifications = "Show notification for private downloads"
+private_browsing_warning = "Video DownloadHelper is not enabled in private browsing." # v9_user_message_no_incognito_body
+private_browsing_notifications = "Show notification for private downloads" # v9_settings_checkbox_notification_incognito
 private_browsing_button = "Change private browsing setting"
 prefer_original_audio = "Prefer original audio" # Firefox only
 prefer_hls = "Prefer HLS" # Firefox only
 settings_history_title = "History"
 transient_history_description = "Show complete downloads in panel"
-history_description = "Remember downloads"
-history_limit = "Days before forgetting downloads"
-appearance_title = "Appearance"
-theme_title = "Theme"
-theme_light = "Light theme"
-theme_dark = "Dark theme"
-theme_system = "System theme"
+history_description = "Remember downloads" # v9_history_button_start_recording
+history_limit = "Days before forgetting downloads" # v9_settings_history_limit
+appearance_title = "Appearance" # appearance
+theme_title = "Theme" # v9_settings_theme_title
+theme_light = "Light theme" # v9_settings_theme_light
+theme_dark = "Dark theme" # v9_settings_theme_dark
+theme_system = "System theme" # v9_settings_theme_system
 popup_size_title = "Window size"
 popup_size_small = "Small"
 popup_size_medium = "Medium"
 popup_size_big = "Big"
 panel_position_title = "Panel position"
-use_popup = "Use popup"
-use_sidebar = "Use sidebar"
-behavior_title = "Behavior"
-show_in_context_menu = "Show download menu in page context menu"
-restart_addon = "Restart addon"
-reset_settings = "Reset settings"
+use_popup = "Use popup" # use show_in_popup_button_tooltip ?
+use_sidebar = "Use sidebar" # use show_in_sidebar_button_tooltip ?
+behavior_title = "Behavior" # behavior
+show_in_context_menu = "Show download menu in page context menu" # v9_weh_prefs_description_contextMenuEnabled
+restart_addon = "Restart addon" # v9_settings_button_reload
+reset_settings = "Reset settings" # v9_settings_button_reset
 prefer_highest_quality = "Select highest available quality instead of 1080p by default (slower download, higher quality)."
 
 # String for history page
 history_title = "Download History"
-history_warning = "We do not record your download history. Do you want Video DownloadHelper to remember your download history?"
-history_warning_2 = "Don't worry, everything stays on your machine. We value your privacy."
-enable_history = "Enable history"
-clear_history = "Clear history"
-disable_history = "Disable history"
-no_downloads_yet = "No downloads yet."
+history_warning = "We do not record your download history. Do you want Video DownloadHelper to remember your download history?" # v9_history_no_recording_description
+history_warning_2 = "Don't worry, everything stays on your machine. We value your privacy." # v9_history_no_recording_description_safe
+enable_history = "Enable history" # v9_history_no_recording_description_safe
+clear_history = "Clear history" # v9_history_button_clear
+disable_history = "Disable history" # v9_history_button_stop_recording
+no_downloads_yet = "No downloads yet." # v9_history_no_entries
 
 # Various notifications
-download_failed = "Download Failed"
-download_failed_description = "Something didn't work. Report the error, and we will do our best to figure out why it failed. When you report, the video URL is sent to us, anonymously - we do not track you!)."
+download_failed = "Download Failed" # v9_panel_error_coapp_failure_title
+download_failed_description = "Something didn't work. Report the error, and we will do our best to figure out why it failed. When you report, the video URL is sent to us, anonymously - we do not track you!)." v9_panel_error_coapp_failure_description
 download_with_drm_failed_description = "Something didn't work. And we think this video has DRM. We do not support videos with DRM."
 no_youtube = "Download from youtube not allowed"
-no_youtube_description = "Unfortunately, the Chrome Web Store does not allow extensions to download YouTube videos. Other browsers like Firefox do not have this limitation."
-premium_required = "Premium Status Required"
+no_youtube_description = "Unfortunately, the Chrome Web Store does not allow extensions to download YouTube videos. Other browsers like Firefox do not have this limitation." # chrome_noyt_text3
+premium_required = "Premium Status Required" # v9_chrome_premium_required
 premium_yt_required_description = "Without Premium status, a YouTube download can only be performed 2 hours after the previous one"
-premium_required_description = "Without Premium status, a HLS download can only be performed 2 hours after the previous one"
+premium_required_description = "Without Premium status, a HLS download can only be performed 2 hours after the previous one" # v9_chrome_premium_hls
 v9_key_migration_failed_title = "License upgrade failed"
 v9_key_migration_failed_description = "We are having issues upgrading your license. Please try to restore your purchase."
 
 # Downloading media box
-stop = "Stop" # For HLS downloads
-cancel = "Cancel" # For HTTP downloads
+stop = "Stop" # For HLS downloads - action_stop_title
+cancel = "Cancel" # For HTTP downloads - cancel
 
 # Media we found in the page
 copy_url = "Copy URL" # In menu and as a button
-always_copy_url = "Always copy URL"
-download_button = "Download"
-download_as_button_and_menu = "Download As…"
+always_copy_url = "Always copy URL" # v9_panel_copy_url_button_label
+download_button = "Download" # v9_panel_copy_url_button_label
+download_as_button_and_menu = "Download As…" # v9_panel_download_as_button_label
 always_download_as_menu = "Always Download As…"
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Download Audio & video"
-download_audio_only_menu = "Download audio only"
+download_audio_only_menu = "Download audio only" # v9_panel_download_audio_button_label
 audio_only_for_this_website = "Always audio only for this website"
-details = "Details"
-more_settings = "More settings…"
+details = "Details" # v9_menu_item_details
+more_settings = "More settings…" # v9_panel_view_open_settings
 
 # Report buttons
-report = "Report"
+report = "Report" # v9_panel_error_report_button2
 reporting = "Reporting…"
-reported = "Reported"
+reported = "Reported" # v9_panel_error_reported_button
 
 # Video not playing - page
 not_playing_title = "Video is not playing?"
