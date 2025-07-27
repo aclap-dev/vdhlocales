@@ -55,7 +55,6 @@ private_browsing_button = "Cambiar configuración de navegación privada"
 prefer_original_audio = "Preferir audio original" # Firefox only
 prefer_hls = "Preferir HLS" # Firefox only
 settings_history_title = "Historial"
-history_description = "Recordar descargas"
 history_limit = "Días antes de olvidar las descargas"
 appearance_title = "Apariencia"
 theme_title = "Tema"

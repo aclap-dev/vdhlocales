@@ -64,7 +64,6 @@ prefer_original_audio = "Preferisci audio originale" # Solo per Firefox
 prefer_hls = "Preferisci HLS" # Solo per Firefox
 settings_history_title = "Cronologia"
 transient_history_description = "Mostra i download completati nel pannello"
-history_description = "Ricorda i file scaricati"
 history_limit = "Giorni prima di dimenticare i file scaricati"
 appearance_title = "Aspetto"
 theme_title = "Tema"

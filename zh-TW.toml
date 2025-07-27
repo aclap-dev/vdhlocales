@@ -55,7 +55,6 @@ private_browsing_button = "變更私密瀏覽設定"
 prefer_original_audio = "偏好原始音訊" # Firefox only
 prefer_hls = "偏好 HLS" # Firefox only
 settings_history_title = "紀錄"
-history_description = "記住下載"
 history_limit = "忘記下載之前的天數"
 appearance_title = "外觀"
 theme_title = "主題"
