@@ -18,60 +18,60 @@ nomedia_reload_button = "Wymuś wykrywanie"
 nomedia_reload_button_tooltip = "Wymuś przeładowanie strony (usuń pliki cookies)"
 show_nomedia_button = "Brak wideo?"
 show_nomedia_button_tooltip = "Kliknij tutaj, jeśli nie możesz znaleźć swojego wideo"
-setting_button_tooltip = "Ustawienia"
+setting_button_tooltip = '''Ustawienia'''
 history_button_tooltip = "Pokaż historię pobierania"
 translate_button_tooltip = "Pomóż w tłumaczeniu VDH"
 
 # Downloaded media box
 open_source_tab_button_tooltip = "Otwórz kartę źródła"
 retry_download_button_tooltip = "Ponów pobieranie"
-delete_file_button_tooltip = "Usuń plik"
-download_directory_button_tooltip = "Pokaż katalog pobierania"
-show_in_popup_button_tooltip = "Pokaż w wyskakującym oknie"
-show_in_sidebar_button_tooltip = "Pokaż na pasku bocznym"
+delete_file_button_tooltip = '''Usuń plik'''
+download_directory_button_tooltip = '''Pokaż folder pobierania'''
+show_in_popup_button_tooltip = '''Pokaż w wyskakującym okienku'''
+show_in_sidebar_button_tooltip = '''Pokaż na pasku bocznym'''
 video_not_playing_button_tooltip = "Wideo nie odtwarza się?"
-play = "Odtwórz"
+play = '''Odtwórz'''
 warn_drm_tooltip = "Wykryto DRM"
 
 # Strings for the settings panel.
-version_title = "Wersja"
+version_title = '''Wersja'''
 account_title = "Konto"
-leave_review_description = "Cześć 🤚, korzystanie z Video DownloadHelper jest bezpłatne. Czy mógłbyś wystawić dobrą opinię? Bardzo by mi to pomogło 😊."
-leave_review_button = "Pozostaw opinię"
+leave_review_description = '''Mamy nadzieję, że podoba Ci się Video DownloadHelper :) Czy zechciałbyś napisać miłą recenzję na stronie dodatku?'''
+leave_review_button = '''Zostaw recenzję'''
 account_status= "Stan"
-account_status_premium = "Premium ($1)" # $1 is the store (Mozilla, Google, Microsoft, All)
+account_status_premium = '''Premium ($1}'''
 free_account = "Bezpłatny plan"
 copy_to_clipboard = "Skopiuj do schowka"
 my_account_button = "Moje konto"
 download_title = "Do pobrania"
-show_notification = "Po zakończeniu pobierania pokaż powiadomienie"
-max_parallel_downloads = "Maksymalna liczba równoległych pobrań"
+show_notification = '''Pokaż powiadomienie po zakończeniu pobierania'''
+max_parallel_downloads = '''Maksymalna liczba równoczesnych pobrań'''
 change_download_directory = "Zmień katalog pobierania"
 
 private_browsing_title = "Przeglądanie prywatne"
-private_browsing_warning = "Video DownloadHelper nie jest dostępny w trybie przeglądania prywatnego."
+private_browsing_warning = '''Narzędzie Video DownloadHelper nie jest włączone w oknach prywatnych/incognito. Musisz włączyć tę opcję ręcznie (nie jest to wymagane).'''
 private_browsing_notifications = "Pokaż powiadomienie dla prywatnych pobrań"
 private_browsing_button = "Zmiana ustawień przeglądania prywatnego"
 prefer_original_audio = "Preferuj oryginalne audio" # Firefox only
 prefer_hls = "Preferuj HLS" # Firefox only
 settings_history_title = "Historia"
 history_limit = "Liczba dni przed zapomnieniem plików do pobrania"
-appearance_title = "Wygląd"
-theme_title = "Motyw"
-theme_light = "Jasny motyw"
-theme_dark = "Ciemny motyw"
-theme_system = "Motyw systemowy"
+appearance_title = '''Wygląd'''
+theme_title = '''Schemat kolorystyczny'''
+theme_light = '''jasny'''
+theme_dark = '''ciemny'''
+theme_system = '''system'''
 popup_size_title = "Rozmiar okna"
 popup_size_small = "Małe"
 popup_size_medium = "Średnie"
 popup_size_big = "Duże"
 panel_position_title = "Pozycja panela"
-use_popup = "Użyj wyskakujące okno"
-use_sidebar = "Użyj pasek boczny"
-behavior_title = "Zachowanie"
-show_in_context_menu = "Pokaż menu pobierania w menu kontekstowym strony"
-restart_addon = "Uruchom ponownie dodatek"
-reset_settings = "Zresetuj ustawienia"
+use_popup = '''Pokaż w wyskakującym okienku'''
+use_sidebar = '''Pokaż na pasku bocznym'''
+behavior_title = '''Zachowanie'''
+show_in_context_menu = '''Uzyskaj dostęp do komend poprzez kliknięcie prawym przyciskiem myszy na stronie'''
+restart_addon = '''Załaduj ponownie dodatek'''
+reset_settings = '''Resetowanie ustawień'''
 prefer_highest_quality = "Domyślnie wybierz najwyższą dostępną jakość zamiast 1080p (wolniejsze pobieranie, wyższa jakość)."
 
 # String for history page
@@ -84,36 +84,37 @@ disable_history = "Wyłącz historię"
 no_downloads_yet = "Nie pobrano jeszcze żadnych plików."
 
 # Various notifications
-download_failed = "Pobranie nie powiodło się"
-download_failed_description = "Coś nie zadziałało. Zgłoś błąd, a my dołożymy wszelkich starań, aby się dowiedzieć, dlaczego się nie powiodło (wysyłamy adres URL filmu anonimowo - nie śledzimy cię!)."
+download_failed = '''Pobieranie nie udane'''
+download_failed_description = '''Niestety nie udało nam się pobrać tego konkretnego nośnika. Staramy się obsługiwać jak najwięcej stron internetowych, dlatego bardzo pomocne byłoby zgłoszenie tego błędu (jest to anonimowe!).'''
 download_with_drm_failed_description = "Coś nie zadziałało. Wydaje nam się, że to wideo ma DRM. Nie obsługujemy filmów z DRM."
 no_youtube = "Pobieranie z youtube jest niedozwolone"
-no_youtube_description = "Niestety, Chrome Web Store nie zezwala rozszerzeniom na pobieranie wideo z YouTube. Inne przeglądarki, takie jak Firefox, nie mają tego ograniczenia."
-premium_required = "Wymagany status Premium"
+no_youtube_description = '''Niestety, Chrome Web Store nie pozwala na zamieszczanie rozszerzeń pozwalajacych na pobieranie plików wideo z serwisu YouTube. Nie możemy więc dołączyć tej funkcji do tego rozszerzenia w wersji dla przeglądarki Chrome.'''
+premium_required = '''Status Premium wymagany'''
 premium_yt_required_description = "Bez statusu Premium, pobieranie z YouTube może być wykonane dopiero 2 godziny po poprzednim."
-premium_required_description = "Bez statusu Premium, pobieranie z HLS może być wykonane dopiero 2 godziny po poprzednim."
+premium_required_description = '''Bez statusu Premium, pobieranie HLS może zostać przeprowadzone tylko $1 minut po poprzednim'''
 v9_key_migration_failed_title = "Aktualizacja licencji nie powiodła się"
 v9_key_migration_failed_description = "Wystąpiły problemy z aktualizacją licencji. Spróbuj przywrócić swój zakup."
 
 # Downloading media box
-stop = "Zatrzymaj" # For HLS downloads
-cancel = "Anuluj" # For HTTP downloads
+stop = '''Przerwij'''
+cancel = '''Anuluj'''
 
 # Media we found in the page
-copy_url = "Skopiuj URL" # In menu and as a button
+copy_url = '''Kopiuj URL'''
 always_copy_url = "Zawsze kopiuj URL"
-download_button = "Pobierz"
+download_button = '''Pobierz'''
+download_as_button_and_menu = '''Pobierz jako...'''
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Pobierz audio i wideo"
-download_audio_only_menu = "Pobierz tylko audio"
+download_audio_only_menu = '''Pobierz dźwięk'''
 audio_only_for_this_website = "Audio zawsze tylko dla tej strony internetowej"
-details = "Szczegółowe informacje"
-more_settings = "Więcej ustawień…"
+details = '''Detale'''
+more_settings = '''Więcej ustawień'''
 
 # Report buttons
-report = "Zgłoś"
+report = '''Zgłoś'''
 reporting = "Zgłaszanie…"
-reported = "Zgłoszone"
+reported = '''Zgłoszono, dziękujemy!'''
 
 # Video not playing - page
 not_playing_title = "Wideo nie jest odtwarzane?"

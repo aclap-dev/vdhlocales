@@ -18,60 +18,60 @@ nomedia_reload_button = "強制偵測"
 nomedia_reload_button_tooltip = "強制頁面重新載入 (清除 Cookie)"
 show_nomedia_button = "沒有影片？"
 show_nomedia_button_tooltip = "如果找不到影片，請按一下此處"
-setting_button_tooltip = "設定"
+setting_button_tooltip = '''設定'''
 history_button_tooltip = "顯示下載紀錄"
 translate_button_tooltip = "協助翻譯 VDH"
 
 # Downloaded media box
 open_source_tab_button_tooltip = "開啟來源分頁"
 retry_download_button_tooltip = "重試下載"
-delete_file_button_tooltip = "刪除檔案"
-download_directory_button_tooltip = "顯示下載目錄"
-show_in_popup_button_tooltip = "在快顯視窗中顯示"
-show_in_sidebar_button_tooltip = "在側邊欄中顯示"
+delete_file_button_tooltip = '''刪除檔案'''
+download_directory_button_tooltip = '''顯示下載資料夾'''
+show_in_popup_button_tooltip = '''顯示彈出視窗'''
+show_in_sidebar_button_tooltip = '''顯示側邊欄'''
 video_not_playing_button_tooltip = "無法播放影片？"
-play = "播放"
+play = '''播放'''
 warn_drm_tooltip = "偵測到 DRM"
 
 # Strings for the settings panel.
-version_title = "版本"
+version_title = '''版本'''
 account_title = "帳戶"
-leave_review_description = "嗨 🤚 Video DownloadHelper 可供免費使用。您願意留下好評嗎？這對我有很大的幫助 😊。"
-leave_review_button = "留下評論"
+leave_review_description = '''希望您喜歡 Video DownloadHelper， 您介意在外網上給予好評嗎？'''
+leave_review_button = '''發表評論'''
 account_status= "狀態"
-account_status_premium = "付費版 ($1)" # $1 is the store (Mozilla, Google, Microsoft, All)
+account_status_premium = '''進階會員 ($1)'''
 free_account = "免費方案"
-copy_to_clipboard = "複製到剪貼簿"
+copy_to_clipboard = '''複製到剪貼簿'''
 my_account_button = "我的帳戶"
 download_title = "下載"
-show_notification = "下載完成後，顯示通知"
-max_parallel_downloads = "同時下載上限"
+show_notification = '''下載完成時顯示通知'''
+max_parallel_downloads = '''最大同時下載數量'''
 change_download_directory = "變更下載目錄"
 
 private_browsing_title = "私密瀏覽"
-private_browsing_warning = "在私密瀏覽模式下，無法使用 Video DownloadHelper。"
+private_browsing_warning = '''Video DownloadHelper 於無痕視窗中未啟用自動偵測，請手動啟用 (如非必要)'''
 private_browsing_notifications = "顯示私密下載通知"
 private_browsing_button = "變更私密瀏覽設定"
 prefer_original_audio = "偏好原始音訊" # Firefox only
 prefer_hls = "偏好 HLS" # Firefox only
 settings_history_title = "紀錄"
 history_limit = "忘記下載之前的天數"
-appearance_title = "外觀"
-theme_title = "主題"
-theme_light = "淺色主題"
-theme_dark = "深色主題"
-theme_system = "系統主題"
+appearance_title = '''外觀'''
+theme_title = '''主題'''
+theme_light = '''淺色主題'''
+theme_dark = '''深色主題'''
+theme_system = '''系統'''
 popup_size_title = "視窗大小"
 popup_size_small = "小"
 popup_size_medium = "中"
 popup_size_big = "大"
 panel_position_title = "面板位置"
-use_popup = "使用快顯視窗"
-use_sidebar = "使用側邊欄"
-behavior_title = "行為"
-show_in_context_menu = "在頁面情境選單中，顯示下載選單"
-restart_addon = "重新啟動附加元件"
-reset_settings = "重設設定"
+use_popup = '''顯示彈出視窗'''
+use_sidebar = '''顯示側邊欄'''
+behavior_title = '''行為'''
+show_in_context_menu = '''使用右鍵來查詢可用的指令'''
+restart_addon = '''重新下載軟體'''
+reset_settings = '''回復原廠設定'''
 prefer_highest_quality = "預設選擇最高品質，而不是 1080p (下載速度較慢，品質較高)。"
 
 # String for history page
@@ -84,36 +84,37 @@ disable_history = "停用紀錄"
 no_downloads_yet = "尚無任何下載。"
 
 # Various notifications
-download_failed = "下載失敗"
-download_failed_description = "發生問題。請回報錯誤，我們將盡力找出失敗的原因 (我們以匿名方式傳送影片 URL－不會追蹤您！)。"
+download_failed = '''下載失敗'''
+download_failed_description = '''很遺憾我們無法下載此影片，請回報此網站以利我們更新'''
 download_with_drm_failed_description = "發生問題。我們認為這支影片有 DRM。我們不支援有 DRM 的影片。"
 no_youtube = "不允許從 YouTube 下載"
-no_youtube_description = "很抱歉，Chrome 線上應用程式商店，不允許擴充功能下載 YouTube 影片。其他瀏覽器 (例如 Firefox) 沒有此限制。"
-premium_required = "需要付費版"
+no_youtube_description = '''很遺憾，因為 Chrome 線上應用程式商店不允許可下載 Youtube 影片的擴充功能，所以我們在 Chrome 版本的擴充功能不提供這項功能。'''
+premium_required = '''此功能需要進階會員'''
 premium_yt_required_description = "如果是免費版使用者，必須等待 2 小時才能再次進行 YouTube 下載"
-premium_required_description = "如果是免費版使用者，必須等待 2 小時才能再次進行 HLS 下載"
+premium_required_description = '''沒有進階會員的使用者，下載HLS檔案必須間隔$1每分鐘。'''
 v9_key_migration_failed_title = "授權更新失敗"
 v9_key_migration_failed_description = "更新授權時發生問題。請嘗試恢復購買。"
 
 # Downloading media box
-stop = "停止" # For HLS downloads
-cancel = "取消" # For HTTP downloads
+stop = '''停止'''
+cancel = '''取消'''
 
 # Media we found in the page
-copy_url = "複製 URL" # In menu and as a button
+copy_url = '''複製網址'''
 always_copy_url = "一律複製 URL"
-download_button = "下載"
+download_button = '''下載'''
+download_as_button_and_menu = '''下載並選擇儲存位置'''
 download_audio_button = "聲音"
 download_audio_and_video_menu = "下載聲音和影片"
-download_audio_only_menu = "只下載聲音"
+download_audio_only_menu = '''下載音訊'''
 audio_only_for_this_website = "針對此網站一律只下載聲音"
-details = "詳細資訊"
-more_settings = "更多設定…"
+details = '''詳细資訊'''
+more_settings = '''更多設定'''
 
-# Report buttons
-report = "回報"
+# Report_ buttons
+report = '''回報'''
 reporting = "正在回報…"
-reported = "已回報"
+reported = '''已回報'''
 
 # Video not playing - page
 not_playing_title = "無法播放影片？"

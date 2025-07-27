@@ -18,7 +18,7 @@ nomedia_reload_button = "Forzar detección"
 nomedia_reload_button_tooltip = "Forzar recarga de página (borrar cookies)"
 show_nomedia_button = "¿No hay video?"
 show_nomedia_button_tooltip = "Haga clic aquí si no encuentra su video."
-setting_button_tooltip = "Ajustes"
+setting_button_tooltip = '''Preferencias'''
 history_button_tooltip = "Mostrar historial de descargas"
 translate_button_tooltip = "Ayudar a traducir VDH"
 
@@ -30,22 +30,22 @@ download_directory_button_tooltip = "Mostrar directorio de descargas"
 show_in_popup_button_tooltip = "Mostrar en ventana emergente"
 show_in_sidebar_button_tooltip = "Mostrar en la barra lateral"
 video_not_playing_button_tooltip = "¿No se reproduce el video?"
-play = "Reproducir"
+play = '''Reproducir'''
 warn_drm_tooltip = "Se ha detectado DRM"
 
 # Strings for the settings panel.
-version_title = "Versión"
+version_title = '''Versión'''
 account_title = "Cuenta"
 leave_review_description = "Hola 🤚 Video DownloadHelper es de uso gratuito. ¿Le importaría dejar una buena reseña? Me sería de gran ayuda 😊."
 leave_review_button = "Dejar una reseña"
 account_status= "Estado"
-account_status_premium = "Premium ($1)" # $1 is the store (Mozilla, Google, Microsoft, All)
+account_status_premium = '''Premium ($1)'''
 free_account = "Plan gratuito"
-copy_to_clipboard = "Copiar información al portapapeles"
+copy_to_clipboard = '''Copiar información al portapapeles'''
 my_account_button = "Mi cuenta"
 download_title = "Descargas"
 show_notification = "Mostrar notificación una vez completada la descarga"
-max_parallel_downloads = "Descargas simultáneas máximas"
+max_parallel_downloads = '''Número máximo de descargas simultáneas'''
 change_download_directory = "Cambiar directorio de descargas"
 
 private_browsing_title = "Navegación privada"
@@ -56,7 +56,7 @@ prefer_original_audio = "Preferir audio original" # Firefox only
 prefer_hls = "Preferir HLS" # Firefox only
 settings_history_title = "Historial"
 history_limit = "Días antes de olvidar las descargas"
-appearance_title = "Apariencia"
+appearance_title = '''Apariencia'''
 theme_title = "Tema"
 theme_light = "Tema claro"
 theme_dark = "Tema oscuro"
@@ -68,8 +68,8 @@ popup_size_big = "Grande"
 panel_position_title = "Posición del panel"
 use_popup = "Usar ventana emergente"
 use_sidebar = "Usar barra lateral"
-behavior_title = "Comportamiento"
-show_in_context_menu = "Mostrar menú de descarga en el menú contextual de la página"
+behavior_title = '''Comportamiento'''
+show_in_context_menu = '''Acceder al menú contextual al hacer click en el botón derecho'''
 restart_addon = "Reiniciar complemento"
 reset_settings = "Restablecer ajustes"
 prefer_highest_quality = "Seleccionar la calidad más alta disponible en lugar de 1080p por defecto (descarga más lenta, mayor calidad)."
@@ -88,16 +88,16 @@ download_failed = "Descarga fallida"
 download_failed_description = "Algo no ha funcionado. Informe del error y haremos todo lo posible por averiguar por qué ha fallado (enviamos la URL del video de forma anónima, ¡no lo rastreamos!)."
 download_with_drm_failed_description = "Algo no ha funcionado. Creemos que este video tiene DRM. No admitimos videos con DRM."
 no_youtube = "No se permite la descarga desde YouTube"
-no_youtube_description = "Lamentablemente, Chrome Web Store no permite que las extensiones descarguen videos de YouTube. Otros navegadores como Firefox no tienen esta limitación."
-premium_required = "Se requiere el estado Premium"
+no_youtube_description = '''Desgraciadamente, la Chrome Web Store no permite la descarga de vídeos de YouTube, por lo que no hemos podido incluir esta función en la versión de Chrome de la extensión.'''
+premium_required = '''Estado Premium requerido'''
 premium_yt_required_description = "Sin el estado Premium, solo se puede realizar una descarga de YouTube dos horas después de la anterior."
-premium_required_description = "Sin el estado Premium, solo se puede realizar una descarga HLS dos horas después de la anterior."
+premium_required_description = '''Sin estado Premium, una descarga HLS solo puede ejecutarse $1 minutos después del anterior'''
 v9_key_migration_failed_title = "Error al actualizar la licencia"
 v9_key_migration_failed_description = "Estamos teniendo problemas para actualizar su licencia. Intente restaurar su compra."
 
 # Downloading media box
-stop = "Detener" # For HLS downloads
-cancel = "Cancelar" # For HTTP downloads
+stop = '''Detener'''
+cancel = '''Cancelar'''
 
 # Media we found in the page
 copy_url = "Copiar URL" # In menu and as a button

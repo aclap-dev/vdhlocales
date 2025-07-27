@@ -14,106 +14,107 @@ back = "Zurück" # Go back button - in Settings panel for example
 waiting_for_media = "Warten auf Medien…"
 nomedia_title = "Von Ihnen gesuchte Medien sind nicht auffindbar?"
 nomedia_description = "Video starten (etwaige Werbung überspringen), um Medien zu erkennen helfen. Oder fehlende Medien melden."
-nomedia_reload_button = "Erkennung erzwingen"
+nomedia_reload_button = '''Erkennung erzwingen'''
 nomedia_reload_button_tooltip = "Erneutes Laden der Seite erzwingen (Cookies löschen)"
 show_nomedia_button = "Kein Video?"
 show_nomedia_button_tooltip = "Hier klicken, wenn Sie Ihr Video nicht finden können"
-setting_button_tooltip = "Einstellungen"
-history_button_tooltip = "Download-Verlauf anzeigen"
+setting_button_tooltip = '''Einstellungen'''
+history_button_tooltip = '''Download-Chronik anzeigen'''
 translate_button_tooltip = "Hilft, VDH zu übersetzen"
 
 # Downloaded media box
 open_source_tab_button_tooltip = "Quellenregisterkarte öffnen"
 retry_download_button_tooltip = "Download wiederholen"
-delete_file_button_tooltip = "Datei löschen"
-download_directory_button_tooltip = "Download-Verzeichnis anzeigen"
-show_in_popup_button_tooltip = "In Einblendung anzeigen"
-show_in_sidebar_button_tooltip = "In Seitenleiste anzeigen"
+delete_file_button_tooltip = '''Datei löschen'''
+download_directory_button_tooltip = '''Download-Ordner anzeigen'''
+show_in_popup_button_tooltip = '''Im Popup-Fenster anzeigen'''
+show_in_sidebar_button_tooltip = '''In der Seitenleiste anzeigen'''
 video_not_playing_button_tooltip = "Video wird nicht abgespielt?"
-play = "Wiedergabe"
+play = '''Abspielen'''
 warn_drm_tooltip = "DRM erkannt"
 
 # Strings for the settings panel.
-version_title = "Version"
+version_title = '''Version'''
 account_title = "Konto"
-leave_review_description = "Hallo 🤚 Die Verwendung von Video DownloadHelper ist kostenlos. Macht es Ihnen etwas aus, eine gute Beurteilung zu schreiben? Das würde mir sehr helfen 😊."
-leave_review_button = "Beurteilung schreiben"
+leave_review_description = '''Wir hoffen, Ihnen gefällt Video DownloadHelper. Hinterlassen Sie uns bitte noch eine gute Bewertung auf der Add-on-Seite.'''
+leave_review_button = '''Eine Bewertung hinterlassen'''
 account_status= "Status"
-account_status_premium = "Premium ($1)" # $1 is the store (Mozilla, Google, Microsoft, All)
+account_status_premium = '''Premium ($1)'''
 free_account = "Kostenloser Plan"
-copy_to_clipboard = "Info in Zwischenablage kopieren"
+copy_to_clipboard = '''Information in die Zwischenablage kopieren'''
 my_account_button = "Mein Konto"
 download_title = "Downloads"
-show_notification = "Nach abgeschlossenem Download Benachrichtigung anzeigen"
-max_parallel_downloads = "Max. parallele Downloads"
+show_notification = '''Benachrichtigung anzeigen, wenn der Download abgeschlossen ist'''
+max_parallel_downloads = '''Maximal gleichzeitige Downloads'''
 change_download_directory = "Download-Verzeichnis ändern"
 
 private_browsing_title = "Privates Surfen"
-private_browsing_warning = "Video DownloadHelper ist im privaten Surfmodus nicht aktiviert."
+private_browsing_warning = '''Video DownloadHelper ist nicht im Privat-/Inkognito-Fenster aktiviert. Sie müssen diese Option manuell einschalten (dies ist nicht erforderlich).'''
 private_browsing_notifications = "Benachrichtigung für private Downloads anzeigen"
 private_browsing_button = "Einstellung für privates Surfen ändern"
 prefer_original_audio = "Vorzug für Originalton" # Firefox only
 prefer_hls = "Vorzug für HLS" # Firefox only
 settings_history_title = "Verlauf"
-history_limit = "Tage, bevor Downloads vergessen werden"
-appearance_title = "Aussehen"
-theme_title = "Thema"
-theme_light = "Helles Thema"
-theme_dark = "Dunkles Thema"
-theme_system = "Systemthema"
+history_limit = '''Download-Chronik nach x Tagen löschen'''
+appearance_title = '''Aussehen'''
+theme_title = '''Thema'''
+theme_light = '''hell'''
+theme_dark = '''dunkel'''
+theme_system = '''System'''
 popup_size_title = "Fenstergröße"
 popup_size_small = "Klein"
 popup_size_medium = "Mittel"
 popup_size_big = "Groß"
 panel_position_title = "Bildschirmposition"
-use_popup = "Einblendung verwenden"
-use_sidebar = "Seitenleiste verwenden"
-behavior_title = "Verhalten"
-show_in_context_menu = "Download-Menü im Seitenkontextmenü anzeigen"
-restart_addon = "Add-on neu starten"
-reset_settings = "Einstellungen zurücksetzen"
+use_popup = '''Im Popup-Fenster anzeigen'''
+use_sidebar = '''In der Seitenleiste anzeigen'''
+behavior_title = '''Verhalten'''
+show_in_context_menu = '''Auf Befehle per Rechtsklick auf der Seite zugreifen'''
+restart_addon = '''Add-on neu laden'''
+reset_settings = '''Einstellungen zurücksetzen'''
 prefer_highest_quality = "Wählen Sie als Standard die höchstmögliche Qualität, anstelle von 1080p (Download wäre langsamer, aber Qualität wäre höher)."
 
 # String for history page
 history_title = "Download-Verlauf"
-history_warning = "Wir zeichnen Ihren Download-Verlauf nicht auf. Möchten Sie, dass sich Video DownloadHelper an Ihren Download-Verlauf erinnert?"
-history_warning_2 = "Keine Sorge, alles bleibt auf Ihrem Gerät. Wir respektieren Ihre Privatsphäre."
-enable_history = "Verlauf aktivieren"
-clear_history = "Verlauf löschen"
-disable_history = "Verlauf deaktivieren"
-no_downloads_yet = "Es gibt noch keine Downloads."
+history_warning = '''Es ist keine Download-Chronik angelegt. Möchten Sie, dass Video DownloadHelper eine Download-Chronik anlegt?'''
+history_warning_2 = '''Keine Sorge, alles bleibt auf Ihrem Gerät. Wir respektieren Ihre Privatsphäre.'''
+enable_history = '''Chronik anlegen'''
+clear_history = '''Chronik löschen'''
+disable_history = '''Chronik nicht anlegen'''
+no_downloads_yet = '''Bisher keine Einträge'''
 
 # Various notifications
-download_failed = "Download fehlgeschlagen"
-download_failed_description = "Etwas hat nicht funktioniert. Melden Sie den Fehler, damit wir die Fehlerursache nach besten Kräften ermitteln können (wir senden die Video-URL anonym - wir spüren Ihnen nicht nach!)."
+download_failed = '''Herunterladen fehlgeschlagen'''
+download_failed_description = '''Leider ist es uns nicht gelungen, dieses spezielle Medium herunterzuladen. Wir versuchen, so viele Websites wie möglich zu unterstützen. Daher wäre es sehr hilfreich, wenn Sie diesen Fehler (anonym) melden!'''
 download_with_drm_failed_description = "Etwas hat nicht funktioniert. Und wir denken, dass dieses Video dem DRM unterliegt. Wir unterstützen keine Videos mit DRM."
 no_youtube = "Download von YouTube ist nicht zulässig"
-no_youtube_description = "Leider lässt der Chrome Web Store die Erweiterungen zum Download von YouTube-Videos nicht zu. Andere Browser wie Firefox besitzen diese Einschränkung nicht."
-premium_required = "Premium-Status erforderlich"
+no_youtube_description = '''Leider erlaubt der Chrome Web Store keine Erweiterungen zum Herunterladen von YouTube-Videos, sodass wir diese Funktion nicht in die Chrome-Version der Erweiterung aufnehmen konnten.'''
+premium_required = '''Premiumstatus wird benötigt'''
 premium_yt_required_description = "Ohne Premium-Status kann ein YouTube-Download nur 2 Stunden nach dem vorherigen Download durchgeführt werden"
-premium_required_description = "Ohne Premium-Status kann ein HLS-Download nur 2 Stunden nach dem vorherigen Download durchgeführt werden"
+premium_required_description = '''Ohne Premium kann ein HLS-Download nur $1 Minuten nach dem vorherigen Herunterladen durchgeführt werden.'''
 v9_key_migration_failed_title = "Lizenzaktualisierung fehlgeschlagen"
 v9_key_migration_failed_description = "Wir haben Probleme, Ihre Lizenz zu aktualisieren. Versuchen Sie bitte, Ihren Einkauf wiederherzustellen."
 
 # Downloading media box
-stop = "Stopp" # For HLS downloads
-cancel = "Abbrechen" # For HTTP downloads
+stop = '''Stopp'''
+cancel = '''Abbrechen'''
 
 # Media we found in the page
-copy_url = "URL kopieren" # In menu and as a button
+copy_url = '''URL kopieren'''
 always_copy_url = "URL immer kopieren"
-download_button = "Herunterladen"
+download_button = '''Herunterladen'''
+download_as_button_and_menu = '''Herunterladen als…'''
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Audio & Video herunterladen"
-download_audio_only_menu = "Nur Audio herunterladen"
+download_audio_only_menu = '''Audio herunterladen'''
 audio_only_for_this_website = "Audio immer nur für diese Website"
-details = "Details"
-more_settings = "Weitere Einstellungen…"
+details = '''Details'''
+more_settings = '''Weitere Einstellungen'''
 
 # Report buttons
-report = "Melden"
+report = '''Fehler melden'''
 reporting = "Wird gemeldet…"
-reported = "Wurde gemeldet"
+reported = '''Vielen Dank für Ihre Meldung!'''
 
 # Video not playing - page
 not_playing_title = "Video wird nicht abgespielt?"

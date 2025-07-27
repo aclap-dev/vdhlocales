@@ -18,102 +18,103 @@ nomedia_reload_button = "Forçar detecção"
 nomedia_reload_button_tooltip = "Forçar o recarregamento da página (limpar cookies)"
 show_nomedia_button = "Sem vídeo?"
 show_nomedia_button_tooltip = "Clique aqui se você não conseguir encontrar seu vídeo"
-setting_button_tooltip = "Configurações"
-history_button_tooltip = "Mostrar histórico de baixamentos"
+setting_button_tooltip = '''Configurações'''
+history_button_tooltip = '''Mostrar histórico de downloads'''
 translate_button_tooltip = "Ajude a traduzir VDH"
 
 # Downloaded media box
 open_source_tab_button_tooltip = "Guia de código aberto"
 retry_download_button_tooltip = "Repetir baixamento"
-delete_file_button_tooltip = "Excluir arquivo"
-download_directory_button_tooltip = "Mostrar diretório de baixamentos"
-show_in_popup_button_tooltip = "Mostrar em janela emergente"
-show_in_sidebar_button_tooltip = "Mostrar na barra lateral"
+delete_file_button_tooltip = '''Excluir arquivo'''
+download_directory_button_tooltip = '''Mostrar pasta de download'''
+show_in_popup_button_tooltip = '''Mostrar em pop-up'''
+show_in_sidebar_button_tooltip = '''Mostrar na barra lateral'''
 video_not_playing_button_tooltip = "O vídeo não está sendo reproduzido?"
-play = "Reproduzir"
+play = '''Reproduzir'''
 warn_drm_tooltip = "DRM detectado"
 
 # Strings for the settings panel.
-version_title = "Versão"
+version_title = '''Versão'''
 account_title = "Conta"
-leave_review_description = "Olá 🤚, o Video DownloadHelper é de uso gratuito. Você se importaria de deixar um bom comentário? Isso me ajudaria muito 😊."
-leave_review_button = "Deixe um comentário"
+leave_review_description = '''Esperamos que você esteja gostando do Vídeo DownloadHelper :) Você se importaria de escrever uma boa crítica no site do complemento?'''
+leave_review_button = '''Deixe um comentário'''
 account_status= "Estado"
-account_status_premium = "Prêmio ($1)" # $1 is the store (Mozilla, Google, Microsoft, All)
+account_status_premium = '''Premium ($1)'''
 free_account = "Plano gratuito"
-copy_to_clipboard = "Copiar informações para a área de transferência"
+copy_to_clipboard = '''Copiar informações para a área de transferência'''
 my_account_button = "Minha conta"
 download_title = "Baixamentos"
-show_notification = "Mostrar notificação após a conclusão do baixamento"
-max_parallel_downloads = "Máximo de baixamentos paralelos"
+show_notification = '''Mostrar notificação quando o download for concluído'''
+max_parallel_downloads = '''Máximo de downloads simultâneos'''
 change_download_directory = "Alterar diretório de baixamento"
 
 private_browsing_title = "Navegação privada"
-private_browsing_warning = "O Video DownloadHelper não está habilitado na navegação privada."
+private_browsing_warning = '''Video DownloadHelper não está habilitado em janelas privadas/anônimas. Você precisa ativar essa opção manualmente (isso não é obrigatório).'''
 private_browsing_notifications = "Mostrar notificação para baixamentos privados"
 private_browsing_button = "Alterar a configuração de navegação privada"
 prefer_original_audio = "Prefira áudio original" # Firefox only
 prefer_hls = "Prefira HLS" # Firefox only
 settings_history_title = "Histórico"
-history_limit = "Dias antes de esquecer os baixamentos"
-appearance_title = "Aparência"
-theme_title = "Tema"
-theme_light = "Tema claro"
-theme_dark = "Tema escuro"
-theme_system = "Tema do sistema"
+history_limit = '''Esqueça o histórico de downloads após X dias'''
+appearance_title = '''Aparência'''
+theme_title = '''Tema'''
+theme_light = '''claro'''
+theme_dark = '''escuro'''
+theme_system = '''sistema'''
 popup_size_title = "Tamanho da janela"
 popup_size_small = "Pequeno"
 popup_size_medium = "Médio"
 popup_size_big = "Grande"
 panel_position_title = "Posição do painel"
-use_popup = "Usar janela emergente"
-use_sidebar = "Usar barra lateral"
-behavior_title = "Comportamento"
-show_in_context_menu = "Mostrar menu de baixamento no menu de contexto da página"
-restart_addon = "Reiniciar o complemento"
-reset_settings = "Redefinir configurações"
+use_popup = '''Mostrar em pop-up'''
+use_sidebar = '''Mostrar na barra lateral'''
+behavior_title = '''Comportamento'''
+show_in_context_menu = '''Comandos de acesso a partir do botão direito na página'''
+restart_addon = '''Recarregar extensão'''
+reset_settings = '''Redefinir configurações'''
 prefer_highest_quality = "Selecionar a qualidade mais alta disponível em vez de 1080p por padrão (baixamento mais lento, qualidade mais alta)."
 
 # String for history page
 history_title = "Histórico de baixamentos"
-history_warning = "Não registramos seu histórico de baixamentos. Você quer que o Video DownloadHelper lembre seu histórico de baixamentos?"
-history_warning_2 = "Não se preocupe, tudo permanece na sua máquina. Valorizamos sua privacidade."
-enable_history = "Ativar histórico"
-clear_history = "Limpar histórico"
-disable_history = "Desativar histórico"
-no_downloads_yet = "Ainda não há baixamentos."
+history_warning = '''Não registramos seu histórico de downloads. Você quer que o Video DownloadHelper se lembre do seu histórico de downloads?'''
+history_warning_2 = '''Não se preocupe, tudo fica na sua máquina. Valorizamos sua privacidade.'''
+enable_history = '''Lembrar histórico'''
+clear_history = '''Limpar histórico'''
+disable_history = '''Não lembrar meu histórico'''
+no_downloads_yet = '''Nenhuma entrada'''
 
 # Various notifications
-download_failed = "Falha no baixamento"
-download_failed_description = "Algo não funcionou. Relate o erro e faremos o possível para descobrir por que ele falhou (enviamos o URL do vídeo anonimamente - não rastreamos você!)."
+download_failed = '''Download falhou'''
+download_failed_description = '''Infelizmente, falhamos no download dessa mídia específica. Tentamos oferecer suporte ao maior número possível de sites, então ajudaria muito se você pudesse relatar esse erro!'''
 download_with_drm_failed_description = "Algo não funcionou. E achamos que este vídeo tem DRM. Não oferecemos suporte a vídeos com DRM."
 no_youtube = "Baixamento do youtube não permitido"
-no_youtube_description = "Infelizmente, a Chrome Web Store não permite extensões para baixar vídeos do YouTube. Outros navegadores como o Firefox não têm essa limitação."
-premium_required = "Estado Premium Necessário"
+no_youtube_description = '''Infelizmente, a loja do navegador Chrome não permite realizar transferências de vídeos, sendo assim não podemos incluir esta função na versão destinada ao Chrome.'''
+premium_required = '''É necessário status Premium'''
 premium_yt_required_description = "Sem o estado Premium, um baixamento do YouTube só pode ser realizado 2 horas após o anterior"
-premium_required_description = "Sem o estado Premium, um baixamento HLS só pode ser realizado 2 horas após o anterior"
+premium_required_description = '''Sem um status Premium, um download HLS somente pode ser realizado $1 após o download anterior.'''
 v9_key_migration_failed_title = "Falha na atualização da licença"
 v9_key_migration_failed_description = "Estamos tendo problemas para atualizar sua licença. Por favor, tente restaurar sua compra."
 
 # Downloading media box
-stop = "Parar" # For HLS downloads
-cancel = "Cancelar" # For HTTP downloads
+stop = '''Parar'''
+cancel = '''Cancelar'''
 
 # Media we found in the page
-copy_url = "Copiar URL" # In menu and as a button
+copy_url = '''Copiar URL'''
 always_copy_url = "Copiar sempre a URL"
-download_button = "Baixar"
+download_button = '''Baixar'''
+download_as_button_and_menu = '''Baixar Como…'''
 download_audio_button = "Áudio"
 download_audio_and_video_menu = "Baixar áudio e vídeo"
-download_audio_only_menu = "Baixar apenas áudio"
+download_audio_only_menu = '''Baixar Áudio'''
 audio_only_for_this_website = "Sempre áudio apenas para este site"
-details = "Detalhes"
-more_settings = "Mais configurações…"
+details = '''Detalhes'''
+more_settings = '''Mais configurações'''
 
-# Report buttons
-report = "Relatar"
+# Report_ buttons
+report = '''Reportar'''
 reporting = "Relatando…"
-reported = "Relatado"
+reported = '''Reportado, obrigado!'''
 
 # Video not playing - page
 not_playing_title = "O vídeo não está sendo reproduzido?"

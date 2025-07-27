@@ -18,102 +18,103 @@ nomedia_reload_button = "强制检测"
 nomedia_reload_button_tooltip = "强制重新加载页面（清除 cookie）"
 show_nomedia_button = "无视频？"
 show_nomedia_button_tooltip = "如果找不到您的视频，请单击此处"
-setting_button_tooltip = "设置"
-history_button_tooltip = "显示下载历史"
+setting_button_tooltip = '''设置'''
+history_button_tooltip = '''显示下载历史记录'''
 translate_button_tooltip = "帮助转换 VDH"
 
 # Downloaded media box
 open_source_tab_button_tooltip = "打开源选项卡"
 retry_download_button_tooltip = "重试下载"
-delete_file_button_tooltip = "删除文件"
-download_directory_button_tooltip = "显示下载目录"
-show_in_popup_button_tooltip = "在弹出窗口中显示"
-show_in_sidebar_button_tooltip = "在侧边栏中显示"
+delete_file_button_tooltip = '''删除文件'''
+download_directory_button_tooltip = '''显示下载文件夹'''
+show_in_popup_button_tooltip = '''在弹出窗口显示'''
+show_in_sidebar_button_tooltip = '''在侧边栏显示'''
 video_not_playing_button_tooltip = "视频无法播放？"
-play = "播放"
+play = '''播放'''
 warn_drm_tooltip = "检测到 DRM"
 
 # Strings for the settings panel.
-version_title = "版本"
+version_title = '''版本'''
 account_title = "帐户"
-leave_review_description = "您好 🤚，Video DownloadHelper 可免费使用。您介意给个好评吗？这对我会有很大帮助 😊。"
-leave_review_button = "留下评论"
+leave_review_description = '''我们希望您享受此扩展带来的便利 :) 请留下您的评价'''
+leave_review_button = '''去评论'''
 account_status= "状态"
-account_status_premium = "高级会员（$1）" # $1 is the store (Mozilla, Google, Microsoft, All)
+account_status_premium = '''高级版 ($1)'''
 free_account = "免费套餐"
-copy_to_clipboard = "将信息复制到剪贴板"
+copy_to_clipboard = '''复制配置信息到剪贴板'''
 my_account_button = "我的帐户"
 download_title = "下载内容"
-show_notification = "下载完成后显示通知"
-max_parallel_downloads = "最大并行下载数"
+show_notification = '''下载完成后显示通知'''
+max_parallel_downloads = '''最大下载任务数'''
 change_download_directory = "更改下载目录"
 
 private_browsing_title = "隐私浏览"
-private_browsing_warning = "Video DownloadHelper 在隐私浏览模式下未启用。"
+private_browsing_warning = '''Video DownloadHelper 未在隐身模式中启用，你需要在选项中手工启动（非必须）。'''
 private_browsing_notifications = "显示隐私下载通知"
 private_browsing_button = "更改隐私浏览设置"
 prefer_original_audio = "首选原始音频" # Firefox only
 prefer_hls = "首选 HLS" # Firefox only
 settings_history_title = "历史记录"
-history_limit = "忘记下载信息前的天数"
-appearance_title = "外观"
-theme_title = "主题"
-theme_light = "浅色主题"
-theme_dark = "深色主题"
-theme_system = "系统主题"
+history_limit = '''X 天后清除下载历史记录'''
+appearance_title = '''界面'''
+theme_title = '''主题'''
+theme_light = '''浅色'''
+theme_dark = '''深色'''
+theme_system = '''系统'''
 popup_size_title = "窗口大小"
 popup_size_small = "小"
 popup_size_medium = "中"
 popup_size_big = "大"
 panel_position_title = "面板位置"
-use_popup = "使用弹出窗口"
-use_sidebar = "使用侧边栏"
-behavior_title = "行为"
-show_in_context_menu = "在页面右键菜单中显示下载菜单"
-restart_addon = "重新启动插件"
-reset_settings = "重置设置"
+use_popup = '''在弹出窗口显示'''
+use_sidebar = '''在侧边栏显示'''
+behavior_title = '''常规'''
+show_in_context_menu = '''访问来自页面右击的命令'''
+restart_addon = '''刷新插件'''
+reset_settings = '''重置设置'''
 prefer_highest_quality = "默认选择可达到的最高画质，而非 1080p（下载速度较慢，画质更高）。"
 
 # String for history page
 history_title = "下载历史"
-history_warning = "我们不会记录您的下载历史。您是否希望 Video DownloadHelper 记住您的下载历史？"
-history_warning_2 = "别担心，所有内容都会保存在您的设备上。我们非常重视您的隐私。"
-enable_history = "启用历史记录"
-clear_history = "清除历史记录"
-disable_history = "禁用历史记录"
-no_downloads_yet = "尚无下载内容。"
+history_warning = '''我们不会上传您的下载历史记录，您想让 Video DownloadHelper 记住您的下载历史记录吗？'''
+history_warning_2 = '''别担心，所有内容都会保留在您的机器上。我们重视您的隐私。'''
+enable_history = '''记住历史记录'''
+clear_history = '''清除历史记录'''
+disable_history = '''不要记住历史记录'''
+no_downloads_yet = '''尚无任何条目。'''
 
 # Various notifications
-download_failed = "下载失败。"
-download_failed_description = "出错了。请报告错误，我们将尽最大努力查找错误原因（我们会以匿名形式发送视频 URL，绝不会跟踪您！）"
+download_failed = '''下载失败'''
+download_failed_description = '''抱歉，下载指定媒体失败。我们希望您可以上传匿名的错误报告，以便我们可以尽快支持更多网站'''
 download_with_drm_failed_description = "出错了。我们认为此视频采用了 DRM 保护。我们不支持采用 DRM 保护的视频。"
 no_youtube = "不允许从 youtube 下载"
-no_youtube_description = "很遗憾，Chrome 应用商店不允许扩展程序下载 YouTube 视频。Firefox 等其他浏览器无此限制。"
-premium_required = "需要高级会员状态。"
+no_youtube_description = '''遗憾的是，Chrome网上应用店不允许扩展程序下载YouTube视频，因此我们无法在扩展程序的Chrome版本中包含此功能。'''
+premium_required = '''需要高级版'''
 premium_yt_required_description = "如果没有高级会员状态，YouTube 视频下载在上一次下载完成 2 小时后才能进行。"
-premium_required_description = "如果没有高级会员状态，HLS 视频下载在上一次下载完成 2 小时后才能进行。"
+premium_required_description = '''如果没有高级版，一个HLS下载只能在前次下载$1分钟后进行'''
 v9_key_migration_failed_title = "许可证升级失败"
 v9_key_migration_failed_description = "我们在升级您的许可证时遇到了问题。请尝试恢复您的购买。"
 
 # Downloading media box
-stop = "停止" # For HLS downloads
-cancel = "取消" # For HTTP downloads
+stop = '''停止'''
+cancel = '''取消'''
 
 # Media we found in the page
-copy_url = "复制 URL" # In menu and as a button
+copy_url = '''复制URL'''
 always_copy_url = "始终复制 URL"
-download_button = "下载"
+download_button = '''下载'''
+download_as_button_and_menu = '''下载为...'''
 download_audio_button = "音频"
 download_audio_and_video_menu = "下载音频和视频"
-download_audio_only_menu = "仅下载音频"
+download_audio_only_menu = '''下载音频'''
 audio_only_for_this_website = "此网站始终只下载音频"
-details = "详细信息"
-more_settings = "更多设置…"
+details = '''详情'''
+more_settings = '''更多设置'''
 
-# Report buttons
-report = "报告"
+# Report_ buttons
+report = '''报告'''
 reporting = "正在报告…"
-reported = "已报告"
+reported = '''已上传，谢谢！'''
 
 # Video not playing - page
 not_playing_title = "视频无法播放？"
