@@ -164,7 +164,7 @@ landing_feature1_description = "Descargue videos en alta definición a la máxim
 landing_feature2_title = "Archivar videos"
 landing_feature2_description = "Archive sus videos favoritos y asegúrese de que no se pierda nada."
 landing_feature3_title = "Compatibilidad con transmisiones en directo"
-landing_feature3_description = "Disfrute de la visualización sin conexión de transmisiones en directo, sin limitaciones de tiempo real."
+landing_feature3_description = "Disfrute de reproducir transmisiones en directo sin tener que estar conectado en tiempo real."
 landing_feature4_title = "Descarga de audio"
 landing_feature4_description = "Extraiga el audio de los videos y conviértalo a MP3 o podcasts para escucharlo fácilmente."
 
