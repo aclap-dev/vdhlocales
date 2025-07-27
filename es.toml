@@ -1,16 +1,10 @@
-# Spanish
+# es.toml - v10.0.103.0
 
 [addon]
-
-# Video DownloadHelper description. 132 characters max.
 appDesc = "Descargar videos de la web."
-
-# Global strings
 restore_purchase_button = "Restaurar compra"
 get_premium_button = "Ir a premium"
-back = "Atrás" # Go back button - in Settings panel for example
-
-# Strings for the main panel
+back = "Atrás"
 waiting_for_media = "Esperando medios…"
 nomedia_title = "¿No ve el medio que está buscando?"
 nomedia_description = "Inicie el video (y omita los anuncios, si los hay) para ayudar a detectar el medio. O informe que faltan medios."
@@ -18,11 +12,9 @@ nomedia_reload_button = "Forzar detección"
 nomedia_reload_button_tooltip = "Forzar recarga de página (borrar cookies)"
 show_nomedia_button = "¿No hay video?"
 show_nomedia_button_tooltip = "Haga clic aquí si no encuentra su video."
-setting_button_tooltip = '''Preferencias'''
+setting_button_tooltip = "Ajustes"
 history_button_tooltip = "Mostrar historial de descargas"
 translate_button_tooltip = "Ayudar a traducir VDH"
-
-# Downloaded media box
 open_source_tab_button_tooltip = "Abrir pestaña de código"
 retry_download_button_tooltip = "Reintentar descarga"
 delete_file_button_tooltip = "Eliminar archivo"
@@ -32,28 +24,25 @@ show_in_sidebar_button_tooltip = "Mostrar en la barra lateral"
 video_not_playing_button_tooltip = "¿No se reproduce el video?"
 play = '''Reproducir'''
 warn_drm_tooltip = "Se ha detectado DRM"
-
-# Strings for the settings panel.
 version_title = '''Versión'''
 account_title = "Cuenta"
 leave_review_description = "Hola 🤚 Video DownloadHelper es de uso gratuito. ¿Le importaría dejar una buena reseña? Me sería de gran ayuda 😊."
 leave_review_button = "Dejar una reseña"
-account_status= "Estado"
+account_status = "Estado"
 account_status_premium = '''Premium ($1)'''
 free_account = "Plan gratuito"
 copy_to_clipboard = '''Copiar información al portapapeles'''
 my_account_button = "Mi cuenta"
 download_title = "Descargas"
 show_notification = "Mostrar notificación una vez completada la descarga"
-max_parallel_downloads = '''Número máximo de descargas simultáneas'''
+max_parallel_downloads = "Descargas simultáneas máximas"
 change_download_directory = "Cambiar directorio de descargas"
-
 private_browsing_title = "Navegación privada"
 private_browsing_warning = "Video DownloadHelper no está habilitado en la navegación privada."
 private_browsing_notifications = "Mostrar notificación para descargas privadas"
 private_browsing_button = "Cambiar configuración de navegación privada"
-prefer_original_audio = "Preferir audio original" # Firefox only
-prefer_hls = "Preferir HLS" # Firefox only
+prefer_original_audio = "Preferir audio original"
+prefer_hls = "Preferir HLS"
 settings_history_title = "Historial"
 history_limit = "Días antes de olvidar las descargas"
 appearance_title = '''Apariencia'''
@@ -69,12 +58,10 @@ panel_position_title = "Posición del panel"
 use_popup = "Usar ventana emergente"
 use_sidebar = "Usar barra lateral"
 behavior_title = '''Comportamiento'''
-show_in_context_menu = '''Acceder al menú contextual al hacer click en el botón derecho'''
+show_in_context_menu = "Mostrar menú de descarga en el menú contextual de la página"
 restart_addon = "Reiniciar complemento"
 reset_settings = "Restablecer ajustes"
 prefer_highest_quality = "Seleccionar la calidad más alta disponible en lugar de 1080p por defecto (descarga más lenta, mayor calidad)."
-
-# String for history page
 history_title = "Historial de descargas"
 history_warning = "No registramos su historial de descargas. ¿Desea que Video DownloadHelper recuerde su historial de descargas?"
 history_warning_2 = "No se preocupe, todo permanece en su equipo. Valoramos su privacidad."
@@ -82,25 +69,19 @@ enable_history = "Habilitar historial"
 clear_history = "Borrar historial"
 disable_history = "Deshabilitar historial"
 no_downloads_yet = "Aún no hay descargas."
-
-# Various notifications
 download_failed = "Descarga fallida"
 download_failed_description = "Algo no ha funcionado. Informe del error y haremos todo lo posible por averiguar por qué ha fallado (enviamos la URL del video de forma anónima, ¡no lo rastreamos!)."
 download_with_drm_failed_description = "Algo no ha funcionado. Creemos que este video tiene DRM. No admitimos videos con DRM."
 no_youtube = "No se permite la descarga desde YouTube"
-no_youtube_description = '''Desgraciadamente, la Chrome Web Store no permite la descarga de vídeos de YouTube, por lo que no hemos podido incluir esta función en la versión de Chrome de la extensión.'''
-premium_required = '''Estado Premium requerido'''
-premium_yt_required_description = "Sin el estado Premium, solo se puede realizar una descarga de YouTube dos horas después de la anterior."
-premium_required_description = '''Sin estado Premium, una descarga HLS solo puede ejecutarse $1 minutos después del anterior'''
+no_youtube_description = "Lamentablemente, Chrome Web Store no permite que las extensiones descarguen videos de YouTube. Otros navegadores como Firefox no tienen esta limitación."
+premium_required = "Se requiere el estado Premium"
+premium_yt_required_description = "Sin el estado Premium debe esperar dos horas entre descargas de videos de YouTube."
+premium_required_description = "Sin el estado Premium, solo se puede realizar una descarga HLS dos horas después de la anterior."
 v9_key_migration_failed_title = "Error al actualizar la licencia"
 v9_key_migration_failed_description = "Estamos teniendo problemas para actualizar su licencia. Intente restaurar su compra."
-
-# Downloading media box
 stop = '''Detener'''
 cancel = '''Cancelar'''
-
-# Media we found in the page
-copy_url = "Copiar URL" # In menu and as a button
+copy_url = "Copiar URL"
 always_copy_url = "Copiar siempre la URL"
 download_button = "Descargar"
 download_audio_button = "Audio"
@@ -109,13 +90,9 @@ download_audio_only_menu = "Descargar solo audio"
 audio_only_for_this_website = "Siempre solo audio para este sitio web."
 details = "Detalles"
 more_settings = "Más ajustes…"
-
-# Report buttons
 report = "Informar"
 reporting = "Informando…"
 reported = "Informado"
-
-# Video not playing - page
 not_playing_title = "¿No se reproduce el video?"
 not_playing_broken_title = "¿El audio o el video no funcionan?"
 not_playing_broken_description = "Informe del fallo del medio. Haremos todo lo posible por averiguar por qué ha fallado (enviamos la URL del video de forma anónima, ¡no lo rastreamos!)."
@@ -128,29 +105,21 @@ not_playing_default_player_solution_windows = "En el \“Panel de control\” de
 not_playing_default_player_solution_mac = "Abra el directorio de descargas y haga clic con el botón derecho del mouse en el archivo de video. Haga clic en “Obtener información”. En la sección “Abrir con”, seleccione IINA. Haga clic en el botón “Cambiar todo”."
 
 [web]
-
-# On top of all pages.
 header_help = "Ayuda"
 header_community = "Comunidad"
-
-# Context: activation page after receiving the magic link via email.
-activate_title = "Activación" # hope it crashes
+activate_title = "Activación"
 activate_pending = "Pendiente…"
 activate_success = "Éxito"
 activate_error = "Error"
 activate_no_addon_found = "No se ha encontrado ningún complemento. ¿Está instalado el complemento?"
 activate_no_method_found = "No se ha encontrado ningún método."
 activate_help_me = "Ayuda"
-
-# Context: webpage to restore a purchase, which require the user to enter their email.
 issue_title = "Restaurar compra"
 issue_submit = "Enviar"
 issue_thank_you = "Gracias"
 issue_enter_email = "Para restaurar su compra, introduzca la dirección de correo electrónico que utilizó para comprar su licencia:"
 issue_email_sent = "Le acabamos de enviar un correo electrónico con un enlace que activará su producto."
 issue_or_digit = "O bien, también puede introducir el código de 6 dígitos que le hemos enviado:"
-
-# Context: this page - https://downloadhelper.net/
 landing_text1 = "Descargue cualquier video de cualquier sitio web, ¡funciona!"
 landing_text2 = "Más de 1000 sitios web compatibles"
 landing_text3 = "Con la confianza de 7 millones de usuarios"
@@ -163,11 +132,9 @@ landing_feature1_description = "Descargue videos en alta definición a la máxim
 landing_feature2_title = "Archivar videos"
 landing_feature2_description = "Archive sus videos favoritos y asegúrese de que no se pierda nada."
 landing_feature3_title = "Compatibilidad con transmisiones en directo"
-landing_feature3_description = "Disfrute de reproducir transmisiones en directo sin tener que estar conectado en tiempo real."
+landing_feature3_description = "Disfrute de la visualización sin conexión de transmisiones en directo, sin limitaciones de tiempo real."
 landing_feature4_title = "Descarga de audio"
 landing_feature4_description = "Extraiga el audio de los videos y conviértalo a MP3 o podcasts para escucharlo fácilmente."
-
-# Context: this is for a "Comprar una licencia" webpage.
 premium_hero1 = "Pague una vez y úselo para siempre"
 premium_hero2 = "Obtenga una licencia de por vida para Video DownloadHelper"
 premium_hero3 = "Descargue todos los videos que quiera, sin límites."
