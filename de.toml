@@ -3,6 +3,9 @@
 [addon]
 
 # Video DownloadHelper description. 132 characters max.
+appDesc = "Download Videos from the Web."
+
+# Video DownloadHelper description. 132 characters max.
 appDesc = "Videos aus Internet herunterladen."
 
 # Global strings

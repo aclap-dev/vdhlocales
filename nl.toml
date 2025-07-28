@@ -1,3 +1,6 @@
 # Dutch (Standard)	
 
 [addon]
+
+# Video DownloadHelper description. 132 characters max.
+appDesc = "Download Videos from the Web."
