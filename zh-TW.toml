@@ -1,174 +1,140 @@
-# Chinese - Taiwan
-
+# zh-TW.toml - v10.0.107.0
 [addon]
-
-# Video DownloadHelper description. 132 characters max.
-appDesc = "從網路上下載影片。"
-
-# Global strings
-restore_purchase_button = "恢復購買"
-get_premium_button = "取得付費版"
-back = "返回" # Go back button - in Settings panel for example
-
-# Strings for the main panel
-waiting_for_media = "正在等待媒體…"
-nomedia_title = "看不到您要尋找的媒體？"
-nomedia_description = "請開始影片 (如果有廣告，請略過)，以協助偵測媒體。或回報媒體遺失。"
-nomedia_reload_button = "強制偵測"
-nomedia_reload_button_tooltip = "強制頁面重新載入 (清除 Cookie)"
-show_nomedia_button = "沒有影片？"
-show_nomedia_button_tooltip = "如果找不到影片，請按一下此處"
+appDesc = '''從網路上下載影片。'''
+restore_purchase_button = '''找回您的帳號'''
+get_premium_button = '''取得付費版'''
+back = '''返回'''
+waiting_for_media = '''正在等待媒體…'''
+nomedia_title = '''看不到您要尋找的媒體？'''
+nomedia_description = '''請開始影片 (如果有廣告，請略過)，以協助偵測媒體。或回報媒體遺失。'''
+nomedia_reload_button = '''強制偵測'''
+nomedia_reload_button_tooltip = '''強制頁面重新載入 (清除 Cookie)'''
+show_nomedia_button = '''沒有影片？'''
+show_nomedia_button_tooltip = '''如果找不到影片，請按一下此處'''
 setting_button_tooltip = '''設定'''
-history_button_tooltip = "顯示下載紀錄"
-translate_button_tooltip = "協助翻譯 VDH"
-
-# Downloaded media box
-open_source_tab_button_tooltip = "開啟來源分頁"
-retry_download_button_tooltip = "重試下載"
+history_button_tooltip = '''顯示下載紀錄'''
+translate_button_tooltip = '''協助翻譯 VDH'''
+open_source_tab_button_tooltip = '''開啟來源分頁'''
+retry_download_button_tooltip = '''重試下載'''
 delete_file_button_tooltip = '''刪除檔案'''
 download_directory_button_tooltip = '''顯示下載資料夾'''
 show_in_popup_button_tooltip = '''顯示彈出視窗'''
 show_in_sidebar_button_tooltip = '''顯示側邊欄'''
-video_not_playing_button_tooltip = "無法播放影片？"
+video_not_playing_button_tooltip = '''無法播放影片？'''
 play = '''播放'''
-warn_drm_tooltip = "偵測到 DRM"
-
-# Strings for the settings panel.
+warn_drm_tooltip = '''偵測到 DRM'''
 version_title = '''版本'''
-account_title = "帳戶"
+account_title = '''帳戶'''
 leave_review_description = '''希望您喜歡 Video DownloadHelper， 您介意在外網上給予好評嗎？'''
 leave_review_button = '''發表評論'''
-account_status= "狀態"
+account_status = '''狀態'''
 account_status_premium = '''進階會員 ($1)'''
-free_account = "免費方案"
+free_account = '''免費方案'''
 copy_to_clipboard = '''複製到剪貼簿'''
-my_account_button = "我的帳戶"
-download_title = "下載"
+my_account_button = '''我的帳戶'''
+download_title = '''下載'''
 show_notification = '''下載完成時顯示通知'''
 max_parallel_downloads = '''最大同時下載數量'''
-change_download_directory = "變更下載目錄"
-
-private_browsing_title = "私密瀏覽"
+change_download_directory = '''變更下載目錄'''
+private_browsing_title = '''私密瀏覽'''
 private_browsing_warning = '''Video DownloadHelper 於無痕視窗中未啟用自動偵測，請手動啟用 (如非必要)'''
-private_browsing_notifications = "顯示私密下載通知"
-private_browsing_button = "變更私密瀏覽設定"
-prefer_original_audio = "偏好原始音訊" # Firefox only
-prefer_hls = "偏好 HLS" # Firefox only
-settings_history_title = "紀錄"
-history_limit = "忘記下載之前的天數"
+private_browsing_notifications = '''顯示私密下載通知'''
+private_browsing_button = '''變更私密瀏覽設定'''
+prefer_original_audio = '''偏好原始音訊'''
+prefer_hls = '''偏好 HLS'''
+settings_history_title = '''紀錄'''
+history_limit = '''忘記下載之前的天數'''
 appearance_title = '''外觀'''
 theme_title = '''主題'''
 theme_light = '''淺色主題'''
 theme_dark = '''深色主題'''
 theme_system = '''系統'''
-popup_size_title = "視窗大小"
-popup_size_small = "小"
-popup_size_medium = "中"
-popup_size_big = "大"
-panel_position_title = "面板位置"
+popup_size_title = '''視窗大小'''
+popup_size_small = '''小'''
+popup_size_medium = '''中'''
+popup_size_big = '''大'''
+panel_position_title = '''面板位置'''
 use_popup = '''顯示彈出視窗'''
 use_sidebar = '''顯示側邊欄'''
 behavior_title = '''行為'''
 show_in_context_menu = '''使用右鍵來查詢可用的指令'''
 restart_addon = '''重新下載軟體'''
 reset_settings = '''回復原廠設定'''
-prefer_highest_quality = "預設選擇最高品質，而不是 1080p (下載速度較慢，品質較高)。"
-
-# String for history page
-history_title = "下載紀錄"
-history_warning = "我們不會記錄您的下載紀錄。是否要 Video DownloadHelper 記住您的下載紀錄？"
-history_warning_2 = "別擔心，一切都會保留在您的電腦上。我們重視您的隱私。"
-enable_history = "啟用紀錄"
-clear_history = "清除紀錄"
-disable_history = "停用紀錄"
-no_downloads_yet = "尚無任何下載。"
-
-# Various notifications
+prefer_highest_quality = '''預設選擇最高品質，而不是 1080p (下載速度較慢，品質較高)。'''
+history_title = '''下載紀錄'''
+history_warning = '''我們不會記錄您的下載紀錄。是否要 Video DownloadHelper 記住您的下載紀錄？'''
+history_warning_2 = '''別擔心，一切都會保留在您的電腦上。我們重視您的隱私。'''
+enable_history = '''啟用紀錄'''
+clear_history = '''清除紀錄'''
+disable_history = '''停用紀錄'''
+no_downloads_yet = '''尚無任何下載。'''
 download_failed = '''下載失敗'''
 download_failed_description = '''很遺憾我們無法下載此影片，請回報此網站以利我們更新'''
-download_with_drm_failed_description = "發生問題。我們認為這支影片有 DRM。我們不支援有 DRM 的影片。"
-no_youtube = "不允許從 YouTube 下載"
+download_with_drm_failed_description = '''發生問題。我們認為這支影片有 DRM。我們不支援有 DRM 的影片。'''
+no_youtube = '''不允許從 YouTube 下載'''
 no_youtube_description = '''很遺憾，因為 Chrome 線上應用程式商店不允許可下載 Youtube 影片的擴充功能，所以我們在 Chrome 版本的擴充功能不提供這項功能。'''
 premium_required = '''此功能需要進階會員'''
-premium_yt_required_description = "如果是免費版使用者，必須等待 2 小時才能再次進行 YouTube 下載"
+premium_yt_required_description = '''如果是免費版使用者，必須等待 2 小時才能再次進行 YouTube 下載'''
 premium_required_description = '''沒有進階會員的使用者，下載HLS檔案必須間隔$1每分鐘。'''
-v9_key_migration_failed_title = "授權更新失敗"
-v9_key_migration_failed_description = "更新授權時發生問題。請嘗試恢復購買。"
-
-# Downloading media box
+v9_key_migration_failed_title = '''授權更新失敗'''
+v9_key_migration_failed_description = '''更新授權時發生問題。請嘗試恢復購買。'''
 stop = '''停止'''
 cancel = '''取消'''
-
-# Media we found in the page
 copy_url = '''複製網址'''
-always_copy_url = "一律複製 URL"
+always_copy_url = '''一律複製 URL'''
 download_button = '''下載'''
 download_as_button_and_menu = '''下載並選擇儲存位置'''
-download_audio_button = "聲音"
-download_audio_and_video_menu = "下載聲音和影片"
+download_audio_button = '''聲音'''
+download_audio_and_video_menu = '''下載聲音和影片'''
 download_audio_only_menu = '''下載音訊'''
-audio_only_for_this_website = "針對此網站一律只下載聲音"
+audio_only_for_this_website = '''針對此網站一律只下載聲音'''
 details = '''詳细資訊'''
 more_settings = '''更多設定'''
-
-# Report_ buttons
 report = '''回報'''
-reporting = "正在回報…"
+reporting = '''正在回報…'''
 reported = '''已回報'''
-
-# Video not playing - page
-not_playing_title = "無法播放影片？"
-not_playing_broken_title = "聲音或影片毀損？"
-not_playing_broken_description = "請回報失敗的媒體。我們將盡力找出失敗的原因 (我們以匿名方式，傳送影片 URL－不會追蹤您！)"
-not_playing_broken_solution_title = "嘗試使用現代影片播放器"
-not_playing_broken_solution_windows_1 = "我們推薦 VLC："
-not_playing_broken_solution_mac_1 = "我們推薦 IINA："
-not_playing_broken_solution_2 = "它是現代、安全的開放原始碼軟體。"
-not_playing_default_player = "確定已將您的影片播放器，設為系統預設影片播放器"
-not_playing_default_player_solution_windows = "在 Windows 的「控制台」中，按一下「預設程式」，然後變更播放器的預設程式。"
-not_playing_default_player_solution_mac = "開啟下載目錄，在影片檔案上按一下滑鼠右鍵。按一下「取得資訊」。在「開啟方式」區域中，選擇 IINA。按一下「全部變更」按鈕。"
+not_playing_title = '''無法播放影片？'''
+not_playing_broken_title = '''聲音或影片毀損？'''
+not_playing_broken_description = '''請回報失敗的媒體。我們將盡力找出失敗的原因 (我們以匿名方式，傳送影片 URL－不會追蹤您！)'''
+not_playing_broken_solution_title = '''嘗試使用現代影片播放器'''
+not_playing_broken_solution_windows_1 = '''我們推薦 VLC：'''
+not_playing_broken_solution_mac_1 = '''我們推薦 IINA：'''
+not_playing_broken_solution_2 = '''它是現代、安全的開放原始碼軟體。'''
+not_playing_default_player = '''確定已將您的影片播放器，設為系統預設影片播放器'''
+not_playing_default_player_solution_windows = '''在 Windows 的「控制台」中，按一下「預設程式」，然後變更播放器的預設程式。'''
+not_playing_default_player_solution_mac = '''開啟下載目錄，在影片檔案上按一下滑鼠右鍵。按一下「取得資訊」。在「開啟方式」區域中，選擇 IINA。按一下「全部變更」按鈕。'''
 
 [web]
-
-# On top of all pages.
-header_help = "說明"
-header_community = "社群"
-
-# Context: activation page after receiving the magic link via email.
-activate_title = "啟用" # hope it crashes
-activate_pending = "等待中…"
-activate_success = "成功"
-activate_error = "錯誤"
-activate_no_addon_found = "找不到附加元件。是否已安裝附加元件？"
-activate_no_method_found = "找不到方法。"
-activate_help_me = "協助我。"
-
-# Context: webpage to restore a purchase, which require the user to enter their email.
-issue_title = "正在恢復購買"
-issue_submit = "提交"
-issue_thank_you = "謝謝"
-issue_enter_email = "若要恢復購買，請輸入用以購買授權的電子郵件地址："
-issue_email_sent = "我們已傳送電子郵件給您，其中包含可啟用產品的連結。"
-issue_or_digit = "或者，您也可以輸入我們傳送給您的 6 位數代碼："
-
-# Context: this page - https://downloadhelper.net/
-landing_text1 = "從任何網站下載任何影片，就是這麼好用！"
-landing_text2 = "支援 1000 多個網站"
-landing_text3 = "受 700 萬使用者信任"
-landing_text4 = "擴充功能商店評價 4.5 顆星"
-landing_install_for_google = "為 Chrome 安裝"
-landing_install_for_mozilla = "為 Firefox 安裝"
-landing_install_for_microsoft = "為 Edge 安裝"
-landing_feature1_title = "全速 HD 下載"
-landing_feature1_description = "以最高速度下載高畫質影片。我們以擁有最快速的下載引擎為傲。"
-landing_feature2_title = "封存影片"
-landing_feature2_description = "封存您喜愛的影片，確保絕不遺失。"
-landing_feature3_title = "直播支援"
-landing_feature3_description = "離線觀看直播，擺脫即時限制。"
-landing_feature4_title = "聲音下載"
-landing_feature4_description = "從影片中擷取聲音，轉換成 MP3 或 podcast 以方便收聽。"
-
-# Context: this is for a "購買授權" webpage.
-premium_hero1 = "付費一次，永久使用"
-premium_hero2 = "取得 Video DownloadHelper 終身授權"
-premium_hero3 = "盡情下載任何影片，不受限制。"
+header_help = '''說明'''
+header_community = '''社群'''
+activate_title = '''啟用'''
+activate_pending = '''等待中…'''
+activate_success = '''成功'''
+activate_error = '''錯誤'''
+activate_no_addon_found = '''找不到附加元件。是否已安裝附加元件？'''
+activate_no_method_found = '''找不到方法。'''
+activate_help_me = '''協助我。'''
+issue_title = '''正在恢復購買'''
+issue_submit = '''提交'''
+issue_thank_you = '''謝謝'''
+issue_enter_email = '''若要恢復購買，請輸入用以購買授權的電子郵件地址：'''
+issue_email_sent = '''我們已傳送電子郵件給您，其中包含可啟用產品的連結。'''
+issue_or_digit = '''或者，您也可以輸入我們傳送給您的 6 位數代碼：'''
+landing_text1 = '''從任何網站下載任何影片，就是這麼好用！'''
+landing_text2 = '''支援 1000 多個網站'''
+landing_text3 = '''700 萬使用者信任'''
+landing_text4 = '''擴充功能商店評價 4.5 顆星'''
+landing_install_for_google = '''為 Chrome 安裝'''
+landing_install_for_mozilla = '''為 Firefox 安裝'''
+landing_install_for_microsoft = '''為 Edge 安裝'''
+landing_feature1_title = '''全速 HD 下載'''
+landing_feature1_description = '''以最高速度下載高畫質影片。我們以擁有最快速的下載引擎為傲。'''
+landing_feature2_title = '''封存影片'''
+landing_feature2_description = '''封存您喜愛的影片，確保絕不遺失。'''
+landing_feature3_title = '''直播支援'''
+landing_feature3_description = '''離線觀看直播，擺脫即時限制。'''
+landing_feature4_title = '''聲音下載'''
+landing_feature4_description = '''從影片中擷取聲音，轉換成 MP3 或 podcast 以方便收聽。'''
+premium_hero1 = '''付費一次，永久使用'''
+premium_hero2 = '''取得 Video DownloadHelper 終身授權'''
+premium_hero3 = '''盡情下載任何影片，不受限制。'''
