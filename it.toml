@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.103.0
-# 25 luglio 2025
+# VDH 10 versione 10.0.107.0
+# 28 luglio 2025
 # by Night Train
 
 [addon]
@@ -22,7 +22,7 @@ nomedia_reload_button_tooltip = "Forza la ricarica della pagina (pulisce i cooki
 show_nomedia_button = "Nessun video?"
 show_nomedia_button_tooltip = "Clicca qui se non trovi il tuo video"
 setting_button_tooltip = "Impostazioni"
-history_button_tooltip = "Mostra la cronologia dei download"
+history_button_tooltip = "Mostra la Cronologia dei Download"
 show_all_history_button = "Mostra tutto"
 complete_title = "Completati"
 hide_complete_button = "Nascondi"
@@ -42,20 +42,19 @@ warn_drm_tooltip = "Rilevato DRM"
 # Stringhe per il pannello impostazioni.
 version_title = "Versione"
 account_title = "Account"
-leave_review_description = "Ciao 🤚 Video DownloadHelper è gratuito da usare. Ti dispiacerebbe lasciare una buona recensione? Mi aiuterebbe molto 😊."
+leave_review_description = "Ci auguriamo che Video DownloadHelper ti piaccia :) Ti dispiacerebbe scrivere una bella recensione sul sito web dell'estensione?"
 leave_review_button = "Lascia una recensione"
 account_status= "Status"
-account_status_premium = "Premium ($1)" # $1 è il negozio (Mozilla, Google, Microsoft, All)
+account_status_premium = "Premium ($1)"
 free_account = "Piano gratuito"
-copy_to_clipboard = "Copia le informazioni negli appunti"
+copy_to_clipboard = "Copia dati negli appunti"
 my_account_button = "Il mio account"
 download_title = "Download"
-show_notification = "Mostra una notifica quando il download è completato"
+show_notification = "Mostra una notifica una volta completato il download"
 max_parallel_downloads = "Numero massimo di download contemporanei"
 change_download_directory = "Cambia la cartella di download"
 saveas_detected_warning = "Abbiamo rilevato che il tuo browser mostra una finestra di dialogo 'Salva con nome', una volta terminato il download. Ti consigliamo di disabilitare questa opzione nelle impostazioni del tuo browser."
 change_saveas_setting = "Cambia impostazione"
-
 private_browsing_title = "Navigazione anonima"
 private_browsing_warning = "Video DownloadHelper non è abilitato in navigazione anonima."
 private_browsing_notifications = "Mostra una notifica per i download in navigazione anonima"
@@ -64,22 +63,22 @@ prefer_original_audio = "Preferisci audio originale" # Solo per Firefox
 prefer_hls = "Preferisci HLS" # Solo per Firefox
 settings_history_title = "Cronologia"
 transient_history_description = "Mostra i download completati nel pannello"
-history_limit = "Giorni prima di dimenticare i file scaricati"
+history_limit = "Dopo quanti giorni dimentico i file scaricati?"
 appearance_title = "Aspetto"
 theme_title = "Tema"
-theme_light = "Tema chiaro"
-theme_dark = "Tema scuro"
-theme_system = "Tema di sistema"
+theme_light = "Chiaro"
+theme_dark = "Scuro"
+theme_system = "Sistema"
 popup_size_title = "Dimensione finestra"
 popup_size_small = "Piccola"
 popup_size_medium = "Media"
 popup_size_big = "Grande"
 panel_position_title = "Posizione pannello"
-use_popup = "Usa il popup"
-use_sidebar = "Usa la barra laterale"
+use_popup = "Mostra in un popup"
+use_sidebar = "Mostra nella barra laterale"
 behavior_title = "Comportamento"
-show_in_context_menu = "Mostra il menu di download nel menu contestuale della pagina"
-restart_addon = "Riavvia l'estensione VDH"
+show_in_context_menu = "Accedi ai comandi con clic destro nella pagina"
+restart_addon = "Ricarica l'estensione VDH"
 reset_settings = "Ripristina le impostazioni"
 prefer_highest_quality = "Seleziona la massima qualità disponibile invece di 1080p per impostazione predefinita (download più lento, qualità superiore)."
 
@@ -87,26 +86,26 @@ prefer_highest_quality = "Seleziona la massima qualità disponibile invece di 10
 history_title = "Cronologia Download"
 history_warning = "Non registriamo la tua cronologia di download. Vuoi che Video DownloadHelper ricordi la tua cronologia di download?"
 history_warning_2 = "Non ti preoccupare, tutto rimane sul tuo computer. Apprezziamo la tua privacy."
-enable_history = "Abilita cronologia"
-clear_history = "Pulisci cronologia"
-disable_history = "Disabilita cronologia"
-no_downloads_yet = "Ancora nessun download."
+enable_history = "Abilita Cronologia"
+clear_history = "Pulisci Cronologia"
+disable_history = "Non ricordare la mia cronologia"
+no_downloads_yet = "Ancora nessuna attività."
 
 # Notifiche varie
 download_failed = "Download Fallito"
-download_failed_description = "Qualcosa non ha funzionato. Segnala l'errore e faremo del nostro meglio per capire perché è fallito (inviamo l'indirizzo del video in modo anonimo - non ti tracciamo!)."
+download_failed_description = "Purtroppo non siamo riusciti a scaricare quel file multimediale specifico. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare l'errore (è anonimo!)"
 download_with_drm_failed_description = "Qualcosa non ha funzionato. Pensiamo che questo video abbia DRM. Non supportiamo i video con DRM."
 no_youtube = "Download da YouTube non permesso"
-no_youtube_description = "Purtroppo il Chrome Web Store non permette estensioni per scaricare video di YouTube. Altri browser, come Firefox, non hanno questa limitazione."
-premium_required = "Premium Status Richiesto"
-premium_yt_required_description = "Senza Status Premium un download di YouTube può essere eseguito solo 2 ore dopo il precedente"
-premium_required_description = "Senza Status Premium un download HLS può essere eseguito solo 2 ore dopo il precedente"
+no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni per il download di video dd YouTube, pertanto non abbiamo potuto includere questa funzionalità nella versione Chrome dell'estensione."
+premium_required = "Premium status richiesto"
+premium_yt_required_description = "Senza status Premium un download da YouTube può essere eseguito solo 2 ore dopo il precedente"
+premium_required_description = "Senza status Premium un download HLS può essere eseguito solo 2 ore dopo il precedente"
 v9_key_migration_failed_title = "Aggiornamento della licenza fallito"
 v9_key_migration_failed_description = "Stiamo avendo problemi con l'aggiornamento della licenza. Si prega di provare a ripristinare il vostro acquisto."
 
 # Pannello dei file multimediali scaricati
-stop = "Stop" # Per download HLS
-cancel = "Cancella" # Per download HTTP
+stop = "Stop"
+cancel = "Cancella"
 
 # File multimediali che troviamo nella pagina
 copy_url = "Copia indirizzo" # Nel menu e come pulsante
@@ -116,15 +115,15 @@ download_as_button_and_menu = "Download come…"
 always_download_as_menu = "Download sempre come…"
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Download Audio & Video"
-download_audio_only_menu = "Download solo Audio"
+download_audio_only_menu = "Download Audio"
 audio_only_for_this_website = "Download solo Audio, sempre da questo sito web"
 details = "Dettagli"
-more_settings = "Altre impostazioni…"
+more_settings = "Altre impostazioni"
 
 # Pulsanti di segnalazione
 report = "Segnala"
 reporting = "Segnalando…"
-reported = "Segnalato"
+reported = "Segnalato, Grazie!"
 
 # Video non riproducibile - pagina
 not_playing_title = "Il video non viene riprodotto?"
