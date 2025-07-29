@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
 # VDH 10 versione 10.0.107.0
-# 28 luglio 2025
+# 29 luglio 2025
 # by Night Train
 
 [addon]
@@ -81,12 +81,16 @@ show_in_context_menu = "Accedi ai comandi con clic destro nella pagina"
 restart_addon = "Ricarica l'estensione VDH"
 reset_settings = "Ripristina le impostazioni"
 prefer_highest_quality = "Seleziona la massima qualità disponibile invece di 1080p per impostazione predefinita (download più lento, qualità superiore)."
+preview_mode_title = "Anteprima"
+preview_mode_none = "Disabilitata"
+preview_mode_video = "Anteprima breve"
+preview_mode_image = "Immagine"
 
 # Stringhe per la pagina cronologia
 history_title = "Cronologia Download"
 history_warning = "Non registriamo la tua cronologia di download. Vuoi che Video DownloadHelper ricordi la tua cronologia di download?"
 history_warning_2 = "Non ti preoccupare, tutto rimane sul tuo computer. Apprezziamo la tua privacy."
-enable_history = "Abilita Cronologia"
+enable_history = "Non ti preoccupare, tutto rimane sul tuo computer. Apprezziamo la tua privacy."
 clear_history = "Pulisci Cronologia"
 disable_history = "Non ricordare la mia cronologia"
 no_downloads_yet = "Ancora nessuna attività."
