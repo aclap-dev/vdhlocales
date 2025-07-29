@@ -79,6 +79,10 @@ show_in_context_menu = "Access commands from right-click in page"
 restart_addon = "Reload addon"
 reset_settings = "Reset settings"
 prefer_highest_quality = "Select highest available quality instead of 1080p by default (slower download, higher quality)."
+preview_mode_title = "Media preview"
+preview_mode_none = "Disabled"
+preview_mode_video = "Short video preview"
+preview_mode_image = "Image"
 
 # String for history page
 history_title = "Download History"
