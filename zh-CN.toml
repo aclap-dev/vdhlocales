@@ -92,8 +92,6 @@ no_youtube_description = '''遗憾的是，Chrome网上应用店不允许扩展�
 premium_required = '''需要高级版'''
 premium_yt_required_description = "如果没有高级会员状态，YouTube 视频下载在上一次下载完成 2 小时后才能进行。"
 premium_required_description = '''如果没有高级版，一个HLS下载只能在前次下载$1分钟后进行'''
-v9_key_migration_failed_title = "许可证升级失败"
-v9_key_migration_failed_description = "我们在升级您的许可证时遇到了问题。请尝试恢复您的购买。"
 
 # Downloading media box
 stop = '''停止'''

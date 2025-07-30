@@ -92,8 +92,6 @@ no_youtube_description = '''К сожалению, интернет-магази
 premium_required = '''Требуется статус Premium'''
 premium_yt_required_description = "Без статуса Премиум загрузка с YouTube возможна только через 2 часа после предыдущей."
 premium_required_description = '''Без статуса Premium загрузка HLS может быть произведена только через $1 минут после предыдущей'''
-v9_key_migration_failed_title = "Ошибка обновления лицензии"
-v9_key_migration_failed_description = "Возникли проблемы с обновлением лицензии. Попробуйте восстановить покупку."
 
 # Downloading media box
 stop = '''Остановка'''

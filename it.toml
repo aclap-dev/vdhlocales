@@ -104,8 +104,6 @@ no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni
 premium_required = "Premium status richiesto"
 premium_yt_required_description = "Senza status Premium un download da YouTube può essere eseguito solo 2 ore dopo il precedente"
 premium_required_description = "Senza status Premium un download HLS può essere eseguito solo 2 ore dopo il precedente"
-v9_key_migration_failed_title = "Aggiornamento della licenza fallito"
-v9_key_migration_failed_description = "Stiamo avendo problemi con l'aggiornamento della licenza. Si prega di provare a ripristinare il vostro acquisto."
 
 # Pannello dei file multimediali scaricati
 stop = "Stop"

@@ -92,8 +92,6 @@ no_youtube_description = '''Infelizmente, a loja do navegador Chrome não permit
 premium_required = '''É necessário status Premium'''
 premium_yt_required_description = "Sem o estado Premium, um baixamento do YouTube só pode ser realizado 2 horas após o anterior"
 premium_required_description = '''Sem um status Premium, um download HLS somente pode ser realizado $1 após o download anterior.'''
-v9_key_migration_failed_title = "Falha na atualização da licença"
-v9_key_migration_failed_description = "Estamos tendo problemas para atualizar sua licença. Por favor, tente restaurar sua compra."
 
 # Downloading media box
 stop = '''Parar'''

@@ -102,8 +102,6 @@ no_youtube_description = "Unfortunately, the Chrome Web Store does not allow ext
 premium_required = "Premium status required"
 premium_yt_required_description = "Without Premium status, a YouTube download can only be performed 2 hours after the previous one"
 premium_required_description = "Without Premium status, an HLS download can only be performed 2 hours after the previous one"
-v9_key_migration_failed_title = "License upgrade failed"
-v9_key_migration_failed_description = "We are having issues upgrading your license. Please try to restore your purchase."
 
 # Downloading media box
 stop = "Stop"

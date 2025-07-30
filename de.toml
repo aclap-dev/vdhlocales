@@ -92,8 +92,6 @@ no_youtube_description = '''Leider erlaubt der Chrome Web Store keine Erweiterun
 premium_required = '''Premiumstatus wird benötigt'''
 premium_yt_required_description = "Ohne Premium-Status kann ein YouTube-Download nur 2 Stunden nach dem vorherigen Download durchgeführt werden"
 premium_required_description = '''Ohne Premium kann ein HLS-Download nur $1 Minuten nach dem vorherigen Herunterladen durchgeführt werden.'''
-v9_key_migration_failed_title = "Lizenzaktualisierung fehlgeschlagen"
-v9_key_migration_failed_description = "Wir haben Probleme, Ihre Lizenz zu aktualisieren. Versuchen Sie bitte, Ihren Einkauf wiederherzustellen."
 
 # Downloading media box
 stop = '''Stopp'''

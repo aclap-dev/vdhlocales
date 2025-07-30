@@ -92,8 +92,6 @@ no_youtube_description = '''Niestety, Chrome Web Store nie pozwala na zamieszcza
 premium_required = '''Status Premium wymagany'''
 premium_yt_required_description = "Bez statusu Premium, pobieranie z YouTube może być wykonane dopiero 2 godziny po poprzednim."
 premium_required_description = '''Bez statusu Premium, pobieranie HLS może zostać przeprowadzone tylko $1 minut po poprzednim'''
-v9_key_migration_failed_title = "Aktualizacja licencji nie powiodła się"
-v9_key_migration_failed_description = "Wystąpiły problemy z aktualizacją licencji. Spróbuj przywrócić swój zakup."
 
 # Downloading media box
 stop = '''Przerwij'''
