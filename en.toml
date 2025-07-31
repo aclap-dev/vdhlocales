@@ -139,6 +139,8 @@ not_playing_default_player_solution_mac = "Open download directory right-click o
 
 [web]
 
+back = "Back" # Go back button
+
 # On top of all pages.
 header_help = "Help"
 header_community = "Community"
@@ -161,6 +163,8 @@ issue_email_sent = "We just sent you an email with a link that will activate you
 issue_or_digit = "Or, you can also enter the 6 digit code we sent you:"
 issue_just_digit = "Enter the 6 digit code we sent you:"
 issue_i_have_a_code = "(Click here if you already have a code)"
+issue_i_have_a_key = "(Click here if you have a license key)"
+issue_key = "Enter your Video DownloadHelper license key:"
 
 # Context: this page - https://downloadhelper.net/
 landing_text1 = "Download any video from any websites, it just works!"
