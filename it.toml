@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
 # VDH 10 versione 10.0.107.0
-# 29 luglio 2025
+# 31 luglio 2025
 # by Night Train
 
 [addon]
@@ -141,6 +141,8 @@ not_playing_default_player_solution_mac = "Apri la cartella di download, clic de
 
 [web]
 
+back = "Indietro" # Go back button
+
 # In cima a tutte le pagine.
 header_help = "Aiuto"
 header_community = "Community"
@@ -163,6 +165,8 @@ issue_email_sent = "Ti abbiamo appena inviato una email con un link che attiver√
 issue_or_digit = "Oppure puoi anche inserire il codice a 6 cifre che ti abbiamo inviato:"
 issue_just_digit = "Inserisci il codice a 6 cifre che ti abbiamo inviato:"
 issue_i_have_a_code = "(Clicca qui se hai gi√† un codice)"
+issue_i_have_a_key = "(Clicca qui se hai una chiave di licenza)"
+issue_key = "Inserisci la tua chiave di licenza di Video DownloadHelper:"
 
 # Contesto: questa pagina - https://downloadhelper.net/
 landing_text1 = "Scarica qualsiasi video da qualsiasi sito web, funziona!"
