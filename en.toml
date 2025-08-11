@@ -96,6 +96,8 @@ no_downloads_yet = "No entries yet."
 # Various notifications
 download_failed = "Download failed"
 download_failed_description = "Sadly we failed at downloading that specific media. We try to support as many websites as possible, so it would help a lot if you could report that error (it's anonymous!)."
+download_interrupted = "Download interrupted"
+download_interrupted_description = "We managed to download your file, but there was a network issues, so the file might be shorter than expected. We try to support as many websites as possible, so it would help a lot if you could report this problem (it's anonymous!)."
 download_with_drm_failed_description = "Something didn't work. And we think this video has DRM. We do not support videos with DRM."
 no_youtube = "Download from youtube not allowed"
 no_youtube_description = "Unfortunately, the Chrome Web Store does not allow extensions for downloading YouTube videos so we could not include this feature in the Chrome version of the extension."
