@@ -39,6 +39,7 @@ warn_drm_tooltip = "DRM detected"
 # Strings for the settings panel.
 version_title = "Version"
 account_title = "Account"
+one_hundred_downloads_title = "You've downloaded 100 videos!"
 leave_review_description = "We hope you're enjoying Video DownloadHelper :) Would you mind writing a nice review on the addon website?"
 leave_review_button = "Leave a review"
 account_status= "Status"
