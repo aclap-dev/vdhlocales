@@ -1,6 +1,6 @@
-# Traduzione italiana da English reference - en.toml.
+# Traduzione italiana da English reference - en.toml (master branch).
 # VDH 10 versione 10.0.107.0
-# 31 luglio 2025
+# 14 agosto 2025
 # by Night Train
 
 [addon]
@@ -42,6 +42,7 @@ warn_drm_tooltip = "Rilevato DRM"
 # Stringhe per il pannello impostazioni.
 version_title = "Versione"
 account_title = "Account"
+one_hundred_downloads_title = "Hai scaricato 100 video!"
 leave_review_description = "Ci auguriamo che Video DownloadHelper ti piaccia :) Ti dispiacerebbe scrivere una bella recensione sul sito web dell'estensione?"
 leave_review_button = "Lascia una recensione"
 account_status= "Status"
@@ -90,14 +91,16 @@ preview_mode_image = "Immagine"
 history_title = "Cronologia Download"
 history_warning = "Non registriamo la tua cronologia di download. Vuoi che Video DownloadHelper ricordi la tua cronologia di download?"
 history_warning_2 = "Non ti preoccupare, tutto rimane sul tuo computer. Apprezziamo la tua privacy."
-enable_history = "Non ti preoccupare, tutto rimane sul tuo computer. Apprezziamo la tua privacy."
+enable_history = "Abilita Cronologia"
 clear_history = "Pulisci Cronologia"
 disable_history = "Non ricordare la mia cronologia"
 no_downloads_yet = "Ancora nessuna attività."
 
 # Notifiche varie
-download_failed = "Download Fallito"
+download_failed = "Download fallito"
 download_failed_description = "Purtroppo non siamo riusciti a scaricare quel file multimediale specifico. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare l'errore (è anonimo!)"
+download_interrupted = "Download interrotto"
+download_interrupted_description = "Siamo riusciti a scaricare il tuo file, ma c'erano problemi di rete, quindi il file potrebbe essere più breve del previsto. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare questo problema (è anonimo!)."
 download_with_drm_failed_description = "Qualcosa non ha funzionato. Pensiamo che questo video abbia DRM. Non supportiamo i video con DRM."
 no_youtube = "Download da YouTube non permesso"
 no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni per il download di video dd YouTube, pertanto non abbiamo potuto includere questa funzionalità nella versione Chrome dell'estensione."
