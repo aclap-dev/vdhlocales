@@ -5,65 +5,66 @@
 
 [addon]
 
-# Descrizione di Video DownloadHelper. Massimo 132 caratteri.
-appDesc = "Scarica i video dal Web."
+# Video DownloadHelper description. 132 characters max.
+appDesc = "Scarica video dal web."
 
 # Global strings
-restore_purchase_button = "Ripristina l'acquisto"
-get_premium_button = "Acquista l'accesso Premium"
-back = "Indietro" # Pulsante Indietro - per esempio nel pannello Impostazioni
+restore_purchase_button = "Ripristina acquisto"
+get_premium_button = "Acquista accesso Premium"
+back = "Indietro" # Go back button - in Settings panel for example
 
-# Stringhe per il pannello principale
+# Strings for the main panel
 waiting_for_media = "In attesa di file multimediali…"
 nomedia_title = "Non riesci a vedere i file multimediali che stai cercando?"
 nomedia_description = "Avvia il video (e salta gli annunci, se presenti) per rilevare i file multimediali o segnala i file multimediali mancanti."
-nomedia_reload_button = "Forza il rilevamento"
-nomedia_reload_button_tooltip = "Forza la ricarica della pagina (pulisce i cookie)"
+nomedia_reload_button = "Forza rilevamento"
+nomedia_reload_button_tooltip = "Forza ricarica pagina (azzera cookie)"
 show_nomedia_button = "Nessun video?"
-show_nomedia_button_tooltip = "Clicca qui se non trovi il tuo video"
+show_nomedia_button_tooltip = "Fai clic qui se non trovi il video"
 setting_button_tooltip = "Impostazioni"
-history_button_tooltip = "Mostra la Cronologia dei Download"
-show_all_history_button = "Mostra tutto"
+history_button_tooltip = "Visualizza cronologia download"
+show_all_history_button = "Visualòizza tutto"
 complete_title = "Completati"
 hide_complete_button = "Nascondi"
 translate_button_tooltip = "Aiuta a tradurre VDH"
 
-# Pannello dei file multimediali scaricati
-open_source_tab_button_tooltip = "Apri la scheda sorgente"
+# Downloaded media box
+open_source_tab_button_tooltip = "Apri scheda sorgente"
 retry_download_button_tooltip = "Scarica di nuovo"
 delete_file_button_tooltip = "Elimina il file"
-download_directory_button_tooltip = "Mostra la cartella di download"
-show_in_popup_button_tooltip = "Mostra nel popup"
-show_in_sidebar_button_tooltip = "Mostra nella barra laterale"
+download_directory_button_tooltip = "Visualizza cartella download"
+show_in_popup_button_tooltip = "Visualizza nel popup"
+show_in_sidebar_button_tooltip = "Visualizza nella barra laterale"
 video_not_playing_button_tooltip = "Il video non viene riprodotto?"
 play = "Riproduci"
 warn_drm_tooltip = "Rilevato DRM"
 
-# Stringhe per il pannello impostazioni.
+# Strings for the settings panel.
 version_title = "Versione"
 account_title = "Account"
 one_hundred_downloads_title = "Hai scaricato 100 video!"
 leave_review_description = "Ci auguriamo che Video DownloadHelper ti piaccia :) Ti dispiacerebbe scrivere una bella recensione sul sito web dell'estensione?"
-leave_review_button = "Lascia una recensione"
-account_status= "Status"
+leave_review_button = "Scrivi una recensione"
+account_status= "Stato"
 account_status_premium = "Premium ($1)"
 free_account = "Piano gratuito"
 copy_to_clipboard = "Copia dati negli appunti"
 my_account_button = "Il mio account"
 download_title = "Download"
-show_notification = "Mostra una notifica una volta completato il download"
-max_parallel_downloads = "Numero massimo di download contemporanei"
-change_download_directory = "Cambia la cartella di download"
-saveas_detected_warning = "Abbiamo rilevato che il tuo browser mostra una finestra di dialogo 'Salva con nome', una volta terminato il download. Ti consigliamo di disabilitare questa opzione nelle impostazioni del tuo browser."
+show_notification = "Visualizza una notifica una volta completato il download"
+max_parallel_downloads = "Numero massimo download contemporanei"
+change_download_directory = "Cambia cartella download"
+saveas_detected_warning = "È stato rilevato che il browser visualizza, una volta terminato il download, una finestra di dialogo 'Salva con nome'. Ti consigliamo di disabilitare questa opzione nelle impostazioni del browser."
 change_saveas_setting = "Cambia impostazione"
+
 private_browsing_title = "Navigazione anonima"
-private_browsing_warning = "Video DownloadHelper non è abilitato in navigazione anonima."
-private_browsing_notifications = "Mostra una notifica per i download in navigazione anonima"
+private_browsing_warning = "Video DownloadHelper non è abilitato alla navigazione anonima."
+private_browsing_notifications = "Visualizza una notifica per i download in navigazione anonima"
 private_browsing_button = "Cambia impostazioni in navigazione anonima"
-prefer_original_audio = "Preferisci audio originale" # Solo per Firefox
-prefer_hls = "Preferisci HLS" # Solo per Firefox
+prefer_original_audio = "Preferisci audio originale" # Firefox only
+prefer_hls = "Preferisci HLS" # Firefox only
 settings_history_title = "Cronologia"
-transient_history_description = "Mostra i download completati nel pannello"
+transient_history_description = "Visualizza nel pannello download completati"
 history_limit = "Dopo quanti giorni dimentico i file scaricati?"
 appearance_title = "Aspetto"
 theme_title = "Tema"
@@ -75,124 +76,124 @@ popup_size_small = "Piccola"
 popup_size_medium = "Media"
 popup_size_big = "Grande"
 panel_position_title = "Posizione pannello"
-use_popup = "Mostra in un popup"
-use_sidebar = "Mostra nella barra laterale"
+use_popup = "Visualizza in un popup"
+use_sidebar = "Visualizza nella barra laterale"
 behavior_title = "Comportamento"
 show_in_context_menu = "Accedi ai comandi con clic destro nella pagina"
-restart_addon = "Ricarica l'estensione VDH"
-reset_settings = "Ripristina le impostazioni"
-prefer_highest_quality = "Seleziona la massima qualità disponibile invece di 1080p per impostazione predefinita (download più lento, qualità superiore)."
+restart_addon = "Ricarica estensione VDH"
+reset_settings = "Ripristina impostazioni"
+prefer_highest_quality = "Seleziona per impostazione predefinita la massima qualità disponibile invece di 1080p (download più lento, qualità superiore)."
 preview_mode_title = "Anteprima"
 preview_mode_none = "Disabilitata"
 preview_mode_video = "Anteprima breve"
 preview_mode_image = "Immagine"
 
-# Stringhe per la pagina cronologia
-history_title = "Cronologia Download"
-history_warning = "Non registriamo la tua cronologia di download. Vuoi che Video DownloadHelper ricordi la tua cronologia di download?"
-history_warning_2 = "Non ti preoccupare, tutto rimane sul tuo computer. Apprezziamo la tua privacy."
-enable_history = "Abilita Cronologia"
-clear_history = "Pulisci Cronologia"
-disable_history = "Non ricordare la mia cronologia"
+# String for history page
+history_title = "Cronologia download"
+history_warning = "Non registriamo la cronologia dei download. Vuoi che Video DownloadHelper ricordi la cronologia dei download?"
+history_warning_2 = "Non ti preoccupare, tutto rimane nel computer. Apprezziamo la tua privacy."
+enable_history = "Abilita cronologia"
+clear_history = "Azzera cronologia"
+disable_history = "Non ricordare la cronologia"
 no_downloads_yet = "Ancora nessuna attività."
 
-# Notifiche varie
+# Various notifications
 download_failed = "Download fallito"
 download_failed_description = "Purtroppo non siamo riusciti a scaricare quel file multimediale specifico. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare l'errore (è anonimo!)"
 download_interrupted = "Download interrotto"
-download_interrupted_description = "Siamo riusciti a scaricare il tuo file, ma c'erano problemi di rete, quindi il file potrebbe essere più breve del previsto. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare questo problema (è anonimo!)."
-download_with_drm_failed_description = "Qualcosa non ha funzionato. Pensiamo che questo video abbia DRM. Non supportiamo i video con DRM."
+download_interrupted_description = "Siamo riusciti a scaricare il file, ma c'erano problemi di rete, quindi il file potrebbe essere più breve del previsto. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare questo problema (è anonimo!)."
+download_with_drm_failed_description = "Qualcosa non ha funzionato. Pensiamo che questo video sia protetto da DRM. Non supportiamo i video con DRM."
 no_youtube = "Download da YouTube non permesso"
 no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni per il download di video dd YouTube, pertanto non abbiamo potuto includere questa funzionalità nella versione Chrome dell'estensione."
-premium_required = "Premium status richiesto"
-premium_yt_required_description = "Senza status Premium un download da YouTube può essere eseguito solo 2 ore dopo il precedente"
-premium_required_description = "Senza status Premium un download HLS può essere eseguito solo 2 ore dopo il precedente"
+premium_required = "Stato Premium richiesto"
+premium_yt_required_description = "Senza lo sttao Premium un download da YouTube può essere eseguito solo 2 ore dopo il precedente"
+premium_required_description = "Senza stato Premium un download HLS può essere eseguito solo 2 ore dopo il precedente"
 
-# Pannello dei file multimediali scaricati
+# Downloading media box
 stop = "Stop"
-cancel = "Cancella"
+cancel = "Annulla"
 
-# File multimediali che troviamo nella pagina
-copy_url = "Copia indirizzo" # Nel menu e come pulsante
+# Media we found in the page
+copy_url = "Copia indirizzo" # In menu and as a button
 always_copy_url = "Copia sempre indirizzo"
 download_button = "Download"
 download_as_button_and_menu = "Download come…"
 always_download_as_menu = "Download sempre come…"
 download_audio_button = "Audio"
-download_audio_and_video_menu = "Download Audio & Video"
-download_audio_only_menu = "Download Audio"
-audio_only_for_this_website = "Download solo Audio, sempre da questo sito web"
+download_audio_and_video_menu = "Download audio e video"
+download_audio_only_menu = "Download audio"
+audio_only_for_this_website = "Da questo sito web download sempre solo audio"
 details = "Dettagli"
 more_settings = "Altre impostazioni"
 
-# Pulsanti di segnalazione
+# Report buttons
 report = "Segnala"
-reporting = "Segnalando…"
+reporting = "Segnalazione…"
 reported = "Segnalato, Grazie!"
 
-# Video non riproducibile - pagina
+# Video not playing - page
 not_playing_title = "Il video non viene riprodotto?"
-not_playing_broken_title = "Audio o video rotti?"
-not_playing_broken_description = "Segnala il file multimediale che non è andato a buon fine. Faremo del nostro meglio per capire perché è fallito (inviamo l'indirizzo del video in modo anonimo - non ti tracciamo!)"
+not_playing_broken_title = "Audio o video corrotti?"
+not_playing_broken_description = "Segnala il file multimediale che non è andato a buon fine. Faremo del nostro meglio per capire perché il downlaod è fallito (inviamo l'indirizzo del video in modo anonimo - non ti tracciamo!)"
 not_playing_broken_solution_title = "Prova un lettore video moderno"
 not_playing_broken_solution_windows_1 = "Raccomandiamo VLC:"
 not_playing_broken_solution_mac_1 = "Raccomandiamo IINA:"
-not_playing_broken_solution_2 = "è moderno, sicuro e Open Source."
-not_playing_default_player = "Assicurati che il tuo lettore video sia impostato come lettore video predefinito del sistema"
+not_playing_broken_solution_2 = "è moderno, sicuro e open source."
+not_playing_default_player = "Assicurati che il lettore video sia impostato come lettore video predefinito del sistema"
 not_playing_default_player_solution_windows = "In Windows, \"Pannello di Controllo\", clic su \"Programmi Predefiniti\" e cambia il programma predefinito per il lettore."
-not_playing_default_player_solution_mac = "Apri la cartella di download, clic destro sul file video. Clic su 'Ottieni informazioni'. Nella sezione 'Apri con' seleziona IINA. Clic sul pulsante 'Cambia Tutto'."
+not_playing_default_player_solution_mac = "Apri la cartella di download, clic destro sul file video. Clic su 'Ottieni informazioni'. Nella sezione 'Apri con' seleziona IINA. Clic sul pulsante 'Cambia tutto'."
 
 [web]
 
 back = "Indietro" # Go back button
 
-# In cima a tutte le pagine.
+# On top of all pages.
 header_help = "Aiuto"
 header_community = "Community"
 
-# Contesto: pagina di attivazione dopo aver ricevuto il link magico via e-mail.
-activate_title = "Attivazione" # spero che si blocchi
+# Context: activation page after receiving the magic link via email.
+activate_title = "Attivazione" # hope it crashes
 activate_pending = "In attesa…"
-activate_success = "Successo"
+activate_success = "Completato"
 activate_error = "Errore"
-activate_no_addon_found = "Non ho trovato l'estensione VDH. Hai installato l'estensione VDH?"
+activate_no_addon_found = "Estensione VDH non disponibile. Hai installato l'estensione VDH?"
 activate_no_method_found = "Nessun metodo trovato."
 activate_help_me = "Aiutami."
 
-# Contesto: pagina web per ripristinare un acquisto che richiede all'utente di inserire la propria email.
-issue_title = "Ripristino dell'acquisto"
-issue_submit = "Inoltra"
+# Context: webpage to restore a purchase, which require the user to enter their email.
+issue_title = "Ripristino acquisto"
+issue_submit = "Invia"
 issue_thank_you = "Grazie"
-issue_enter_email = "Per ripristinare l'acquisto, immetti l'indirizzo email utilizzato per acquistare la licenza:"
-issue_email_sent = "Ti abbiamo appena inviato una email con un link che attiverà il tuo prodotto."
+issue_enter_email = "Per ripristinare l'acquisto, inserisci l'indirizzo email usato per acquistare la licenza:"
+issue_email_sent = "Ti abbiamo appena inviato una email con un link che attiverà il prodotto."
 issue_or_digit = "Oppure puoi anche inserire il codice a 6 cifre che ti abbiamo inviato:"
 issue_just_digit = "Inserisci il codice a 6 cifre che ti abbiamo inviato:"
-issue_i_have_a_code = "(Clicca qui se hai già un codice)"
-issue_i_have_a_key = "(Clicca qui se hai una chiave di licenza)"
-issue_key = "Inserisci la tua chiave di licenza di Video DownloadHelper:"
+issue_i_have_a_code = "(Clic qui se hai già un codice)"
+issue_i_have_a_key = "(Clic qui se hai una chiave licenza)"
+issue_key = "Inserisci la chiave licenza di Video DownloadHelper:"
 
-# Contesto: questa pagina - https://downloadhelper.net/
+# Context: this page - https://downloadhelper.net/
 landing_text1 = "Scarica qualsiasi video da qualsiasi sito web, funziona!"
 landing_text2 = "1000+ siti web supportati"
 landing_text3 = "Fidati di 7 milioni di utenti"
-landing_text4 = "4,5 stelle sul negozio delle estensioni"
+landing_text4 = "4,5 stelle nello shop delle estensioni"
 landing_install_for_google = "Installa per Chrome"
 landing_install_for_mozilla = "Installa per Firefox"
 landing_install_for_microsoft = "Installa per Edge"
 landing_feature1_title = "Download in HD a piena velocità"
 landing_feature1_description = "Scarica video in alta definizione alla massima velocità. Siamo orgogliosi di affermare che abbiamo il motore di download più veloce di tutti."
 landing_feature2_title = "Archivio video"
-landing_feature2_description = "Archivia i tuoi video preferiti, assicurati che nessun video sarà dimenticato."
-landing_feature3_title = "Supporto ai Live Stream"
+landing_feature2_description = "Archivia i video preferiti, assicurati che nessun video sarà dimenticato."
+landing_feature3_title = "Supporto ai live stream"
 landing_feature3_description = "Goditi la visualizzazione offline dei flussi in diretta, liberati dai limiti della visione in tempo reale."
-landing_feature4_title = "Download Audio"
+landing_feature4_title = "Download audio"
 landing_feature4_description = "Estrai l'audio dai video e convertili in MP3 o podcast per un facile ascolto."
 
-# Contesto: questo è per la pagina web "acquista una licenza".
+# Context: this is for a "buy a license" webpage.
 premium_hero1 = "Paga una volta, usa per sempre"
-premium_hero2 = "Ottieni una Licenza a Vita per Video DownloadHelper"
+premium_hero2 = "Ottieni una licenza a vita per Video DownloadHelper"
 premium_hero3 = "Scarica tutti i video che vuoi, senza limiti."
 
-# Contesto: la pagina che si apre dopo che hai installato l'estensione'.
+# Context: the page that opens after the addon gets installed.
 welcome_text = "Ora non ti perderai alcun video!"
-welcome_pin_message = "Fissa l'icona di VDH nella barra strumenti:"
+welcome_pin_message = "Agganmcia l'icona di VDH nella barra strumenti:"
