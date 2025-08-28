@@ -115,6 +115,8 @@ copy_url = "Copy URL" # In menu and as a button
 always_copy_url = "Always copy URL"
 download_button = "Download"
 download_as_button_and_menu = "Download As…"
+rename_short = "Rename" # Keep this as short as possible
+
 always_download_as_menu = "Always Download As…"
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Download Audio & video"
