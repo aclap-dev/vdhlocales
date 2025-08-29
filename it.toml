@@ -1,6 +1,6 @@
-# Traduzione italiana da English reference - en.toml (master branch).
-# VDH 10 versione 10.0.107.0
-# 14 agosto 2025
+# Traduzione italiana da English reference - en.toml.
+# VDH 10 versione 10.0.158.0
+# 28 agosto 2025
 # by Night Train
 
 [addon]
@@ -117,6 +117,7 @@ copy_url = "Copia indirizzo" # Nel menu e come pulsante
 always_copy_url = "Copia sempre indirizzo"
 download_button = "Download"
 download_as_button_and_menu = "Download come…"
+rename_short = "Rinomina" # Tienilo più corto possibile
 always_download_as_menu = "Download sempre come…"
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Download Audio & Video"
