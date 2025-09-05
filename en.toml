@@ -105,6 +105,8 @@ no_youtube_description = "Unfortunately, the Chrome Web Store does not allow ext
 premium_required = "Premium status required"
 premium_yt_required_description = "Without Premium status, a YouTube download can only be performed 2 hours after the previous one"
 premium_required_description = "Without Premium status, an HLS download can only be performed 2 hours after the previous one"
+youtube_too_many_downloads = "Oops, YouTube seems to be blocked"
+youtube_too_many_downloads_description = "YouTube sometimes will limit how many videos can be requested. Nothing we can do about sadly. Try again later."
 
 # Downloading media box
 stop = "Stop"
