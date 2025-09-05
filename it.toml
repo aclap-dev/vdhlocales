@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.158.0
-# 28 agosto 2025
+# VDH 10 versione 10.0.172.0
+# 05 settembre 2025
 # by Night Train
 
 [addon]
@@ -107,6 +107,8 @@ no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni
 premium_required = "Premium status richiesto"
 premium_yt_required_description = "Senza status Premium un download da YouTube può essere eseguito solo 2 ore dopo il precedente"
 premium_required_description = "Senza status Premium un download HLS può essere eseguito solo 2 ore dopo il precedente"
+youtube_too_many_downloads = "Oops, YouTube sembra essere bloccato"
+youtube_too_many_downloads_description = "A volte YouTube limita il numero di video che possono essere richiesti. Purtroppo non possiamo farci niente. Riprova più tardi."
 
 # Pannello dei file multimediali scaricati
 stop = "Stop"
