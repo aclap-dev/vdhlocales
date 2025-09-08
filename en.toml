@@ -103,8 +103,8 @@ download_with_drm_failed_description = "Something didn't work. And we think this
 no_youtube = "Download from youtube not allowed"
 no_youtube_description = "Unfortunately, the Chrome Web Store does not allow extensions for downloading YouTube videos so we could not include this feature in the Chrome version of the extension."
 premium_required = "Premium status required"
-premium_yt_required_description = "Without Premium status, a YouTube download can only be performed 2 hours after the previous one"
-premium_required_description = "Without Premium status, an HLS download can only be performed 2 hours after the previous one"
+premium_yt_required_description = "Without Premium status, a YouTube download can only be performed 2 hours after the previous one."
+premium_required_description = "Without Premium status, an HLS or MPD download can only be performed 2 hours after the previous one."
 youtube_too_many_downloads = "Oops, YouTube seems to be blocked"
 youtube_too_many_downloads_description = "YouTube sometimes will limit how many videos can be requested. Nothing we can do about sadly. Try again later."
 
