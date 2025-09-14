@@ -5,4 +5,27 @@
 # Video DownloadHelper description. 132 characters max.
 appDesc = "Download Videos from the Web."
 
-customPath = "/home/hielke/video-downloadhelper.txt"
+[nl]
+# v9.5.0.2
+v9_settings_checkbox_force_inbrowser = '''De CoApp niet gebruiken waar mogelijk'''
+v9_settings_checkbox_thumbnail_in_notification = '''Miniatuur tonen in notificaties'''
+v9_settings_checkbox_forget_on_close = '''Schoon de ontdekte media op wanneer het tabblad wordt gesloten'''
+v9_settings_checkbox_view_convert_local = '''Toon de Converteer Lokaal knop'''
+v9_panel_footer_force_reload = '''Forceer detectie'''
+v9_history_page_title = '''Downloadgeschiedenis'''
+v9_history_button_clear = '''Downloadgeschiedenis wissen'''
+v9_history_button_start_recording = '''Downloadgeschiedenis onthouden'''
+v9_history_button_stop_recording = '''Downloadgeschiedenis niet onthouden'''
+v9_history_no_recording_description = '''We bewaren de downloadgeschiedenis niet. Wil je dat Video DownloadHelper de downloadgeschiedenis bewaart?'''
+v9_history_no_recording_description_safe = '''Geen zorgen. Alles blijft op deze machine. We respecteren je privacy.'''
+v9_user_message_privacy_policy_title = '''Privacybeleid- Geen addertjes onder het gras, je blijft anoniem'''
+v9_user_message_privacy_policy_details = '''Details'''
+v9_user_message_privacy_policy_decline = '''Afwijzen'''
+v9_user_message_privacy_policy_accept = '''Accepteren'''
+v9_user_message_privacy_policy_details_long = '''Open Privacybeleid op addons.mozilla.org'''
+v9_user_message_privacy_policy_decline_long = '''Doorgaan zonder delen en alleen basisdownloads'''
+v9_user_message_privacy_policy_accept_long = '''Doorgaan met CoApp delen en geavanceerde downloads'''
+v9_user_message_privacy_policy_text_1 = '''Wanneer de gebruiker een download start, downloaden we de video direct. Voor complexere downloads (M3U8 en MPD) sturen we de URL en HTTP-headers naar de Video DownloadHelper-applicatie op uw computer (de URL wordt nooit naar ons verzonden).'''
+v9_user_message_privacy_policy_text_2 = '''Als u ons Privacybeleid weigert, kunt u nog steeds sommige video's downloaden, maar M3U8- en MPD-video's kunnen niet worden gedownload.'''
+v9_settings_button_reset_privacy = '''Privacy instellingen herstellen'''
+v9_panel_error_coapp_failure_description_no_report = '''Helaas is het ons niet gelukt om die specifieke media te downloaden.'''
