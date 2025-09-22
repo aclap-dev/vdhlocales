@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.178.0
-# 09 settembre 2025
+# VDH 10 versione 10.0.183.0
+# 22 settembre 2025
 # by Night Train
 
 [addon]
@@ -33,6 +33,7 @@ open_source_tab_button_tooltip = "Apri la scheda sorgente"
 retry_download_button_tooltip = "Scarica di nuovo"
 delete_file_button_tooltip = "Elimina il file"
 download_directory_button_tooltip = "Mostra la cartella di download"
+clear_downloaded_tooltip = "Elimina i download completati"
 show_in_popup_button_tooltip = "Mostra nel popup"
 show_in_sidebar_button_tooltip = "Mostra nella barra laterale"
 video_not_playing_button_tooltip = "Il video non viene riprodotto?"
