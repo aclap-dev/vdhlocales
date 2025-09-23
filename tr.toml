@@ -117,7 +117,7 @@ not_playing_broken_solution_windows_1 = "Biz VLC öneriyoruz:"
 not_playing_broken_solution_mac_1 = "Biz IINA öneriyoruz:"
 not_playing_broken_solution_2 = "Modern, güvenli ve Açık Kaynaklıdır."
 not_playing_default_player = "Video oynatıcınızın sisteminizin varsayılan video oynatıcısı olarak ayarlandığından emin olun"
-not_playing_default_player_solution_windows = "Windows'un "Kontrol Paneli"nden "Varsayılan Programlar"a tıklayıp oynatıcınızın varsayılan programlarını değiştirebilirsiniz."
+not_playing_default_player_solution_windows = "Windows'un 'Kontrol Paneli' nden 'Varsayılan Programlar'a tıklayıp oynatıcınızın varsayılan programlarını değiştirebilirsiniz."
 not_playing_default_player_solution_mac = "İndirilenler klasörünü açın ve video dosyasına sağ tıklayın. 'Bilgi Al' seçeneğine tıklayın. 'Birlikte Aç' bölümünden IINA'yı seçin. Sonra da 'Tümünü Değiştir' butonuna basın."
 
 [web]
