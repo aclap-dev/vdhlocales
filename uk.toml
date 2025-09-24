@@ -30,6 +30,7 @@ open_source_tab_button_tooltip = "Відкрити вкладку з вихід�
 retry_download_button_tooltip = "Повторити завантаження"
 delete_file_button_tooltip = "Видалити файл"
 download_directory_button_tooltip = "Показати папку завантажень"
+clear_downloaded_tooltip = "Очистити завершені завантаження"
 show_in_popup_button_tooltip = "Відкрити у виринаючому вікні"
 show_in_sidebar_button_tooltip = "Відкрити в бічній панелі"
 video_not_playing_button_tooltip = "Відео не відтворюється?"
