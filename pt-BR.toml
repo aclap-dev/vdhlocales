@@ -1,0 +1,172 @@
+# Portuguese
+
+[addon]
+
+# Video DownloadHelper description. 132 characters max.
+appDesc = "Baixar vídeos da Web."
+
+# Global strings
+restore_purchase_button = "Restaurar compra"
+get_premium_button = "Obter premium"
+back = "Voltar" # Go back button - in Settings panel for example
+
+# Strings for the main panel
+waiting_for_media = "Esperando pela mídia…"
+nomedia_title = "Não consegue ver a mídia que está procurando?"
+nomedia_description = "Inicie o vídeo (e pule os anúncios, se houver) para ajudar a detectar a mídia. Ou relate a mídia ausente. "
+nomedia_reload_button = "Forçar detecção"
+nomedia_reload_button_tooltip = "Forçar o recarregamento da página (limpar cookies)"
+show_nomedia_button = "Sem vídeo?"
+show_nomedia_button_tooltip = "Clique aqui se você não conseguir encontrar seu vídeo"
+setting_button_tooltip = '''Configurações'''
+history_button_tooltip = '''Mostrar histórico de downloads'''
+translate_button_tooltip = "Ajude a traduzir VDH"
+
+# Downloaded media box
+open_source_tab_button_tooltip = "Guia de código aberto"
+retry_download_button_tooltip = "Repetir baixamento"
+delete_file_button_tooltip = '''Excluir arquivo'''
+download_directory_button_tooltip = '''Mostrar pasta de download'''
+show_in_popup_button_tooltip = '''Mostrar em pop-up'''
+show_in_sidebar_button_tooltip = '''Mostrar na barra lateral'''
+video_not_playing_button_tooltip = "O vídeo não está sendo reproduzido?"
+play = '''Reproduzir'''
+warn_drm_tooltip = "DRM detectado"
+
+# Strings for the settings panel.
+version_title = '''Versão'''
+account_title = "Conta"
+leave_review_description = '''Esperamos que você esteja gostando do Vídeo DownloadHelper :) Você se importaria de escrever uma boa crítica no site do complemento?'''
+leave_review_button = '''Deixe um comentário'''
+account_status= "Estado"
+account_status_premium = '''Premium ($1)'''
+free_account = "Plano gratuito"
+copy_to_clipboard = '''Copiar informações para a área de transferência'''
+my_account_button = "Minha conta"
+download_title = "Baixamentos"
+show_notification = '''Mostrar notificação quando o download for concluído'''
+max_parallel_downloads = '''Máximo de downloads simultâneos'''
+change_download_directory = "Alterar diretório de baixamento"
+
+private_browsing_title = "Navegação privada"
+private_browsing_warning = '''Video DownloadHelper não está habilitado em janelas privadas/anônimas. Você precisa ativar essa opção manualmente (isso não é obrigatório).'''
+private_browsing_notifications = "Mostrar notificação para baixamentos privados"
+private_browsing_button = "Alterar a configuração de navegação privada"
+prefer_original_audio = "Prefira áudio original" # Firefox only
+prefer_hls = "Prefira HLS" # Firefox only
+settings_history_title = "Histórico"
+history_limit = '''Esqueça o histórico de downloads após X dias'''
+appearance_title = '''Aparência'''
+theme_title = '''Tema'''
+theme_light = '''claro'''
+theme_dark = '''escuro'''
+theme_system = '''sistema'''
+popup_size_title = "Tamanho da janela"
+popup_size_small = "Pequeno"
+popup_size_medium = "Médio"
+popup_size_big = "Grande"
+panel_position_title = "Posição do painel"
+use_popup = '''Mostrar em pop-up'''
+use_sidebar = '''Mostrar na barra lateral'''
+behavior_title = '''Comportamento'''
+show_in_context_menu = '''Comandos de acesso a partir do botão direito na página'''
+restart_addon = '''Recarregar extensão'''
+reset_settings = '''Redefinir configurações'''
+prefer_highest_quality = "Selecionar a qualidade mais alta disponível em vez de 1080p por padrão (baixamento mais lento, qualidade mais alta)."
+
+# String for history page
+history_title = "Histórico de baixamentos"
+history_warning = '''Não registramos seu histórico de downloads. Você quer que o Video DownloadHelper se lembre do seu histórico de downloads?'''
+history_warning_2 = '''Não se preocupe, tudo fica na sua máquina. Valorizamos sua privacidade.'''
+enable_history = '''Lembrar histórico'''
+clear_history = '''Limpar histórico'''
+disable_history = '''Não lembrar meu histórico'''
+no_downloads_yet = '''Nenhuma entrada'''
+
+# Various notifications
+download_failed = '''Download falhou'''
+download_failed_description = '''Infelizmente, falhamos no download dessa mídia específica. Tentamos oferecer suporte ao maior número possível de sites, então ajudaria muito se você pudesse relatar esse erro!'''
+download_with_drm_failed_description = "Algo não funcionou. E achamos que este vídeo tem DRM. Não oferecemos suporte a vídeos com DRM."
+no_youtube = "Baixamento do youtube não permitido"
+no_youtube_description = '''Infelizmente, a loja do navegador Chrome não permite realizar transferências de vídeos, sendo assim não podemos incluir esta função na versão destinada ao Chrome.'''
+premium_required = '''É necessário status Premium'''
+premium_yt_required_description = "Sem o estado Premium, um baixamento do YouTube só pode ser realizado 2 horas após o anterior"
+premium_required_description = '''Sem um status Premium, um download HLS somente pode ser realizado $1 após o download anterior.'''
+
+# Downloading media box
+stop = '''Parar'''
+cancel = '''Cancelar'''
+
+# Media we found in the page
+copy_url = '''Copiar URL'''
+always_copy_url = "Copiar sempre a URL"
+download_button = '''Baixar'''
+download_as_button_and_menu = '''Baixar Como…'''
+download_audio_button = "Áudio"
+download_audio_and_video_menu = "Baixar áudio e vídeo"
+download_audio_only_menu = '''Baixar Áudio'''
+audio_only_for_this_website = "Sempre áudio apenas para este site"
+details = '''Detalhes'''
+more_settings = '''Mais configurações'''
+
+# Report_ buttons
+report = '''Reportar'''
+reporting = "Relatando…"
+reported = '''Reportado, obrigado!'''
+
+# Video not playing - page
+not_playing_title = "O vídeo não está sendo reproduzido?"
+not_playing_broken_title = "Áudio ou vídeo quebrado?"
+not_playing_broken_description = "Relatar a mídia em falha. Faremos o possível para descobrir por que falhou (enviamos o URL do vídeo anonimamente - não rastreamos você!)"
+not_playing_broken_solution_title = "Experimente um player de vídeo moderno"
+not_playing_broken_solution_windows_1 = "Recomendamos o VLC:"
+not_playing_broken_solution_mac_1 = "Recomendamos o IINA:"
+not_playing_broken_solution_2 = "é moderno, seguro e de código aberto."
+not_playing_default_player = "Certifique-se de que seu reprodutor de vídeo esteja definido como seu reprodutor de vídeo padrão do sistema"
+not_playing_default_player_solution_windows = "No \"Painel de Controle\" do Windows, clique em \"Programas Padrão\" e altere os programas padrão para o seu reprodutor."
+not_playing_default_player_solution_mac = "Abra o diretório de baixamentos e clique com o botão direito do mouse no arquivo de vídeo. Clique em 'Obter informações'. Na seção 'Abrir com', selecione IINA. Clique no botão 'Alterar tudo'."
+
+[web]
+
+# On top of all pages.
+header_help = "Ajuda"
+header_community = "Comunidade"
+
+# Context: activation page after receiving the magic link via email.
+activate_title = "Ativação" # hope it crashes
+activate_pending = "Pendente…"
+activate_success = "Bem sucedido"
+activate_error = "Erro"
+activate_no_addon_found = "Nenhum complemento encontrado. O complemento está instalado?"
+activate_no_method_found = "Nenhum método encontrado."
+activate_help_me = "Ajude-me."
+
+# Context: webpage to restore a purchase, which require the user to enter their email.
+issue_title = "Restaurando a compra"
+issue_submit = "Enviar"
+issue_thank_you = "Obrigado"
+issue_enter_email = "Para restaurar sua compra, digite o endereço de e-mail que você usou para comprar sua licença:"
+issue_email_sent = "Acabamos de enviar um e-mail com um link que ativará seu produto."
+issue_or_digit = "Ou você também pode digitar o código de 6 dígitos que enviamos a você:"
+
+# Context: this page - https://downloadhelper.net/
+landing_text1 = "Baixe qualquer vídeo de qualquer site, simplesmente funciona!"
+landing_text2 = "1000+ sites suportados"
+landing_text3 = "Confiado por 7 milhões de usuários"
+landing_text4 = "4,5 estrelas na loja de extensão"
+landing_install_for_google = "Instalar para Chrome"
+landing_install_for_mozilla = "Instalar para Firefox"
+landing_install_for_microsoft = "Instalar para Edge"
+landing_feature1_title = "Baixar em HD a velocidade máxima"
+landing_feature1_description = "Baixar vídeos em alta definição, na velocidade máxima. Temos orgulho de afirmar que temos o mecanismo de baixamento mais rápido do mercado."
+landing_feature2_title = "Vídeos de arquivo"
+landing_feature2_description = "Arquive seus vídeos favoritos, garantindo que nada seja deixado para trás."
+landing_feature3_title = "Suporte para transmissão ao vivo"
+landing_feature3_description = "Aproveite a visualização fora de linha de transmissões ao vivo, liberando você das restrições em tempo real."
+landing_feature4_title = "Baixamento de áudio"
+landing_feature4_description = "Extraia áudio de vídeos, convertendo-os em MP3s ou podcasts para facilitar a audição."
+
+# Context: this is for a "Compre uma licença" webpage.
+premium_hero1 = "Pague uma vez, use para sempre"
+premium_hero2 = "Obtenha uma licença vitalícia para Video DownloadHelper"
+premium_hero3 = "Baixe qualquer vídeo o quanto quiser, sem limites."

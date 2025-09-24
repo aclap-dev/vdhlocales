@@ -1,0 +1,203 @@
+# English - reference.
+
+[addon]
+
+# Video DownloadHelper description. 132 characters max.
+appDesc = "Download Videos from the Web."
+
+# Global strings
+restore_purchase_button = "Restore purchase"
+get_premium_button = "Get premium"
+back = "Back" # Go back button - in Settings panel for example
+
+# Strings for the main panel
+waiting_for_media = "Waiting for media…"
+nomedia_title = "Can't see the media you're looking for?"
+nomedia_description = "Start the video (and skip ads if any) to help detect the media. Or report missing media."
+nomedia_reload_button = "Force detection"
+nomedia_reload_button_tooltip = "Force page reload (clear cookies)"
+show_nomedia_button = "No video?"
+show_nomedia_button_tooltip = "Click here if you can't find your video"
+setting_button_tooltip = "Settings"
+history_button_tooltip = "Show Download History"
+show_all_history_button = "show all"
+complete_title = "Complete"
+hide_complete_button = "hide"
+translate_button_tooltip = "Help translate VDH"
+
+# Downloaded media box
+open_source_tab_button_tooltip = "Open source tab"
+retry_download_button_tooltip = "Retry download"
+delete_file_button_tooltip = "Delete file"
+download_directory_button_tooltip = "Show download folder"
+clear_downloaded_tooltip = "Clear completed downloaded"
+show_in_popup_button_tooltip = "Show in popup"
+show_in_sidebar_button_tooltip = "Show in sidebar"
+video_not_playing_button_tooltip = "Video not playing?"
+play = "Play"
+warn_drm_tooltip = "DRM detected"
+
+# Strings for the settings panel.
+version_title = "Version"
+account_title = "Account"
+one_hundred_downloads_title = "You've downloaded 100 videos!"
+leave_review_description = "We hope you're enjoying Video DownloadHelper :) Would you mind writing a nice review on the addon website?"
+leave_review_button = "Leave a review"
+account_status= "Status"
+account_status_premium = "Premium ($1)"
+free_account = "Free plan"
+copy_to_clipboard = "Copy information to clipboard"
+my_account_button = "My account"
+download_title = "Downloads"
+show_notification = "Show notification when download is complete"
+max_parallel_downloads = "Max concurrent downloads"
+change_download_directory = "Change download directory"
+saveas_detected_warning = "We have detected that your browser shows a 'Save As' dialog, once the download is finished. We recommend disabling that option in your browser settings"
+change_saveas_setting = "Change setting"
+
+private_browsing_title = "Private browsing"
+private_browsing_warning = "Video DownloadHelper is not enabled in a Private/Incognito windows. You need to turn on that option manually (this is not required)."
+private_browsing_notifications = "Show notification for private downloads"
+private_browsing_button = "Change private browsing setting"
+prefer_original_audio = "Prefer original audio" # Firefox only
+prefer_hls = "Prefer HLS" # Firefox only
+settings_history_title = "History"
+transient_history_description = "Show complete downloads in panel"
+history_limit = "Forget download history after X days"
+appearance_title = "Appearance"
+theme_title = "Theme"
+theme_light = "light"
+theme_dark = "dark"
+theme_system = "system"
+popup_size_title = "Window size"
+popup_size_small = "Small"
+popup_size_medium = "Medium"
+popup_size_big = "Big"
+panel_position_title = "Panel position"
+use_popup = "Show in popup"
+use_sidebar = "Show in sidebar"
+behavior_title = "Behavior"
+controls_title = "Controls"
+show_in_context_menu = "Access commands from right-click in page"
+restart_addon = "Reload addon"
+reset_settings = "Reset settings"
+prefer_highest_quality = "Select highest available quality instead of 1080p by default (slower download, higher quality)."
+prefer_mkv = "Download as MKV when possible"
+preview_mode_title = "Media preview"
+preview_mode_none = "Disabled"
+preview_mode_video = "Short video preview"
+preview_mode_image = "Image"
+
+# String for history page
+history_title = "Download History"
+history_warning = "We do not record your download history. Do you want Video DownloadHelper to remember your download history?"
+history_warning_2 = "Don't worry, everything stays on your machine. We value your privacy."
+enable_history = "Enable History"
+clear_history = "Clear History"
+disable_history = "Do not remember my history"
+no_downloads_yet = "No entries yet."
+
+# Various notifications
+download_failed = "Download failed"
+download_failed_description = "Sadly we failed at downloading that specific media. We try to support as many websites as possible, so it would help a lot if you could report that error (it's anonymous!)."
+download_interrupted = "Download interrupted"
+download_interrupted_description = "We managed to download your file, but there was a network issues, so the file might be shorter than expected. We try to support as many websites as possible, so it would help a lot if you could report this problem (it's anonymous!)."
+download_with_drm_failed_description = "Something didn't work. And we think this video has DRM. We do not support videos with DRM."
+no_youtube = "Download from youtube not allowed"
+no_youtube_description = "Unfortunately, the Chrome Web Store does not allow extensions for downloading YouTube videos so we could not include this feature in the Chrome version of the extension."
+premium_required = "Premium status required"
+premium_yt_required_description = "Without Premium status, a YouTube download can only be performed 2 hours after the previous one."
+premium_required_description = "Without Premium status, an HLS or MPD download can only be performed 2 hours after the previous one."
+youtube_too_many_downloads = "Oops, YouTube seems to be blocked"
+youtube_too_many_downloads_description = "YouTube sometimes will limit how many videos can be requested. Nothing we can do about sadly. Try again later."
+
+# Downloading media box
+stop = "Stop"
+cancel = "Cancel"
+
+# Media we found in the page
+copy_url = "Copy URL" # In menu and as a button
+always_copy_url = "Always copy URL"
+download_button = "Download"
+download_as_button_and_menu = "Download As…"
+rename_short = "Rename" # Keep this as short as possible
+
+always_download_as_menu = "Always Download As…"
+download_audio_button = "Audio"
+download_audio_and_video_menu = "Download Audio & video"
+download_audio_only_menu = "Download Audio"
+audio_only_for_this_website = "Always audio only for this website"
+details = "Details"
+more_settings = "More settings"
+
+# Report buttons
+report = "Report"
+reporting = "Reporting…"
+reported = "Reported, thank you!"
+
+# Video not playing - page
+not_playing_title = "Video is not playing?"
+not_playing_broken_title = "Broken audio or video?"
+not_playing_broken_description = "Report the failing media. We will do our best to figure out why it failed (we send the video URL anonymously - we do not track you!)"
+not_playing_broken_solution_title = "Try a modern video player"
+not_playing_broken_solution_windows_1 = "We recommend VLC:"
+not_playing_broken_solution_mac_1 = "We recommend IINA:"
+not_playing_broken_solution_2 = "it's modern, safe and Open Source."
+not_playing_default_player = "Make sure your video player is set as your system default video player"
+not_playing_default_player_solution_windows = "In Windows' \"Control Panel\", click on \"Default Programs\", and change the default programs for your player."
+not_playing_default_player_solution_mac = "Open download directory right-click on the video file. Click 'Get Info'. In the 'Open With' section, select IINA. Click the 'Change All' button."
+
+[web]
+
+back = "Back" # Go back button
+
+# On top of all pages.
+header_help = "Help"
+header_community = "Community"
+
+# Context: activation page after receiving the magic link via email.
+activate_title = "Activation" # hope it crashes
+activate_pending = "Pending…"
+activate_success = "Success"
+activate_error = "Error"
+activate_no_addon_found = "No addon found. Is the addon installed?"
+activate_no_method_found = "No method found."
+activate_help_me = "Help me."
+
+# Context: webpage to restore a purchase, which require the user to enter their email.
+issue_title = "Restoring purchase"
+issue_submit = "Submit"
+issue_thank_you = "Thank you"
+issue_enter_email = "To restore your purchase, enter the email address you used to buy your license:"
+issue_email_sent = "We just sent you an email with a link that will activate your product."
+issue_or_digit = "Or, you can also enter the 6 digit code we sent you:"
+issue_just_digit = "Enter the 6 digit code we sent you:"
+issue_i_have_a_code = "(Click here if you already have a code)"
+issue_i_have_a_key = "(Click here if you have a license key)"
+issue_key = "Enter your Video DownloadHelper license key:"
+
+# Context: this page - https://downloadhelper.net/
+landing_text1 = "Download any video from any websites, it just works!"
+landing_text2 = "1000+ websites supported"
+landing_text3 = "Trusted by 7 millions users"
+landing_text4 = "4.5 stars on extension store"
+landing_install_for_google = "Install for Chrome"
+landing_install_for_mozilla = "Install for Firefox"
+landing_install_for_microsoft = "Install for Edge"
+landing_feature1_title = "HD Download at full speed"
+landing_feature1_description = "Download videos in high-definition, at maximum speed. We proud to claim we have the fasted download engine out there."
+landing_feature2_title = "Archive videos"
+landing_feature2_description = "Archive your favorite videos, ensuring nothing gets left behind."
+landing_feature3_title = "Live Stream Support"
+landing_feature3_description = "Enjoy offline viewing of live streams, freeing you from real-time constraints."
+landing_feature4_title = "Audio Download"
+landing_feature4_description = "Extract audio from videos, converting them into MP3s or podcasts for easy listening."
+
+# Context: this is for a "buy a license" webpage.
+premium_hero1 = "Pay once, use forever"
+premium_hero2 = "Get a Lifetime License for Video DownloadHelper"
+premium_hero3 = "Download any videos as much as you want, no limits."
+
+# Context: the page that opens after the addon gets installed.
+welcome_text = "Now you're not going to miss any video!"
+welcome_pin_message = "Pin the add-on icon to your toolbar:"
