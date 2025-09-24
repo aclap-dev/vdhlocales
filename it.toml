@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.183.0
-# 22 settembre 2025
+# VDH 10 versione 10.0.203.0
+# 23 settembre 2025
 # by Night Train
 
 [addon]
@@ -33,7 +33,7 @@ open_source_tab_button_tooltip = "Apri la scheda sorgente"
 retry_download_button_tooltip = "Scarica di nuovo"
 delete_file_button_tooltip = "Elimina il file"
 download_directory_button_tooltip = "Mostra la cartella di download"
-clear_downloaded_tooltip = "Elimina i download completati"
+clear_downloaded_tooltip = "Pulisci i download completati"
 show_in_popup_button_tooltip = "Mostra nel popup"
 show_in_sidebar_button_tooltip = "Mostra nella barra laterale"
 video_not_playing_button_tooltip = "Il video non viene riprodotto?"
@@ -83,6 +83,7 @@ show_in_context_menu = "Accedi ai comandi con clic destro nella pagina"
 restart_addon = "Ricarica l'estensione VDH"
 reset_settings = "Ripristina le impostazioni"
 prefer_highest_quality = "Seleziona la massima qualità disponibile invece di 1080p per impostazione predefinita (download più lento, qualità superiore)."
+prefer_mkv = "Preferisci MKV quando possibile"
 preview_mode_title = "Anteprima"
 preview_mode_none = "Disabilitata"
 preview_mode_video = "Anteprima breve"
