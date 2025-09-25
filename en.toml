@@ -59,6 +59,7 @@ private_browsing_title = "Private browsing"
 private_browsing_warning = "Video DownloadHelper is not enabled in a Private/Incognito windows. You need to turn on that option manually (this is not required)."
 private_browsing_notifications = "Show notification for private downloads"
 private_browsing_button = "Change private browsing setting"
+throttle_youtube = "Throttle YouTube (slower downloads, but less likely to be blocked)"
 prefer_original_audio = "Prefer original audio" # Firefox only
 prefer_hls = "Prefer HLS" # Firefox only
 settings_history_title = "History"
