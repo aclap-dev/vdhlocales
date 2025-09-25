@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
 # VDH 10 versione 10.0.203.0
-# 23 settembre 2025
+# 24 settembre 2025
 # by Night Train
 
 [addon]
@@ -79,6 +79,7 @@ panel_position_title = "Posizione pannello"
 use_popup = "Mostra in un popup"
 use_sidebar = "Mostra nella barra laterale"
 behavior_title = "Comportamento"
+controls_title = "Controlli"
 show_in_context_menu = "Accedi ai comandi con clic destro nella pagina"
 restart_addon = "Ricarica l'estensione VDH"
 reset_settings = "Ripristina le impostazioni"
