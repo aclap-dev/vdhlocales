@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
 # VDH 10 versione 10.0.203.0
-# 24 settembre 2025
+# 25 settembre 2025
 # by Night Train
 
 [addon]
@@ -61,6 +61,7 @@ private_browsing_title = "Navigazione anonima"
 private_browsing_warning = "Video DownloadHelper non è abilitato in navigazione anonima."
 private_browsing_notifications = "Mostra una notifica per i download in navigazione anonima"
 private_browsing_button = "Cambia impostazioni in navigazione anonima"
+throttle_youtube = "Limita YouTube (download più lenti, ma meno probabilità di essere bloccati)"
 prefer_original_audio = "Preferisci audio originale" # Solo per Firefox
 prefer_hls = "Preferisci HLS" # Solo per Firefox
 settings_history_title = "Cronologia"
