@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
 # VDH 10 versione 10.0.203.0
-# 25 settembre 2025
+# 26 settembre 2025
 # by Night Train
 
 [addon]
@@ -108,6 +108,7 @@ download_interrupted_description = "Siamo riusciti a scaricare il tuo file, ma c
 download_with_drm_failed_description = "Qualcosa non ha funzionato. Pensiamo che questo video abbia DRM. Non supportiamo i video con DRM."
 no_youtube = "Download da YouTube non permesso"
 no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni per il download di video dd YouTube, pertanto non abbiamo potuto includere questa funzionalità nella versione Chrome dell'estensione."
+no_youtube_description_2 = "Raccomandiamo l'uso di Firefox o Microsoft Edge"
 premium_required = "Premium status richiesto"
 premium_yt_required_description = "Senza status Premium un download da YouTube può essere eseguito solo 2 ore dopo il precedente."
 premium_required_description = "Senza status Premium un download HLS o MPD può essere eseguito solo 2 ore dopo il precedente."
@@ -200,6 +201,6 @@ premium_hero1 = "Paga una volta, usa per sempre"
 premium_hero2 = "Ottieni una Licenza a Vita per Video DownloadHelper"
 premium_hero3 = "Scarica tutti i video che vuoi, senza limiti."
 
-# Contesto: la pagina che si apre dopo che hai installato l'estensione'.
+# Contesto: la pagina che si apre dopo che hai installato l'estensione.
 welcome_text = "Ora non ti perderai alcun video!"
 welcome_pin_message = "Fissa l'icona di VDH nella barra strumenti:"
