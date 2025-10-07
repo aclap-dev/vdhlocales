@@ -1,0 +1,202 @@
+# Arabic Translation for Video DownloadHelper
+#
+# -----------------------------------------------------
+# This file provides the full Arabic localization for
+# Video DownloadHelper (Addon + Web Interface)
+# -----------------------------------------------------
+
+[addon]
+
+# Video DownloadHelper description. 132 characters max.
+appDesc = "تحميل مقاطع الفيديو من الويب."
+
+# Global strings
+restore_purchase_button = "استعادة عملية الشراء"
+get_premium_button = "احصل على النسخة المميزة"
+back = "رجوع"
+
+# Strings for the main panel
+waiting_for_media = "في انتظار الوسائط…"
+nomedia_title = "لا ترى الوسائط التي تبحث عنها؟"
+nomedia_description = "ابدأ تشغيل الفيديو (وتجاوز الإعلانات إن وجدت) للمساعدة في اكتشاف الوسائط. أو أبلغ عن وسائط مفقودة."
+nomedia_reload_button = "إعادة الكشف"
+nomedia_reload_button_tooltip = "إعادة تحميل الصفحة (مسح ملفات تعريف الارتباط)"
+show_nomedia_button = "لا يوجد فيديو؟"
+show_nomedia_button_tooltip = "اضغط هنا إذا لم تتمكن من العثور على الفيديو"
+setting_button_tooltip = "الإعدادات"
+history_button_tooltip = "عرض سجل التحميل"
+show_all_history_button = "عرض الكل"
+complete_title = "مكتمل"
+hide_complete_button = "إخفاء"
+translate_button_tooltip = "ساعد في ترجمة VDH"
+
+# Downloaded media box
+open_source_tab_button_tooltip = "فتح تبويب المصدر"
+retry_download_button_tooltip = "إعادة محاولة التحميل"
+delete_file_button_tooltip = "حذف الملف"
+download_directory_button_tooltip = "عرض مجلد التحميل"
+clear_downloaded_tooltip = "مسح التحميلات المكتملة"
+show_in_popup_button_tooltip = "عرض في نافذة منبثقة"
+show_in_sidebar_button_tooltip = "عرض في الشريط الجانبي"
+video_not_playing_button_tooltip = "الفيديو لا يعمل؟"
+play = "تشغيل"
+warn_drm_tooltip = "تم الكشف عن DRM"
+
+# Strings for the settings panel
+version_title = "الإصدار"
+account_title = "الحساب"
+one_hundred_downloads_title = "لقد قمت بتحميل 100 فيديو!"
+leave_review_description = "نأمل أن تستمتع بـ Video DownloadHelper :) هل تمانع في كتابة مراجعة لطيفة على موقع الإضافة؟"
+leave_review_button = "اترك مراجعة"
+account_status = "الحالة"
+account_status_premium = "مميز ($1)"
+free_account = "خطة مجانية"
+copy_to_clipboard = "نسخ المعلومات إلى الحافظة"
+my_account_button = "حسابي"
+download_title = "التحميلات"
+show_notification = "إظهار إشعار عند اكتمال التحميل"
+max_parallel_downloads = "الحد الأقصى للتحميلات المتزامنة"
+change_download_directory = "تغيير مجلد التحميل"
+saveas_detected_warning = "تم اكتشاف أن متصفحك يعرض نافذة 'حفظ باسم' بعد اكتمال التحميل. نوصي بتعطيل هذا الخيار من إعدادات المتصفح."
+change_saveas_setting = "تغيير الإعداد"
+
+private_browsing_title = "التصفح الخاص"
+private_browsing_warning = "Video DownloadHelper غير مفعّل في نوافذ التصفح الخاص/المتخفي. تحتاج لتفعيل هذا الخيار يدويًا (اختياري)."
+private_browsing_notifications = "عرض إشعارات التحميل في الوضع الخاص"
+private_browsing_button = "تغيير إعدادات التصفح الخاص"
+throttle_youtube = "إبطاء التحميل من يوتيوب (أبطأ ولكن أقل عرضة للحظر)"
+prefer_original_audio = "تفضيل الصوت الأصلي"
+prefer_hls = "تفضيل HLS"
+settings_history_title = "السجل"
+transient_history_description = "عرض التحميلات المكتملة في اللوحة"
+history_limit = "نسيان سجل التحميل بعد X يوم"
+appearance_title = "المظهر"
+theme_title = "السمة"
+theme_light = "فاتح"
+theme_dark = "داكن"
+theme_system = "النظام"
+popup_size_title = "حجم النافذة"
+popup_size_small = "صغير"
+popup_size_medium = "متوسط"
+popup_size_big = "كبير"
+panel_position_title = "موضع اللوحة"
+use_popup = "عرض في نافذة منبثقة"
+use_sidebar = "عرض في الشريط الجانبي"
+behavior_title = "السلوك"
+controls_title = "عناصر التحكم"
+show_in_context_menu = "الوصول إلى الأوامر من قائمة النقر بالزر الأيمن"
+restart_addon = "إعادة تحميل الإضافة"
+reset_settings = "إعادة تعيين الإعدادات"
+prefer_highest_quality = "اختيار أعلى جودة متوفرة بدلاً من 1080p افتراضيًا (تحميل أبطأ، جودة أعلى)."
+prefer_mkv = "تحميل بصيغة MKV إن أمكن"
+preview_mode_title = "معاينة لوسائط"
+preview_mode_none = "معطل"
+preview_mode_video = "معاينة فيديو قصيرة"
+preview_mode_image = "صورة"
+
+# String for history page
+history_title = "سجل التحميل"
+history_warning = "نحن لا نسجل سجل تحميلاتك. هل ترغب في أن يحتفظ Video DownloadHelper بسجل تحميلاتك؟"
+history_warning_2 = "لا تقلق، كل شيء يبقى على جهازك. نحن نحترم خصوصيتك."
+enable_history = "تفعيل السجل"
+clear_history = "مسح السجل"
+disable_history = "عدم حفظ السجل"
+no_downloads_yet = "لا توجد تحميلات بعد."
+
+# Various notifications
+download_failed = "فشل التحميل"
+download_failed_description = "للأسف، لم نتمكن من تحميل هذا الوسيط. نحن نحاول دعم أكبر عدد ممكن من المواقع، لذا سيكون من المفيد الإبلاغ عن هذا الخطأ (بشكل مجهول)."
+download_interrupted = "تم قطع التحميل"
+download_interrupted_description = "تم تحميل الملف جزئيًا بسبب مشاكل في الشبكة. قد يكون أقصر من المتوقع. يمكنك الإبلاغ عن المشكلة (بشكل مجهول)."
+download_with_drm_failed_description = "حدث خطأ ما. ونعتقد أن هذا الفيديو يحتوي على DRM. نحن لا ندعم مقاطع الفيديو المحمية بـ DRM."
+no_youtube = "التحميل من يوتيوب غير مسموح"
+no_youtube_description = "لسوء الحظ، متجر Chrome Web Store لا يسمح بإضافات لتحميل مقاطع YouTube، لذلك لم نتمكن من تضمين هذه الميزة في نسخة Chrome."
+no_youtube_description_2 = "يرجى استخدام Firefox أو Microsoft Edge."
+premium_required = "يتطلب حساب مميز"
+premium_yt_required_description = "بدون الحساب المميز، يمكن تحميل فيديو YouTube واحد فقط كل ساعتين."
+premium_required_description = "بدون الحساب المميز، يمكن تحميل فيديو HLS أو MPD واحد فقط كل ساعتين."
+youtube_too_many_downloads = "يبدو أن التحميل من يوتيوب محظور مؤقتًا"
+youtube_too_many_downloads_description = "أحيانًا يفرض YouTube قيودًا على عدد الفيديوهات المطلوبة. للأسف لا يمكننا فعل شيء. حاول لاحقًا."
+
+# Downloading media box
+stop = "إيقاف"
+cancel = "إلغاء"
+
+# Media we found in the page
+copy_url = "نسخ الرابط"
+always_copy_url = "دائمًا انسخ الرابط"
+download_button = "تحميل"
+download_as_button_and_menu = "تحميل كـ…"
+rename_short = "إعادة تسمية"
+always_download_as_menu = "دائمًا تحميل كـ…"
+download_audio_button = "صوت"
+download_audio_and_video_menu = "تحميل صوت وفيديو"
+download_audio_only_menu = "تحميل الصوت فقط"
+audio_only_for_this_website = "دائمًا صوت فقط لهذا الموقع"
+details = "التفاصيل"
+more_settings = "إعدادات إضافية"
+
+# Report buttons
+report = "إبلاغ"
+reporting = "جاري الإبلاغ…"
+reported = "تم الإبلاغ، شكرًا!"
+
+# Video not playing - page
+not_playing_title = "الفيديو لا يعمل؟"
+not_playing_broken_title = "صوت أو فيديو تالف؟"
+not_playing_broken_description = "أبلغ عن الوسائط التالفة وسنحاول معرفة السبب (نرسل الرابط بشكل مجهول – لا نتتبعك!)."
+not_playing_broken_solution_title = "جرّب مشغل فيديو حديث"
+not_playing_broken_solution_windows_1 = "نوصي باستخدام VLC:"
+not_playing_broken_solution_mac_1 = "نوصي باستخدام IINA:"
+not_playing_broken_solution_2 = "برنامج حديث، آمن ومفتوح المصدر."
+not_playing_default_player = "تأكد من أن مشغل الفيديو الافتراضي مضبوط في النظام"
+not_playing_default_player_solution_windows = "في لوحة تحكم Windows، انقر على 'البرامج الافتراضية'، وغيّر الإعدادات للمشغل المفضل."
+not_playing_default_player_solution_mac = "افتح مجلد التحميل، انقر بزر الفأرة الأيمن على الملف، اختر 'الحصول على المعلومات'، وفي قسم 'فتح باستخدام' حدد IINA ثم اضغط 'تغيير الكل'."
+
+[web]
+
+back = "رجوع"
+header_help = "مساعدة"
+header_community = "المجتمع"
+
+activate_title = "التفعيل"
+activate_pending = "قيد الانتظار…"
+activate_success = "تم بنجاح"
+activate_error = "خطأ"
+activate_no_addon_found = "لم يتم العثور على الإضافة. هل هي مثبتة؟"
+activate_no_method_found = "لم يتم العثور على طريقة."
+activate_help_me = "ساعدني."
+
+issue_title = "استعادة عملية الشراء"
+issue_submit = "إرسال"
+issue_thank_you = "شكرًا لك"
+issue_enter_email = "لاستعادة عملية الشراء، أدخل عنوان البريد الإلكتروني الذي استخدمته لشراء الترخيص:"
+issue_email_sent = "لقد أرسلنا إليك بريدًا إلكترونيًا يحتوي على رابط لتفعيل المنتج."
+issue_or_digit = "أو يمكنك إدخال الرمز المكون من 6 أرقام الذي أرسلناه إليك:"
+issue_just_digit = "أدخل الرمز المكون من 6 أرقام الذي أرسلناه إليك:"
+issue_i_have_a_code = "(انقر هنا إذا كان لديك رمز بالفعل)"
+issue_i_have_a_key = "(انقر هنا إذا كان لديك مفتاح ترخيص)"
+issue_key = "أدخل مفتاح ترخيص Video DownloadHelper:"
+
+landing_text1 = "حمّل أي فيديو من أي موقع، بكل سهولة!"
+landing_text2 = "أكثر من 1000 موقع مدعوم"
+landing_text3 = "موثوق من قبل أكثر من 7 ملايين مستخدم"
+landing_text4 = "تقييم 4.5 نجوم في متجر الإضافات"
+landing_install_for_google = "التثبيت لمتصفح Chrome"
+landing_install_for_mozilla = "التثبيت لمتصفح Firefox"
+landing_install_for_microsoft = "التثبيت لمتصفح Edge"
+landing_feature1_title = "تحميل عالي الدقة بأقصى سرعة"
+landing_feature1_description = "قم بتحميل مقاطع الفيديو بدقة عالية وبأقصى سرعة ممكنة. نفخر بأن محرك التحميل لدينا هو الأسرع على الإطلاق."
+landing_feature2_title = "أرشفة الفيديوهات"
+landing_feature2_description = "احتفظ بمقاطع الفيديو المفضلة لديك لتضمن عدم ضياعها أبدًا."
+landing_feature3_title = "دعم البث المباشر"
+landing_feature3_description = "استمتع بمشاهدة البث المباشر دون اتصال بالإنترنت، لتحرر نفسك من قيود الوقت الحقيقي."
+landing_feature4_title = "تحميل الصوت فقط"
+landing_feature4_description = "استخرج الصوت من مقاطع الفيديو وحوّله إلى ملفات MP3 أو بودكاست للاستماع بسهولة."
+
+premium_hero1 = "ادفع مرة واحدة، واستخدم للأبد"
+premium_hero2 = "احصل على ترخيص دائم لـ Video DownloadHelper"
+premium_hero3 = "حمّل ما تشاء من الفيديوهات دون أي حدود."
+
+welcome_text = "الآن لن تفوّت أي فيديو بعد اليوم!"
+welcome_pin_message = "قم بتثبيت أيقونة الإضافة على شريط الأدوات:"
