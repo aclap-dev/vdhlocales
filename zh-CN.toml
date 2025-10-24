@@ -72,7 +72,6 @@ behavior_title = '''常规'''
 show_in_context_menu = '''访问来自页面右击的命令'''
 restart_addon = '''刷新插件'''
 reset_settings = '''重置设置'''
-prefer_highest_quality = "默认选择可达到的最高画质，而非 1080p（下载速度较慢，画质更高）。"
 
 # String for history page
 history_title = "下载历史"

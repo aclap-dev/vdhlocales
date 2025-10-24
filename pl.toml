@@ -72,7 +72,6 @@ behavior_title = '''Zachowanie'''
 show_in_context_menu = '''Uzyskaj dostęp do komend poprzez kliknięcie prawym przyciskiem myszy na stronie'''
 restart_addon = '''Załaduj ponownie dodatek'''
 reset_settings = '''Resetowanie ustawień'''
-prefer_highest_quality = "Domyślnie wybierz najwyższą dostępną jakość zamiast 1080p (wolniejsze pobieranie, wyższa jakość)."
 
 # String for history page
 history_title = "Historia pobierania"

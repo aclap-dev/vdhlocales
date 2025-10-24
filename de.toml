@@ -72,7 +72,6 @@ behavior_title = '''Verhalten'''
 show_in_context_menu = '''Auf Befehle per Rechtsklick auf der Seite zugreifen'''
 restart_addon = '''Add-on neu laden'''
 reset_settings = '''Einstellungen zurücksetzen'''
-prefer_highest_quality = "Wählen Sie als Standard die höchstmögliche Qualität, anstelle von 1080p (Download wäre langsamer, aber Qualität wäre höher)."
 
 # String for history page
 history_title = "Download-Verlauf"

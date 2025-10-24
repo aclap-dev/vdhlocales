@@ -61,7 +61,6 @@ behavior_title = '''Comportamiento'''
 show_in_context_menu = "Mostrar menú de descarga en el menú contextual de la página"
 restart_addon = "Reiniciar complemento"
 reset_settings = "Restablecer ajustes"
-prefer_highest_quality = "Seleccionar la calidad más alta disponible en lugar de 1080p por defecto (descarga más lenta, mayor calidad)."
 history_title = "Historial de descargas"
 history_warning = "No registramos su historial de descargas. ¿Desea que Video DownloadHelper recuerde su historial de descargas?"
 history_warning_2 = "No se preocupe, todo permanece en su equipo. Valoramos su privacidad."
