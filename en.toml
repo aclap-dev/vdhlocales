@@ -9,6 +9,7 @@ appDesc = "Download Videos from the Web."
 restore_purchase_button = "Restore purchase"
 get_premium_button = "Get premium"
 back = "Back" # Go back button - in Settings panel for example
+rm_notifications_all = "Dismiss all notifications"
 
 # Strings for the main panel
 waiting_for_media = "Waiting for media…"
