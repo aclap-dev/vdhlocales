@@ -1,171 +1,170 @@
-# Chinese
-
+# zh-CN.toml - v10.0.251.2
 [addon]
-
-# Video DownloadHelper description. 132 characters max.
-appDesc = "从网上下载视频。"
-
-# Global strings
-restore_purchase_button = "恢复购买"
-get_premium_button = "获取高级会员"
-back = "返回" # Go back button - in Settings panel for example
-
-# Strings for the main panel
-waiting_for_media = "等待媒体…"
-nomedia_title = "看不到查找的媒体？"
-nomedia_description = "播放视频（如有广告请跳过），以帮助检测媒体。或报告媒体缺失。"
-nomedia_reload_button = "强制检测"
-nomedia_reload_button_tooltip = "强制重新加载页面（清除 cookie）"
-show_nomedia_button = "无视频？"
-show_nomedia_button_tooltip = "如果找不到您的视频，请单击此处"
+appDesc = '''从网上下载视频。'''
+restore_purchase_button = '''恢复购买'''
+get_premium_button = '''获取高级会员'''
+back = '''返回'''
+waiting_for_media = '''等待媒体…'''
+nomedia_title = '''看不到查找的媒体？'''
+nomedia_description = '''播放视频（如有广告请跳过），以帮助检测媒体。或报告媒体缺失。'''
+nomedia_reload_button = '''强制检测'''
+nomedia_reload_button_tooltip = '''强制重新加载页面（清除 cookie）'''
+show_nomedia_button = '''无视频？'''
+show_nomedia_button_tooltip = '''如果找不到您的视频，请单击此处'''
 setting_button_tooltip = '''设置'''
 history_button_tooltip = '''显示下载历史记录'''
-translate_button_tooltip = "帮助转换 VDH"
-
-# Downloaded media box
-open_source_tab_button_tooltip = "打开源选项卡"
-retry_download_button_tooltip = "重试下载"
+show_all_history_button = '''显示全部'''
+complete_title = '''完成'''
+hide_complete_button = '''隐藏'''
+translate_button_tooltip = '''帮助转换 VDH'''
+open_source_tab_button_tooltip = '''打开源选项卡'''
+retry_download_button_tooltip = '''重试下载'''
 delete_file_button_tooltip = '''删除文件'''
 download_directory_button_tooltip = '''显示下载文件夹'''
+clear_downloaded_tooltip = '''清除已完成下载'''
 show_in_popup_button_tooltip = '''在弹出窗口显示'''
 show_in_sidebar_button_tooltip = '''在侧边栏显示'''
-video_not_playing_button_tooltip = "视频无法播放？"
+video_not_playing_button_tooltip = '''视频无法播放？'''
 play = '''播放'''
-warn_drm_tooltip = "检测到 DRM"
-
-# Strings for the settings panel.
+warn_drm_tooltip = '''检测到 DRM'''
 version_title = '''版本'''
-account_title = "帐户"
+account_title = '''帐户'''
+one_hundred_downloads_title = '''您已下载 100 个视频！'''
 leave_review_description = '''我们希望您享受此扩展带来的便利 :) 请留下您的评价'''
 leave_review_button = '''去评论'''
-account_status= "状态"
+account_status = '''状态'''
 account_status_premium = '''高级版 ($1)'''
-free_account = "免费套餐"
+free_account = '''免费套餐'''
 copy_to_clipboard = '''复制配置信息到剪贴板'''
-my_account_button = "我的帐户"
-download_title = "下载内容"
+my_account_button = '''我的帐户'''
+download_title = '''下载内容'''
 show_notification = '''下载完成后显示通知'''
 max_parallel_downloads = '''最大下载任务数'''
-change_download_directory = "更改下载目录"
-
-private_browsing_title = "隐私浏览"
+change_download_directory = '''更改下载目录'''
+saveas_detected_warning = '''我们检测到您的浏览器在下载完成后会显示“另存为”对话框。建议您在浏览器设置中禁用该选项。'''
+change_saveas_setting = '''更改设置'''
+private_browsing_title = '''隐私浏览'''
 private_browsing_warning = '''Video DownloadHelper 未在隐身模式中启用，你需要在选项中手工启动（非必须）。'''
-private_browsing_notifications = "显示隐私下载通知"
-private_browsing_button = "更改隐私浏览设置"
-prefer_original_audio = "首选原始音频" # Firefox only
-prefer_hls = "首选 HLS" # Firefox only
-settings_history_title = "历史记录"
+private_browsing_notifications = '''显示隐私下载通知'''
+private_browsing_button = '''更改隐私浏览设置'''
+throttle_youtube = '''限制 YouTube 下载速度（下载速度变慢，但被屏蔽的可能性更小）'''
+prefer_original_audio = '''首选原始音频'''
+prefer_hls = '''首选 HLS'''
+settings_history_title = '''历史记录'''
+transient_history_description = '''在面板中显示完整的下载记录'''
 history_limit = '''X 天后清除下载历史记录'''
 appearance_title = '''界面'''
 theme_title = '''主题'''
 theme_light = '''浅色'''
 theme_dark = '''深色'''
 theme_system = '''系统'''
-popup_size_title = "窗口大小"
-popup_size_small = "小"
-popup_size_medium = "中"
-popup_size_big = "大"
-panel_position_title = "面板位置"
+popup_size_title = '''窗口大小'''
+popup_size_small = '''小'''
+popup_size_medium = '''中'''
+popup_size_big = '''大'''
+panel_position_title = '''面板位置'''
 use_popup = '''在弹出窗口显示'''
 use_sidebar = '''在侧边栏显示'''
 behavior_title = '''常规'''
+controls_title = '''控件'''
 show_in_context_menu = '''访问来自页面右击的命令'''
 restart_addon = '''刷新插件'''
 reset_settings = '''重置设置'''
-
-# String for history page
-history_title = "下载历史"
+prefered_quality = '''首选视频质量'''
+prefered_quality_highest = '''最高（下载速度慢，分辨率高）'''
+prefered_quality_1080p = '''1080p（不错的默认设置）'''
+prefered_quality_720p = '''720p（下载速度快，分辨率低）'''
+prefer_mkv = '''尽可能下载为 MKV 格式。'''
+preview_mode_title = '''媒体预览'''
+preview_mode_none = '''关闭'''
+preview_mode_video = '''预览视频'''
+preview_mode_image = '''预览图像'''
+history_title = '''下载历史'''
 history_warning = '''我们不会上传您的下载历史记录，您想让 Video DownloadHelper 记住您的下载历史记录吗？'''
 history_warning_2 = '''别担心，所有内容都会保留在您的机器上。我们重视您的隐私。'''
 enable_history = '''记住历史记录'''
 clear_history = '''清除历史记录'''
 disable_history = '''不要记住历史记录'''
 no_downloads_yet = '''尚无任何条目。'''
-
-# Various notifications
 download_failed = '''下载失败'''
 download_failed_description = '''抱歉，下载指定媒体失败。我们希望您可以上传匿名的错误报告，以便我们可以尽快支持更多网站'''
-download_with_drm_failed_description = "出错了。我们认为此视频采用了 DRM 保护。我们不支持采用 DRM 保护的视频。"
-no_youtube = "不允许从 youtube 下载"
+download_interrupted = '''下载中断'''
+download_interrupted_description = '''我们已成功下载您的文件，但由于网络问题，文件可能比预期短。我们努力支持尽可能多的网站，如果您能匿名报告此问题，将对我们非常有帮助！'''
+download_with_drm_failed_description = '''出错了。我们认为此视频采用了 DRM 保护。我们不支持采用 DRM 保护的视频。'''
+no_youtube = '''不允许从 youtube 下载'''
 no_youtube_description = '''遗憾的是，Chrome网上应用店不允许扩展程序下载YouTube视频，因此我们无法在扩展程序的Chrome版本中包含此功能。'''
+no_youtube_description_2 = '''请使用 Firefox 或 Microsoft Edge 浏览器。'''
 premium_required = '''需要高级版'''
-premium_yt_required_description = "如果没有高级会员状态，YouTube 视频下载在上一次下载完成 2 小时后才能进行。"
+premium_yt_required_description = '''如果没有高级会员状态，YouTube 视频下载在上一次下载完成 2 小时后才能进行。'''
 premium_required_description = '''如果没有高级版，一个HLS下载只能在前次下载$1分钟后进行'''
-
-# Downloading media box
+youtube_too_many_downloads = '''糟糕，YouTube 似乎被屏蔽了。'''
+youtube_too_many_downloads_description = '''YouTube有时会限制视频请求的数量。很遗憾，我们对此无能为力。请稍后再试。'''
 stop = '''停止'''
 cancel = '''取消'''
-
-# Media we found in the page
 copy_url = '''复制URL'''
-always_copy_url = "始终复制 URL"
+always_copy_url = '''始终复制 URL'''
 download_button = '''下载'''
 download_as_button_and_menu = '''下载为…'''
-download_audio_button = "音频"
-download_audio_and_video_menu = "下载音频和视频"
+rename_short = '''重命名'''
+always_download_as_menu = '''始终下载为…'''
+download_audio_button = '''音频'''
+download_audio_and_video_menu = '''下载音频和视频'''
 download_audio_only_menu = '''下载音频'''
-audio_only_for_this_website = "此网站始终只下载音频"
+audio_only_for_this_website = '''此网站始终只下载音频'''
 details = '''详情'''
 more_settings = '''更多设置'''
-
-# Report_ buttons
 report = '''报告'''
-reporting = "正在报告…"
+reporting = '''正在报告…'''
 reported = '''已上传，谢谢！'''
-
-# Video not playing - page
-not_playing_title = "视频无法播放？"
-not_playing_broken_title = "音频或视频损坏？"
-not_playing_broken_description = "报告故障媒体。我们将尽最大努力查找错误原因（我们会以匿名形式发送视频 URL，绝不会跟踪您！）"
-not_playing_broken_solution_title = "尝试使用现代视频播放器"
-not_playing_broken_solution_windows_1 = "建议使用 VLC："
-not_playing_broken_solution_mac_1 = "建议使用 IINA："
-not_playing_broken_solution_2 = "这是一款现代、安全、开源的播放器。"
-not_playing_default_player = "确保您的视频播放器设为您的系统默认视频播放器。"
-not_playing_default_player_solution_windows = "在 Windows 的\"控制面板\"中，单击 \"默认程序\"，然后更改播放器的默认程序。"
-not_playing_default_player_solution_mac = "打开下载目录并右键单击视频文件。单击“获取信息”。在“打开方式”部分，选择 IINA。单击“全部更改”按钮。"
+not_playing_title = '''视频无法播放？'''
+not_playing_broken_title = '''音频或视频损坏？'''
+not_playing_broken_description = '''报告故障媒体。我们将尽最大努力查找错误原因（我们会以匿名形式发送视频 URL，绝不会跟踪您！）'''
+not_playing_broken_solution_title = '''尝试使用现代视频播放器'''
+not_playing_broken_solution_windows_1 = '''建议使用 VLC：'''
+not_playing_broken_solution_mac_1 = '''建议使用 IINA：'''
+not_playing_broken_solution_2 = '''这是一款现代、安全、开源的播放器。'''
+not_playing_default_player = '''确保您的视频播放器设为您的系统默认视频播放器。'''
+not_playing_default_player_solution_windows = '''在 Windows 的"控制面板"中，单击 "默认程序"，然后更改播放器的默认程序。'''
+not_playing_default_player_solution_mac = '''打开下载目录并右键单击视频文件。单击“获取信息”。在“打开方式”部分，选择 IINA。单击“全部更改”按钮。'''
 
 [web]
-
-# On top of all pages.
-header_help = "帮助"
-header_community = "社区"
-
-# Context: activation page after receiving the magic link via email.
-activate_title = "激活" # hope it crashes
-activate_pending = "待处理…"
-activate_success = "成功"
-activate_error = "错误"
-activate_no_addon_found = "未找到插件。插件是否已安装？"
-activate_no_method_found = "未找到方法。"
-activate_help_me = "帮帮我。"
-
-# Context: webpage to restore a purchase, which require the user to enter their email.
-issue_title = "正在恢复购买"
-issue_submit = "提交"
-issue_thank_you = "感谢"
-issue_enter_email = "要恢复购买，请输入您购买许可证时使用的电子邮箱地址："
-issue_email_sent = "我们刚刚向您发送一封电子邮件，其中包含您产品的激活链接。"
-issue_or_digit = "您也可以输入我们发给您的 6 位代码。"
-
-# Context: this page - https://downloadhelper.net/
-landing_text1 = "可以从任何网站下载任何视频！"
-landing_text2 = "支持 1000 多个网站"
-landing_text3 = "受到 700 多万用户的信赖"
-landing_text4 = "在扩展程序商店获得 4.5 星评分"
-landing_install_for_google = "为 Chrome 安装"
-landing_install_for_mozilla = "为 Firefox 安装"
-landing_install_for_microsoft = "为 Edge 安装"
-landing_feature1_title = "全速下载高清视频"
-landing_feature1_description = "以最高速度下载高清视频。我们自豪地宣布，我们拥有目前市面上速度最快的下载引擎。"
-landing_feature2_title = "存档视频"
-landing_feature2_description = "将您喜爱的视频存档，确保不会遗失任何内容。"
-landing_feature3_title = "支持直播"
-landing_feature3_description = "享受离线观看直播，摆脱实时观看的限制。"
-landing_feature4_title = "音频下载"
-landing_feature4_description = "从视频中提取音频，将其转换为 MP3 或播客，方便收听。"
-
-# Context: this is for a "购买许可证" webpage.
-premium_hero1 = "一次付款，永久使用"
-premium_hero2 = "获取 Video DownloadHelper 的终身许可证。"
-premium_hero3 = "随心所欲下载视频，没有任何限制。"
+back = '''返回'''
+header_help = '''帮助'''
+header_community = '''社区'''
+activate_title = '''激活'''
+activate_pending = '''待处理…'''
+activate_success = '''成功'''
+activate_error = '''错误'''
+activate_no_addon_found = '''未找到插件。插件是否已安装？'''
+activate_no_method_found = '''未找到方法。'''
+activate_help_me = '''帮帮我。'''
+issue_title = '''正在恢复购买'''
+issue_submit = '''提交'''
+issue_thank_you = '''感谢'''
+issue_enter_email = '''要恢复购买，请输入您购买许可证时使用的电子邮箱地址：'''
+issue_email_sent = '''我们刚刚向您发送一封电子邮件，其中包含您产品的激活链接。'''
+issue_or_digit = '''您也可以输入我们发给您的 6 位代码。'''
+issue_just_digit = '''请输入我们发送给您的6位验证码：'''
+issue_i_have_a_code = '''（如果您已有代码，请点击此处）'''
+issue_i_have_a_key = '''（如果您有许可证密钥，请点击此处）'''
+issue_key = '''请输入您的 Video DownloadHerper 许可证密钥：'''
+landing_text1 = '''可以从任何网站下载任何视频！'''
+landing_text2 = '''支持 1000 多个网站'''
+landing_text3 = '''受到 700 多万用户的信赖'''
+landing_text4 = '''在扩展程序商店获得 4.5 星评分'''
+landing_install_for_google = '''为 Chrome 安装'''
+landing_install_for_mozilla = '''为 Firefox 安装'''
+landing_install_for_microsoft = '''为 Edge 安装'''
+landing_feature1_title = '''全速下载高清视频'''
+landing_feature1_description = '''以最高速度下载高清视频。我们自豪地宣布，我们拥有目前市面上速度最快的下载引擎。'''
+landing_feature2_title = '''存档视频'''
+landing_feature2_description = '''将您喜爱的视频存档，确保不会遗失任何内容。'''
+landing_feature3_title = '''支持直播'''
+landing_feature3_description = '''享受离线观看直播，摆脱实时观看的限制。'''
+landing_feature4_title = '''音频下载'''
+landing_feature4_description = '''从视频中提取音频，将其转换为 MP3 或播客，方便收听。'''
+premium_hero1 = '''一次付款，永久使用'''
+premium_hero2 = '''获取 Video DownloadHelper 的终身许可证。'''
+premium_hero3 = '''随心所欲下载视频，没有任何限制。'''
+welcome_text = '''现在你不会错过任何视频了！'''
+welcome_pin_message = '''将附加组件图标固定到工具栏：'''
