@@ -1,7 +1,5 @@
-# fr.toml - v10.0.185.2
-
+# fr.toml - v10.0.251.2
 [addon]
-
 appDesc = '''Télécharger des vidéos à partir du Web'''
 restore_purchase_button = '''Restaurer votre achat'''
 get_premium_button = '''Obtenir le Premium'''
@@ -72,6 +70,10 @@ controls_title = '''Contrôles'''
 show_in_context_menu = '''Accéder aux commandes via un clic droit dans la page'''
 restart_addon = '''Recharger l'addon'''
 reset_settings = '''Réinitialiser les paramètres'''
+prefered_quality = '''Qualité de téléchargement'''
+prefered_quality_highest = '''La plus élevée (téléchargement lent, meilleure résolution)'''
+prefered_quality_1080p = '''1080p (bonne, par défaut)'''
+prefered_quality_720p = '''720p (téléchargement rapide, faible résolution)'''
 prefer_mkv = '''Télécharger en MKV si possible'''
 preview_mode_title = '''Aperçu du média'''
 preview_mode_none = '''Désactivé'''
@@ -124,8 +126,6 @@ not_playing_broken_solution_2 = '''C'est un lecteur moderne et Open Source.'''
 not_playing_default_player = '''Assurez-vous que votre lecteur vidéo est défini comme lecteur vidéo par défaut du système.'''
 not_playing_default_player_solution_windows = '''Dans le « Panneau de configuration » de Windows, cliquez sur « Programmes par défaut », puis modifiez les programmes par défaut pour votre lecteur.'''
 not_playing_default_player_solution_mac = '''Ouvrez le répertoire de téléchargement, faites un clic droit sur le fichier vidéo. Cliquez sur « Lire les informations ». Dans la section « Ouvrir avec », sélectionnez IINA. Cliquez ensuite sur le bouton « Tout modifier ».'''
-
-
 
 [web]
 back = '''Retour'''
