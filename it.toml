@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.203.0
-# 26 settembre 2025
+# VDH 10 versione 10.0.256.0
+# 01 novembre 2025
 # by Night Train
 
 [addon]
@@ -12,6 +12,7 @@ appDesc = "Scarica i video dal Web."
 restore_purchase_button = "Ripristina l'acquisto"
 get_premium_button = "Acquista l'accesso Premium"
 back = "Indietro" # Pulsante Indietro - per esempio nel pannello Impostazioni
+rm_notifications_all = "Ignora le notifiche"
 
 # Stringhe per il pannello principale
 waiting_for_media = "In attesa di file multimediali…"
@@ -84,6 +85,10 @@ controls_title = "Controlli"
 show_in_context_menu = "Accedi ai comandi con clic destro nella pagina"
 restart_addon = "Ricarica l'estensione VDH"
 reset_settings = "Ripristina le impostazioni"
+prefered_quality = "Qualità video preferita"
+prefered_quality_highest = "La più alta (download lento, alta risoluzione)"
+prefered_quality_1080p = "1080p (buona)"
+prefered_quality_720p = "720p (download veloce, bassa risoluzione)"
 prefer_mkv = "Preferisci MKV quando possibile"
 preview_mode_title = "Anteprima"
 preview_mode_none = "Disabilitata"
