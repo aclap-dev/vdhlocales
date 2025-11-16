@@ -138,7 +138,6 @@ more_settings = "إعدادات إضافية"
 # Report buttons
 report = "إبلاغ"
 reporting = "جاري الإبلاغ…"
-reported = "تم الإبلاغ، شكرًا!"
 
 # Video not playing - page
 not_playing_title = "الفيديو لا يعمل؟"

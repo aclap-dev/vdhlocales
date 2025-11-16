@@ -140,7 +140,7 @@ more_settings = "Altre impostazioni"
 # Pulsanti di segnalazione
 report = "Segnala"
 reporting = "Segnalando…"
-reported = "Segnalato, Grazie!"
+reported_thankyou = "Grazie!"
 
 # Video non riproducibile - pagina
 not_playing_title = "Il video non viene riprodotto?"

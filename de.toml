@@ -139,7 +139,7 @@ more_settings = '''Weitere Einstellungen'''
 # Report buttons
 report = '''Fehler melden'''
 reporting = "Wird gemeldet…"
-reported = '''Vielen Dank für Ihre Meldung!'''
+reported_thankyou = '''Vielen Dank!'''
 
 # Video not playing - page
 not_playing_title = "Video wird nicht abgespielt?"

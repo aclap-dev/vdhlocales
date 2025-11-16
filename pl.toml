@@ -111,7 +111,7 @@ more_settings = '''Więcej ustawień'''
 # Report buttons
 report = '''Zgłoś'''
 reporting = "Zgłaszanie…"
-reported = '''Zgłoszono, dziękujemy!'''
+reported_thankyou = '''Dziękujemy!'''
 
 # Video not playing - page
 not_playing_title = "Wideo nie jest odtwarzane?"
