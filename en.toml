@@ -139,7 +139,7 @@ more_settings = "More settings"
 # Report buttons
 report = "Report"
 reporting = "Reporting…"
-reported = "Reported, thank you!"
+reported_thankyou = "Thank you!"
 
 # Video not playing - page
 not_playing_title = "Video is not playing?"
