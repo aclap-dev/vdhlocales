@@ -126,6 +126,18 @@ not_playing_broken_solution_2 = '''这是一款现代、安全、开源的播放
 not_playing_default_player = '''确保您的视频播放器设为您的系统默认视频播放器。'''
 not_playing_default_player_solution_windows = '''在 Windows 的"控制面板"中，单击 "默认程序"，然后更改播放器的默认程序。'''
 not_playing_default_player_solution_mac = '''打开下载目录并右键单击视频文件。单击“获取信息”。在“打开方式”部分，选择 IINA。单击“全部更改”按钮。'''
+v9_panel_error_coapp_failure_description_no_report = '''很遗憾，我们未能成功下载该媒体文件。'''
+v9_panel_footer_force_reload = '''强制检测'''
+v9_user_message_privacy_policy_title = '''隐私政策 — 不玩花招，你将保持匿名。'''
+v9_user_message_privacy_policy_details = '''细节'''
+v9_user_message_privacy_policy_decline = '''拒绝'''
+v9_user_message_privacy_policy_accept = '''接受'''
+v9_user_message_privacy_policy_details_long = '''在 addons.mozilla.org 上打开隐私政策。'''
+v9_user_message_privacy_policy_decline_long = '''不分享，仅使用基础下载继续。'''
+v9_user_message_privacy_policy_accept_long = '''启用 CoApp 分享和高级下载继续。'''
+v9_user_message_privacy_policy_text_1 = '''当用户触发下载时，我们会直接下载视频，如果是更复杂的下载（如 M3U8 和 MPD），我们会将 URL 和 HTTP 头信息传给你电脑上的 Video DownloadHelper 原生应用程序（URL 绝对不会发送给我们）。'''
+v9_user_message_privacy_policy_text_2 = '''如果你拒绝我们的隐私政策，仍可以下载部分视频，但 M3U8 和 MPD 格式的视频将无法下载。'''
+v9_settings_button_reset_privacy = '''重置隐私设置'''
 
 [web]
 back = '''返回'''
