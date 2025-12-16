@@ -115,7 +115,7 @@ no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni
 no_youtube_description_2 = "Raccomandiamo l'uso di Firefox o Microsoft Edge"
 premium_required = "Premium status richiesto"
 premium_yt_required_description = "Senza status Premium un download da YouTube può essere eseguito solo 2 ore dopo il precedente."
-premium_required_description = "Senza status Premium un download HLS o MPD può essere eseguito solo 2 ore dopo il precedente."
+premium_hls_required_description = "Senza status Premium un download HLS o MPD può essere eseguito solo 2 ore dopo il precedente."
 youtube_too_many_downloads = "Oops, YouTube sembra essere bloccato"
 youtube_too_many_downloads_description = "A volte YouTube limita il numero di video che possono essere richiesti. Purtroppo non possiamo farci niente. Riprova più tardi."
 
