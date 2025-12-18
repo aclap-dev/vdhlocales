@@ -134,7 +134,6 @@ download_audio_and_video_menu = "Download Audio & Video"
 download_audio_only_menu = "Download Audio"
 audio_only_for_this_website = "Download solo Audio, sempre da questo sito web"
 details = "Dettagli"
-more_settings = "Altre impostazioni"
 
 # Pulsanti di segnalazione
 report = "Segnala"

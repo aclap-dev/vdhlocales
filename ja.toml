@@ -111,7 +111,6 @@ download_audio_and_video_menu = '''オーディオとビデオをダウンロー
 download_audio_only_menu = '''音声をダウンロード'''
 audio_only_for_this_website = '''このウェブサイトでは常に音声のみ利用する'''
 details = '''詳細'''
-more_settings = '''その他の設定'''
 report = '''報告'''
 reporting = '''報告中'''
 not_playing_title = '''ビデオが再生されませんか？'''

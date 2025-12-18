@@ -105,7 +105,6 @@ download_audio_and_video_menu = "Pobierz audio i wideo"
 download_audio_only_menu = '''Pobierz dźwięk'''
 audio_only_for_this_website = "Audio zawsze tylko dla tej strony internetowej"
 details = '''Detale'''
-more_settings = '''Więcej ustawień'''
 
 # Report buttons
 report = '''Zgłoś'''

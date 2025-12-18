@@ -132,7 +132,6 @@ download_audio_and_video_menu = "تحميل صوت وفيديو"
 download_audio_only_menu = "تحميل الصوت فقط"
 audio_only_for_this_website = "دائمًا صوت فقط لهذا الموقع"
 details = "التفاصيل"
-more_settings = "إعدادات إضافية"
 
 # Report buttons
 report = "إبلاغ"

@@ -139,7 +139,6 @@ download_audio_and_video_menu = "Download Audio & video"
 download_audio_only_menu = "Download Audio"
 audio_only_for_this_website = "Always audio only for this website"
 details = "Details"
-more_settings = "More settings"
 
 # Report buttons
 report = "Report"
