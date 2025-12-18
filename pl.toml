@@ -46,7 +46,6 @@ my_account_button = "Moje konto"
 download_title = "Do pobrania"
 show_notification = '''Pokaż powiadomienie po zakończeniu pobierania'''
 max_parallel_downloads = '''Maksymalna liczba równoczesnych pobrań'''
-change_download_directory = "Zmień katalog pobierania"
 
 private_browsing_title = "Przeglądanie prywatne"
 private_browsing_warning = '''Narzędzie Video DownloadHelper nie jest włączone w oknach prywatnych/incognito. Musisz włączyć tę opcję ręcznie (nie jest to wymagane).'''

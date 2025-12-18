@@ -52,7 +52,6 @@ my_account_button = "Mein Konto"
 download_title = "Downloads"
 show_notification = '''Benachrichtigung anzeigen, wenn der Download abgeschlossen ist'''
 max_parallel_downloads = '''Maximal gleichzeitige Downloads'''
-change_download_directory = "Download-Verzeichnis ändern"
 saveas_detected_warning = "Wir haben festgestellt, dass Ihr Browser nach Abschluss des Downloads ein Dialogfeld „Speichern unter“ anzeigt. Wir empfehlen, diese Option in Ihren Browsereinstellungen zu deaktivieren."
 change_saveas_setting = "Einstellung ändern"
 

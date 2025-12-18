@@ -56,7 +56,6 @@ my_account_button = "حسابي"
 download_title = "التحميلات"
 show_notification = "إظهار إشعار عند اكتمال التحميل"
 max_parallel_downloads = "الحد الأقصى للتحميلات المتزامنة"
-change_download_directory = "تغيير مجلد التحميل"
 saveas_detected_warning = "تم اكتشاف أن متصفحك يعرض نافذة 'حفظ باسم' بعد اكتمال التحميل. نوصي بتعطيل هذا الخيار من إعدادات المتصفح."
 change_saveas_setting = "تغيير الإعداد"
 
