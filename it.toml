@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.256.0
-# 01 novembre 2025
+# VDH 10 versione 10.0.288.0
+# 19 dicembre 2025
 # by Night Train
 
 [addon]
@@ -57,6 +57,12 @@ show_notification = "Mostra una notifica una volta completato il download"
 max_parallel_downloads = "Numero massimo di download contemporanei"
 saveas_detected_warning = "Abbiamo rilevato che il tuo browser mostra una finestra di dialogo 'Salva con nome', una volta terminato il download. Ti consigliamo di disabilitare questa opzione nelle impostazioni del tuo browser."
 change_saveas_setting = "Cambia impostazione"
+download_directory_title = "Cartella di Download"
+download_directory_description = "I video vengono scaricati nella cartella di download predefinita del browser. È anche possibile specificare una sottocartella. È possibile impostare cartelle di download specifiche per il sito Web con lo strumento smartnaming."
+change_browser_download_directory = "Cambia la cartella di download del browser"
+bad_download_subdirectory_warning = "La sottocartella specificata non è valida."
+download_subdirectory = "Sottocartella di download"
+
 private_browsing_title = "Navigazione anonima"
 private_browsing_warning = "Video DownloadHelper non è abilitato in navigazione anonima."
 private_browsing_notifications = "Mostra una notifica per i download in navigazione anonima"
@@ -128,6 +134,7 @@ always_copy_url = "Copia sempre indirizzo"
 download_button = "Download"
 download_as_button_and_menu = "Download come…"
 rename_short = "Rinomina" # Tienilo più corto possibile
+
 always_download_as_menu = "Download sempre come…"
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Download Audio & Video"
