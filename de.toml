@@ -14,13 +14,13 @@ rm_notifications_all = "Alle Benachrichtigungen schließen"
 # Strings for the main panel
 waiting_for_media = "Warten auf Medien…"
 nomedia_title = "Von Ihnen gesuchte Medien sind nicht auffindbar?"
-nomedia_description = "Video starten (etwaige Werbung überspringen), um Medien zu erkennen helfen. Oder fehlende Medien melden."
-nomedia_reload_button = '''Erkennung erzwingen'''
+nomedia_description = "Video starten (etwaige Werbung überspringen), um die Medien zu erkennen oder fehlende Medien zu melden."
+nomedia_reload_button = "Erkennung erzwingen"
 nomedia_reload_button_tooltip = "Erneutes Laden der Seite erzwingen (Cookies löschen)"
 show_nomedia_button = "Kein Video?"
 show_nomedia_button_tooltip = "Hier klicken, wenn Sie Ihr Video nicht finden können"
-setting_button_tooltip = '''Einstellungen'''
-history_button_tooltip = '''Download-Chronik anzeigen'''
+setting_button_tooltip = "Einstellungen"
+history_button_tooltip = "Downloadchronik anzeigen"
 show_all_history_button = "Alle anzeigen"
 complete_title = "Vollständig"
 hide_complete_button = "verstecken"
@@ -29,34 +29,39 @@ translate_button_tooltip = "Helfen Sie mit, VDH zu übersetzen"
 # Downloaded media box
 open_source_tab_button_tooltip = "Quellenregisterkarte öffnen"
 retry_download_button_tooltip = "Download wiederholen"
-delete_file_button_tooltip = '''Datei löschen'''
-download_directory_button_tooltip = '''Download-Ordner anzeigen'''
+delete_file_button_tooltip = "Datei löschen"
+download_directory_button_tooltip = "Downloadordner anzeigen"
 clear_downloaded_tooltip = "Abgeschlossene Downloads löschen"
-show_in_popup_button_tooltip = '''Im Popup-Fenster anzeigen'''
-show_in_sidebar_button_tooltip = '''In der Seitenleiste anzeigen'''
+show_in_popup_button_tooltip = "Im Pop-up-Fenster anzeigen"
+show_in_sidebar_button_tooltip = "In der Seitenleiste anzeigen"
 video_not_playing_button_tooltip = "Video wird nicht abgespielt?"
-play = '''Abspielen'''
+play = "Abspielen"
 warn_drm_tooltip = "DRM erkannt"
 
 # Strings for the settings panel.
-version_title = '''Version'''
+version_title = "Version"
 account_title = "Konto"
 one_hundred_downloads_title = "Sie haben 100 Videos heruntergeladen!"
-leave_review_description = '''Wir hoffen, Ihnen gefällt Video DownloadHelper. Hinterlassen Sie uns bitte noch eine gute Bewertung auf der Add-on-Seite.'''
-leave_review_button = '''Eine Bewertung hinterlassen'''
+leave_review_description = "Wir hoffen, Ihnen gefällt Video DownloadHelper. Hinterlassen Sie uns bitte noch eine gute Bewertung auf der Add-on-Seite."
+leave_review_button = "Eine Bewertung hinterlassen"
 account_status= "Status"
-account_status_premium = '''Premium ($1)'''
+account_status_premium = "Premium ($1)"
 free_account = "Kostenloser Plan"
-copy_to_clipboard = '''Information in die Zwischenablage kopieren'''
+copy_to_clipboard = "Information in die Zwischenablage kopieren"
 my_account_button = "Mein Konto"
 download_title = "Downloads"
-show_notification = '''Benachrichtigung anzeigen, wenn der Download abgeschlossen ist'''
-max_parallel_downloads = '''Maximal gleichzeitige Downloads'''
+show_notification = "Benachrichtigung anzeigen, wenn der Download abgeschlossen ist"
+max_parallel_downloads = "Maximal gleichzeitige Downloads"
 saveas_detected_warning = "Wir haben festgestellt, dass Ihr Browser nach Abschluss des Downloads ein Dialogfeld „Speichern unter“ anzeigt. Wir empfehlen, diese Option in Ihren Browsereinstellungen zu deaktivieren."
 change_saveas_setting = "Einstellung ändern"
+download_directory_title = "Downloadverzeichnis"
+download_directory_description = "Videos werden im Standard-Downloadverzeichnis des Browsers gespeichert. Sie können auch ein Unterverzeichnis angeben. Website-spezifische Downloadverzeichnisse können mit dem Smartnaming-Tool festgelegt werden."
+change_browser_download_directory = "Downloadverzeichnis des Browsers ändern"
+bad_download_subdirectory_warning = "Das von Ihnen angegebene Unterverzeichnis ist ungültig."
+download_subdirectory = "Downloadunterverzeichnis"
 
 private_browsing_title = "Privates Surfen"
-private_browsing_warning = '''Video DownloadHelper ist nicht im Privat-/Inkognito-Fenster aktiviert. Sie müssen diese Option manuell einschalten (dies ist nicht erforderlich).'''
+private_browsing_warning = "Video DownloadHelper ist nicht im Privat-/Inkognito-Fenster aktiviert. Sie müssen diese Option manuell einschalten (dies ist nicht erforderlich)."
 private_browsing_notifications = "Benachrichtigung für private Downloads anzeigen"
 private_browsing_button = "Einstellung für privates Surfen ändern"
 throttle_youtube = "YouTube drosseln (langsamere Downloads, aber geringeres Risiko einer Blockierung)"
@@ -64,24 +69,24 @@ prefer_original_audio = "Vorzug für Originalton" # Firefox only
 prefer_hls = "Vorzug für HLS" # Firefox only
 settings_history_title = "Verlauf"
 transient_history_description = "Komplette Downloads im Panel anzeigen"
-history_limit = '''Download-Chronik nach x Tagen löschen'''
-appearance_title = '''Aussehen'''
-theme_title = '''Thema'''
-theme_light = '''hell'''
-theme_dark = '''dunkel'''
-theme_system = '''System'''
+history_limit = "Downloadchronik nach x Tagen löschen"
+appearance_title = "Aussehen"
+theme_title = "Thema"
+theme_light = "hell"
+theme_dark = "dunkel"
+theme_system = "System"
 popup_size_title = "Fenstergröße"
 popup_size_small = "Klein"
 popup_size_medium = "Mittel"
 popup_size_big = "Groß"
 panel_position_title = "Bildschirmposition"
-use_popup = '''Im Popup-Fenster anzeigen'''
-use_sidebar = '''In der Seitenleiste anzeigen'''
-behavior_title = '''Verhalten'''
+use_popup = "Im Pop-up-Fenster anzeigen"
+use_sidebar = "In der Seitenleiste anzeigen"
+behavior_title = "Verhalten"
 controls_title = "Bedienelemente"
-show_in_context_menu = '''Auf Befehle per Rechtsklick auf der Seite zugreifen'''
-restart_addon = '''Add-on neu laden'''
-reset_settings = '''Einstellungen zurücksetzen'''
+show_in_context_menu = "Auf Befehle per Rechtsklick auf der Seite zugreifen"
+restart_addon = "Add-on neu laden"
+reset_settings = "Einstellungen zurücksetzen"
 prefered_quality = "Bevorzugte Videoqualität"
 prefered_quality_highest = "Höchste (langsamer Download, hohe Auflösung)"
 prefered_quality_1080p = "1080p (gute Standardeinstellung)"
@@ -93,51 +98,52 @@ preview_mode_video = "Kurze Videovorschau"
 preview_mode_image = "Bild"
 
 # String for history page
-history_title = "Download-Verlauf"
-history_warning = '''Es ist keine Download-Chronik angelegt. Möchten Sie, dass Video DownloadHelper eine Download-Chronik anlegt?'''
-history_warning_2 = '''Keine Sorge, alles bleibt auf Ihrem Gerät. Wir respektieren Ihre Privatsphäre.'''
-enable_history = '''Chronik anlegen'''
-clear_history = '''Chronik löschen'''
-disable_history = '''Chronik nicht anlegen'''
-no_downloads_yet = '''Bisher keine Einträge'''
+history_title = "Downloadchronik"
+history_warning = "Es ist keine Downloadchronik angelegt. Möchten Sie, dass Video DownloadHelper eine Downloadchronik anlegt?"
+history_warning_2 = "Keine Sorge, alles bleibt auf Ihrem Gerät. Wir respektieren Ihre Privatsphäre."
+enable_history = "Chronik anlegen"
+clear_history = "Chronik löschen"
+disable_history = "Chronik nicht anlegen"
+no_downloads_yet = "Bisher keine Einträge"
 
 # Various notifications
-download_failed = '''Herunterladen fehlgeschlagen'''
-download_failed_description = '''Leider ist es uns nicht gelungen, dieses spezielle Medium herunterzuladen. Wir versuchen, so viele Websites wie möglich zu unterstützen. Daher wäre es sehr hilfreich, wenn Sie diesen Fehler (anonym) melden!'''
+download_failed = "Herunterladen fehlgeschlagen"
+download_failed_description = "Leider ist es uns nicht gelungen, dieses spezielle Medium herunterzuladen. Wir versuchen, so viele Websites wie möglich zu unterstützen. Daher wäre es sehr hilfreich, wenn Sie diesen Fehler (anonym) melden!"
 download_interrupted = "Download unterbrochen"
 download_interrupted_description = "Wir konnten Ihre Datei herunterladen, aber es gab Netzwerkprobleme, sodass die Datei möglicherweise kürzer ist als erwartet. Wir versuchen, so viele Websites wie möglich zu unterstützen. Es wäre daher sehr hilfreich, wenn Sie dieses Problem melden könnten (Die Meldung ist anonym!)."
 download_with_drm_failed_description = "Etwas hat nicht funktioniert. Und wir denken, dass dieses Video dem DRM unterliegt. Wir unterstützen keine Videos mit DRM."
 no_youtube = "Download von YouTube ist nicht zulässig"
-no_youtube_description = '''Leider erlaubt der Chrome Web Store keine Erweiterungen zum Herunterladen von YouTube-Videos, sodass wir diese Funktion nicht in die Chrome-Version der Erweiterung aufnehmen konnten.'''
+no_youtube_description = "Leider erlaubt der Chrome Web Store keine Erweiterungen zum Herunterladen von YouTube-Videos, sodass wir diese Funktion nicht in die Chrome-Version der Erweiterung aufnehmen konnten."
 no_youtube_description_2 = "Bitte verwenden Sie Firefox oder Microsoft Edge."
-premium_required = '''Premiumstatus wird benötigt'''
+premium_required = "Premiumstatus wird benötigt"
 premium_yt_required_description = "Ohne Premium-Status kann ein YouTube-Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden."
-premium_hls_required_description = "Ohne Premium kann ein HLS- oder MPD-Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden."
+premium_hls_required_description = "Ohne Premium-Status kann ein HLS- oder MPD-Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden."
+premium_all_required_description = "Ohne Premium-Status kann ein Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden."
 youtube_too_many_downloads = "Hoppla, YouTube scheint blockiert zu sein."
 youtube_too_many_downloads_description = "YouTube begrenzt manchmal die Anzahl der Videos, die angefordert werden können. Leider können wir daran nichts ändern. Versuchen Sie es später erneut."
 
 # Downloading media box
-stop = '''Stopp'''
-cancel = '''Abbrechen'''
+stop = "Stopp"
+cancel = "Abbrechen"
 
 # Media we found in the page
-copy_url = '''URL kopieren'''
+copy_url = "URL kopieren"
 always_copy_url = "URL immer kopieren"
-download_button = '''Herunterladen'''
-download_as_button_and_menu = '''Herunterladen als…'''
+download_button = "Herunterladen"
+download_as_button_and_menu = "Herunterladen als…"
 rename_short = "Umbenennen" # Keep this as short as possible
 
 always_download_as_menu = "Immer herunterladen als…"
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Audio & Video herunterladen"
-download_audio_only_menu = '''Audio herunterladen'''
-audio_only_for_this_website = "Audio immer nur für diese Website"
-details = '''Details'''
+download_audio_only_menu = "Audio herunterladen"
+audio_only_for_this_website = "Für diese Website immer nur Audio"
+details = "Details"
 
 # Report buttons
-report = '''Fehler melden'''
+report = "Fehler melden"
 reporting = "Wird gemeldet…"
-reported_thankyou = '''Vielen Dank!'''
+reported_thankyou = "Vielen Dank!"
 
 # Video not playing - page
 not_playing_title = "Video wird nicht abgespielt?"
@@ -149,7 +155,7 @@ not_playing_broken_solution_mac_1 = "Wir empfehlen IINA:"
 not_playing_broken_solution_2 = "Er ist modern, sicher und Open Source."
 not_playing_default_player = "Vergewissern Sie sich, dass Ihr Videoplayer als Standard in Ihrem System eingestellt ist"
 not_playing_default_player_solution_windows = "Klicken Sie in der „Systemsteuerung“ von Windows auf „Standardprogramme“ und ändern Sie dort das Standardprogramm für Ihren Player."
-not_playing_default_player_solution_mac = "Öffnen Sie das Download-Verzeichnis mit Rechtsklick auf die Videodatei. Klicken Sie auf „Info beziehen“. Wählen Sie IINA im Abschnitt „Öffnen mit“ Klicken Sie auf „Alles ändern“."
+not_playing_default_player_solution_mac = "Öffnen Sie das Downloadverzeichnis und klicken Sie mit der rechten Maustaste auf die Videodatei. Klicken Sie auf „Info beziehen“. Wählen Sie „IINA“ im Abschnitt „Öffnen mit“. Klicken Sie auf „Alles ändern“."
 
 [web]
 
