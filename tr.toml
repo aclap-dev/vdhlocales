@@ -120,7 +120,6 @@ not_playing_default_player_solution_mac = "İndirilenler klasörünü açın ve 
 [web]
 back = "Geri"
 header_help = "Yardım"
-header_community = "Topluluk"
 activate_title = "Etkinleştirme"
 activate_pending = "Bekliyor..."
 activate_success = "Başarılı"

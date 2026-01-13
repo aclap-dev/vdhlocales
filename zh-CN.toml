@@ -135,7 +135,6 @@ not_playing_default_player_solution_mac = '''打开下载目录并右键单击�
 [web]
 back = '''返回'''
 header_help = '''帮助'''
-header_community = '''社区'''
 activate_title = '''激活'''
 activate_pending = '''待处理…'''
 activate_success = '''成功'''

@@ -127,7 +127,6 @@ not_playing_default_player_solution_mac = '''Open download directory right-click
 [web]
 back = '''戻る'''
 header_help = '''ヘルプ'''
-header_community = '''コミュニティ'''
 activate_title = '''アクティベーション'''
 activate_pending = '''進行中'''
 activate_success = '''成功しました'''

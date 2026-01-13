@@ -163,7 +163,6 @@ back = "Zurück" # Go back button
 
 # On top of all pages.
 header_help = "Hilfe"
-header_community = "Gemeinschaft"
 
 # Context: activation page after receiving the magic link via email.
 activate_title = "Aktivierung" # hope it crashes

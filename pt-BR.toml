@@ -113,7 +113,6 @@ not_playing_default_player_solution_mac = '''Abra o diretório de baixamentos e 
 [web]
 back = '''Voltar'''
 header_help = '''Ajuda'''
-header_community = '''Comunidade'''
 activate_title = '''Ativação'''
 activate_pending = '''Pendente…'''
 activate_success = '''Bem sucedido'''

@@ -119,7 +119,6 @@ not_playing_default_player_solution_mac = '''Откройте папку заг�
 [web]
 back = '''Назад'''
 header_help = '''Помощь'''
-header_community = '''Сообщество'''
 activate_title = '''Активация'''
 activate_pending = '''Ожидание…'''
 activate_success = '''Успех'''

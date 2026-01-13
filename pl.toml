@@ -127,7 +127,6 @@ not_playing_default_player_solution_mac = "Otwórz katalog pobierania, klikając
 
 # On top of all pages.
 header_help = "Pomoc"
-header_community = "Społeczność"
 
 # Context: activation page after receiving the magic link via email.
 activate_title = "Aktywacja" # hope it crashes

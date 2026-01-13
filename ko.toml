@@ -119,7 +119,6 @@ not_playing_default_player_solution_mac = '''다운로드 디렉토리를 열고
 [web]
 back = '''뒤로'''
 header_help = '''도움말'''
-header_community = '''커뮤니티'''
 activate_title = '''활성화'''
 activate_pending = '''대기 중...'''
 activate_success = '''성공'''

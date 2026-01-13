@@ -100,7 +100,6 @@ not_playing_default_player_solution_mac = "Abra el directorio de descargas y hag
 
 [web]
 header_help = "Ayuda"
-header_community = "Comunidad"
 activate_title = "Activación"
 activate_pending = "Pendiente…"
 activate_success = "Éxito"

@@ -135,7 +135,6 @@ not_playing_default_player_solution_mac = '''Відкрийте папку за�
 [web]
 back = '''Назад'''
 header_help = '''Допомога'''
-header_community = '''Спільнота'''
 activate_title = '''Активація'''
 activate_pending = '''Очікування…'''
 activate_success = '''Успіх'''

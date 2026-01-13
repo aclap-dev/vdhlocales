@@ -165,7 +165,6 @@ back = "Indietro" # Go back button
 
 # In cima a tutte le pagine.
 header_help = "Aiuto"
-header_community = "Community"
 
 # Contesto: pagina di attivazione dopo aver ricevuto il link magico via e-mail.
 activate_title = "Attivazione" # spero che si blocchi

@@ -135,7 +135,6 @@ not_playing_default_player_solution_mac = '''Ouvrez le répertoire de téléchar
 [web]
 back = '''Retour'''
 header_help = '''Aide'''
-header_community = '''Communauté'''
 activate_title = '''Activation'''
 activate_pending = '''Patientez …'''
 activate_success = '''Succès'''

@@ -129,7 +129,6 @@ not_playing_default_player_solution_mac = '''Otevřete složku pro stahování k
 [web]
 back = '''Zpět'''
 header_help = '''Pomoc'''
-header_community = '''Komunita'''
 activate_title = '''Aktivace'''
 activate_pending = '''Čekání...'''
 activate_success = '''Úspěch'''

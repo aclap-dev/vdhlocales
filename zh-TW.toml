@@ -100,7 +100,6 @@ not_playing_default_player_solution_mac = '''開啟下載目錄，在影片檔�
 
 [web]
 header_help = '''說明'''
-header_community = '''社群'''
 activate_title = '''啟用'''
 activate_pending = '''等待中…'''
 activate_success = '''成功'''
