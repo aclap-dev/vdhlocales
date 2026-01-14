@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.0.288.0
-# 19 dicembre 2025
+# VDH 10 versione 10.1.26.0
+# 14 gennaio 2026
 # by Night Train
 
 [addon]
@@ -28,6 +28,7 @@ show_all_history_button = "Mostra tutto"
 complete_title = "Completati"
 hide_complete_button = "Nascondi"
 translate_button_tooltip = "Aiuta a tradurre VDH"
+help_button_tooltip = "Aiuto"
 
 # Pannello dei file multimediali scaricati
 open_source_tab_button_tooltip = "Apri la scheda sorgente"
@@ -165,6 +166,7 @@ back = "Indietro" # Go back button
 
 # In cima a tutte le pagine.
 header_help = "Aiuto"
+header_community = "Community"
 
 # Contesto: pagina di attivazione dopo aver ricevuto il link magico via e-mail.
 activate_title = "Attivazione" # spero che si blocchi
