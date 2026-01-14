@@ -25,6 +25,7 @@ show_all_history_button = "show all"
 complete_title = "Complete"
 hide_complete_button = "hide"
 translate_button_tooltip = "Help translate VDH"
+help_button_tooltip = "Help"
 
 # Downloaded media box
 open_source_tab_button_tooltip = "Open source tab"
