@@ -163,6 +163,7 @@ back = "Back" # Go back button
 
 # On top of all pages.
 header_help = "Help"
+header_ask_question = "Ask us a question"
 
 # Context: activation page after receiving the magic link via email.
 activate_title = "Activation" # hope it crashes
