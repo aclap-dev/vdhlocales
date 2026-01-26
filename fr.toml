@@ -171,6 +171,6 @@ premium_hero1 = '''Payez une fois, utilisez pour toujours'''
 premium_hero2 = '''Obtenez une licence 'lifetime' Video DownloadHelper'''
 premium_hero3 = '''Téléchargez toutes vidéos, autant que vous le souhaitez, sans limites.'''
 premium_supported_payment_methods = "Moyens de paiement supportés"
-premium_bu = "payer"
+premium_buy = "payer"
 welcome_text = '''Votre downloadeur de vidéo est prêt !'''
 welcome_pin_message = '''Activez l'icône de l'add-on dans votre barre d'outils :'''
