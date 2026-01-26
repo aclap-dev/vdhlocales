@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.1.34.0
-# 15 gennaio 2026
+# VDH 10 versione 10.1.46.0
+# 26 gennaio 2026
 # by Night Train
 
 [addon]
@@ -210,6 +210,8 @@ landing_feature4_description = "Estrai l'audio dai video e convertili in MP3 o p
 premium_hero1 = "Paga una volta, usa per sempre"
 premium_hero2 = "Ottieni una Licenza a Vita per Video DownloadHelper"
 premium_hero3 = "Scarica tutti i video che vuoi, senza limiti."
+premium_supported_payment_methods = "Metodi di pagamento supportati"
+premium_buy = "acquista"
 
 # Contesto: la pagina che si apre dopo che hai installato l'estensione.
 welcome_text = "Ora non ti perderai alcun video!"
