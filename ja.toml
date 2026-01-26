@@ -162,5 +162,7 @@ landing_feature4_description = '''ビデオからオーディオを抽出し、M
 premium_hero1 = '''一度のお支払いで永久利用できます'''
 premium_hero2 = '''Video DownloadHelperの永久利用を始める'''
 premium_hero3 = '''制限なしで、ダウンロードしたいだけできます'''
+premium_supported_payment_methods = '''サポートされている決済手段'''
+premium_buy = '''購入する'''
 welcome_text = '''もうビデオを失うことはありません!'''
 welcome_pin_message = '''アドオンのアイコンをツールバーにピン止めする'''
