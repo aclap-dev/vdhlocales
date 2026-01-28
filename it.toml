@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.1.46.0
-# 26 gennaio 2026
+# VDH 10 versione 10.1.49.0
+# 28 gennaio 2026
 # by Night Train
 
 [addon]
@@ -82,6 +82,10 @@ popup_size_title = "Dimensione finestra"
 popup_size_small = "Piccola"
 popup_size_medium = "Media"
 popup_size_big = "Grande"
+font_size_title = "Dimensione testo"
+font_size_default = "Default"
+font_size_large = "Grande"
+font_size_verylarge = "Molto grande"
 panel_position_title = "Posizione pannello"
 use_popup = "Mostra in un popup"
 use_sidebar = "Mostra nella barra laterale"
