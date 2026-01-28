@@ -40,7 +40,6 @@ private_browsing_warning = '''Video DownloadHelper 於無痕視窗中未啟用�
 private_browsing_notifications = '''顯示私密下載通知'''
 private_browsing_button = '''變更私密瀏覽設定'''
 prefer_original_audio = '''偏好原始音訊'''
-prefer_hls = '''偏好 HLS'''
 settings_history_title = '''紀錄'''
 history_limit = '''忘記下載之前的天數'''
 appearance_title = '''外觀'''

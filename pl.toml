@@ -52,7 +52,6 @@ private_browsing_warning = '''Narzędzie Video DownloadHelper nie jest włączon
 private_browsing_notifications = "Pokaż powiadomienie dla prywatnych pobrań"
 private_browsing_button = "Zmiana ustawień przeglądania prywatnego"
 prefer_original_audio = "Preferuj oryginalne audio" # Firefox only
-prefer_hls = "Preferuj HLS" # Firefox only
 settings_history_title = "Historia"
 history_limit = "Liczba dni przed zapomnieniem plików do pobrania"
 appearance_title = '''Wygląd'''

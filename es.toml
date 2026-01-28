@@ -41,7 +41,6 @@ private_browsing_warning = "Video DownloadHelper no está habilitado en la naveg
 private_browsing_notifications = "Mostrar notificación para descargas privadas"
 private_browsing_button = "Cambiar configuración de navegación privada"
 prefer_original_audio = "Preferir audio original"
-prefer_hls = "Preferir HLS"
 settings_history_title = "Historial"
 history_limit = "Días antes de olvidar las descargas"
 appearance_title = '''Apariencia'''

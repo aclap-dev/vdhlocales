@@ -47,7 +47,6 @@ private_browsing_warning = '''Video DownloadHelper не работает в пр
 private_browsing_notifications = '''Показывать уведомления для загрузок в приватном режиме'''
 private_browsing_button = '''Изменить настройки приватного режима'''
 prefer_original_audio = '''Отдавать предпочтение оригинальному звучанию'''
-prefer_hls = '''Отдавать предпочтение HLS'''
 settings_history_title = '''История'''
 transient_history_description = '''Показывать завершённые загрузки в панели'''
 history_limit = '''Количество дней хранения истории'''

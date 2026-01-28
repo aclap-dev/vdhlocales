@@ -48,7 +48,6 @@ private_browsing_notifications = '''プライベートダウンロードの通�
 private_browsing_button = '''プライベートブラウズモードの設定を変更する'''
 throttle_youtube = '''YouTubeの速度を制限する（ダウンロード速度は遅くなるが、ブロックされる可能性が低くなる）'''
 prefer_original_audio = '''オリジナルの言語の音声を利用する'''
-prefer_hls = '''HLSを使う'''
 settings_history_title = '''履歴'''
 transient_history_description = '''完了されたダウンロードをパネルに表示する'''
 history_limit = '''日後に自動で気にダウンロードを削除する'''

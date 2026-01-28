@@ -46,7 +46,6 @@ private_browsing_warning = '''Video DownloadHelper는 시크릿/비공개 창에
 private_browsing_notifications = '''시크릿 다운로드 알림 표시'''
 private_browsing_button = '''시크릿 브라우징 설정 변경'''
 prefer_original_audio = '''원본 오디오 선호'''
-prefer_hls = '''HLS 선호'''
 settings_history_title = '''기록'''
 transient_history_description = '''완료된 다운로드 패널에 표시'''
 history_limit = '''X일 후 다운로드 기록 삭제'''

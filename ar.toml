@@ -65,7 +65,6 @@ private_browsing_notifications = "عرض إشعارات التحميل في ال
 private_browsing_button = "تغيير إعدادات التصفح الخاص"
 throttle_youtube = "إبطاء التحميل من يوتيوب (أبطأ ولكن أقل عرضة للحظر)"
 prefer_original_audio = "تفضيل الصوت الأصلي"
-prefer_hls = "تفضيل HLS"
 settings_history_title = "السجل"
 transient_history_description = "عرض التحميلات المكتملة في اللوحة"
 history_limit = "نسيان سجل التحميل بعد X يوم"

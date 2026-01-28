@@ -66,7 +66,6 @@ private_browsing_notifications = "Benachrichtigung für private Downloads anzeig
 private_browsing_button = "Einstellung für privates Surfen ändern"
 throttle_youtube = "YouTube drosseln (langsamere Downloads, aber geringeres Risiko einer Blockierung)"
 prefer_original_audio = "Vorzug für Originalton" # Firefox only
-prefer_hls = "Vorzug für HLS" # Firefox only
 settings_history_title = "Verlauf"
 transient_history_description = "Komplette Downloads im Panel anzeigen"
 history_limit = "Downloadchronik nach x Tagen löschen"

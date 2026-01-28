@@ -49,7 +49,6 @@ private_browsing_notifications = '''Zobrazit oznámení pro soukromá stahován�
 private_browsing_button = '''Změnit nastavení soukromého procházení'''
 throttle_youtube = '''Throttlovat YouTube (pomalejší stahování, ale menší pravděpodobnost zablokování)'''
 prefer_original_audio = '''Upřednostnit původní zvuk'''
-prefer_hls = '''Upřednostnit HLS'''
 settings_history_title = '''Historie'''
 transient_history_description = '''Zobrazit dokončená stahování v panelu'''
 history_limit = '''Zapomenout historii stahování po X dnech'''

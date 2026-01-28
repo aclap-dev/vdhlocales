@@ -54,7 +54,6 @@ private_browsing_notifications = '''Afficher une notification même en navigatio
 private_browsing_button = '''Changer le paramètre de navigation privée'''
 throttle_youtube = '''Optimiser pour YouTube (téléchargements plus lents, mais moins susceptibles d'être bloqués)'''
 prefer_original_audio = '''Préférer l'audio original'''
-prefer_hls = '''Préférer HLS'''
 settings_history_title = '''Historique'''
 transient_history_description = '''Afficher les téléchargements finis dans la fenêtres'''
 history_limit = '''Supprimer l'historique après X jours'''

@@ -47,7 +47,6 @@ private_browsing_warning = "Video DownloadHelper, Özel/Gizli pencerelerde etkin
 private_browsing_notifications = "Gizli indirmeler için bildirim göster"
 private_browsing_button = "Gizli gezinme ayarını değiştir"
 prefer_original_audio = "Orijinal sesi tercih et"
-prefer_hls = "HLS tercih et"
 settings_history_title = "Geçmiş"
 transient_history_description = "Panelde tamamlanmış indirmeleri göster"
 history_limit = "X gün sonra indirme geçmişini unut"
