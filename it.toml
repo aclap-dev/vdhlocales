@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.1.49.0
-# 28 gennaio 2026
+# VDH 10 versione 10.2.0.0
+# 17 febbraio 2026
 # by Night Train
 
 [addon]
@@ -98,6 +98,7 @@ prefered_quality = "Qualità video preferita"
 prefered_quality_highest = "La più alta (download lento, alta risoluzione)"
 prefered_quality_1080p = "1080p (buona)"
 prefered_quality_720p = "720p (download veloce, bassa risoluzione)"
+prefered_quality_480p = "480p (download più veloce, risoluzione più bassa)"
 prefer_mkv = "Preferisci MKV quando possibile"
 preview_mode_title = "Anteprima"
 preview_mode_none = "Disabilitata"
