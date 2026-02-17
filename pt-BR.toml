@@ -55,7 +55,6 @@ private_browsing_notifications = '''Mostrar notificação para baixamentos priva
 private_browsing_button = '''Alterar a configuração de navegação privada'''
 throttle_youtube = '''Limitar velocidade do YouTube (downloads mais lentos, mas menor risco de bloqueio)'''
 prefer_original_audio = '''Prefira áudio original'''
-prefer_hls = '''Prefira HLS'''
 settings_history_title = '''Histórico'''
 transient_history_description = '''Mostrar downloads completos no painel'''
 history_limit = '''Esqueça o histórico de downloads após X dias'''
