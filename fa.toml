@@ -1,0 +1,225 @@
+# Persian Translation for Video DownloadHelper
+# By Jey - Javad Jamshidi
+# -----------------------------------------------------
+# This file provides the full Persian localization for
+# Video DownloadHelper (Addon + Web Interface)
+# -----------------------------------------------------
+
+[addon]
+
+# Video DownloadHelper description. 132 characters max.
+appDesc = "دانلود ویدیوها از وب. محتوای مورد علاقه‌تان را سریع و آسان ذخیره کنید"
+
+# Global strings
+restore_purchase_button = "بازیابی خرید"
+get_premium_button = "ارتقا به ویژه"
+back = "بازگشت" # Go back button - in Settings panel for example
+rm_notifications_all = "بستن همه اعلان ها"
+
+# Strings for the main panel
+waiting_for_media = "...در انتظار دریافت رسانه"
+nomedia_title = "رسانه‌ای که به دنبالش هستید را نمی‌بینید؟"
+nomedia_description = "برای پیدا کردن رسانه، ویدیو را پخش کنید (و در صورت وجود تبلیغ، از آن رد شوید). یا در صورت پیدا نشدن، گزارش دهید"
+nomedia_reload_button = "شناسایی اجباری"
+nomedia_reload_button_tooltip = "بارگذاری مجدد صفحه (پاک کردن کوکی‌ها)"
+show_nomedia_button = "ویدیو وجود ندارد؟"
+show_nomedia_button_tooltip = "اگر ویدیوی خود را پیدا نمی‌کنید، اینجا کلیک کنید"
+setting_button_tooltip = "تنظیمات"
+history_button_tooltip = "نمایش تاریخچه دانلود"
+show_all_history_button = "نمایش همه"
+complete_title = "تکمیل شد"
+hide_complete_button = "پنهان"
+translate_button_tooltip = "کمک برای ترجمه"
+help_button_tooltip = "راهنما"
+
+# Downloaded media box
+open_source_tab_button_tooltip = "باز کردن برگه منبع"
+retry_download_button_tooltip = "دانلود مجدد"
+delete_file_button_tooltip = "حذف فایل"
+download_directory_button_tooltip = "نمایش پوشه دانلود"
+clear_downloaded_tooltip = "پاک کردن دانلودهای تکمیل‌شده"
+show_in_popup_button_tooltip = "نمایش در پنجره بازشونده"
+show_in_sidebar_button_tooltip = "نمایش در نوار کناری"
+video_not_playing_button_tooltip = "ویدیو پخش نمی‌شود؟"
+play = "پخش"
+warn_drm_tooltip = "شناسایی شد DRM"
+
+# Strings for the settings panel.
+version_title = "نسخه"
+account_title = "حساب کاربری"
+one_hundred_downloads_title = "شما ۱۰۰ ویدیو دانلود کرده‌اید"
+leave_review_description = "امیدواریم از استفاده از این افزونه راضی بوده باشید :) مایل به نوشتن یک نظر مثبت در سایت افزونه هستید؟"
+leave_review_button = "ثبت نظر"
+account_status= "وضعیت"
+account_status_premium = "($1) نسخه ویژه"
+free_account = "نسخه رایگان"
+copy_to_clipboard = "کپی اطلاعات به کلیپ‌بورد"
+my_account_button = "حساب کاربری من"
+download_title = "دانلودها"
+show_notification = "نمایش اعلان پس از تکمیل دانلود"
+max_parallel_downloads = "حداکثر دانلود همزمان"
+saveas_detected_warning = "تشخیص دادیم که مرورگر شما بعد از اتمام دانلود، پنجره «ذخیره به‌عنوان» را نمایش میدهد. پیشنهاد میکنیم این گزینه را در تنظیمات مرورگر غیرفعال کنید"
+change_saveas_setting = "تغییر تنظیمات"
+download_directory_title = "پوشه دانلود"
+download_directory_description = "ویدیوها در پوشه دانلود پیش‌فرض مرورگر ذخیره می‌شوند. شما همچنین می‌توانید یک زیرپوشه مشخص کنید. پوشه‌های دانلود مخصوص هر سایت را می‌توان با ابزار SmartNaming تعیین کرد"
+change_browser_download_directory = "تغییر پوشه دانلود مرورگر"
+bad_download_subdirectory_warning = "زیرپوشه‌ای که مشخص کردید معتبر نیست"
+download_subdirectory = "زیرپوشه دانلود"
+
+private_browsing_title = "حالت ناشناس"
+private_browsing_warning = "افزونه در پنجره‌های خصوصی/ناشناس فعال نیست. برای استفاده در این حالت باید این گزینه را به‌صورت دستی روشن کنید (این کار ضروری نیست)"
+private_browsing_notifications = "نمایش اعلان برای دانلودهای خصوصی"
+private_browsing_button = "ویرایش تنظیمات حالت ناشناس"
+throttle_youtube = "محدود کردن سرعت یوتیوب (دانلود کندتر، اما احتمال مسدود شدن کمتر)"
+prefer_original_audio = "اولویت با صدای اصلی" # Firefox only
+settings_history_title = "تاریخچه"
+transient_history_description = "نمایش دانلودهای کامل شده در پنل"
+history_limit = "تاریخچه دانلود پس از چند روز فراموش شود؟"
+appearance_title = "نمای ظاهری"
+theme_title = "پوسته"
+theme_light = "روشن"
+theme_dark = "تاریک"
+theme_system = "پیش‌فرض سیستم"
+popup_size_title = "اندازه پنجره"
+popup_size_small = "کوچک"
+popup_size_medium = "متوسط"
+popup_size_big = "بزرگ"
+font_size_title = "اندازه متن"
+font_size_default = "پیش‌فرض"
+font_size_large = "بزرگ"
+font_size_verylarge = "خیلی بزرگ"
+panel_position_title = "موقعیت پنل"
+use_popup = "نمایش در پنجره بازشونده"
+use_sidebar = "نمایش در نوار کناری"
+behavior_title = "عملکرد"
+controls_title = "ابزارهای کنترلی"
+show_in_context_menu = "دسترسی به فرمان‌ها از طریق کلیک راست روی صفحه (اضافه شدن به کلیک راست که در صورتی که در صفحه وب کلیک راست کنید نمایش داده می شود)"
+restart_addon = "بارگذاری مجدد افزونه"
+reset_settings = "بازنشانی تنظیمات"
+prefered_quality = "کیفیت پیش‌فرض ویدیو"
+prefered_quality_highest = "حداکثر کیفیت (دانلود کند، کیفیت بالا)"
+prefered_quality_1080p = "کیفیت 1080 (تنظیم پیش‌فرض مناسب)"
+prefered_quality_720p = "کیفیت 720 (دانلود سریع، کیفیت پایین)"
+prefered_quality_480p = "کیفیت 480 (دانلود سریع‌تر، کیفیت پایین‌تر)"
+prefer_mkv = "دانلود شود MKV در صورت امکان، با فرمت"
+preview_mode_title = "پیش‌نمایش رسانه"
+preview_mode_none = "غیرفعال"
+preview_mode_video = "پیش‌نمایش کوتاه ویدیو"
+preview_mode_image = "تصویر"
+
+# String for history page
+history_title = "تاریخچه دانلود"
+history_warning = "ما تاریخچه دانلود شما را ثبت نمی‌کنیم. آیا می‌خواهید که تاریخچه دانلود شما را ذخیره کنیم؟"
+history_warning_2 = "نگران نباشید، همه چیز فقط روی دستگاه شما باقی می‌ماند. ما به حریم خصوصی شما احترام می‌گذاریم"
+enable_history = "فعال‌سازی تاریخچه"
+clear_history = "پاک‌ کردن تاریخچه"
+disable_history = "تاریچه من را ذخیره نکن"
+no_downloads_yet = "در حال حاضر موردی وجود ندارد"
+
+# Various notifications
+download_failed = "دانلود ناموفق بود"
+download_failed_description = "با عرض پوزش، در دانلود فایل مورد نظر موفق نبودیم. همواره می‌کوشیم تا از وب‌سایت‌های گوناگون پشتیبانی کنیم. در صورت امکان این خطا را گزارش کنید. بسیار  سپاسگزار خواهیم بود (گزارش بصورت ناشناس است!)"
+download_interrupted = "دانلود ناتمام ماند"
+download_interrupted_description = "فایل شما با موفقیت دانلود شد، اما به دلیل مشکل شبکه، ممکن است فایل کوتاه‌تر از حد انتظار باشد.  می‌کوشیم تا از وب‌سایت‌های گوناگون پشتیبانی کنیم. در صورت امکان این خطا را گزارش کنید. بسیار  سپاسگزار خواهیم بود (گزارش بصورت ناشناس است!)"
+download_with_drm_failed_description = "مشکلی پیش آمد. به نظر می‌رسد این ویدئو دارای محافظت است. ویدئوهای دارای محافظت توسط این افزونه پشتیبانی نمی‌شوند. خطای DRM"
+no_youtube = "دانلود از یوتیوب مجاز نیست"
+no_youtube_description = "متأسفانه فروشگاه وب گوگل کروم اجازه نمی‌دهد افزونه‌هایی برای دانلود ویدیوهای یوتیوب منتشر شوند، بنابراین نتوانستیم این قابلیت را در نسخه کروم افزونه قرار دهیم"
+no_youtube_description_2 = "لطفاً از فایرفاکس یا مایکروسافت اج استفاده کنید"
+premium_required = "نیاز به اشتراک ویژه"
+premium_yt_required_description = "بدون اشتراک ویژه، دانلود از یوتیوب تنها ۲ ساعت پس از دانلود قبلی امکان‌پذیر است"
+premium_hls_required_description = "بدون داشتن اشتراک ویژه، فقط می‌توانید هر دو ساعت یکبار ویدئوهایی با این فرمت‌ها دریافت کنید: HLS و MPD"
+premium_all_required_description = "بدون اشتراک ویژه، دانلود تنها ۲ ساعت پس از دانلود قبلی امکان‌پذیر است"
+youtube_too_many_downloads = "ای داد بیداد، دسترسی به یوتیوب مسدود شده است"
+youtube_too_many_downloads_description = "گاهی یوتیوب محدودیتی برای تعداد ویدیوهایی که می‌توان درخواست کرد اعمال می‌کند. متأسفانه کاری از دست ما ساخته نیست. لطفاً بعداً دوباره امتحان کنید"
+
+# Downloading media box
+stop = "توقف"
+cancel = "لغو"
+
+# Media we found in the page
+copy_url = "کپی لینک" # In menu and as a button
+always_copy_url = "همیشه لینک را کپی کن"
+download_button = "دانلود"
+download_as_button_and_menu = "...دانلود بصورت"
+rename_short = "تغییر نام" # Keep this as short as possible
+
+always_download_as_menu = "...همیشه دانلود به صورت"
+download_audio_button = "صدا"
+download_audio_and_video_menu = "دانلود صدا و ویدیو"
+download_audio_only_menu = "دانلود صدا"
+audio_only_for_this_website = "همیشه فقط صدا برای این سایت"
+details = "جزئیات"
+
+# Report buttons
+report = "گزارش"
+reporting = "...در حال گزارش"
+reported_thankyou = "سپاس از شما"
+
+# Video not playing - page
+not_playing_title = "ویدیو پخش نمی‌شود؟"
+not_playing_broken_title = "صدا یا ویدیو مشکل دارد؟"
+not_playing_broken_description = "خطای این رسانه را گزارش دهید. ما تمام تلاش خود را می‌کنیم تا دلیل مشکل را پیدا کنیم (آدرس ویدیو به‌صورت ناشناس ارسال می‌شود و ما شما را ردیابی نمی‌کنیم!)"
+not_playing_broken_solution_title = "یک پخش‌کننده ویدیوی مدرن را امتحان کنید"
+not_playing_broken_solution_windows_1 = "برای ویندوز VLC پیشنهاد ما:"
+not_playing_broken_solution_mac_1 = "برای مک IINA پیشنهاد ما:"
+not_playing_broken_solution_2 = "مدرن، ایمن و متن‌باز است"
+not_playing_default_player = "مطمئن شوید پخش‌کننده ویدیوی شما به‌عنوان پخش‌کننده پیش‌فرض سیستم تنظیم شده است"
+not_playing_default_player_solution_windows = "در سیستم عامل ویندوز وارد «کنترل‌پنل» شوید و بر روی «برنامه‌های پیش‌فرض» کلیک کنید، سپس پخش کننده معرفی شده را به‌عنوان پخش کننده پیش‌فرض سیستم قرار دهید"
+not_playing_default_player_solution_mac = "در سیستم عامل مک وارد پوشه دانلود شوید و بر روی فایل ویدیویی کلیک راست کرده و بر روی «گِت اینفو» کلیک کنید. در بخش «اوپن ویث» پخش‌کننده «آیینا» را انتخاب کنید. در انتها بر روی «چنج آل» بزنید"
+
+[web]
+
+back = "بازگشت" # Go back button
+
+# On top of all pages.
+header_help = "راهنما"
+header_ask_question = "پرسشی دارید؟ از ما بپرسید"
+
+# Context: activation page after receiving the magic link via email.
+activate_title = "فعال‌سازی" # hope it crashes
+activate_pending = "...در انتظار"
+activate_success = "موفقیت"
+activate_error = "خطا"
+activate_no_addon_found = "افزونه‌ای پیدا نشد. آیا افزونه نصب شده است؟"
+activate_no_method_found = "روشی یافت نشد"
+activate_help_me = "کمکم کن"
+
+# Context: webpage to restore a purchase, which require the user to enter their email.
+issue_title = "بازیابی خرید"
+issue_submit = "ارسال"
+issue_thank_you = "سپاس از شما"
+issue_enter_email = "برای بازیابی خرید خود، آدرس ایمیلی را وارد کنید که برای خرید لایسنس استفاده کرده‌اید"
+issue_email_sent = "ما یک ایمیل برای شما ارسال کردیم که شامل لینکی برای فعال‌سازی محصولتان است"
+issue_or_digit = "یا می‌توانید کد ۶ رقمی که برایتان ارسال کردیم را وارد کنید"
+issue_just_digit = "کد ۶ رقمی که برایتان ارسال کردیم را وارد کنید:"
+issue_i_have_a_code = "(اگر قبلاً کد دارید، اینجا کلیک کنید)"
+issue_i_have_a_key = "(اگر کلید لایسنس دارید، اینجا کلیک کنید)"
+issue_key = "لطفا کلید لایسنس این افزونه را وارد کتید:"
+
+# Context: this page - https://downloadhelper.net/
+landing_text1 = "دانلود هر ویدیو از هر سایتی، بدون دردسر!"
+landing_text2 = "پشتیبانی از بیش از ۱۰۰۰ وب‌سایت"
+landing_text3 = "مورد اعتماد ۷ میلیون کاربر"
+landing_text4 = "امتیاز ۴.۵ ستاره در فروشگاه افزونه"
+landing_install_for_google = "نصب برای کروم"
+landing_install_for_mozilla = "نصب برای فایرفاکس"
+landing_install_for_microsoft = "نصب برای اج"
+landing_feature1_title = "دانلود با کیفیت بالا و بیشترین سرعت"
+landing_feature1_description = "دانلود ویدیوها با کیفیت بالا و حداکثر سرعت. با افتخار می‌گوییم که سریع‌ترین موتور دانلود موجود را داریم"
+landing_feature2_title = "بایگانی ویدیوها"
+landing_feature2_description = "ویدیوهای مورد علاقه خود را بایگانی کنید تا هیچ چیزی از دست نرود"
+landing_feature3_title = "پشتیبانی از پخش زنده"
+landing_feature3_description = "از تماشای آفلاین پخش‌های زنده لذت ببرید و خود را از محدودیت‌های زمان واقعی آزاد کنید"
+landing_feature4_title = "دانلود صدا"
+landing_feature4_description = "صدا را از ویدیوها استخراج کنید و آن‌ها را به فایل صوتی یا پادکست تبدیل کنید تا به راحتی گوش دهید"
+
+# Context: this is for a "buy a license" webpage.
+premium_hero1 = "یک‌بار بپردازید و مادام‌العمر استفاده کنید"
+premium_hero2 = "دریافت لایسنس مادام‌العمر برای Video DownloadHelper"
+premium_hero3 = "هر تعداد ویدیو که می‌خواهید دانلود کنید، بدون هیچ محدودیتی"
+premium_supported_payment_methods = "روش‌های پرداخت پشتیبانی شده"
+premium_buy = "خرید"
+
+# Context: the page that opens after the addon gets installed.
+welcome_text = "دیگر هیچ ویدیویی را از دست نخواهید داد!"
+welcome_pin_message = "آیکون افزونه را به نوار ابزار خود سنجاق کنید"
