@@ -101,6 +101,10 @@ preview_mode_title = "Media preview"
 preview_mode_none = "Disabled"
 preview_mode_video = "Short video preview"
 preview_mode_image = "Image"
+media_discovered_ordering_title = "Media sorting strategy"
+order_media_smart = "Smart (recommended)"
+order_media_by_newest = "Newest first"
+order_media_by_oldest = "Oldest first"
 
 # String for history page
 history_title = "Download History"
