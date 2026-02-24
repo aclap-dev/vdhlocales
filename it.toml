@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.2.0.0
-# 17 febbraio 2026
+# VDH 10 versione 10.2.4.0
+# 23 febbraio 2026
 # by Night Train
 
 [addon]
@@ -104,6 +104,10 @@ preview_mode_title = "Anteprima"
 preview_mode_none = "Disabilitata"
 preview_mode_video = "Anteprima breve"
 preview_mode_image = "Immagine"
+media_discovered_ordering_title = "Come ordino i file multimediali"
+order_media_smart = "Smart (raccomandato)"
+order_media_by_newest = "Prima i più recenti"
+order_media_by_oldest = "Prima i più vecchi"
 
 # Stringhe per la pagina cronologia
 history_title = "Cronologia Download"
