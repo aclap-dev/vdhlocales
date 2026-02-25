@@ -155,18 +155,6 @@ report = "گزارش"
 reporting = "...در حال گزارش"
 reported_thankyou = "سپاس از شما"
 
-# Video not playing - page
-not_playing_title = "ویدیو پخش نمی‌شود؟"
-not_playing_broken_title = "صدا یا ویدیو مشکل دارد؟"
-not_playing_broken_description = "خطای این رسانه را گزارش دهید. ما تمام تلاش خود را می‌کنیم تا دلیل مشکل را پیدا کنیم (آدرس ویدیو به‌صورت ناشناس ارسال می‌شود و ما شما را ردیابی نمی‌کنیم!)"
-not_playing_broken_solution_title = "یک پخش‌کننده ویدیوی مدرن را امتحان کنید"
-not_playing_broken_solution_windows_1 = "برای ویندوز VLC پیشنهاد ما:"
-not_playing_broken_solution_mac_1 = "برای مک IINA پیشنهاد ما:"
-not_playing_broken_solution_2 = "مدرن، ایمن و متن‌باز است"
-not_playing_default_player = "مطمئن شوید پخش‌کننده ویدیوی شما به‌عنوان پخش‌کننده پیش‌فرض سیستم تنظیم شده است"
-not_playing_default_player_solution_windows = "در سیستم عامل ویندوز وارد «کنترل‌پنل» شوید و بر روی «برنامه‌های پیش‌فرض» کلیک کنید، سپس پخش کننده معرفی شده را به‌عنوان پخش کننده پیش‌فرض سیستم قرار دهید"
-not_playing_default_player_solution_mac = "در سیستم عامل مک وارد پوشه دانلود شوید و بر روی فایل ویدیویی کلیک راست کرده و بر روی «گِت اینفو» کلیک کنید. در بخش «اوپن ویث» پخش‌کننده «آیینا» را انتخاب کنید. در انتها بر روی «چنج آل» بزنید"
-
 [web]
 
 back = "بازگشت" # Go back button

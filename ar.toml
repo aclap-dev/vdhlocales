@@ -136,18 +136,6 @@ details = "التفاصيل"
 report = "إبلاغ"
 reporting = "جاري الإبلاغ…"
 
-# Video not playing - page
-not_playing_title = "الفيديو لا يعمل؟"
-not_playing_broken_title = "صوت أو فيديو تالف؟"
-not_playing_broken_description = "أبلغ عن الوسائط التالفة وسنحاول معرفة السبب (نرسل الرابط بشكل مجهول – لا نتتبعك!)."
-not_playing_broken_solution_title = "جرّب مشغل فيديو حديث"
-not_playing_broken_solution_windows_1 = "نوصي باستخدام VLC:"
-not_playing_broken_solution_mac_1 = "نوصي باستخدام IINA:"
-not_playing_broken_solution_2 = "برنامج حديث، آمن ومفتوح المصدر."
-not_playing_default_player = "تأكد من أن مشغل الفيديو الافتراضي مضبوط في النظام"
-not_playing_default_player_solution_windows = "في لوحة تحكم Windows، انقر على 'البرامج الافتراضية'، وغيّر الإعدادات للمشغل المفضل."
-not_playing_default_player_solution_mac = "افتح مجلد التحميل، انقر بزر الفأرة الأيمن على الملف، اختر 'الحصول على المعلومات'، وفي قسم 'فتح باستخدام' حدد IINA ثم اضغط 'تغيير الكل'."
-
 [web]
 
 back = "رجوع"
