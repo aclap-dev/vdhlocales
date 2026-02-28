@@ -1,7 +1,7 @@
 # Traduzione italiana da English reference - en.toml.
 # VDH 10 versione 10.2.4.0
-# 23 febbraio 2026
-# by Night Train
+# 28 febbraio 2026
+# by TheBlinded
 
 [addon]
 
@@ -34,7 +34,7 @@ help_button_tooltip = "Aiuto"
 open_source_tab_button_tooltip = "Apri la scheda sorgente"
 retry_download_button_tooltip = "Scarica di nuovo"
 delete_file_button_tooltip = "Elimina il file"
-download_directory_button_tooltip = "Mostra la cartella di download"
+download_directory_button_tooltip = "Mostra la cartella download"
 clear_downloaded_tooltip = "Pulisci i download completati"
 show_in_popup_button_tooltip = "Mostra nel popup"
 show_in_sidebar_button_tooltip = "Mostra nella barra laterale"
@@ -46,9 +46,9 @@ warn_drm_tooltip = "Rilevato DRM"
 version_title = "Versione"
 account_title = "Account"
 one_hundred_downloads_title = "Hai scaricato 100 video!"
-leave_review_description = "Ci auguriamo che Video DownloadHelper ti piaccia :) Ti dispiacerebbe scrivere una bella recensione sul sito web dell'estensione?"
+leave_review_description = "Ci auguriamo che Video DownloadHelper ti piaccia :) Ti dispiacerebbe scrivere una recensione positiva sul sito web dell'estensione?"
 leave_review_button = "Lascia una recensione"
-account_status= "Status"
+account_status = "Status"
 account_status_premium = "Premium ($1)"
 free_account = "Piano gratuito"
 copy_to_clipboard = "Copia dati negli appunti"
@@ -70,6 +70,8 @@ private_browsing_notifications = "Mostra una notifica per i download in navigazi
 private_browsing_button = "Cambia impostazioni in navigazione anonima"
 throttle_youtube = "Limita YouTube (download più lenti, ma meno probabilità di essere bloccati)"
 prefer_original_audio = "Preferisci audio originale" # Solo per Firefox
+prefer_hls = "Preferisci HLS"
+
 settings_history_title = "Cronologia"
 transient_history_description = "Mostra i download completati nel pannello"
 history_limit = "Dopo quanti giorni dimentico i file scaricati?"
@@ -96,13 +98,13 @@ restart_addon = "Ricarica l'estensione VDH"
 reset_settings = "Ripristina le impostazioni"
 prefered_quality = "Qualità video preferita"
 prefered_quality_highest = "La più alta (download lento, alta risoluzione)"
-prefered_quality_1080p = "1080p (buona)"
+prefered_quality_1080p = "1080p (scelta predefinita)"
 prefered_quality_720p = "720p (download veloce, bassa risoluzione)"
 prefered_quality_480p = "480p (download più veloce, risoluzione più bassa)"
-prefer_mkv = "Preferisci MKV quando possibile"
-preview_mode_title = "Anteprima"
+prefer_mkv = "Scarica come MKV quando possibile"
+preview_mode_title = "Anteprima media"
 preview_mode_none = "Disabilitata"
-preview_mode_video = "Anteprima breve"
+preview_mode_video = "Breve anteprima video"
 preview_mode_image = "Immagine"
 media_discovered_ordering_title = "Come ordino i file multimediali"
 order_media_smart = "Smart (raccomandato)"
@@ -110,7 +112,7 @@ order_media_by_newest = "Prima i più recenti"
 order_media_by_oldest = "Prima i più vecchi"
 
 # Stringhe per la pagina cronologia
-history_title = "Cronologia Download"
+history_title = "Cronologia download"
 history_warning = "Non registriamo la tua cronologia di download. Vuoi che Video DownloadHelper ricordi la tua cronologia di download?"
 history_warning_2 = "Non ti preoccupare, tutto rimane sul tuo computer. Apprezziamo la tua privacy."
 enable_history = "Abilita Cronologia"
@@ -125,30 +127,31 @@ download_interrupted = "Download interrotto"
 download_interrupted_description = "Siamo riusciti a scaricare il tuo file, ma c'erano problemi di rete, quindi il file potrebbe essere più breve del previsto. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare questo problema (è anonimo!)."
 download_with_drm_failed_description = "Qualcosa non ha funzionato. Pensiamo che questo video abbia DRM. Non supportiamo i video con DRM."
 no_youtube = "Download da YouTube non permesso"
-no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni per il download di video dd YouTube, pertanto non abbiamo potuto includere questa funzionalità nella versione Chrome dell'estensione."
+no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni per il download di video da YouTube, pertanto non abbiamo potuto includere questa funzionalità nella versione dell'estensione per Chrome."
 no_youtube_description_2 = "Raccomandiamo l'uso di Firefox o Microsoft Edge"
-premium_required = "Premium status richiesto"
-premium_yt_required_description = "Senza status Premium un download da YouTube può essere eseguito solo 2 ore dopo il precedente."
-premium_hls_required_description = "Senza status Premium un download HLS o MPD può essere eseguito solo 2 ore dopo il precedente."
-youtube_too_many_downloads = "Oops, YouTube sembra essere bloccato"
-youtube_too_many_downloads_description = "A volte YouTube limita il numero di video che possono essere richiesti. Purtroppo non possiamo farci niente. Riprova più tardi."
+premium_required = "Stato Premium richiesto"
+premium_yt_required_description = "Senza stato Premium un download da YouTube può essere effettuato solo 2 ore dopo il precedente."
+premium_hls_required_description = "Senza stato Premium, un download HLS o MPD può essere effettuto solo 2 ore dopo il precedente."
+premium_all_required_description = "Senza lo stato Premium, un nuovo download può esser effettuato solo 2 ore dopo il precedente."
+youtube_too_many_downloads = "Oops, YouTube sembra essersi bloccato"
+youtube_too_many_downloads_description = "YouTube a volte limita il numero di video che possono essere richiesti. Purtroppo non possiamo farci niente. Riprova più tardi."
 
 # Pannello dei file multimediali scaricati
 stop = "Stop"
 cancel = "Cancella"
 
 # File multimediali che troviamo nella pagina
-copy_url = "Copia indirizzo" # Nel menu e come pulsante
-always_copy_url = "Copia sempre indirizzo"
-download_button = "Download"
-download_as_button_and_menu = "Download come…"
+copy_url = "Copia l'indirizzo del sito" # Nel menu e come pulsante
+always_copy_url = "Copia sempre l'indirizzo del sito"
+download_button = "Scarica"
+download_as_button_and_menu = "Scarica come…"
 rename_short = "Rinomina" # Tienilo più corto possibile
 
-always_download_as_menu = "Download sempre come…"
+always_download_as_menu = "Scarica sempre come…"
 download_audio_button = "Audio"
-download_audio_and_video_menu = "Download Audio & Video"
-download_audio_only_menu = "Download Audio"
-audio_only_for_this_website = "Download solo Audio, sempre da questo sito web"
+download_audio_and_video_menu = "Scarica Audio & Video"
+download_audio_only_menu = "Scarica Audio"
+audio_only_for_this_website = "Scarica sempre e solo l'audio da questo sito"
 details = "Dettagli"
 
 # Pulsanti di segnalazione
@@ -174,20 +177,20 @@ back = "Indietro" # Go back button
 
 # In cima a tutte le pagine.
 header_help = "Aiuto"
-header_ask_question = "Chiedi a noi"
+header_ask_question = "Facci una domanda"
 
 # Contesto: pagina di attivazione dopo aver ricevuto il link magico via e-mail.
 activate_title = "Attivazione" # spero che si blocchi
 activate_pending = "In attesa…"
 activate_success = "Successo"
 activate_error = "Errore"
-activate_no_addon_found = "Non ho trovato l'estensione VDH. Hai installato l'estensione VDH?"
+activate_no_addon_found = "Estensione non trovata. L'estensione VDH è installata?"
 activate_no_method_found = "Nessun metodo trovato."
 activate_help_me = "Aiutami."
 
 # Contesto: pagina web per ripristinare un acquisto che richiede all'utente di inserire la propria email.
-issue_title = "Ripristino dell'acquisto"
-issue_submit = "Inoltra"
+issue_title = "Ripristina l'acquisto"
+issue_submit = "Invia"
 issue_thank_you = "Grazie"
 issue_enter_email = "Per ripristinare l'acquisto, immetti l'indirizzo email utilizzato per acquistare la licenza:"
 issue_email_sent = "Ti abbiamo appena inviato una email con un link che attiverà il tuo prodotto."
