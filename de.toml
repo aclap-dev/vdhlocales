@@ -144,18 +144,6 @@ report = "Fehler melden"
 reporting = "Wird gemeldet…"
 reported_thankyou = "Vielen Dank!"
 
-# Video not playing - page
-not_playing_title = "Video wird nicht abgespielt?"
-not_playing_broken_title = "Audio oder Video beschädigt?"
-not_playing_broken_description = "Melden Sie fehlerhafte Medien. Wir werden die Fehlerursache nach besten Kräften ermitteln. (Wir senden die Video-URL anonym - wir spüren Ihnen nicht nach!)"
-not_playing_broken_solution_title = "Testen Sie einen modernen Videoplayer"
-not_playing_broken_solution_windows_1 = "Wir empfehlen VLC:"
-not_playing_broken_solution_mac_1 = "Wir empfehlen IINA:"
-not_playing_broken_solution_2 = "Er ist modern, sicher und Open Source."
-not_playing_default_player = "Vergewissern Sie sich, dass Ihr Videoplayer als Standard in Ihrem System eingestellt ist"
-not_playing_default_player_solution_windows = "Klicken Sie in der „Systemsteuerung“ von Windows auf „Standardprogramme“ und ändern Sie dort das Standardprogramm für Ihren Player."
-not_playing_default_player_solution_mac = "Öffnen Sie das Downloadverzeichnis und klicken Sie mit der rechten Maustaste auf die Videodatei. Klicken Sie auf „Info beziehen“. Wählen Sie „IINA“ im Abschnitt „Öffnen mit“. Klicken Sie auf „Alles ändern“."
-
 [web]
 
 back = "Zurück" # Go back button

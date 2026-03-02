@@ -156,18 +156,6 @@ report = "Segnala"
 reporting = "Segnalando…"
 reported_thankyou = "Grazie!"
 
-# Video non riproducibile - pagina
-not_playing_title = "Il video non viene riprodotto?"
-not_playing_broken_title = "Audio o video rotti?"
-not_playing_broken_description = "Segnala il file multimediale che non è andato a buon fine. Faremo del nostro meglio per capire perché è fallito (inviamo l'indirizzo del video in modo anonimo - non ti tracciamo!)"
-not_playing_broken_solution_title = "Prova un lettore video moderno"
-not_playing_broken_solution_windows_1 = "Raccomandiamo VLC:"
-not_playing_broken_solution_mac_1 = "Raccomandiamo IINA:"
-not_playing_broken_solution_2 = "è moderno, sicuro e Open Source."
-not_playing_default_player = "Assicurati che il tuo lettore video sia impostato come lettore video predefinito del sistema"
-not_playing_default_player_solution_windows = "In Windows, \"Pannello di Controllo\", clic su \"Programmi Predefiniti\" e cambia il programma predefinito per il lettore."
-not_playing_default_player_solution_mac = "Apri la cartella di download, clic destro sul file video. Clic su 'Ottieni informazioni'. Nella sezione 'Apri con' seleziona IINA. Clic sul pulsante 'Cambia Tutto'."
-
 [web]
 
 back = "Indietro" # Go back button

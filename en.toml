@@ -154,18 +154,6 @@ report = "Report"
 reporting = "Reporting…"
 reported_thankyou = "Thank you!"
 
-# Video not playing - page
-not_playing_title = "Video is not playing?"
-not_playing_broken_title = "Broken audio or video?"
-not_playing_broken_description = "Report the failing media. We will do our best to figure out why it failed (we send the video URL anonymously - we do not track you!)"
-not_playing_broken_solution_title = "Try a modern video player"
-not_playing_broken_solution_windows_1 = "We recommend VLC:"
-not_playing_broken_solution_mac_1 = "We recommend IINA:"
-not_playing_broken_solution_2 = "it's modern, safe and Open Source."
-not_playing_default_player = "Make sure your video player is set as your system default video player"
-not_playing_default_player_solution_windows = "In Windows' \"Control Panel\", click on \"Default Programs\", and change the default programs for your player."
-not_playing_default_player_solution_mac = "Open download directory right-click on the video file. Click 'Get Info'. In the 'Open With' section, select IINA. Click the 'Change All' button."
-
 [web]
 
 back = "Back" # Go back button
