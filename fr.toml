@@ -1,4 +1,4 @@
-# fr.toml - v10.1.6.2
+# fr.toml - v10.2.0.2
 [addon]
 appDesc = '''Télécharger des vidéos à partir du Web'''
 restore_purchase_button = '''Restaurer votre achat'''
@@ -18,6 +18,7 @@ show_all_history_button = '''Tout montrer'''
 complete_title = '''Téléchargements terminés'''
 hide_complete_button = '''cacher'''
 translate_button_tooltip = '''Aider à traduire VDH'''
+help_button_tooltip = '''Aide'''
 open_source_tab_button_tooltip = '''Ouvrir l'onglet d'origine'''
 retry_download_button_tooltip = '''Réessayer le téléchargement'''
 delete_file_button_tooltip = '''Supprimer le fichier'''
@@ -66,6 +67,10 @@ popup_size_title = '''Taille de la fenêtre'''
 popup_size_small = '''Petite'''
 popup_size_medium = '''Moyenne'''
 popup_size_big = '''Grande'''
+font_size_title = '''Taille du texte'''
+font_size_default = '''Défaut'''
+font_size_large = '''Large'''
+font_size_verylarge = '''Très large'''
 panel_position_title = '''Position de la fenêtre'''
 use_popup = '''Afficher dans un popup'''
 use_sidebar = '''Afficher dans une barre latérale'''
@@ -124,6 +129,7 @@ reported_thankyou = '''Merci !'''
 [web]
 back = '''Retour'''
 header_help = '''Aide'''
+header_ask_question = '''Posez-nous une question'''
 activate_title = '''Activation'''
 activate_pending = '''Patientez …'''
 activate_success = '''Succès'''
@@ -159,7 +165,7 @@ landing_feature4_description = '''Convertissez n'importe quel flux vidéos en co
 premium_hero1 = '''Payez une fois, utilisez pour toujours'''
 premium_hero2 = '''Obtenez une licence 'lifetime' Video DownloadHelper'''
 premium_hero3 = '''Téléchargez toutes vidéos, autant que vous le souhaitez, sans limites.'''
-premium_supported_payment_methods = "Moyens de paiement supportés"
-premium_buy = "payer"
+premium_supported_payment_methods = '''Moyens de paiement supportés'''
+premium_buy = '''payer'''
 welcome_text = '''Votre downloadeur de vidéo est prêt !'''
 welcome_pin_message = '''Activez l'icône de l'add-on dans votre barre d'outils :'''
