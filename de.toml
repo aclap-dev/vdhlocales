@@ -25,6 +25,7 @@ show_all_history_button = "Alle anzeigen"
 complete_title = "Vollständig"
 hide_complete_button = "verstecken"
 translate_button_tooltip = "Helfen Sie mit, VDH zu übersetzen"
+help_button_tooltip = "Hilfe"
 
 # Downloaded media box
 open_source_tab_button_tooltip = "Quellenregisterkarte öffnen"
@@ -71,13 +72,17 @@ transient_history_description = "Komplette Downloads im Panel anzeigen"
 history_limit = "Downloadchronik nach x Tagen löschen"
 appearance_title = "Aussehen"
 theme_title = "Thema"
-theme_light = "hell"
-theme_dark = "dunkel"
+theme_light = "Hell"
+theme_dark = "Dunkel"
 theme_system = "System"
 popup_size_title = "Fenstergröße"
 popup_size_small = "Klein"
 popup_size_medium = "Mittel"
 popup_size_big = "Groß"
+font_size_title = "Textgröße"
+font_size_default = "Standard"
+font_size_large = "Groß"
+font_size_verylarge = "Sehr groß"
 panel_position_title = "Bildschirmposition"
 use_popup = "Im Pop-up-Fenster anzeigen"
 use_sidebar = "In der Seitenleiste anzeigen"
@@ -90,11 +95,16 @@ prefered_quality = "Bevorzugte Videoqualität"
 prefered_quality_highest = "Höchste (langsamer Download, hohe Auflösung)"
 prefered_quality_1080p = "1080p (gute Standardeinstellung)"
 prefered_quality_720p = "720p (schneller Download, niedrige Auflösung)"
+prefered_quality_480p = "480p (schnellerer Download, niedrigere Auflösung)"
 prefer_mkv = "Wenn möglich, als MKV herunterladen"
 preview_mode_title = "Medienvorschau"
 preview_mode_none = "Deaktiviert"
 preview_mode_video = "Kurze Videovorschau"
 preview_mode_image = "Bild"
+media_discovered_ordering_title = "Strategie zur Mediensortierung"
+order_media_smart = "Intelligent (empfohlen)"
+order_media_by_newest = "Neueste zuerst"
+order_media_by_oldest = "Älteste zuerst"
 
 # String for history page
 history_title = "Downloadchronik"
@@ -150,6 +160,7 @@ back = "Zurück" # Go back button
 
 # On top of all pages.
 header_help = "Hilfe"
+header_ask_question = "Stellen Sie uns eine Frage"
 
 # Context: activation page after receiving the magic link via email.
 activate_title = "Aktivierung" # hope it crashes
@@ -193,6 +204,8 @@ landing_feature4_description = "Extrahieren Sie Audio aus Videos, wandeln Sie di
 premium_hero1 = "Einmal zahlen, für immer verwenden"
 premium_hero2 = "Beziehen Sie eine Lizenz für Video DownloadHelper auf Lebenszeit"
 premium_hero3 = "Laden Sie uneingeschränkt so viele Videos herunter, wie Sie möchten."
+premium_supported_payment_methods = "Unterstützte Zahlungsmethoden"
+premium_buy = "Kaufen"
 
 # Context: the page that opens after the addon gets installed.
 welcome_text = "Jetzt verpassen Sie kein Video mehr!"
