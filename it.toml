@@ -1,7 +1,7 @@
 # Traduzione italiana da English reference - en.toml.
-# VDH 10 versione 10.2.4.0
-# 28 febbraio 2026
-# by Night Train (and thanks to TheBlinded)
+# VDH 10 versione 10.2.42.0
+# 18 aprile 2026
+# by Night Train (and thanks to @TheBlinded and @aperinik)
 
 [addon]
 
@@ -130,6 +130,7 @@ no_youtube_description_2 = "Raccomandiamo l'uso di Firefox o Microsoft Edge"
 premium_required = "Licenza Premium richiesta"
 premium_yt_required_description = "Senza licenza Premium un download da YouTube può essere effettuato solo 2 ore dopo il precedente."
 premium_hls_required_description = "Senza licenza Premium un download HLS o MPD può essere effettuato solo 2 ore dopo il precedente."
+premium_all_required_description = "Senza licenza Premium un download può essere effettuato solo 2 ore dopo il precedente."
 youtube_too_many_downloads = "Oops, YouTube sembra essersi bloccato"
 youtube_too_many_downloads_description = "YouTube a volte limita il numero di video che possono essere richiesti. Purtroppo non possiamo farci niente. Riprova più tardi."
 
