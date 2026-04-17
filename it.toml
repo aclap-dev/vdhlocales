@@ -132,6 +132,8 @@ premium_yt_required_description = "Senza licenza Premium un download da YouTube 
 premium_hls_required_description = "Senza licenza Premium un download HLS o MPD può essere effettuato solo 2 ore dopo il precedente."
 youtube_too_many_downloads = "Oops, YouTube sembra essersi bloccato"
 youtube_too_many_downloads_description = "YouTube a volte limita il numero di video che possono essere richiesti. Purtroppo non possiamo farci niente. Riprova più tardi."
+premium_all_required_description = "Senza licenza Premium un download può essere effettuato solo 2 ore dopo il precedente."
+
 
 # Pannello dei file multimediali scaricati
 stop = "Stop"
