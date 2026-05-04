@@ -105,6 +105,8 @@ media_discovered_ordering_title = "Media sorting strategy"
 order_media_smart = "Smart (recommended)"
 order_media_by_newest = "Newest first"
 order_media_by_oldest = "Oldest first"
+settings_subtitles_title = "Prefered subtitle languages"
+settings_audio_tracks_title = "Prefered audio tracks"
 
 # String for history page
 history_title = "Download History"
@@ -153,6 +155,12 @@ details = "Details"
 report = "Report"
 reporting = "Reporting…"
 reported_thankyou = "Thank you!"
+
+# Languages selector
+move_lang_up = "Move up"
+move_lang_down = "Move down"
+remove_lang = "Remove language"
+add_lang = "Add language"
 
 [web]
 
