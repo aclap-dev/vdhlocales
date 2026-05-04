@@ -106,6 +106,10 @@ preview_mode_title = "پیش‌نمایش رسانه"
 preview_mode_none = "غیرفعال"
 preview_mode_video = "پیش‌نمایش کوتاه ویدیو"
 preview_mode_image = "تصویر"
+media_discovered_ordering_title = "روش مرتب‌سازی رسانه"
+order_media_smart = "هوشمند (پیشنهادی)"
+order_media_by_newest = "جدیدترین‌ها در ابتدا"
+order_media_by_oldest = "قدیمی‌ترین‌ها در ابتدا"
 
 # String for history page
 history_title = "تاریخچه دانلود"
