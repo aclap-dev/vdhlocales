@@ -1,6 +1,6 @@
 # Traduzione italiana da English reference - en.toml.
 # VDH 10 versione 10.2.42.0
-# 18 aprile 2026
+# 04 maggio 2026
 # by Night Train (and thanks to @TheBlinded and @aperinik)
 
 [addon]
@@ -108,6 +108,8 @@ media_discovered_ordering_title = "Come ordino i file multimediali"
 order_media_smart = "Smart (raccomandato)"
 order_media_by_newest = "Prima i più recenti"
 order_media_by_oldest = "Prima i più vecchi"
+settings_subtitles_title = "Lingue preferite per i sottotitoli"
+settings_audio_tracks_title = "Tracce audio preferite"
 
 # Stringhe per la pagina cronologia
 history_title = "Cronologia Download"
@@ -156,6 +158,12 @@ details = "Dettagli"
 report = "Segnala"
 reporting = "Segnalando…"
 reported_thankyou = "Grazie!"
+
+# Selettore lingue
+move_lang_up = "Sposta su"
+move_lang_down = "Sposta giù"
+remove_lang = "Rimuovi lingua"
+add_lang = "Aggiungi lingua"
 
 [web]
 
