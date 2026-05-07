@@ -1,4 +1,4 @@
-# Bulgarian# bg.toml - v10.2.40.2
+bg.toml - v10.2.40.2
 [addon]
 appDesc = '''Сваляне на видео от мрежата'''
 restore_purchase_button = '''Възстановяване на покупката'''
