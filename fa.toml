@@ -110,6 +110,8 @@ media_discovered_ordering_title = "روش مرتب‌سازی رسانه"
 order_media_smart = "هوشمند (پیشنهادی)"
 order_media_by_newest = "جدیدترین‌ها در ابتدا"
 order_media_by_oldest = "قدیمی‌ترین‌ها در ابتدا"
+settings_subtitles_title = "اولویت زبان زیرنویس"
+settings_audio_tracks_title = "اولیوت زبان صوت"
 
 # String for history page
 history_title = "تاریخچه دانلود"
@@ -158,6 +160,12 @@ details = "جزئیات"
 report = "گزارش"
 reporting = "...در حال گزارش"
 reported_thankyou = "سپاس از شما"
+
+# Languages selector
+move_lang_up = "بالا بردن"
+move_lang_down = "پایین آوردن"
+remove_lang = "حذف زبان"
+add_lang = "افزودن زبان"
 
 [web]
 
