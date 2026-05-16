@@ -1,212 +1,177 @@
 # German
 
 [addon]
-
-# Video DownloadHelper description. 132 characters max.
-appDesc = "Videos aus dem Internet herunterladen."
-
-# Global strings
-restore_purchase_button = "Einkauf wiederherstellen"
-get_premium_button = "Premium beziehen"
-back = "Zurück" # Go back button - in Settings panel for example
-rm_notifications_all = "Alle Benachrichtigungen schließen"
-
-# Strings for the main panel
-waiting_for_media = "Warten auf Medien…"
-nomedia_title = "Von Ihnen gesuchte Medien sind nicht auffindbar?"
-nomedia_description = "Video starten (etwaige Werbung überspringen), um die Medien zu erkennen oder fehlende Medien zu melden."
-nomedia_reload_button = "Erkennung erzwingen"
-nomedia_reload_button_tooltip = "Erneutes Laden der Seite erzwingen (Cookies löschen)"
-show_nomedia_button = "Kein Video?"
-show_nomedia_button_tooltip = "Hier klicken, wenn Sie Ihr Video nicht finden können"
-setting_button_tooltip = "Einstellungen"
-history_button_tooltip = "Downloadchronik anzeigen"
-show_all_history_button = "Alle anzeigen"
-complete_title = "Vollständig"
-hide_complete_button = "verstecken"
-translate_button_tooltip = "Helfen Sie mit, VDH zu übersetzen"
-help_button_tooltip = "Hilfe"
-
-# Downloaded media box
-open_source_tab_button_tooltip = "Quellenregisterkarte öffnen"
-retry_download_button_tooltip = "Download wiederholen"
-delete_file_button_tooltip = "Datei löschen"
-download_directory_button_tooltip = "Downloadordner anzeigen"
-clear_downloaded_tooltip = "Abgeschlossene Downloads löschen"
-show_in_popup_button_tooltip = "Im Pop-up-Fenster anzeigen"
-show_in_sidebar_button_tooltip = "In der Seitenleiste anzeigen"
-video_not_playing_button_tooltip = "Video wird nicht abgespielt?"
-play = "Abspielen"
-warn_drm_tooltip = "DRM erkannt"
-
-# Strings for the settings panel.
-version_title = "Version"
-account_title = "Konto"
-one_hundred_downloads_title = "Sie haben 100 Videos heruntergeladen!"
-leave_review_description = "Wir hoffen, Ihnen gefällt Video DownloadHelper. Hinterlassen Sie uns bitte noch eine gute Bewertung auf der Add-on-Seite."
-leave_review_button = "Eine Bewertung hinterlassen"
-account_status= "Status"
-account_status_premium = "Premium ($1)"
-free_account = "Kostenloser Plan"
-copy_to_clipboard = "Information in die Zwischenablage kopieren"
-my_account_button = "Mein Konto"
-download_title = "Downloads"
-show_notification = "Benachrichtigung anzeigen, wenn der Download abgeschlossen ist"
-max_parallel_downloads = "Maximal gleichzeitige Downloads"
-saveas_detected_warning = "Wir haben festgestellt, dass Ihr Browser nach Abschluss des Downloads ein Dialogfeld „Speichern unter“ anzeigt. Wir empfehlen, diese Option in Ihren Browsereinstellungen zu deaktivieren."
-change_saveas_setting = "Einstellung ändern"
-download_directory_title = "Downloadverzeichnis"
-download_directory_description = "Videos werden im Standard-Downloadverzeichnis des Browsers gespeichert. Sie können auch ein Unterverzeichnis angeben. Website-spezifische Downloadverzeichnisse können mit dem Smartnaming-Tool festgelegt werden."
-change_browser_download_directory = "Downloadverzeichnis des Browsers ändern"
-bad_download_subdirectory_warning = "Das von Ihnen angegebene Unterverzeichnis ist ungültig."
-download_subdirectory = "Downloadunterverzeichnis"
-
-private_browsing_title = "Privates Surfen"
-private_browsing_warning = "Video DownloadHelper ist nicht im Privat-/Inkognito-Fenster aktiviert. Sie müssen diese Option manuell einschalten (dies ist nicht erforderlich)."
-private_browsing_notifications = "Benachrichtigung für private Downloads anzeigen"
-private_browsing_button = "Einstellung für privates Surfen ändern"
-throttle_youtube = "YouTube drosseln (langsamere Downloads, aber geringeres Risiko einer Blockierung)"
-prefer_original_audio = "Vorzug für Originalton" # Firefox only
-settings_history_title = "Verlauf"
-transient_history_description = "Komplette Downloads im Panel anzeigen"
-history_limit = "Downloadchronik nach x Tagen löschen"
-appearance_title = "Aussehen"
-theme_title = "Thema"
-theme_light = "Hell"
-theme_dark = "Dunkel"
-theme_system = "System"
-popup_size_title = "Fenstergröße"
-popup_size_small = "Klein"
-popup_size_medium = "Mittel"
-popup_size_big = "Groß"
-font_size_title = "Textgröße"
-font_size_default = "Standard"
-font_size_large = "Groß"
-font_size_verylarge = "Sehr groß"
-panel_position_title = "Bildschirmposition"
-use_popup = "Im Pop-up-Fenster anzeigen"
-use_sidebar = "In der Seitenleiste anzeigen"
-behavior_title = "Verhalten"
-controls_title = "Bedienelemente"
-show_in_context_menu = "Auf Befehle per Rechtsklick auf der Seite zugreifen"
-restart_addon = "Add-on neu laden"
-reset_settings = "Einstellungen zurücksetzen"
-prefered_quality = "Bevorzugte Videoqualität"
-prefered_quality_highest = "Höchste (langsamer Download, hohe Auflösung)"
-prefered_quality_1080p = "1080p (gute Standardeinstellung)"
-prefered_quality_720p = "720p (schneller Download, niedrige Auflösung)"
-prefered_quality_480p = "480p (schnellerer Download, niedrigere Auflösung)"
-prefer_mkv = "Wenn möglich, als MKV herunterladen"
-preview_mode_title = "Medienvorschau"
-preview_mode_none = "Deaktiviert"
-preview_mode_video = "Kurze Videovorschau"
-preview_mode_image = "Bild"
-media_discovered_ordering_title = "Strategie zur Mediensortierung"
-order_media_smart = "Intelligent (empfohlen)"
-order_media_by_newest = "Neueste zuerst"
-order_media_by_oldest = "Älteste zuerst"
-
-# String for history page
-history_title = "Downloadchronik"
-history_warning = "Es ist keine Downloadchronik angelegt. Möchten Sie, dass Video DownloadHelper eine Downloadchronik anlegt?"
-history_warning_2 = "Keine Sorge, alles bleibt auf Ihrem Gerät. Wir respektieren Ihre Privatsphäre."
-enable_history = "Chronik anlegen"
-clear_history = "Chronik löschen"
-disable_history = "Chronik nicht anlegen"
-no_downloads_yet = "Bisher keine Einträge"
-
-# Various notifications
-download_failed = "Herunterladen fehlgeschlagen"
-download_failed_description = "Leider ist es uns nicht gelungen, dieses spezielle Medium herunterzuladen. Wir versuchen, so viele Websites wie möglich zu unterstützen. Daher wäre es sehr hilfreich, wenn Sie diesen Fehler (anonym) melden!"
-download_interrupted = "Download unterbrochen"
-download_interrupted_description = "Wir konnten Ihre Datei herunterladen, aber es gab Netzwerkprobleme, sodass die Datei möglicherweise kürzer ist als erwartet. Wir versuchen, so viele Websites wie möglich zu unterstützen. Es wäre daher sehr hilfreich, wenn Sie dieses Problem melden könnten (Die Meldung ist anonym!)."
-download_with_drm_failed_description = "Etwas hat nicht funktioniert. Und wir denken, dass dieses Video dem DRM unterliegt. Wir unterstützen keine Videos mit DRM."
-no_youtube = "Download von YouTube ist nicht zulässig"
-no_youtube_description = "Leider erlaubt der Chrome Web Store keine Erweiterungen zum Herunterladen von YouTube-Videos, sodass wir diese Funktion nicht in die Chrome-Version der Erweiterung aufnehmen konnten."
-no_youtube_description_2 = "Bitte verwenden Sie Firefox oder Microsoft Edge."
-premium_required = "Premiumstatus wird benötigt"
-premium_yt_required_description = "Ohne Premium-Status kann ein YouTube-Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden."
-premium_hls_required_description = "Ohne Premium-Status kann ein HLS- oder MPD-Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden."
-premium_all_required_description = "Ohne Premium-Status kann ein Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden."
-youtube_too_many_downloads = "Hoppla, YouTube scheint blockiert zu sein."
-youtube_too_many_downloads_description = "YouTube begrenzt manchmal die Anzahl der Videos, die angefordert werden können. Leider können wir daran nichts ändern. Versuchen Sie es später erneut."
-
-# Downloading media box
-stop = "Stopp"
-cancel = "Abbrechen"
-
-# Media we found in the page
-copy_url = "URL kopieren"
-always_copy_url = "URL immer kopieren"
-download_button = "Herunterladen"
-download_as_button_and_menu = "Herunterladen als…"
-rename_short = "Umbenennen" # Keep this as short as possible
-
-always_download_as_menu = "Immer herunterladen als…"
-download_audio_button = "Audio"
-download_audio_and_video_menu = "Audio & Video herunterladen"
-download_audio_only_menu = "Audio herunterladen"
-audio_only_for_this_website = "Für diese Website immer nur Audio"
-details = "Details"
-
-# Report buttons
-report = "Fehler melden"
-reporting = "Wird gemeldet…"
-reported_thankyou = "Vielen Dank!"
+appDesc = '''Videos aus dem Internet herunterladen.'''
+restore_purchase_button = '''Einkauf wiederherstellen'''
+get_premium_button = '''Premium beziehen'''
+back = '''Zurück'''
+rm_notifications_all = '''Alle Benachrichtigungen ablehnen'''
+waiting_for_media = '''Warten auf Medien…'''
+nomedia_title = '''Von Ihnen gesuchte Medien sind nicht auffindbar?'''
+nomedia_description = '''Video starten (etwaige Werbung überspringen), um die Medien zu erkennen oder fehlende Medien zu melden.'''
+nomedia_reload_button = '''Erkennung erzwingen'''
+nomedia_reload_button_tooltip = '''Erneutes Laden der Seite erzwingen (Cookies löschen)'''
+show_nomedia_button = '''Kein Video?'''
+show_nomedia_button_tooltip = '''Hier klicken, wenn Sie Ihr Video nicht finden können'''
+setting_button_tooltip = '''Einstellungen'''
+history_button_tooltip = '''Downloadchronik anzeigen'''
+show_all_history_button = '''Alle anzeigen'''
+complete_title = '''Vollständig'''
+hide_complete_button = '''verstecken'''
+translate_button_tooltip = '''Helfen Sie mit, VDH zu übersetzen'''
+help_button_tooltip = '''Hilfe'''
+open_source_tab_button_tooltip = '''Quellenregisterkarte öffnen'''
+retry_download_button_tooltip = '''Download wiederholen'''
+delete_file_button_tooltip = '''Datei löschen'''
+download_directory_button_tooltip = '''Downloadordner anzeigen'''
+clear_downloaded_tooltip = '''Abgeschlossene Downloads löschen'''
+show_in_popup_button_tooltip = '''Im Pop-up-Fenster anzeigen'''
+show_in_sidebar_button_tooltip = '''In der Seitenleiste anzeigen'''
+video_not_playing_button_tooltip = '''Video wird nicht abgespielt?'''
+play = '''Abspielen'''
+warn_drm_tooltip = '''DRM erkannt'''
+version_title = '''Version'''
+account_title = '''Konto'''
+one_hundred_downloads_title = '''Sie haben 100 Videos heruntergeladen!'''
+leave_review_description = '''Wir hoffen, Ihnen gefällt Video DownloadHelper. Hinterlassen Sie uns bitte noch eine gute Bewertung auf der Add-on-Seite.'''
+leave_review_button = '''Eine Bewertung hinterlassen'''
+account_status = '''Status'''
+account_status_premium = '''Premium ($1)'''
+free_account = '''Kostenloser Plan'''
+copy_to_clipboard = '''Information in die Zwischenablage kopieren'''
+my_account_button = '''Mein Konto'''
+download_title = '''Downloads'''
+show_notification = '''Benachrichtigung anzeigen, wenn der Download abgeschlossen ist'''
+max_parallel_downloads = '''Maximal gleichzeitige Downloads'''
+saveas_detected_warning = '''Wir haben festgestellt, dass Ihr Browser nach Abschluss des Downloads ein Dialogfeld „Speichern unter“ anzeigt. Wir empfehlen, diese Option in Ihren Browsereinstellungen zu deaktivieren.'''
+change_saveas_setting = '''Einstellung ändern'''
+download_directory_title = '''Downloadverzeichnis'''
+download_directory_description = '''Videos werden im Standard-Downloadverzeichnis des Browsers gespeichert. Sie können auch ein Unterverzeichnis angeben. Website-spezifische Downloadverzeichnisse können mit dem Smartnaming-Tool festgelegt werden.'''
+change_browser_download_directory = '''Downloadverzeichnis des Browsers ändern'''
+bad_download_subdirectory_warning = '''Das von Ihnen angegebene Unterverzeichnis ist ungültig.'''
+download_subdirectory = '''Downloadunterverzeichnis'''
+private_browsing_title = '''Privates Surfen'''
+private_browsing_warning = '''Video DownloadHelper ist nicht im Privat-/Inkognito-Fenster aktiviert. Sie müssen diese Option manuell einschalten (dies ist nicht erforderlich).'''
+private_browsing_notifications = '''Benachrichtigung für private Downloads anzeigen'''
+private_browsing_button = '''Einstellung für privates Surfen ändern'''
+throttle_youtube = '''YouTube drosseln (langsamere Downloads, aber geringeres Risiko einer Blockierung)'''
+prefer_original_audio = '''Vorzug für Originalton'''
+settings_history_title = '''Verlauf'''
+transient_history_description = '''Komplette Downloads im Panel anzeigen'''
+history_limit = '''Downloadchronik nach x Tagen löschen'''
+appearance_title = '''Aussehen'''
+theme_title = '''Thema'''
+theme_light = '''hell'''
+theme_dark = '''dunkel'''
+theme_system = '''System'''
+popup_size_title = '''Fenstergröße'''
+popup_size_small = '''Klein'''
+popup_size_medium = '''Mittel'''
+popup_size_big = '''Groß'''
+font_size_title = '''Text größe'''
+font_size_default = '''Standard'''
+font_size_large = '''Groß'''
+font_size_verylarge = '''Sehr groß'''
+panel_position_title = '''Bildschirmposition'''
+use_popup = '''Im Pop-up-Fenster anzeigen'''
+use_sidebar = '''In der Seitenleiste anzeigen'''
+behavior_title = '''Verhalten'''
+controls_title = '''Bedienelemente'''
+show_in_context_menu = '''Auf Befehle per Rechtsklick auf der Seite zugreifen'''
+restart_addon = '''Add-on neu laden'''
+reset_settings = '''Einstellungen zurücksetzen'''
+prefered_quality = '''Bevorzugte Videoqualität'''
+prefered_quality_highest = '''Höchste (langsamer Download, hohe Auflösung)'''
+prefered_quality_1080p = '''1080p (gute Standardeinstellung)'''
+prefered_quality_720p = '''720p (schneller Download, niedrige Auflösung)'''
+prefered_quality_480p = '''480p (schneller herunterladen, geringere Auflösung)'''
+prefer_mkv = '''Wenn möglich, als MKV herunterladen'''
+preview_mode_title = '''Medienvorschau'''
+preview_mode_none = '''Deaktiviert'''
+preview_mode_video = '''Kurze Videovorschau'''
+preview_mode_image = '''Bild'''
+media_discovered_ordering_title = '''Medien sortieren'''
+order_media_smart = '''intelligent (empfohlen)'''
+order_media_by_newest = '''Neueste zuerst'''
+order_media_by_oldest = '''Älteste zuerst'''
+history_title = '''Downloadchronik'''
+history_warning = '''Es ist keine Downloadchronik angelegt. Möchten Sie, dass Video DownloadHelper eine Downloadchronik anlegt?'''
+history_warning_2 = '''Keine Sorge, alles bleibt auf Ihrem Gerät. Wir respektieren Ihre Privatsphäre.'''
+enable_history = '''Chronik anlegen'''
+clear_history = '''Chronik löschen'''
+disable_history = '''Chronik nicht anlegen'''
+no_downloads_yet = '''Bisher keine Einträge'''
+download_failed = '''Herunterladen fehlgeschlagen'''
+download_failed_description = '''Leider ist es uns nicht gelungen, dieses spezielle Medium herunterzuladen. Wir versuchen, so viele Websites wie möglich zu unterstützen. Daher wäre es sehr hilfreich, wenn Sie diesen Fehler (anonym) melden!'''
+download_interrupted = '''Download unterbrochen'''
+download_interrupted_description = '''Wir konnten Ihre Datei herunterladen, aber es gab Netzwerkprobleme, sodass die Datei möglicherweise kürzer ist als erwartet. Wir versuchen, so viele Websites wie möglich zu unterstützen. Es wäre daher sehr hilfreich, wenn Sie dieses Problem melden könnten (Die Meldung ist anonym!).'''
+download_with_drm_failed_description = '''Etwas hat nicht funktioniert. Und wir denken, dass dieses Video dem DRM unterliegt. Wir unterstützen keine Videos mit DRM.'''
+no_youtube = '''Download von YouTube ist nicht zulässig'''
+no_youtube_description = '''Leider erlaubt der Chrome Web Store keine Erweiterungen zum Herunterladen von YouTube-Videos, sodass wir diese Funktion nicht in die Chrome-Version der Erweiterung aufnehmen konnten.'''
+no_youtube_description_2 = '''Bitte verwenden Sie Firefox oder Microsoft Edge.'''
+premium_required = '''Premiumstatus wird benötigt'''
+premium_yt_required_description = '''Ohne Premium-Status kann ein YouTube-Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden.'''
+premium_hls_required_description = '''Ohne Premium-Status kann ein HLS- oder MPD-Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden.'''
+premium_all_required_description = '''Ohne Premium-Status kann ein Download erst 2 Stunden nach dem vorherigen Download durchgeführt werden.'''
+youtube_too_many_downloads = '''Hoppla, YouTube scheint blockiert zu sein.'''
+youtube_too_many_downloads_description = '''YouTube begrenzt manchmal die Anzahl der Videos, die angefordert werden können. Leider können wir daran nichts ändern. Versuchen Sie es später erneut.'''
+stop = '''Stopp'''
+cancel = '''Abbrechen'''
+copy_url = '''URL kopieren'''
+always_copy_url = '''URL immer kopieren'''
+download_button = '''Herunterladen'''
+download_as_button_and_menu = '''Herunterladen als…'''
+rename_short = '''Umbenennen'''
+always_download_as_menu = '''Immer herunterladen als…'''
+download_audio_button = '''Audio'''
+download_audio_and_video_menu = '''Audio & Video herunterladen'''
+download_audio_only_menu = '''Audio herunterladen'''
+audio_only_for_this_website = '''Für diese Website immer nur Audio'''
+details = '''Details'''
+report = '''Fehler melden'''
+reporting = '''Wird gemeldet…'''
+reported_thankyou = '''Vielen Dank!'''
 
 [web]
-
-back = "Zurück" # Go back button
-
-# On top of all pages.
-header_help = "Hilfe"
-header_ask_question = "Stellen Sie uns eine Frage"
-
-# Context: activation page after receiving the magic link via email.
-activate_title = "Aktivierung" # hope it crashes
-activate_pending = "Steht noch aus…"
-activate_success = "Erfolg"
-activate_error = "Fehler"
-activate_no_addon_found = "Kein Add-on gefunden. Ist das Add-on installiert?"
-activate_no_method_found = "Keine Methode gefunden."
-activate_help_me = "Brauche Hilfe."
-
-# Context: webpage to restore a purchase, which require the user to enter their email.
-issue_title = "Einkauf wird wiederhergestellt"
-issue_submit = "Absenden"
-issue_thank_you = "Vielen Dank"
-issue_enter_email = "Geben Sie zur Wiederherstellung Ihres Einkaufs die E-Mail-Adresse ein, die Sie zum Erwerb Ihrer Lizenz verwendeten:"
-issue_email_sent = "Wir sandten Ihnen gerade eine E-Mail mit einem Link zu, der Ihr Produkt aktivieren wird."
-issue_or_digit = "Alternativ können Sie auch den 6-stelligen Code eingeben, den wir Ihnen zusandten:"
-issue_just_digit = "Geben Sie den 6-stelligen Code ein, den wir Ihnen gesendet haben:"
-issue_i_have_a_code = "(Klicken Sie hier, wenn Sie bereits einen Code haben)"
-issue_i_have_a_key = "(Klicken Sie hier, wenn Sie einen Lizenzschlüssel haben)"
-issue_key = "Geben Sie Ihren Video DownloadHelper-Lizenzschlüssel ein:"
-
-# Context: this page - https://downloadhelper.net/
-landing_text1 = "Laden Sie jetzt problemlos Videos von beliebigen Websites herunter!"
-landing_text2 = "1000+ Websites werden unterstützt"
-landing_text3 = "7 Millionen Nutzer halten dies für vertrauenswürdig"
-landing_text4 = "4,5 Sterne im Store der Erweiterungen"
-landing_install_for_google = "Für Chrome installieren"
-landing_install_for_mozilla = "Für Firefox installieren"
-landing_install_for_microsoft = "Für Edge installieren"
-landing_feature1_title = "HD-Download mit Höchstgeschwindigkeit"
-landing_feature1_description = "Laden Sie hochauflösende Videos mit maximaler Geschwindigkeit herunter. Stolz behaupten wir, die schnellste Download-Engine auf dem Markt zu haben."
-landing_feature2_title = "Videos archivieren"
-landing_feature2_description = "Archivieren Sie Ihre Lieblingsvideos mit der Gewähr, dass nichts zurückgelassen wird."
-landing_feature3_title = "Livestream-Unterstützung"
-landing_feature3_description = "Genießen Sie es, Livestreams offline anzuschauen - frei von Echtzeiteinschränkungen."
-landing_feature4_title = "Audio-Download"
-landing_feature4_description = "Extrahieren Sie Audio aus Videos, wandeln Sie diese in MP3s oder Podcasts für bequemes Anhören um."
-
-# Context: this is for a "Kaufen Sie eine Lizenz" webpage.
-premium_hero1 = "Einmal zahlen, für immer verwenden"
-premium_hero2 = "Beziehen Sie eine Lizenz für Video DownloadHelper auf Lebenszeit"
-premium_hero3 = "Laden Sie uneingeschränkt so viele Videos herunter, wie Sie möchten."
-premium_supported_payment_methods = "Unterstützte Zahlungsmethoden"
-premium_buy = "Kaufen"
-
-# Context: the page that opens after the addon gets installed.
-welcome_text = "Jetzt verpassen Sie kein Video mehr!"
-welcome_pin_message = "Das Add-on-Symbol an die Symbolleiste anheften:"
+back = '''Zurück'''
+header_help = '''Hilfe'''
+header_ask_question = '''Stell uns eine Frage'''
+activate_title = '''Aktivierung'''
+activate_pending = '''Steht noch aus…'''
+activate_success = '''Erfolg'''
+activate_error = '''Fehler'''
+activate_no_addon_found = '''Kein Add-on gefunden. Ist das Add-on installiert?'''
+activate_no_method_found = '''Keine Methode gefunden.'''
+activate_help_me = '''Brauche Hilfe.'''
+issue_title = '''Einkauf wird wiederhergestellt'''
+issue_submit = '''Absenden'''
+issue_thank_you = '''Vielen Dank'''
+issue_enter_email = '''Geben Sie zur Wiederherstellung Ihres Einkaufs die E-Mail-Adresse ein, die Sie zum Erwerb Ihrer Lizenz verwendeten:'''
+issue_email_sent = '''Wir sandten Ihnen gerade eine E-Mail mit einem Link zu, der Ihr Produkt aktivieren wird.'''
+issue_or_digit = '''Alternativ können Sie auch den 6-stelligen Code eingeben, den wir Ihnen zusandten:'''
+issue_just_digit = '''Geben Sie den 6-stelligen Code ein, den wir Ihnen gesendet haben:'''
+issue_i_have_a_code = '''(Klicken Sie hier, wenn Sie bereits einen Code haben)'''
+issue_i_have_a_key = '''(Klicken Sie hier, wenn Sie einen Lizenzschlüssel haben)'''
+issue_key = '''Geben Sie Ihren Video DownloadHelper-Lizenzschlüssel ein:'''
+landing_text1 = '''Laden Sie jetzt problemlos Videos von beliebigen Websites herunter!'''
+landing_text2 = '''1000+ Websites werden unterstützt'''
+landing_text3 = '''7 Millionen Nutzer halten dies für vertrauenswürdig'''
+landing_text4 = '''4,5 Sterne im Store der Erweiterungen'''
+landing_install_for_google = '''Für Chrome installieren'''
+landing_install_for_mozilla = '''Für Firefox installieren'''
+landing_install_for_microsoft = '''Für Edge installieren'''
+landing_feature1_title = '''HD-Download mit Höchstgeschwindigkeit'''
+landing_feature1_description = '''Laden Sie hochauflösende Videos mit maximaler Geschwindigkeit herunter. Stolz behaupten wir, die schnellste Download-Engine auf dem Markt zu haben.'''
+landing_feature2_title = '''Videos archivieren'''
+landing_feature2_description = '''Archivieren Sie Ihre Lieblingsvideos mit der Gewähr, dass nichts zurückgelassen wird.'''
+landing_feature3_title = '''Livestream-Unterstützung'''
+landing_feature3_description = '''Genießen Sie es, Livestreams offline anzuschauen - frei von Echtzeiteinschränkungen.'''
+landing_feature4_title = '''Audio-Download'''
+landing_feature4_description = '''Extrahieren Sie Audio aus Videos, wandeln Sie diese in MP3s oder Podcasts für bequemes Anhören um.'''
+premium_hero1 = '''Einmal zahlen, für immer verwenden'''
+premium_hero2 = '''Beziehen Sie eine Lizenz für Video DownloadHelper auf Lebenszeit'''
+premium_hero3 = '''Laden Sie uneingeschränkt so viele Videos herunter, wie Sie möchten.'''
+premium_supported_payment_methods = '''Unterstützte Bezahlmethoden'''
+premium_buy = '''kaufen'''
+welcome_text = '''Jetzt verpassen Sie kein Video mehr!'''
+welcome_pin_message = '''Das Add-on-Symbol an die Symbolleiste anheften:'''
