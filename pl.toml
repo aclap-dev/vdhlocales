@@ -9,6 +9,7 @@ appDesc = "Pobierz wideo z sieci web."
 restore_purchase_button = "Przywróć zakup"
 get_premium_button = "Uzyskaj premium"
 back = "Wstecz" # Go back button - in Settings panel for example
+rm_notifications_all = "Wyczyść wszystkie powiadomienia"
 
 # Strings for the main panel
 waiting_for_media = "Oczekiwanie na multimedia…"
@@ -20,13 +21,18 @@ show_nomedia_button = "Brak wideo?"
 show_nomedia_button_tooltip = "Kliknij tutaj, jeśli nie możesz znaleźć swojego wideo"
 setting_button_tooltip = '''Ustawienia'''
 history_button_tooltip = "Pokaż historię pobierania"
+show_all_history_button = '''Pokaż wszystko'''
+complete_title = '''Zakończono'''
+hide_complete_button = '''Ukryj'''
 translate_button_tooltip = "Pomóż w tłumaczeniu VDH"
+help_button_tooltip = '''Pomoc'''
 
 # Downloaded media box
 open_source_tab_button_tooltip = "Otwórz kartę źródła"
 retry_download_button_tooltip = "Ponów pobieranie"
 delete_file_button_tooltip = '''Usuń plik'''
 download_directory_button_tooltip = '''Pokaż folder pobierania'''
+clear_downloaded_tooltip = '''Wyczyść zakończone pobierania'''
 show_in_popup_button_tooltip = '''Pokaż w wyskakującym okienku'''
 show_in_sidebar_button_tooltip = '''Pokaż na pasku bocznym'''
 video_not_playing_button_tooltip = "Wideo nie odtwarza się?"
@@ -36,6 +42,7 @@ warn_drm_tooltip = "Wykryto DRM"
 # Strings for the settings panel.
 version_title = '''Wersja'''
 account_title = "Konto"
+one_hundred_downloads_title = '''Pobrano 100 filmów!'''
 leave_review_description = '''Mamy nadzieję, że podoba Ci się Video DownloadHelper :) Czy zechciałbyś napisać miłą recenzję na stronie dodatku?'''
 leave_review_button = '''Zostaw recenzję'''
 account_status= "Stan"
@@ -46,13 +53,21 @@ my_account_button = "Moje konto"
 download_title = "Do pobrania"
 show_notification = '''Pokaż powiadomienie po zakończeniu pobierania'''
 max_parallel_downloads = '''Maksymalna liczba równoczesnych pobrań'''
-
+saveas_detected_warning = '''Wykryliśmy, że Twoja przeglądarka pokazuje okienko 'Zapisz jako' po zakończeniu pobierania. Zalecamy wyłączenie tej opcji w ustawieniach przeglądarki.'''
+change_saveas_setting = '''Zmień ustawienie'''
+download_directory_title = '''Katalog pobierania'''
+download_directory_description = '''Filmy są pobierane do domyślnego katalogu pobierania przeglądarki. Możesz także wskazać podkatalog. Katalogi pobierania specyficzne dla danej strony można ustawić przy pomocy narzędzia sprytnego nazewnictwa.'''
+change_browser_download_directory = '''Zmień katalog pobierania przeglądarki'''
+bad_download_subdirectory_warning = '''Wskazany podkatalog jest nieprawidłowy'''
+download_subdirectory = '''Podkatalog pobierania'''
 private_browsing_title = "Przeglądanie prywatne"
 private_browsing_warning = '''Narzędzie Video DownloadHelper nie jest włączone w oknach prywatnych/incognito. Musisz włączyć tę opcję ręcznie (nie jest to wymagane).'''
 private_browsing_notifications = "Pokaż powiadomienie dla prywatnych pobrań"
 private_browsing_button = "Zmiana ustawień przeglądania prywatnego"
+throttle_youtube = '''Spowolnij YouTube (wolniejsze pobieranie, ale mniejsze ryzyko blokady)'''
 prefer_original_audio = "Preferuj oryginalne audio" # Firefox only
 settings_history_title = "Historia"
+transient_history_description = '''Pokaż zakończone pobierania w panelu'''
 history_limit = "Liczba dni przed zapomnieniem plików do pobrania"
 appearance_title = '''Wygląd'''
 theme_title = '''Schemat kolorystyczny'''
@@ -63,13 +78,32 @@ popup_size_title = "Rozmiar okna"
 popup_size_small = "Małe"
 popup_size_medium = "Średnie"
 popup_size_big = "Duże"
+font_size_title = '''Rozmiar tekstu'''
+font_size_default = '''Domyślny'''
+font_size_large = '''Duży'''
+font_size_verylarge = '''Bardzo duży'''
 panel_position_title = "Pozycja panela"
 use_popup = '''Pokaż w wyskakującym okienku'''
 use_sidebar = '''Pokaż na pasku bocznym'''
 behavior_title = '''Zachowanie'''
+controls_title = '''Kontrolki'''
 show_in_context_menu = '''Uzyskaj dostęp do komend poprzez kliknięcie prawym przyciskiem myszy na stronie'''
 restart_addon = '''Załaduj ponownie dodatek'''
 reset_settings = '''Resetowanie ustawień'''
+prefered_quality = '''Preferowana jakość filmów'''
+prefered_quality_highest = '''Najwyższa (powolne pobrania, wysoka rozdzielczość)'''
+prefered_quality_1080p = '''1080p (dobra wartość domyślna)'''
+prefered_quality_720p = '''720p (szybkie pobieranie, niska rozdzielczość)'''
+prefered_quality_480p = '''480p (szybsze pobieranie, niższa rozdzielczość)'''
+prefer_mkv = '''Pobieraj w formacie MKV gdy to możliwe'''
+preview_mode_title = '''Podgąd mediów'''
+preview_mode_none = '''Wyłączony'''
+preview_mode_video = '''Krótki podgląd filmu'''
+preview_mode_image = '''Obrazek'''
+media_discovered_ordering_title = '''Strategia sortowania mediów'''
+order_media_smart = '''Sprytna (zalecana)'''
+order_media_by_newest = '''Najpierw najnowsze'''
+order_media_by_oldest = '''Najpierw najstarsze'''
 
 # String for history page
 history_title = "Historia pobierania"
@@ -83,12 +117,18 @@ no_downloads_yet = "Nie pobrano jeszcze żadnych plików."
 # Various notifications
 download_failed = '''Pobieranie nie udane'''
 download_failed_description = '''Niestety nie udało nam się pobrać tego konkretnego nośnika. Staramy się obsługiwać jak najwięcej stron internetowych, dlatego bardzo pomocne byłoby zgłoszenie tego błędu (jest to anonimowe!).'''
+download_interrupted = '''Pobieranie przerwane'''
+download_interrupted_description = '''Udało się pobrać Twój plik, ale był problem z siecią, więc plik może być krótszy niż oczekiwano. Staramy się wspierać jak największą liczbę stron, więc zgłoszenie tego problemu byłoby bardzo pomocne (to anonimowe!)'''
 download_with_drm_failed_description = "Coś nie zadziałało. Wydaje nam się, że to wideo ma DRM. Nie obsługujemy filmów z DRM."
 no_youtube = "Pobieranie z youtube jest niedozwolone"
 no_youtube_description = '''Niestety, Chrome Web Store nie pozwala na zamieszczanie rozszerzeń pozwalajacych na pobieranie plików wideo z serwisu YouTube. Nie możemy więc dołączyć tej funkcji do tego rozszerzenia w wersji dla przeglądarki Chrome.'''
+no_youtube_description_2 = '''Proszę użyj Firefoxa lub Microsoft Edge'''
 premium_required = '''Status Premium wymagany'''
 premium_yt_required_description = "Bez statusu Premium, pobieranie z YouTube może być wykonane dopiero 2 godziny po poprzednim."
-premium_hls_required_description = '''Bez statusu Premium, pobieranie HLS może zostać przeprowadzone tylko 2 godziny po poprzednim'''
+premium_hls_required_description = '''Bez statusu Premium, pobieranie HLS może zostać przeprowadzone tylko 2 godziny po poprzednim'''premium_all_required_description = '''Bez statusu Premium kolejne pobranie można wykonać 2 godziny po poprzednim.'''
+premium_all_required_description = '''Bez statusu Premium kolejne pobranie można wykonać 2 godziny po poprzednim.'''
+youtube_too_many_downloads = '''Ups, wygląda na to że YouTube jest zablokowany'''
+youtube_too_many_downloads_description = '''YouTube czasami ogranicza liczbę żądań filmów. Niestety nic nie możemy na to poradzić. Spróbuj ponownie później.'''
 
 # Downloading media box
 stop = '''Przerwij'''
@@ -99,6 +139,8 @@ copy_url = '''Kopiuj URL'''
 always_copy_url = "Zawsze kopiuj URL"
 download_button = '''Pobierz'''
 download_as_button_and_menu = '''Pobierz jako…'''
+rename_short = '''Zmień nazwę'''
+always_download_as_menu = '''Zawsze Pobierz Jako...'''
 download_audio_button = "Audio"
 download_audio_and_video_menu = "Pobierz audio i wideo"
 download_audio_only_menu = '''Pobierz dźwięk'''
@@ -113,7 +155,9 @@ reported_thankyou = '''Dziękujemy!'''
 [web]
 
 # On top of all pages.
+back = '''Wstecz'''
 header_help = "Pomoc"
+header_ask_question = '''Zadaj nam pytanie'''
 
 # Context: activation page after receiving the magic link via email.
 activate_title = "Aktywacja" # hope it crashes
@@ -131,6 +175,10 @@ issue_thank_you = "Dziękuję"
 issue_enter_email = "Aby przywrócić zakupioną licencję, wprowadź adres e-mail użyty do jej zakupu:"
 issue_email_sent = "Właśnie wysłaliśmy ci wiadomość e-mail z linkiem, który aktywuje twój produkt."
 issue_or_digit = "Można też wprowadzić 6-cyfrowy kod, który wysłaliśmy:"
+issue_just_digit = '''Wprowadź 6-cyfrowy kod, który Ci wysłaliśmy:'''
+issue_i_have_a_code = '''(Kliknij tutaj jeśli już masz kod)'''
+issue_i_have_a_key = '''(Kliknij tutaj jeśli masz klucz licencji)'''
+issue_key = '''Wprowadź swój klucz licencji Video DownloadHelper:'''
 
 # Context: this page - https://downloadhelper.net/
 landing_text1 = "Pobierz dowolne wideo z dowolnej strony internetowej, to po prostu działa!"
@@ -153,3 +201,7 @@ landing_feature4_description = "Wyodrębnij audio z wideo, konwertując je na pl
 premium_hero1 = "Zapłać raz, korzystaj bezterminowo"
 premium_hero2 = "Uzyskaj dożywotnią licencję na Video DownloadHelper"
 premium_hero3 = "Pobieraj dowolną liczbę filmów, bez ograniczeń."
+premium_supported_payment_methods = '''Obsługiwane metody płatności'''
+premium_buy = '''kup'''
+welcome_text = '''Teraz nie umknie Ci żaden film!'''
+welcome_pin_message = '''Przypnij ikonkę dodatku do paska narzędzi:'''
