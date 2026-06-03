@@ -7,7 +7,8 @@ appDesc = "Download Videos from the Web."
 
 # Global strings
 restore_purchase_button = "Restore purchase"
-get_premium_button = "Get premium"
+get_premium_button = "Get Premium"
+get_premium_description_button = "Download with no limits"
 back = "Back" # Go back button - in Settings panel for example
 rm_notifications_all = "Dismiss all notifications"
 
