@@ -1,6 +1,6 @@
 # Traduzione italiana del file di riferimento "en.toml"
-# VDH 10 versione 10.2.49.0
-# 29 maggio 2026
+# VDH 10 versione 10.2.68.0
+# 03 giugno 2026
 # by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded.
 
 [addon]
@@ -11,6 +11,7 @@ appDesc = "Scarica i video dal web."
 # Global strings
 restore_purchase_button = "Ripristina l'acquisto"
 get_premium_button = "Acquista l'accesso Premium"
+get_premium_description_button = "Scarica senza limiti"
 back = "Indietro" # Pulsante Indietro - per esempio nel pannello Impostazioni
 rm_notifications_all = "Ignora notifiche"
 
