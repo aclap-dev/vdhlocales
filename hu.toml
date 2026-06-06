@@ -1,6 +1,25 @@
-# Hungarian
-
+# hu.toml - v10.2.40.2
 [addon]
+appDesc = '''Videók letöltése az internetről.'''
+restore_purchase_button = '''Vásárlás visszaállítása'''
+get_premium_button = '''Válts prémiumra'''
+back = '''Vissza'''
+rm_notifications_all = '''Összes értesítés elvetése'''
+waiting_for_media = '''Média betöltése…'''
+nomedia_title = '''Nem találja a keresett médiát?'''
+nomedia_description = '''Indítsd el a videót (és ugorj át az esetleges hirdetéseken), hogy segíts a média felismerésében. Vagy jelentsd a hiányzó médiát.'''
+nomedia_reload_button_tooltip = '''Oldal újratöltése (cookie-k törlése)'''
+show_nomedia_button = '''Nincs videó?'''
+show_nomedia_button_tooltip = '''Kattintson ide, ha nem találja a videót'''
+setting_button_tooltip = '''Beállítások'''
+history_button_tooltip = '''Letöltési előzmények megjelenítése'''
+show_all_history_button = '''Minden megjelenítése'''
+complete_title = '''Befejezve'''
+hide_complete_button = '''elrejtés'''
+translate_button_tooltip = '''Segíts a VDH fordításában'''
+help_button_tooltip = '''Segítség'''
+open_source_tab_button_tooltip = '''Nyílt forráskód lap'''
+retry_download_button_tooltip = '''Próbálja meg újra a letöltést'''
+delete_file_button_tooltip = '''Fájl törlése'''
 
-# Video DownloadHelper description. 132 characters max.
-appDesc = "Download Videos from the Web."
+[web]
