@@ -1,13 +1,13 @@
-# Arabic Translation for Video DownloadHelper
+# Arabic Translation for Video Download Helper
 #
 # -----------------------------------------------------
 # This file provides the full Arabic localization for
-# Video DownloadHelper (Addon + Web Interface)
+# Video Download Helper (Addon + Web Interface)
 # -----------------------------------------------------
 
 [addon]
 
-# Video DownloadHelper description. 132 characters max.
+# Video Download Helper description. 132 characters max.
 appDesc = "تحميل مقاطع الفيديو من الويب."
 
 # Global strings
@@ -46,7 +46,7 @@ warn_drm_tooltip = "تم الكشف عن DRM"
 version_title = "الإصدار"
 account_title = "الحساب"
 one_hundred_downloads_title = "لقد قمت بتحميل 100 فيديو!"
-leave_review_description = "نأمل أن تستمتع بـ Video DownloadHelper :) هل تمانع في كتابة مراجعة لطيفة على موقع الإضافة؟"
+leave_review_description = "نأمل أن تستمتع بـ Video Download Helper :) هل تمانع في كتابة مراجعة لطيفة على موقع الإضافة؟"
 leave_review_button = "اترك مراجعة"
 account_status = "الحالة"
 account_status_premium = "مميز ($1)"
@@ -60,7 +60,7 @@ saveas_detected_warning = "تم اكتشاف أن متصفحك يعرض نافذ
 change_saveas_setting = "تغيير الإعداد"
 
 private_browsing_title = "التصفح الخاص"
-private_browsing_warning = "Video DownloadHelper غير مفعّل في نوافذ التصفح الخاص/المتخفي. تحتاج لتفعيل هذا الخيار يدويًا (اختياري)."
+private_browsing_warning = "Video Download Helper غير مفعّل في نوافذ التصفح الخاص/المتخفي. تحتاج لتفعيل هذا الخيار يدويًا (اختياري)."
 private_browsing_notifications = "عرض إشعارات التحميل في الوضع الخاص"
 private_browsing_button = "تغيير إعدادات التصفح الخاص"
 throttle_youtube = "إبطاء التحميل من يوتيوب (أبطأ ولكن أقل عرضة للحظر)"
@@ -93,7 +93,7 @@ preview_mode_image = "صورة"
 
 # String for history page
 history_title = "سجل التحميل"
-history_warning = "نحن لا نسجل سجل تحميلاتك. هل ترغب في أن يحتفظ Video DownloadHelper بسجل تحميلاتك؟"
+history_warning = "نحن لا نسجل سجل تحميلاتك. هل ترغب في أن يحتفظ Video Download Helper بسجل تحميلاتك؟"
 history_warning_2 = "لا تقلق، كل شيء يبقى على جهازك. نحن نحترم خصوصيتك."
 enable_history = "تفعيل السجل"
 clear_history = "مسح السجل"

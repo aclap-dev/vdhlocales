@@ -2,7 +2,7 @@
 
 [addon]
 
-# Video DownloadHelper description. 132 characters max
+# Video Download Helper description. 132 characters max
 appDesc = "Pobierz wideo z sieci web."
 
 # Global strings
@@ -36,7 +36,7 @@ warn_drm_tooltip = "Wykryto DRM"
 # Strings for the settings panel.
 version_title = '''Wersja'''
 account_title = "Konto"
-leave_review_description = '''Mamy nadzieję, że podoba Ci się Video DownloadHelper :) Czy zechciałbyś napisać miłą recenzję na stronie dodatku?'''
+leave_review_description = '''Mamy nadzieję, że podoba Ci się Video Download Helper :) Czy zechciałbyś napisać miłą recenzję na stronie dodatku?'''
 leave_review_button = '''Zostaw recenzję'''
 account_status= "Stan"
 account_status_premium = '''Premium ($1}'''
@@ -48,7 +48,7 @@ show_notification = '''Pokaż powiadomienie po zakończeniu pobierania'''
 max_parallel_downloads = '''Maksymalna liczba równoczesnych pobrań'''
 
 private_browsing_title = "Przeglądanie prywatne"
-private_browsing_warning = '''Narzędzie Video DownloadHelper nie jest włączone w oknach prywatnych/incognito. Musisz włączyć tę opcję ręcznie (nie jest to wymagane).'''
+private_browsing_warning = '''Narzędzie Video Download Helper nie jest włączone w oknach prywatnych/incognito. Musisz włączyć tę opcję ręcznie (nie jest to wymagane).'''
 private_browsing_notifications = "Pokaż powiadomienie dla prywatnych pobrań"
 private_browsing_button = "Zmiana ustawień przeglądania prywatnego"
 prefer_original_audio = "Preferuj oryginalne audio" # Firefox only
@@ -73,7 +73,7 @@ reset_settings = '''Resetowanie ustawień'''
 
 # String for history page
 history_title = "Historia pobierania"
-history_warning = "Nie rejestrujemy historii pobierania. Czy chcesz, aby Video DownloadHelper zapamiętywał historię pobierania?"
+history_warning = "Nie rejestrujemy historii pobierania. Czy chcesz, aby Video Download Helper zapamiętywał historię pobierania?"
 history_warning_2 = "Nie martw się, wszystko pozostanie w twoim komputerze. Cenimy twoją prywatność."
 enable_history = "Włącz historię"
 clear_history = "Usuń historię"
@@ -153,7 +153,7 @@ landing_section_4_stats_stats_2_value = "1 000+"
 landing_section_4_stats_stats_2_description = "obsługiwanych stron"
 landing_section_5_premium_title_a = "Premium dla"
 landing_section_5_premium_title_b = "nieograniczonej mocy"
-landing_section_5_premium_paragraph = "Odblokuj nieograniczone pobieranie i szybsze przetwarzanie. Wesprzyj projekt i ciesz się pełnym doświadczeniem Video DownloadHelper."
+landing_section_5_premium_paragraph = "Odblokuj nieograniczone pobieranie i szybsze przetwarzanie. Wesprzyj projekt i ciesz się pełnym doświadczeniem Video Download Helper."
 landing_section_6_browsers_label = "Dostępne w sklepie Twojej przeglądarki"
 landing_cta_banner_title = "Najbardziej zaufany downloader wideo dla Twojej przeglądarki"
 landing_cta_banner_paragraph = "Używany przez miliony od prawie 20 lat"
@@ -165,18 +165,18 @@ landing_footer_title = "Produkt"
 landing_footer_title_2 = "Pomoc"
 landing_footer_title_3 = "Pobieranie"
 landing_footer_donate = "Wesprzyj"
-landing_faq_items_0_question = "Co to jest Video DownloadHelper?"
-landing_faq_items_0_answer = "Video DownloadHelper to rozszerzenie przeglądarki, które pozwala wykrywać i pobierać treści wideo i audio z wielu stron bezpośrednio z przeglądarki."
-landing_faq_items_1_question = "Czy Video DownloadHelper jest darmowy?"
-landing_faq_items_1_answer = "Tak, i pozostanie darmowy. Możesz zainstalować i używać Video DownloadHelper bezpłatnie, bez limitu czasu. Wersja darmowa pozwala już pobierać wideo z tysięcy stron i korzystać ze wszystkich podstawowych funkcji. Dla większości użytkowników wersja darmowa jest więcej niż wystarczająca do codziennego użytku. Jeśli potrzebujesz zaawansowanych funkcji i nieograniczonego pobierania, możesz kupić jednorazową licencję Premium."
-landing_faq_items_2_question = "Z których przeglądarek mogę korzystać z Video DownloadHelper?"
-landing_faq_items_2_answer = "Video DownloadHelper jest dostępny dla Google Chrome, Firefox i Microsoft Edge. Możesz zainstalować go bezpośrednio z oficjalnych sklepów przeglądarek. Jeśli masz licencję Premium, działa ona we wszystkich przeglądarkach."
+landing_faq_items_0_question = "Co to jest Video Download Helper?"
+landing_faq_items_0_answer = "Video Download Helper to rozszerzenie przeglądarki, które pozwala wykrywać i pobierać treści wideo i audio z wielu stron bezpośrednio z przeglądarki."
+landing_faq_items_1_question = "Czy Video Download Helper jest darmowy?"
+landing_faq_items_1_answer = "Tak, i pozostanie darmowy. Możesz zainstalować i używać Video Download Helper bezpłatnie, bez limitu czasu. Wersja darmowa pozwala już pobierać wideo z tysięcy stron i korzystać ze wszystkich podstawowych funkcji. Dla większości użytkowników wersja darmowa jest więcej niż wystarczająca do codziennego użytku. Jeśli potrzebujesz zaawansowanych funkcji i nieograniczonego pobierania, możesz kupić jednorazową licencję Premium."
+landing_faq_items_2_question = "Z których przeglądarek mogę korzystać z Video Download Helper?"
+landing_faq_items_2_answer = "Video Download Helper jest dostępny dla Google Chrome, Firefox i Microsoft Edge. Możesz zainstalować go bezpośrednio z oficjalnych sklepów przeglądarek. Jeśli masz licencję Premium, działa ona we wszystkich przeglądarkach."
 landing_faq_items_3_question = "Jakie rodzaje wideo mogę pobierać?"
-landing_faq_items_3_answer = "Video DownloadHelper wykrywa i pobiera większość internetowych formatów wideo: standardowe wideo MP4, formaty streamingu (HLS, DASH), wideo osadzone na tysiącach stron oraz strumienie audio (MP3 i inne). Działa na portalach społecznościowych, stronach edukacyjnych, serwisach informacyjnych, usługach streamingowych i wielu innych platformach. Rozszerzenie automatycznie wykrywa dostępne media, gdy odwiedzasz stronę."
-landing_faq_items_4_question = "Czy Video DownloadHelper jest bezpieczny?"
-landing_faq_items_4_answer = "Ciężko pracujemy, aby Video DownloadHelper był bezpieczny dla naszych użytkowników: dostępny w oficjalnych sklepach przeglądarek (Chrome Web Store, Firefox Add-ons), używany przez miliony użytkowników na całym świecie, bez spyware, bez sprzedaży danych, regularnie aktualizowany i utrzymywany. Video DownloadHelper jest rozwijany od prawie 20 lat. Twoja prywatność i bezpieczeństwo są priorytetem."
+landing_faq_items_3_answer = "Video Download Helper wykrywa i pobiera większość internetowych formatów wideo: standardowe wideo MP4, formaty streamingu (HLS, DASH), wideo osadzone na tysiącach stron oraz strumienie audio (MP3 i inne). Działa na portalach społecznościowych, stronach edukacyjnych, serwisach informacyjnych, usługach streamingowych i wielu innych platformach. Rozszerzenie automatycznie wykrywa dostępne media, gdy odwiedzasz stronę."
+landing_faq_items_4_question = "Czy Video Download Helper jest bezpieczny?"
+landing_faq_items_4_answer = "Ciężko pracujemy, aby Video Download Helper był bezpieczny dla naszych użytkowników: dostępny w oficjalnych sklepach przeglądarek (Chrome Web Store, Firefox Add-ons), używany przez miliony użytkowników na całym świecie, bez spyware, bez sprzedaży danych, regularnie aktualizowany i utrzymywany. Video Download Helper jest rozwijany od prawie 20 lat. Twoja prywatność i bezpieczeństwo są priorytetem."
 landing_faq_items_5_question = "Co zawiera wersja płatna?"
-landing_faq_items_5_answer = "Licencja Premium odblokowuje pełną moc Video DownloadHelper: usuwa znak wodny z konwersji, umożliwia nieograniczone konwersje wideo wysokiej jakości, szybsze przetwarzanie, zaawansowane funkcje pobierania, wspiera dalszy rozwój. Jeśli pobierasz wideo regularnie, licencja szybko się zwraca."
+landing_faq_items_5_answer = "Licencja Premium odblokowuje pełną moc Video Download Helper: usuwa znak wodny z konwersji, umożliwia nieograniczone konwersje wideo wysokiej jakości, szybsze przetwarzanie, zaawansowane funkcje pobierania, wspiera dalszy rozwój. Jeśli pobierasz wideo regularnie, licencja szybko się zwraca."
 
 premium_hero_title = "Premium"
 premium_hero_subtitle = "Jedno rozszerzenie do pobierania i zapisywania wideo z prawie każdej strony."
@@ -216,7 +216,7 @@ issue_or_digit = "Możesz też wprowadzić 6-cyfrowy kod, który Ci wysłaliśmy
 issue_just_digit = "Wprowadź 6-cyfrowy kod, który Ci wysłaliśmy:"
 issue_i_have_a_code = "(Kliknij tutaj, jeśli masz już kod)"
 issue_i_have_a_key = "(Kliknij tutaj, jeśli masz klucz licencyjny)"
-issue_key = "Wprowadź klucz licencyjny Video DownloadHelper:"
+issue_key = "Wprowadź klucz licencyjny Video Download Helper:"
 
 rapid_release_title = "Rapid Release dla zaawansowanych użytkowników"
 rapid_release_paragraph = "To jest wstępna wersja rozszerzenia, z częstszymi aktualizacjami niż wersja standardowa."
@@ -232,13 +232,13 @@ activate_no_method_found = "Nie znaleziono metody."
 activate_help_me = "Pomocy."
 
 welcome_hero_title = "Gratulacje! Wszystko gotowe"
-welcome_hero_subtitle = "Video DownloadHelper jest gotowy do użycia. Możesz teraz przypiąć go do przeglądarki."
-welcome_card_items_0 = "Przypnij Video DownloadHelper, aby mieć do niego dostęp, kiedy tylko zechcesz"
+welcome_hero_subtitle = "Video Download Helper jest gotowy do użycia. Możesz teraz przypiąć go do przeglądarki."
+welcome_card_items_0 = "Przypnij Video Download Helper, aby mieć do niego dostęp, kiedy tylko zechcesz"
 welcome_card_items_1 = "Kliknij ikonę pinezki"
 
-goodbye_hero_title = "Dziękujemy za wypróbowanie Video DownloadHelper"
+goodbye_hero_title = "Dziękujemy za wypróbowanie Video Download Helper"
 goodbye_hero_subtitle = "Zawsze staramy się ulepszać."
-goodbye_form_question = "Czy możesz poświęcić chwilę i powiedzieć nam, dlaczego odinstalowałeś Video DownloadHelper?"
+goodbye_form_question = "Czy możesz poświęcić chwilę i powiedzieć nam, dlaczego odinstalowałeś Video Download Helper?"
 goodbye_form_answer_options_0 = "Brak wsparcia dla YouTube"
 goodbye_form_answer_options_1 = "Za drogo"
 goodbye_form_answer_options_2 = "Moje pobieranie się nie powiodło"

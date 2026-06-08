@@ -1,13 +1,13 @@
-# Persian Translation for Video DownloadHelper
+# Persian Translation for Video Download Helper
 # By Jey - Javad Jamshidi
 # -----------------------------------------------------
 # This file provides the full Persian localization for
-# Video DownloadHelper (Addon + Web Interface)
+# Video Download Helper (Addon + Web Interface)
 # -----------------------------------------------------
 
 [addon]
 
-# Video DownloadHelper description. 132 characters max.
+# Video Download Helper description. 132 characters max.
 appDesc = "دانلود ویدیوها از وب. محتوای مورد علاقه‌تان را سریع و آسان ذخیره کنید"
 
 # Global strings
