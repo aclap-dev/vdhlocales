@@ -128,7 +128,7 @@ add_to_chrome = '''Chromeに追加'''
 add_to_firefox = '''Firefoxに追加'''
 add_to_browser = '''ブラウザに追加'''
 
-get_premium_button = '''プレミアムにアップグレード'''
+get_premium_button = '''プレミアム版にアップグレード'''
 
 faq_title = '''よくある質問'''
 faq_other_questions = '''他にご質問はありますか？'''
