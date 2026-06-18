@@ -1,6 +1,6 @@
 # Traduzione italiana del file di riferimento "en.toml"
-# VDH 10 versione 10.2.68.0
-# 03 giugno 2026
+# VDH 10 versione 10.2.78.0
+# 17 giugno 2026
 # by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded.
 
 [addon]
@@ -248,8 +248,8 @@ premium_card_premium_features_included_0 = "Download illimitati"
 premium_card_premium_features_included_1 = "Qualità e velocità massime"
 premium_card_premium_features_included_2 = "Funzionalità avanzate"
 premium_card_premium_features_included_3 = "Supporto prioritario"
-premium_subscription_title = "Ottieni il tuo abbonamento annuale"
-premium_per_year = "/ anno"
+premium_subscription_title = "Acquista il tuo abbonamento annuale"
+premium_per_year = "per anno"
 premium_proceed_to_payment = "Procedi al pagamento"
 premium_plan_subscription_title = "Abbonamento"
 premium_plan_subscription_period = "12 mesi"
