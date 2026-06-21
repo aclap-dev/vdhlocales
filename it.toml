@@ -1,21 +1,21 @@
-# Traduzione italiana del file di riferimento "en.toml"
-# VDH 10 versione 10.2.78.0
-# 17 giugno 2026
-# by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded.
+Traduzione italiana del file di riferimento "en.toml"
+VDH 10 versione 10.2.78.0
+17 giugno 2026
+by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded.
 
 [addon]
 
-# Descrizione di Video Download Helper. Massimo 132 caratteri.
+Descrizione di Video Download Helper. Massimo 132 caratteri.
 appDesc = "Scarica i video dal web."
 
-# Global strings
+Global strings
 restore_purchase_button = "Ripristina l'acquisto"
 get_premium_button = "Acquista l'accesso Premium"
 get_premium_description_button = "Scarica senza limiti"
 back = "Indietro" # Pulsante Indietro - per esempio nel pannello Impostazioni
 rm_notifications_all = "Ignora notifiche"
 
-# Stringhe per il pannello principale
+Stringhe per il pannello principale
 waiting_for_media = "In attesa di file multimediali…"
 nomedia_title = "Non riesci a vedere i file multimediali che stai cercando?"
 nomedia_description = "Avvia il video (e salta gli annunci, se presenti) per rilevare i file multimediali o segnala i file multimediali mancanti."
@@ -31,7 +31,7 @@ hide_complete_button = "Nascondi"
 translate_button_tooltip = "Aiuta a tradurre VDH"
 help_button_tooltip = "Aiuto"
 
-# Pannello file multimediali scaricati
+Pannello file multimediali scaricati
 open_source_tab_button_tooltip = "Apri scheda sorgente"
 retry_download_button_tooltip = "Scarica di nuovo"
 delete_file_button_tooltip = "Elimina il file"
@@ -43,7 +43,7 @@ video_not_playing_button_tooltip = "Il video non viene riprodotto?"
 play = "Riproduci"
 warn_drm_tooltip = "Rilevato DRM"
 
-# Stringhe pannello impostazioni.
+Stringhe pannello impostazioni.
 version_title = "Versione"
 account_title = "Account"
 one_hundred_downloads_title = "Hai scaricato 100 video!"
@@ -112,7 +112,7 @@ order_media_by_oldest = "Prima i più vecchi"
 settings_subtitles_title = "Lingue preferite per i sottotitoli"
 settings_audio_tracks_title = "Tracce audio preferite"
 
-# Stringhe pagina cronologia
+Stringhe pagina cronologia
 history_title = "Cronologia download"
 history_warning = "Non registriamo la cronologia download. Vuoi che Video Download Helper ricordi la cronologia download?"
 history_warning_2 = "Non ti preoccupare, tutto rimane in questo computer. Apprezziamo la tua privacy."
@@ -121,7 +121,7 @@ clear_history = "Azzera cronologia"
 disable_history = "Non ricordare la cronologia"
 no_downloads_yet = "Ancora nessuna attività."
 
-# Notifiche varie
+Notifiche varie
 download_failed = "Download fallito"
 download_failed_description = "Purtroppo non siamo riusciti a scaricare quel file multimediale specifico. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare l'errore (è anonimo!)"
 download_interrupted = "Download interrotto"
@@ -137,11 +137,11 @@ premium_all_required_description = "Senza licenza Premium un download può esser
 youtube_too_many_downloads = "Oops, YouTube sembra essersi bloccato"
 youtube_too_many_downloads_description = "YouTube a volte limita il numero di video che possono essere richiesti. Purtroppo non possiamo farci niente. Riprova più tardi."
 
-# Pannello file multimediali scaricati
+Pannello file multimediali scaricati
 stop = "Stop"
 cancel = "Annulla"
 
-# File multimediali che troviamo nella pagina
+File multimediali che troviamo nella pagina
 copy_url = "Copia URL" # Nel menu e come pulsante
 always_copy_url = "Copia sempre URL"
 download_button = "Download"
@@ -155,12 +155,12 @@ download_audio_only_menu = "Download audio"
 audio_only_for_this_website = "Da questo sito web download sempre solo audio"
 details = "Dettagli"
 
-# Pulsanti segnalazione
+Pulsanti segnalazione
 report = "Segnala"
 reporting = "Segnalazione…"
 reported_thankyou = "Grazie!"
 
-# Selettore lingua
+Selettore lingua
 move_lang_up = "Sposta su"
 move_lang_down = "Sposta giù"
 remove_lang = "Rimuovi lingua"
