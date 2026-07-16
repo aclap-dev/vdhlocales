@@ -11,7 +11,6 @@ appDesc = "Scarica i video dal web."
 # Global strings
 restore_purchase_button = "Ripristina l'acquisto"
 get_premium_button = "Acquista l'accesso Premium"
-get_premium_description_button = "Scarica senza limiti"
 back = "Indietro" # Pulsante Indietro - per esempio nel pannello Impostazioni
 rm_notifications_all = "Ignora notifiche"
 
@@ -132,8 +131,6 @@ no_youtube_description = "Purtroppo, il Chrome Web Store non consente estensioni
 no_youtube_description_2 = "Ti raccomandiamo l'uso di Firefox o Microsoft Edge"
 premium_required = "Richiesta licenza Premium"
 premium_yt_required_description = "Senza licenza Premium un download da YouTube può essere effettuato solo 2 ore dopo il precedente."
-premium_hls_required_description = "Senza licenza Premium un download HLS o MPD può essere effettuato solo 2 ore dopo il precedente."
-premium_all_required_description = "Senza licenza Premium un download può essere effettuato solo 2 ore dopo il precedente."
 youtube_too_many_downloads = "Oops, YouTube sembra essersi bloccato"
 youtube_too_many_downloads_description = "YouTube a volte limita il numero di video che possono essere richiesti. Purtroppo non possiamo farci niente. Riprova più tardi."
 

@@ -7,7 +7,6 @@ appDesc = "Pobierz wideo z sieci web."
 # Global strings
 restore_purchase_button = "Przywróć zakup"
 get_premium_button = "Uzyskaj Premium"
-get_premium_description_button = "Pobierz bez ograniczeń"
 back = "Wstecz"
 rm_notifications_all = "Usuń wszystkie powiadomienia"
 
@@ -128,8 +127,6 @@ no_youtube_description = "Niestety, Chrome Web Store nie pozwala na zamieszczani
 no_youtube_description_2 = "Użyj przeglądarki Firefox lub Microsoft Edge"
 premium_required = "Wymagany status Premium"
 premium_yt_required_description = "Bez statusu Premium, pobieranie z YouTube może być wykonane dopiero po upływie 2 godzin od poprzedniego pobrania."
-premium_hls_required_description = "Bez statusu Premium pobranie HLS lub MPD jest możliwe dopiero po upływie 2 godzin od poprzedniego pobrania."
-premium_all_required_description = "Bez statusu Premium kolejne pobranie może być wykonane dopiero po upływie 2 godzin od poprzedniego pobrania."
 youtube_too_many_downloads = "Ups, wygląda na to, że dostęp do YouTube jest zablokowany"
 youtube_too_many_downloads_description = "YouTube czasami ogranicza liczbę filmów, które można pobrać. Niestety nie możemy nic na to poradzić. Spróbuj ponownie później."
 

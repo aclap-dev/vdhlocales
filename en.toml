@@ -8,7 +8,7 @@ appDesc = "Download Videos from the Web."
 # Global strings
 restore_purchase_button = "Restore purchase"
 get_premium_button = "Get Premium"
-get_premium_description_button = "Download with no limits"
+get_premium_description = "Enjoy unlimited downloads and the best available quality, with no restrictions."
 back = "Back" # Go back button - in Settings panel for example
 rm_notifications_all = "Dismiss all notifications"
 
@@ -129,8 +129,6 @@ no_youtube_description = "Unfortunately, the Chrome Web Store does not allow ext
 no_youtube_description_2 = "Please use Firefox or Microsoft Edge"
 premium_required = "Premium status required"
 premium_yt_required_description = "Without Premium status, a YouTube download can only be performed 2 hours after the previous one."
-premium_hls_required_description = "Without Premium status, an HLS or MPD download can only be performed 2 hours after the previous one."
-premium_all_required_description = "Without Premium status, a download can only be performed 2 hours after the previous one."
 youtube_too_many_downloads = "Oops, YouTube seems to be blocked"
 youtube_too_many_downloads_description = "YouTube sometimes will limit how many videos can be requested. Nothing we can do about sadly. Try again later."
 
