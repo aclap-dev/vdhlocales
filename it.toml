@@ -1,6 +1,6 @@
 # Traduzione italiana del file di riferimento "en.toml"
-# VDH 10 versione 10.2.78.0
-# 17 giugno 2026
+# VDH 10 versione 10.5.2.0
+# 16 luglio 2026
 # by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded.
 
 [addon]
@@ -11,6 +11,7 @@ appDesc = "Scarica i video dal web."
 # Global strings
 restore_purchase_button = "Ripristina l'acquisto"
 get_premium_button = "Acquista l'accesso Premium"
+get_premium_description = "Goditi download illimitati e la migliore qualità disponibile, senza restrizioni."
 back = "Indietro" # Pulsante Indietro - per esempio nel pannello Impostazioni
 rm_notifications_all = "Ignora notifiche"
 
@@ -245,17 +246,6 @@ premium_card_premium_features_included_0 = "Download illimitati"
 premium_card_premium_features_included_1 = "Qualità e velocità massime"
 premium_card_premium_features_included_2 = "Funzionalità avanzate"
 premium_card_premium_features_included_3 = "Supporto prioritario"
-premium_subscription_title = "Acquista il tuo abbonamento annuale"
-premium_per_year = "per anno"
-premium_proceed_to_payment = "Procedi al pagamento"
-premium_plan_subscription_title = "Abbonamento"
-premium_plan_subscription_period = "12 mesi"
-premium_plan_subscription_tagline = "Il prezzo di un caffè al mese"
-premium_subscribe_button = "Abbonati"
-premium_plan_lifetime_title = "Acquista licenza"
-premium_plan_lifetime_period = "A vita"
-premium_plan_lifetime_tagline = "Paga una volta, usa per sempre"
-premium_buy_button = "Acquista"
 premium_card_premium_button = "Passa a Premium"
 premium_faq_items_0_question = "Come funziona il pagamento?"
 premium_faq_items_0_answer = "I pagamenti vengono elaborati da Stripe, che offre un'ampia gamma di opzioni (Amazon Pay, PayPal, carte di credito, Alipay, ecc.). Non abbiamo accesso ai dati bancari personali, e nulla viene archiviato nei nostri server."
@@ -267,6 +257,17 @@ premium_faq_items_3_question = "Cosa succede dopo la scadenza della licenza?"
 premium_faq_items_3_answer = "La licenza a vita non scade mai."
 premium_supported_payment_methods = "Metodi pagamento accettati"
 premium_free = "Gratis"
+premium_subscription_title = "Acquista il tuo abbonamento annuale"
+premium_per_year = "per anno"
+premium_proceed_to_payment = "Procedi al pagamento"
+premium_plan_subscription_title = "Abbonamento"
+premium_plan_subscription_period = "12 mesi"
+premium_plan_subscription_tagline = "Il prezzo di un caffè al mese"
+premium_subscribe_button = "Abbonati"
+premium_plan_lifetime_title = "Acquista licenza"
+premium_plan_lifetime_period = "A vita"
+premium_plan_lifetime_tagline = "Paga una volta, usa per sempre"
+premium_buy_button = "Acquista"
 
 issue_title = "Ripristina acquisto"
 issue_submit = "Invia"
