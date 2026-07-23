@@ -1,6 +1,6 @@
 # Traduzione italiana del file di riferimento "en.toml"
 # VDH 10 versione 10.5.2.0
-# 16 luglio 2026
+# 23 luglio 2026
 # by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded.
 
 [addon]
@@ -30,6 +30,7 @@ complete_title = "Completati"
 hide_complete_button = "Nascondi"
 translate_button_tooltip = "Aiuta a tradurre VDH"
 help_button_tooltip = "Aiuto"
+next_download = "Prossimo download:" # Visualizzato come "Prossimo download: 01:32:33" per utenti non premium su Chrome
 
 # Pannello file multimediali scaricati
 open_source_tab_button_tooltip = "Apri scheda sorgente"
