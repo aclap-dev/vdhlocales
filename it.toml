@@ -1,6 +1,6 @@
 # Traduzione italiana del file di riferimento "en.toml"
 # VDH 10 versione 10.5.2.0
-# 23 luglio 2026
+# 17 agosto 2026
 # by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded.
 
 [addon]
@@ -110,6 +110,7 @@ media_discovered_ordering_title = "Come ordinare i file multimediali"
 order_media_smart = "Smart (raccomandato)"
 order_media_by_newest = "Prima i più recenti"
 order_media_by_oldest = "Prima i più vecchi"
+languages_title = "Lingue"
 settings_subtitles_title = "Lingue preferite per i sottotitoli"
 settings_audio_tracks_title = "Tracce audio preferite"
 
