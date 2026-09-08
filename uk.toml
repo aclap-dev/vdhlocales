@@ -198,6 +198,7 @@ landing_faq_items_4_question = '''Це безпечно?'''
 landing_faq_items_4_answer = '''Так. Без шпигунства, без збору даних, з регулярними оновленнями.'''
 landing_faq_items_5_question = '''Що дає Преміум?'''
 landing_faq_items_5_answer = '''Без обмежень, швидше оброблення та додаткові можливості.'''
+landing_restore_purchase = '''Відновити покупку'''
 
 premium_hero_title = '''Преміум'''
 premium_hero_subtitle = '''Максимум можливостей в одному розширенні'''
@@ -225,6 +226,8 @@ premium_plan_lifetime_period = "Назавжди"
 premium_plan_lifetime_tagline = "Заплатили — і користуєтесь"
 premium_buy_button = "Купити"
 premium_card_premium_button = '''Перейти на Преміум'''
+premium_recover_premium = '''Вже маєте Преміум-акаунт?'''
+premium_recover_premium_click_here = '''Натисніть тут'''
 
 issue_title = '''Відновлення доступу'''
 issue_submit = '''Надіслати'''

@@ -153,6 +153,7 @@ landing_faq_items_4_question = '''Video Download Helper 安全嗎？'''
 landing_faq_items_4_answer = '''我們努力讓 Video Download Helper 對使用者安全：在官方瀏覽器商店（Chrome Web Store、Firefox Add-ons）中提供，全球數百萬使用者使用，無間諜軟體，無資料轉售，定期更新和維護。Video Download Helper 已開發並受信任近 20 年。您的隱私和安全是我們的首要任務。'''
 landing_faq_items_5_question = '''付費版包含什麼？'''
 landing_faq_items_5_answer = '''進階版授權解鎖 Video Download Helper 的全部功能：移除轉換中的浮水印，支援無限高品質影片轉換，更快處理速度,進階下載功能，支援持續開發。如果您經常下載影片，授權很快就能回本。'''
+landing_restore_purchase = '''恢復購買'''
 
 premium_hero_title = '''進階版'''
 premium_hero_subtitle = '''可從幾乎任何網站下載並儲存影片的擴充功能。'''
@@ -180,6 +181,8 @@ premium_plan_lifetime_period = "終身"
 premium_plan_lifetime_tagline = "一次付款，永久使用"
 premium_buy_button = "購買"
 premium_card_premium_button = '''升級至進階版'''
+premium_recover_premium = '''已經擁有進階版帳戶？'''
+premium_recover_premium_click_here = '''點擊此處'''
 premium_faq_items_0_question = '''付款如何運作？'''
 premium_faq_items_0_answer = '''付款由 Stripe 處理，提供廣泛的選項（Amazon Pay、PayPal、信用卡、Alipay 等）。我們無法存取您的銀行資訊，且任何資訊都不會儲存在我們的伺服器上。'''
 premium_faq_items_1_question = '''我可以在多台裝置上使用授權嗎？'''

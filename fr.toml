@@ -203,6 +203,7 @@ landing_faq_items_4_question = '''Video Download Helper est-il sûr ?'''
 landing_faq_items_4_answer = '''Nous travaillons dur pour rendre Video Download Helper sûr pour nos utilisateurs : disponible sur les boutiques officielles (Chrome Web Store, Firefox Add-ons), utilisé par des millions de personnes dans le monde, aucun logiciel espion, aucune revente de données, mis à jour et maintenu régulièrement. Video Download Helper est développé et utilisé en toute confiance depuis près de 20 ans. Votre vie privée et votre sécurité sont une priorité.'''
 landing_faq_items_5_question = '''Que comprend la version payante ?'''
 landing_faq_items_5_answer = '''La licence Premium débloque toute la puissance de Video Download Helper : suppression du filigrane lors des conversions, conversions vidéo de haute qualité illimitées, traitement plus rapide, fonctionnalités de téléchargement avancées, soutien au développement continu. Si vous téléchargez régulièrement des vidéos, la licence est vite rentabilisée.'''
+landing_restore_purchase = '''Restaurer l'achat'''
 
 premium_hero_title = '''Premium'''
 premium_hero_subtitle = '''Une extension pour télécharger et enregistrer des vidéos depuis presque tous les sites web.'''
@@ -230,6 +231,8 @@ premium_plan_lifetime_period = "À vie"
 premium_plan_lifetime_tagline = "Payez une fois, utilisez à vie"
 premium_buy_button = "Acheter"
 premium_card_premium_button = '''Passer au Premium'''
+premium_recover_premium = '''Vous avez déjà un compte Premium ?'''
+premium_recover_premium_click_here = '''Cliquez ici'''
 premium_faq_items_0_question = '''Comment fonctionne le paiement ?'''
 premium_faq_items_0_answer = '''Les paiements sont traités par Stripe, qui propose un large éventail d'options (Amazon Pay, PayPal, cartes bancaires, Alipay, etc.). Nous n'avons pas accès à vos informations bancaires, et rien n'est stocké sur nos serveurs.'''
 premium_faq_items_1_question = '''Puis-je utiliser ma licence sur plusieurs appareils ?'''

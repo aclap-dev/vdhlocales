@@ -188,6 +188,7 @@ landing_faq_items_4_question = '''Video Download Helperは安全ですか？'''
 landing_faq_items_4_answer = '''Video Download Helperをユーザーにとって安全にするため努力しています。公式ストア（Chrome Web Store、Firefox Add-ons）で配信、世界中で数百万人のユーザーが利用、スパイウェアなし、データの転売なし、定期的に更新・メンテナンス。Video Download Helperは20年近くにわたり信頼されてきました。プライバシーとセキュリティは最優先事項です。'''
 landing_faq_items_5_question = '''有料版には何が含まれますか？'''
 landing_faq_items_5_answer = '''プレミアムライセンスでVideo Download Helperの全機能を解放：変換時のウォーターマーク削除、無制限の高品質動画変換、高速処理、高度なダウンロード機能、継続的な開発のサポート。定期的に動画をダウンロードする方なら、ライセンスはすぐに元が取れます。'''
+landing_restore_purchase = '''購入を復元'''
 
 premium_hero_title = '''プレミアム'''
 premium_hero_subtitle = '''ほぼすべてのウェブサイトから動画をダウンロード・保存できる拡張機能。'''
@@ -215,6 +216,8 @@ premium_plan_lifetime_period = "永久"
 premium_plan_lifetime_tagline = "一度の支払いで永久に使える"
 premium_buy_button = "購入"
 premium_card_premium_button = '''プレミアムにアップグレード'''
+premium_recover_premium = '''すでにプレミアムアカウントをお持ちですか？'''
+premium_recover_premium_click_here = '''こちらをクリック'''
 premium_faq_items_0_question = '''支払いはどう機能しますか？'''
 premium_faq_items_0_answer = '''支払いはStripeで処理されます。Stripeは幅広いオプション（Amazon Pay、PayPal、クレジットカード、Alipayなど）を提供します。私たちは銀行情報にアクセスできず、何もサーバーに保存しません。'''
 premium_faq_items_1_question = '''ライセンスを複数のデバイスで使えますか？'''
