@@ -197,7 +197,6 @@ landing_faq_items_3_answer = '''MP4, потокові формати, аудіо
 landing_faq_items_4_question = '''Це безпечно?'''
 landing_faq_items_4_answer = '''Так. Без шпигунства, без збору даних, з регулярними оновленнями.'''
 landing_faq_items_5_question = '''Що дає Преміум?'''
-landing_faq_items_5_answer = '''Без обмежень, швидше оброблення та додаткові можливості.'''
 landing_restore_purchase = '''Відновити покупку'''
 
 premium_hero_title = '''Преміум'''

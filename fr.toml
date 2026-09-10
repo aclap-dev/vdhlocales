@@ -202,7 +202,6 @@ landing_faq_items_3_answer = '''Video Download Helper détecte et télécharge l
 landing_faq_items_4_question = '''Video Download Helper est-il sûr ?'''
 landing_faq_items_4_answer = '''Nous travaillons dur pour rendre Video Download Helper sûr pour nos utilisateurs : disponible sur les boutiques officielles (Chrome Web Store, Firefox Add-ons), utilisé par des millions de personnes dans le monde, aucun logiciel espion, aucune revente de données, mis à jour et maintenu régulièrement. Video Download Helper est développé et utilisé en toute confiance depuis près de 20 ans. Votre vie privée et votre sécurité sont une priorité.'''
 landing_faq_items_5_question = '''Que comprend la version payante ?'''
-landing_faq_items_5_answer = '''La licence Premium débloque toute la puissance de Video Download Helper : suppression du filigrane lors des conversions, conversions vidéo de haute qualité illimitées, traitement plus rapide, fonctionnalités de téléchargement avancées, soutien au développement continu. Si vous téléchargez régulièrement des vidéos, la licence est vite rentabilisée.'''
 landing_restore_purchase = '''Restaurer l'achat'''
 
 premium_hero_title = '''Premium'''
