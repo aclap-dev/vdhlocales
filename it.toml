@@ -1,7 +1,7 @@
 # Traduzione italiana del file di riferimento "en.toml"
 # VDH 10 versione 10.5.2.0
-# 8 settembre 2026
-# by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded.
+# 14 settembre 2026
+# by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded; @NicolasBighetti.
 
 [addon]
 
@@ -232,6 +232,7 @@ landing_faq_items_3_answer = "Video Download Helper rileva e scarica la maggior 
 landing_faq_items_4_question = "Video Download Helper è sicuro?"
 landing_faq_items_4_answer = "Lavoriamo duramente per rendere Video Download Helper sicuro per i nostri utenti: disponibile sugli store ufficiali (Chrome Web Store, Firefox Add-ons), utilizzato da milioni di utenti in tutto il mondo, nessuno spyware, nessuna rivendita di dati, aggiornato e mantenuto regolarmente. Video Download Helper è sviluppato da quasi 20 anni ed è apprezzato. La tua privacy e la tua sicurezza sono una priorità."
 landing_faq_items_5_question = "Cosa include la versione a pagamento?"
+landing_faq_items_5_2_answer = "La licenza premium sblocca tutta la potenza di Video Download Helper e supporta lo sviluppo continuo. Include inoltre funzionalità avanzate quali supporto per i sottotitoli video, download illimitati, massima qualità e velocità e supporto prioritario. Se scarichi video regolarmente, si ripaga rapidamente."
 landing_restore_purchase = "Acquisto convalidato"
 
 premium_hero_title = "Premium"
@@ -248,6 +249,8 @@ premium_card_premium_features_included_0 = "Download illimitati"
 premium_card_premium_features_included_1 = "Qualità e velocità massime"
 premium_card_premium_features_included_2 = "Funzionalità avanzate"
 premium_card_premium_features_included_3 = "Supporto prioritario"
+premium_card_premium_features_included_4 = "Supporto sottotitoli video"
+
 premium_card_premium_button = "Passa a Premium"
 premium_recover_premium = "Hai già un account premium?"
 premium_recover_premium_click_here = "Clicca qui"
