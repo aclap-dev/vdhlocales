@@ -170,7 +170,6 @@ landing_faq_items_3_answer = '''Video Download Helper는 표준 MP4 동영상, �
 landing_faq_items_4_question = '''Video Download Helper는 안전한가요?'''
 landing_faq_items_4_answer = '''Video Download Helper를 사용자에게 안전하게 만들기 위해 노력하고 있습니다: 공식 브라우저 스토어(Chrome Web Store, Firefox Add-ons)에서 제공, 전 세계 수백만 명이 사용, 스파이웨어 없음, 데이터 재판매 없음, 정기적인 업데이트 및 유지보수. Video Download Helper는 20년 가까이 개발되고 신뢰받아 왔습니다. 사용자의 개인정보 보호와 보안은 최우선 사항입니다.'''
 landing_faq_items_5_question = '''유료 버전에는 무엇이 포함되나요?'''
-landing_faq_items_5_answer = '''프리미엄 라이선스로 Video Download Helper의 모든 기능을 잠금 해제하세요: 변환 시 워터마크 제거, 무제한 고품질 동영상 변환, 더 빠른 처리, 고급 다운로드 기능, 지속적인 개발 지원. 정기적으로 동영상을 다운로드하시면 라이선스 비용을 빠르게 회수할 수 있습니다.'''
 landing_restore_purchase = '''구매 복원'''
 
 premium_hero_title = '''프리미엄'''
