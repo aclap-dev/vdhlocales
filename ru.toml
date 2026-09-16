@@ -188,7 +188,6 @@ landing_footer_links_3 = '''Политика конфиденциальност�
 landing_footer_title = '''Продукт'''
 landing_footer_title_2 = '''Поддержка'''
 landing_footer_title_3 = '''Загрузка'''
-landing_footer_donate = '''Пожертвовать'''
 landing_faq_items_0_question = '''Что такое Video Download Helper?'''
 landing_faq_items_0_answer = '''Video Download Helper — это расширение браузера, которое позволяет обнаруживать и загружать видео и аудио со многих сайтов прямо из браузера.'''
 landing_faq_items_1_question = '''Video Download Helper бесплатный?'''

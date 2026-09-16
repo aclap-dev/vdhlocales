@@ -184,7 +184,6 @@ landing_footer_links_3 = '''Конфіденційність'''
 landing_footer_title = '''Продукт'''
 landing_footer_title_2 = '''Підтримка'''
 landing_footer_title_3 = '''Завантаження'''
-landing_footer_donate = '''Підтримати'''
 
 landing_faq_items_0_question = '''Що це за розширення?'''
 landing_faq_items_0_answer = '''Video Download Helper — це інструмент, який дозволяє знаходити та зберігати відео й аудіо прямо з сайтів.'''
