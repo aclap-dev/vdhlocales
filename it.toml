@@ -1,6 +1,6 @@
 # Traduzione italiana del file di riferimento "en.toml"
 # VDH 10 versione 10.5.2.0
-# 14 settembre 2026
+# 18 settembre 2026
 # by Night Train with the valuable contribution of: @aperinik; @bovirus; @TheBlinded; @NicolasBighetti.
 
 [addon]
@@ -48,6 +48,10 @@ warn_drm_tooltip = "Rilevato DRM"
 version_title = "Versione"
 account_title = "Account"
 one_hundred_downloads_title = "Hai scaricato 100 video!"
+tos_title = "Accetta i Termini di Servizio"
+tos_description = "Video Download Helper è destinato esclusivamente all'uso lecito. Sei responsabile del contenuto che scarichi e di come lo utilizzi. Facendo clic su Accetta, approvi i nostri Termini di Servizio"
+tos_details = "Termini di Servizio"
+tos_accept = "Accetta"
 leave_review_description = "Ci auguriamo che Video Download Helper ti piaccia :) Ti dispiacerebbe scrivere una recensione positiva nel sito web dell'estensione?"
 leave_review_button = "Scrivi una recensione"
 account_status = "Stato"
